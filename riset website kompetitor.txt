@@ -1,0 +1,70 @@
+Riset Fitur dari Kompertitor
+- Menentukan Fitur Berdasarkan untuk customer retail
+        - Starter demo
+	- Basic / 80k - 90k
+	   - Preset/design standart setara nganten story level Bronze
+	   - Qoutes
+	   - Informasi Acara
+	   - Protokol Kesehatan
+           - Navigasi Lokasi
+           - Profile Pasangan
+           - Countdown timeer
+           - Max 3 foto gallery, no video
+	   - Weeding Gift
+	   - Add to google calender
+           - Ucapan
+	   - Unlimited Edit
+         
+        - Premium/ 125k - 150k
+           - Preset/design standart setara nganten story level Gold 
+	   - Qoutes
+	   - Informasi Acara
+	   - Protokol Kesehatan
+           - Navigasi Lokasi
+           - Profile Pasangan
+           - Countdown timeer
+           - Max 10 foto gallery
+	   - Weeding Gift
+	   - Add to google calender
+           - Ucapan
+	   - Unlimited Edit
+           - Background Music
+           - 1 Video
+           - Lovestory
+           - RSVP
+         
+	- Platinum/ 189k - 199k
+           - Preset/design standart setara nganten story level Silver
+	   - Qoutes
+	   - Informasi Acara
+	   - Protokol Kesehatan
+           - Navigasi Lokasi
+           - Profile Pasangan
+           - Countdown timeer
+           - Max 30 foto gallery
+	   - Weeding Gift
+	   - Add to google calender
+           - Ucapan
+	   - Unlimited Edit
+           - Background Music
+           - 3 Video
+           - Lovestory
+           - RSVP
+           - Live Streaming
+
+- User Flow Customer Retail
+  - Register - Verif email
+  - Login - lupa passsword
+  - Profile - Acara - Tema - Dashboard - Upgrade
+
+- Struktur Home Page
+   - Header
+     - Home
+     - Fitur
+     - Desain
+     - Harga
+     - Testimonial
+     - Kontak
+     - Login
+     - Buat Undangan - > button
+   - FAQ

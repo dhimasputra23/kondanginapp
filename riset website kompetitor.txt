@@ -3,6 +3,7 @@ Riset Fitur dari Kompertitor
         - Starter demo
 	- Basic / 80k - 90k
 	   - Preset/design standart setara nganten story level Bronze
+     - Jumlah tamu max 300
 	   - Qoutes
 	   - Informasi Acara
 	   - Protokol Kesehatan
@@ -15,8 +16,9 @@ Riset Fitur dari Kompertitor
            - Ucapan
 	   - Unlimited Edit
          
-        - Premium/ 125k - 150k
-           - Preset/design standart setara nganten story level Gold 
+    - Premium/ 125k - 150k
+     - Preset/design standart setara nganten story level Gold 
+     - Jumlah tamu max 1000
 	   - Qoutes
 	   - Informasi Acara
 	   - Protokol Kesehatan
@@ -55,7 +57,99 @@ Riset Fitur dari Kompertitor
 - User Flow Customer Retail
   - Register - Verif email
   - Login - lupa passsword
-  - Profile - Acara - Tema - Dashboard - Upgrade
+  - Profile - Acara - Tema - Dashboard - Upgrade (Referensi Template Admin DatengDong)
+
+- User Reseller (Link Url untuk pendaftaran dibedain) (full referensi datengdong)
+  - Register - Verif Email
+  - Login - lupa password
+  - Profile - Acara - Tema - Dashboard - Upgrade (Referensi Template Admin DatengDong)
+
+- User Admin 
+  - Seluruh Akses [ Profile - Acara - Tema - Dashboard - Upgrade (Referensi Template Admin DatengDo ]
+  - Dashboard
+      - Metrik Member
+    - Total Member Reseller [jumlah member + total penjualan ]
+    - Total Reseller Premium [jumlah member + total penjualan ]
+    - Total Member Customer Retail [jumlah member + total penjualan ]
+    - Total Member WO [jumlah member + total penjualan ]
+
+    - Mentrik Keuangan Keseluruhan
+        - Tabel pendapatan (display)
+          - Tanggal 
+          - Sumber Pendapatan 
+          - Nominal
+          - Total Pendapatan
+        
+        - Tabel Pengeluaran (display)
+          - Tanggal
+          - Jenis Pengeluaran
+          - Nominal
+          - Total Pengeluaran
+
+        - Tabel ROI
+          - Dropdown [periode tgl]
+            - Total Pendapatan
+            - Total Pengeluaran
+            - ROI
+    
+    (sidebar menu)
+
+      - Metrik Perfomance Reseller & WO
+    - Tampilan tabel Display  
+      - Dropdown [minggu/bulan/tahun]
+          - Nama 
+          - Jenis Mitra
+          - Total Undangan aktif                   
+          - Total Penjualan(Money)         
+
+      - Metrik Penjualan Paket Keseluruhan
+        - Dropdown [mgg/bn/thn]
+          - Nama Paket
+          - Jumlah Terjual
+          - Total Penjualan(idr)
+      
+      - Metrik Penjualan Tema
+        - Dropdown [mgg/bln/thn]
+          - Nama Tema
+          - Nama Paket
+          - Jumlah Terjual
+          - Total Penjualan(idr)
+      
+      - Metrik Customer Keseluruhan
+        - Tanggal Join 
+        - Nama 
+        - NO WA 
+        - Alamat Lengkap 
+        - Jenis Mitra
+        - Level 
+        - Jumalah Order
+       
+
+
+      
+     
+      
+      
+
+- Ketentuan diskon reseller Gratis 0 biaya
+  - Level Bronze : 10%
+  - Level Vendor Silver: Diskon 15% 5 undangan aktif. 
+  - Level Vendor Gold: Diskon 20% 20+ 50 normal undangan aktif.
+
+
+- Ketentuan diskon reseller premium 200.000 card member 
+  - Level Bronze : Bagi Hasil Hasil 30% dari awal
+  - Level Bronze : menjual 100 undangan aktif dalam 5 bulan  bagi hasil naik 35%
+  - Level Silver : menjual 200 undangan aktif dalam 5 bulan  bagi hasil naik 40% 
+ 
+
+- Ketentuan diskon WO By Japri 
+  - Level Bronze : Bagi Hasil 50% dari awal
+  - Level Silver : 100 undangan aktif bagi hasil 52.5%
+  - Level Gold   : 200 undangan aktif bagi hasil 55 %
+
+- Kita Jual Pribadi Dengan Harga Normal 
+  
 
 - Struktur Home Page
    - Header

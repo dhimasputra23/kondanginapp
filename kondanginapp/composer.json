@@ -5,7 +5,7 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "php": "^7.3|^8.0",
+        "php": ">=7.3",
         "bref/bref": "^1.7",
         "bref/laravel-bridge": "^1.2",
         "fruitcake/laravel-cors": "^2.0",
@@ -60,7 +60,10 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "7.4.32"
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true

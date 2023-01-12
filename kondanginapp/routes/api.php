@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\VerificationController;
+use App\Http\Controllers\ForgotPasswordController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,5 +32,8 @@ Route::middleware(['api'])->group(function ($router){
 
     Route::get('email/verify/{id}', [VerificationController::class, 'verify'])->name('verification.verify');
     Route::get('email/resend', [VerificationController::class, 'resend'])->name('verification.resend');
+
+    Route::post('password/email', [ForgotPasswordController::class, 'forgot']);
+    Route::post('password/reset', [ForgotPasswordController::class, 'reset']);
 });
 

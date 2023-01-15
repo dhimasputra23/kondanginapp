@@ -25,8 +25,8 @@ class UsersTableSeeder extends Seeder
             'provinsi' => 'Banten',
             'email_verified_at' => now(),
             'created_at' => now(),
-            'updated_at' => now()
-
+            'updated_at' => now(),
+            'role_id' => 1
         ]);
         DB::table('users')->insert([
             'name' => 'Dhimas',
@@ -38,7 +38,22 @@ class UsersTableSeeder extends Seeder
             'provinsi' => 'Banten',
             'email_verified_at' => now(),
             'created_at' => now(),
-            'updated_at' => now()
+            'updated_at' => now(),
+            'role_id' => 1
+
+        ]);
+        DB::table('users')->insert([
+            'name' => 'Nanda',
+            'email' => 'nadna@gmail.com',
+            'password' => Hash::make('Kondangin1!'),
+            'no_hp' => '085234223452',
+            'alamat' => 'Bekasi',
+            'kota' => 'Bekasi',
+            'provinsi' => 'Jawa Barat',
+            'email_verified_at' => now(),
+            'created_at' => now(),
+            'updated_at' => now(),
+            'role_id' => 2
 
         ]);
         //

@@ -6,6 +6,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\VerificationController;
 use App\Http\Controllers\ForgotPasswordController;
+use App\Http\Controllers\UndanganController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,5 +36,7 @@ Route::middleware(['api'])->group(function ($router){
 
     Route::post('password/email', [ForgotPasswordController::class, 'forgot']);
     Route::post('password/reset', [ForgotPasswordController::class, 'reset']);
+
+    Route::get('undangan/{kode_undangan}/to/{nama_tamu}', [UndanganController::class, 'show']);
 });
 

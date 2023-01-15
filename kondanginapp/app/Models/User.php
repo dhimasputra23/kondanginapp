@@ -9,6 +9,8 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use Illuminate\Support\Facades\Hash;
+use App\Models\Role;
+
 
 class User extends Authenticatable implements JWTSubject
 {
@@ -70,5 +72,10 @@ class User extends Authenticatable implements JWTSubject
 
     public function setPasswordAttribute($value){
         $this->attributes['password'] = Hash::make($value);
+    }
+
+    public function role()
+    {
+        return $this->belongsTo(Role::class,'role_id','id');
     }
 }

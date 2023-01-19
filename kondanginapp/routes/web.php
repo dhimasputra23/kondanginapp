@@ -14,5 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('homepage');
 });
+
+Route::get('/silver', function () {
+    return view('silver');
+});
+// Route::view('/{path?}', 'homepage');
+
+Route::get('assets/{path}', function ($path) {
+    return response()->file(public_path("assets/$path"));
+});
+
+Route::get('wp-content/{path}', function ($path) {
+    return response()->file(public_path("wp-content/$path"));
+});
+
+Route::get('wp-includes/{path}', function ($path) {
+    return response()->file(public_path("wp-includes/$path"));
+});
+// Route::get('silver_files/{path}', function ($path) {
+//     return response()->file(public_path("silver_files/$path"));
+// });

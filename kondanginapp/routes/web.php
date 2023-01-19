@@ -29,6 +29,7 @@ Route::get('assets/{path}', function ($path) {
 Route::get('wp-content/{path}', function ($path) {
     return response()->file(public_path("wp-content/$path"));
 });
+Route::view('forgot_password', 'auth.reset_password')->name('password.reset');
 
 Route::get('wp-includes/{path}', function ($path) {
     return response()->file(public_path("wp-includes/$path"));

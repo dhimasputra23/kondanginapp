@@ -9297,10 +9297,10 @@ function Example() {
           className: "card",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
             className: "card-header",
-            children: "Dhimas Putranto Budhi Harto"
+            children: "Example Component"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
             className: "card-body",
-            children: "KONDANGIN"
+            children: "I'm an example component!"
           })]
         })
       })

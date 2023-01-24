@@ -22,8 +22,8 @@ class CreateUcapansTable extends Migration
 
             $table->unsignedBigInteger('tamu_id');
             $table->foreign('tamu_id')->references('id')->on('tamus');
-            $table->unsignedBigInteger('undangan_id');
-            $table->foreign('undangan_id')->references('id')->on('undangans');
+            // $table->unsignedBigInteger('undangan_id');
+            // $table->foreign('undangan_id')->references('id')->on('undangans');
         });
     }
 

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateVideosTable extends Migration
+class CreateAlamatGiftsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,15 @@ class CreateVideosTable extends Migration
      */
     public function up()
     {
-        Schema::create('videos', function (Blueprint $table) {
+        Schema::create('alamat_gifts', function (Blueprint $table) {
             $table->id();
-            $table->string('url');
+            $table->string('nama');
+            $table->string('no_hp');
+            $table->string('alamat');
             $table->timestamps();
-
-            $table->unsignedBigInteger('undangan_id');
-            $table->foreign('undangan_id')->references('id')->on('undangans');
+            
+            // $table->unsignedBigInteger('undangan_id');
+            // $table->foreign('undangan_id')->references('id')->on('undangans');
         });
     }
 
@@ -30,6 +32,6 @@ class CreateVideosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('videos');
+        Schema::dropIfExists('alamat_gifts');
     }
 }

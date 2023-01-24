@@ -24,8 +24,8 @@ class CreateSubAcarasTable extends Migration
             $table->boolean('main_event');
             $table->timestamps();
 
-            $table->unsignedBigInteger('undangan_id');
-            $table->foreign('undangan_id')->references('id')->on('undangans');
+            // $table->unsignedBigInteger('undangan_id');
+            // $table->foreign('undangan_id')->references('id')->on('undangans');
         });
     }
 

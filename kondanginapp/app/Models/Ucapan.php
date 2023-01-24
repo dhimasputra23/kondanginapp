@@ -15,10 +15,10 @@ class Ucapan extends Model
     ];
     protected $hidden = ["created_at", "updated_at","undangan_id"];
 
-    public function undangan()
-    {
-        return $this->belongsTo(Undangan::class,'undangan_id','id');
-    }
+    // public function undangan()
+    // {
+    //     return $this->belongsTo(Undangan::class,'undangan_id','id');
+    // }
     public function tamu()
     {
         return $this->belongsTo(Tamu::class,'tamu_id','id');

@@ -16,9 +16,9 @@ class RekeningGift extends Model
     ];
     protected $hidden = ["created_at", "updated_at","undangan_id"];
 
-    public function undangan()
-    {
-        return $this->belongsTo(Undangan::class,'undangan_id','id');
-    }
+    // public function undangan()
+    // {
+    //     return $this->belongsTo(Undangan::class,'undangan_id','id');
+    // }
 
 }

@@ -15,7 +15,8 @@
         "laravel/tinker": "^2.5",
         "laravel/ui": "3.4",
         "marcin-orlowski/laravel-api-response-builder": "^9.3",
-        "php-open-source-saver/jwt-auth": "1.4.2"
+        "php-open-source-saver/jwt-auth": "1.4.2",
+        "stancl/tenancy": "^3.6"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

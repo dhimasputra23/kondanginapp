@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateQuotesTable extends Migration
+class CreateVideosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,13 @@ class CreateQuotesTable extends Migration
      */
     public function up()
     {
-        Schema::create('quotes', function (Blueprint $table) {
+        Schema::create('videos', function (Blueprint $table) {
             $table->id();
-            $table->string('sumber');
-            $table->longText('kalimat');
+            $table->string('url');
             $table->timestamps();
 
-            $table->unsignedBigInteger('undangan_id');
-            $table->foreign('undangan_id')->references('id')->on('undangans');
+            // $table->unsignedBigInteger('undangan_id');
+            // $table->foreign('undangan_id')->references('id')->on('undangans');
         });
     }
 
@@ -31,6 +30,6 @@ class CreateQuotesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('quotes');
+        Schema::dropIfExists('videos');
     }
 }

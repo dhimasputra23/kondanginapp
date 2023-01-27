@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<!-- Mirrored from ngantenstory.com/silver-satu/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jan 2023 15:51:49 GMT -->
+<!-- Mirrored from ngantenstory.com/gold-tiga/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Jan 2023 15:13:56 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
@@ -130,14 +130,14 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
     <!-- This site is optimized with the Yoast SEO plugin v19.14 - https://yoast.com/wordpress/plugins/seo/ -->
-    <title>Silver Satu - NgantenStory</title>
+    <title>Gold Tiga - NgantenStory</title>
     <link rel="preload" as="style"
-        href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800%7COpen%20Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CPlayfair%20Display%3Aregular%2C500%2C600%2C700%2C800%2C900%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap" />
+        href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800%7COpen%20Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CPlayfair%20Display%3Aregular%2C500%2C600%2C700%2C800%2C900%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CSacramento%3Aregular%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap" />
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800%7COpen%20Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CPlayfair%20Display%3Aregular%2C500%2C600%2C700%2C800%2C900%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap"
+        href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800%7COpen%20Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CPlayfair%20Display%3Aregular%2C500%2C600%2C700%2C800%2C900%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CSacramento%3Aregular%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap"
         media="print" onload="this.media='all'" /><noscript>
         <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800%7COpen%20Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CPlayfair%20Display%3Aregular%2C500%2C600%2C700%2C800%2C900%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap" />
+            href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800%7COpen%20Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CPlayfair%20Display%3Aregular%2C500%2C600%2C700%2C800%2C900%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CSacramento%3Aregular%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap" />
     </noscript>
     <style id="rocket-critical-css">
     .et_pb_countdown_timer .section p {
@@ -524,52 +524,52 @@
     <link rel="canonical" href="index.html" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Silver Satu - NgantenStory" />
-    <meta property="og:url" content="https://ngantenstory.com/silver-satu/" />
+    <meta property="og:title" content="Gold Tiga - NgantenStory" />
+    <meta property="og:url" content="https://ngantenstory.com/gold-tiga/" />
     <meta property="og:site_name" content="NgantenStory" />
     <meta property="article:publisher" content="https://www.facebook.com/ngantenstory/" />
-    <meta property="article:modified_time" content="2023-01-01T17:58:47+00:00" />
+    <meta property="article:modified_time" content="2023-01-15T03:36:49+00:00" />
     <meta property="og:image" content="https://ngantenstory.com/wp-content/uploads/2022/12/Comment-Envelope.svg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:label1" content="Est. reading time" />
-    <meta name="twitter:data1" content="28 minutes" />
+    <meta name="twitter:data1" content="37 minutes" />
     <script type="application/ld+json" class="yoast-schema-graph">
     {
         "@context": "https://schema.org",
         "@graph": [{
             "@type": "WebPage",
-            "@id": "https://ngantenstory.com/silver-satu/",
-            "url": "https://ngantenstory.com/silver-satu/",
-            "name": "Silver Satu - NgantenStory",
+            "@id": "https://ngantenstory.com/gold-tiga/",
+            "url": "https://ngantenstory.com/gold-tiga/",
+            "name": "Gold Tiga - NgantenStory",
             "isPartOf": {
                 "@id": "https://ngantenstory.com/#website"
             },
             "primaryImageOfPage": {
-                "@id": "https://ngantenstory.com/silver-satu/#primaryimage"
+                "@id": "https://ngantenstory.com/gold-tiga/#primaryimage"
             },
             "image": {
-                "@id": "https://ngantenstory.com/silver-satu/#primaryimage"
+                "@id": "https://ngantenstory.com/gold-tiga/#primaryimage"
             },
             "thumbnailUrl": "https://ngantenstory.com/wp-content/uploads/2022/12/Comment-Envelope.svg",
-            "datePublished": "2022-12-26T05:57:07+00:00",
-            "dateModified": "2023-01-01T17:58:47+00:00",
+            "datePublished": "2022-12-27T06:24:34+00:00",
+            "dateModified": "2023-01-15T03:36:49+00:00",
             "breadcrumb": {
-                "@id": "https://ngantenstory.com/silver-satu/#breadcrumb"
+                "@id": "https://ngantenstory.com/gold-tiga/#breadcrumb"
             },
             "inLanguage": "en-US",
             "potentialAction": [{
                 "@type": "ReadAction",
-                "target": ["https://ngantenstory.com/silver-satu/"]
+                "target": ["https://ngantenstory.com/gold-tiga/"]
             }]
         }, {
             "@type": "ImageObject",
             "inLanguage": "en-US",
-            "@id": "https://ngantenstory.com/silver-satu/#primaryimage",
+            "@id": "https://ngantenstory.com/gold-tiga/#primaryimage",
             "url": "https://ngantenstory.com/wp-content/uploads/2022/12/Comment-Envelope.svg",
             "contentUrl": "https://ngantenstory.com/wp-content/uploads/2022/12/Comment-Envelope.svg"
         }, {
             "@type": "BreadcrumbList",
-            "@id": "https://ngantenstory.com/silver-satu/#breadcrumb",
+            "@id": "https://ngantenstory.com/gold-tiga/#breadcrumb",
             "itemListElement": [{
                 "@type": "ListItem",
                 "position": 1,
@@ -578,7 +578,7 @@
             }, {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Silver Satu"
+                "name": "Gold Tiga"
             }]
         }, {
             "@type": "WebSite",
@@ -630,7 +630,7 @@
         href="https://ngantenstory.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="NgantenStory &raquo; Comments Feed"
         href="https://ngantenstory.com/comments/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="NgantenStory &raquo; Silver Satu Comments Feed"
+    <link rel="alternate" type="application/rss+xml" title="NgantenStory &raquo; Gold Tiga Comments Feed"
         href="feed/index.html" />
     <meta content="NgantenStoryTheme v.1.0.0" name="generator" />
     <style type="text/css">
@@ -1275,7 +1275,7 @@
     /* <![CDATA[ */
     var wonderplugin_audio_ajaxobject = {
         "ajaxurl": "https:\/\/ngantenstory.com\/wp-admin\/admin-ajax.php",
-        "nonce": "606f0aa5b7"
+        "nonce": "ded2344f77"
     };
     /* ]]> */
     </script>
@@ -1310,12 +1310,12 @@
 
     <!-- End Google Analytics snippet added by Site Kit -->
     <link rel="https://api.w.org/" href="https://ngantenstory.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://ngantenstory.com/wp-json/wp/v2/pages/378553" />
+    <link rel="alternate" type="application/json" href="https://ngantenstory.com/wp-json/wp/v2/pages/378802" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ngantenstory.com/xmlrpc.php?rsd" />
     <link rel="alternate" type="application/json+oembed"
-        href="https://ngantenstory.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fngantenstory.com%2Fsilver-satu%2F" />
+        href="https://ngantenstory.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fngantenstory.com%2Fgold-tiga%2F" />
     <link rel="alternate" type="text/xml+oembed"
-        href="https://ngantenstory.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fngantenstory.com%2Fsilver-satu%2F&amp;format=xml" />
+        href="https://ngantenstory.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fngantenstory.com%2Fgold-tiga%2F&amp;format=xml" />
     <style>
     /*#main-header .logo_container img,
 header.et-l--header .et_pb_menu__logo > img {
@@ -1326,129 +1326,138 @@ header.et-l--header .et_pb_menu__logo > img {
     jQuery(document).ready(function($) {
 
         var currentLogoMode = '';
-        // Clone $logo so we can replace it rather than just change src attr (because this causes a bug in Safari browser) 
-        let $mainLogo = $logo.clone();
-        let $tbLogoContainer = $logo.closest(".et_pb_menu__logo")
-        let $tbLogoContainer_a = $logo.closest(".et_pb_menu__logo a")
-        let $tbLogoWrapper = $tbLogoContainer_a.length ? $tbLogoContainer_a : $tbLogoContainer
-        if ($mainLogo.length) {
-            $mainLogo.attr("data-logo-type", "main");
-            $mainLogo.attr("data-actual-width", $mainLogo[0].naturalWidth);
-            $mainLogo.attr("data-actual-height", $mainLogo[0].naturalHeight);
-        }
-        // Clone $logo to use in fixed header. If fixed header logo is not enabled, we simple use the original logo
-        let $fixedLogo = $logo.clone();
-        if ($fixedLogo.length) {
-            $fixedLogo.attr("data-actual-width", $fixedLogo[0].naturalWidth);
-            $fixedLogo.attr("data-actual-height", $fixedLogo[0].naturalHeight);
-        }
-
-        // Clone $logo to use in mobile. If mobile logo is not enabled, we simple use the original logo
-        let $use_mobile_logo = false;
-        let $mobileLogo = $logo.clone();
-
-        if ($use_mobile_logo && ($(window).width() <= 980)) {
-            setTimeout(function() {
-                $mobileLogo.show();
-            }, 500)
-        } else {
-            setTimeout(function() {
-                $fixedLogo.show();
-                $mainLogo.show();
-            }, 500)
-        }
-
-        $fixedLogo.removeAttr("srcset")
-        $mobileLogo.removeAttr("srcset")
-
-        function callback(mutationList, observer) {
-            mutationList.forEach(function(mutation) {
-                if ('attributes' != mutation.type || 'class' !== mutation.attributeName) {
-                    return;
-                }
-                if ($is_tb_logo) {
-                    dipi_tb_header_change();
-                } else {
-                    dipi_default_logo_change();
-                }
-            });
-        }
-
-        var targetNode = document.querySelector("#main-header,header.et-l--header > .et_builder_inner_content");
-        var observerOptions = {
-            childList: false,
-            attributes: true,
-            subtree: false
-        }
-
-        if (targetNode) {
-            var observer = new MutationObserver(callback);
-            observer.observe(targetNode, observerOptions);
-        }
 
 
-        if ($is_tb_logo) {
-            // Observe resize events to switch between mobile/fixed logos
-            $(window).resize(dipi_tb_header_change);
-            // finally call the callback manually once to get started
-            dipi_tb_header_change(true);
-        } else {
-            // Observe resize events to switch between mobile/fixed logos
-            $(window).resize(dipi_default_logo_change);
-            // finally call the callback manually once to get started
-            dipi_default_logo_change(true);
-        }
+        let $mainHeader = $('header#main-header');
+        let $tbHeader = $('header.et-l--header');
 
-
-        function dipi_tb_header_change(first_loading = false) {
-            if ($mainLogo.length)
-                $mainLogo.attr("data-actual-width", $mainLogo[0].naturalWidth);
-
-
-            if ($use_mobile_logo && $(window).width() <= 980 && currentLogoMode != 'mobile') {
-                currentLogoMode = 'mobile';
-                $tbLogoWrapper.find("img").remove();
-                $tbLogoWrapper.append($mobileLogo);
-            } else if ($(window).width() > 980) {
-                if ($tbHeader.find('.has_et_pb_sticky').length !== 0 && currentLogoMode != 'desktop-fixed') {
-                    currentLogoMode = 'desktop-fixed';
-                    $tbLogoWrapper.find("img").remove();
-                    $tbLogoWrapper.append($fixedLogo);
-                } else if ($tbHeader.find('.has_et_pb_sticky').length == 0 && currentLogoMode !=
-                    'desktop-normal') {
-                    currentLogoMode = 'desktop-normal';
-                    $tbLogoWrapper.find("img").remove();
-                    $tbLogoWrapper.append($mainLogo);
-                }
-            }
-        }
-
-        // Callback to fire when window is resized or scrolled
-        function dipi_default_logo_change(first_loading = false) {
+        function dipi_update_logo($logo, $is_tb_logo) {
+            // Clone $logo so we can replace it rather than just change src attr (because this causes a bug in Safari browser) 
+            let $mainLogo = $logo.clone();
+            let $tbLogoContainer = $logo.closest(".et_pb_menu__logo")
+            let $tbLogoContainer_a = $logo.closest(".et_pb_menu__logo a")
+            let $tbLogoWrapper = $tbLogoContainer_a.length ? $tbLogoContainer_a : $tbLogoContainer
             if ($mainLogo.length) {
+                $mainLogo.attr("data-logo-type", "main");
                 $mainLogo.attr("data-actual-width", $mainLogo[0].naturalWidth);
+                $mainLogo.attr("data-actual-height", $mainLogo[0].naturalHeight);
+            }
+            // Clone $logo to use in fixed header. If fixed header logo is not enabled, we simple use the original logo
+            let $fixedLogo = $logo.clone();
+            if ($fixedLogo.length) {
+                $fixedLogo.attr("data-actual-width", $fixedLogo[0].naturalWidth);
+                $fixedLogo.attr("data-actual-height", $fixedLogo[0].naturalHeight);
             }
 
-            if ($use_mobile_logo && $(window).width() <= 980 && currentLogoMode != 'mobile') {
-                currentLogoMode = 'mobile';
-                let $a = $(".logo_container a");
-                $a.find("#logo").remove();
-                $a.append($mobileLogo);
-            } else if ($(window).width() > 980) {
-                if ($mainHeader.hasClass('et-fixed-header') && currentLogoMode != 'desktop-fixed') {
-                    currentLogoMode = 'desktop-fixed';
+            // Clone $logo to use in mobile. If mobile logo is not enabled, we simple use the original logo
+            let $use_mobile_logo = false;
+            let $mobileLogo = $logo.clone();
+
+            if ($use_mobile_logo && ($(window).width() <= 980)) {
+                setTimeout(function() {
+                    $mobileLogo.show();
+                }, 500)
+            } else {
+                setTimeout(function() {
+                    $fixedLogo.show();
+                    $mainLogo.show();
+                }, 500)
+            }
+
+            $fixedLogo.removeAttr("srcset")
+            $mobileLogo.removeAttr("srcset")
+
+            function callback(mutationList, observer) {
+                mutationList.forEach(function(mutation) {
+                    if ('attributes' != mutation.type || 'class' !== mutation.attributeName) {
+                        return;
+                    }
+                    if ($is_tb_logo) {
+                        dipi_tb_header_change();
+                    } else {
+                        dipi_default_logo_change();
+                    }
+                });
+            }
+
+            var targetNode = document.querySelector(
+                "#main-header,header.et-l--header > .et_builder_inner_content");
+            var observerOptions = {
+                childList: false,
+                attributes: true,
+                subtree: false
+            }
+
+            if (targetNode) {
+                var observer = new MutationObserver(callback);
+                observer.observe(targetNode, observerOptions);
+            }
+
+
+            if ($is_tb_logo) {
+                // Observe resize events to switch between mobile/fixed logos
+                $(window).resize(dipi_tb_header_change);
+                // finally call the callback manually once to get started
+                dipi_tb_header_change(true);
+            } else {
+                // Observe resize events to switch between mobile/fixed logos
+                $(window).resize(dipi_default_logo_change);
+                // finally call the callback manually once to get started
+                dipi_default_logo_change(true);
+            }
+
+
+            function dipi_tb_header_change(first_loading = false) {
+                if ($mainLogo.length)
+                    $mainLogo.attr("data-actual-width", $mainLogo[0].naturalWidth);
+
+
+                if ($use_mobile_logo && $(window).width() <= 980 && currentLogoMode != 'mobile') {
+                    currentLogoMode = 'mobile';
+                    $tbLogoWrapper.find("img").remove();
+                    $tbLogoWrapper.append($mobileLogo);
+                } else if ($(window).width() > 980) {
+                    if ($tbHeader.find('.has_et_pb_sticky').length !== 0 && currentLogoMode !=
+                        'desktop-fixed') {
+                        currentLogoMode = 'desktop-fixed';
+                        $tbLogoWrapper.find("img").remove();
+                        $tbLogoWrapper.append($fixedLogo);
+                    } else if ($tbHeader.find('.has_et_pb_sticky').length == 0 && currentLogoMode !=
+                        'desktop-normal') {
+                        currentLogoMode = 'desktop-normal';
+                        $tbLogoWrapper.find("img").remove();
+                        $tbLogoWrapper.append($mainLogo);
+                    }
+                }
+            }
+
+            // Callback to fire when window is resized or scrolled
+            function dipi_default_logo_change(first_loading = false) {
+                if ($mainLogo.length) {
+                    $mainLogo.attr("data-actual-width", $mainLogo[0].naturalWidth);
+                }
+
+                if ($use_mobile_logo && $(window).width() <= 980 && currentLogoMode != 'mobile') {
+                    currentLogoMode = 'mobile';
                     let $a = $(".logo_container a");
                     $a.find("#logo").remove();
-                    $a.append($fixedLogo);
-                } else if (!$mainHeader.hasClass('et-fixed-header') && currentLogoMode != 'desktop-normal') {
-                    currentLogoMode = 'desktop-normal';
-                    let $a = $(".logo_container a");
-                    $a.find("#logo").remove();
-                    $a.append($mainLogo);
+                    $a.append($mobileLogo);
+                } else if ($(window).width() > 980) {
+                    if ($mainHeader.hasClass('et-fixed-header') && currentLogoMode != 'desktop-fixed') {
+                        currentLogoMode = 'desktop-fixed';
+                        let $a = $(".logo_container a");
+                        $a.find("#logo").remove();
+                        $a.append($fixedLogo);
+                    } else if (!$mainHeader.hasClass('et-fixed-header') && currentLogoMode !=
+                        'desktop-normal') {
+                        currentLogoMode = 'desktop-normal';
+                        let $a = $(".logo_container a");
+                        $a.find("#logo").remove();
+                        $a.append($mainLogo);
+                    }
                 }
             }
         }
-    }
 
     });
     </script>
@@ -1591,7 +1600,7 @@ header.et-l--header .et_pb_menu__logo > img {
     jQuery('.page-id-417011 #commentform #et_pb_submit').text('Send your wish');
     </script>
 
-    <!-- perlu dimbahain -->
+
     <script>
     jQuery(function($) {
 
@@ -1625,27 +1634,6 @@ header.et-l--header .et_pb_menu__logo > img {
     jQuery(document).on('click', '#welcome-gate', function() {
         jQuery('body').addClass('open-cover')
     })
-    </script>
-    <!-- perlu dimbahain -->
-    <script>
-    (function(j, d) {
-        j(d).ready(function() {
-            var au = d.querySelector('audio');
-            au.ontimeupdate = function() {
-                if (!au.paused)
-                    j('#welcome-gate').addClass('move-gate')
-            }
-        })
-
-        j(d).on('click', '#welcome-gate', function(e) {
-            e.preventDefault();
-            j(this).addClass('move-gate');
-            var au = d.querySelector('audio');
-            au.play();
-            j('.amazingaudioplayer-play').hide()
-            j('.amazingaudioplayer-pause').show()
-        })
-    })(jQuery, document)
     </script>
 
 
@@ -2050,8 +2038,7 @@ header.et-l--header .et_pb_menu__logo > img {
 </head>
 
 <body data-rsssl=1
-    class="page-template page-template-page-template-blank page-template-page-template-blank-php page page-id-378553 dipi-custom-archive-page dipi-archive- dipi-fix-search-icon dipi-anim-preload et_pb_button_helper_class et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db loftloader-lite-enabled">
-
+    class="page-template page-template-page-template-blank page-template-page-template-blank-php page page-id-378802 dipi-custom-archive-page dipi-archive- dipi-fix-search-icon dipi-anim-preload et_pb_button_helper_class et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db loftloader-lite-enabled">
     <div id="loftloader-wrapper" class="pl-imgloading" data-show-close-time="15000" data-max-load-time="0">
         <div class="loader-section section-fade"></div>
         <div class="loader-inner">
@@ -2065,16 +2052,176 @@ header.et-l--header .et_pb_menu__logo > img {
         <div class="loader-close-button" style="display: none;"><span class="screen-reader-text">Close</span></div>
     </div>
 
-    <div id="silver"></div>
 
+    <div id="goldtiga"></div>
 
-    <!-- let $mainHeader = $('header#main-header');
-    let $tbHeader = $('header.et-l--header');
-    function dipi_update_logo($logo, $is_tb_logo) { -->
+  
+
+    <!-- #page-container -->
+    <!-- React JS -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <script>
+    function wonderaudio_432_appendcss(csscode) {
+        var head = document.head || document.getElementsByTagName("head")[
+            0];
+        var style = document.createElement("style");
+        head.appendChild(style);
+        style.type = "text/css";
+        if (style.styleSheet) {
+            style.styleSheet.cssText = csscode;
+        } else {
+            style.appendChild(document.createTextNode(csscode));
+        }
+    };
+    wonderaudio_432_appendcss(
+        "@import url(https://fonts.googleapis.com/css?family=Open+Sans|Oswald);  #wonderpluginaudio-432 { 	box-sizing: content-box; }  #wonderpluginaudio-432 div { 	-webkit-box-sizing: content-box; 	-moz-box-sizing: content-box; 	box-sizing: content-box;    }  #wonderpluginaudio-432 .amazingaudioplayer-image { }  #wonderpluginaudio-432 .amazingaudioplayer-image-clear { }  #wonderpluginaudio-432 .amazingaudioplayer-text { }  #wonderpluginaudio-432 .amazingaudioplayer-text-clear { }  #wonderpluginaudio-432 .amazingaudioplayer-title { }  #wonderpluginaudio-432 .amazingaudioplayer-title-clear { }  #wonderpluginaudio-432 .amazingaudioplayer-info { }  #wonderpluginaudio-432 .amazingaudioplayer-info-clear { }  #wonderpluginaudio-432 .amazingaudioplayer-bar { }  #wonderpluginaudio-432 .amazingaudioplayer-bar-buttons-clear { }  #wonderpluginaudio-432 .amazingaudioplayer-bar-clear { }  #wonderpluginaudio-432 .amazingaudioplayer-bar-title { }  #wonderpluginaudio-432 .amazingaudioplayer-playpause { }  #wonderpluginaudio-432 .amazingaudioplayer-play { 	position: relative; }  #wonderpluginaudio-432 .amazingaudioplayer-pause { 	position: relative; }  #wonderpluginaudio-432 .amazingaudioplayer-stop { }  #wonderpluginaudio-432 .amazingaudioplayer-prev { }  #wonderpluginaudio-432 .amazingaudioplayer-next { }  #wonderpluginaudio-432 .amazingaudioplayer-loop { }  #wonderpluginaudio-432 .amazingaudioplayer-progress { }  #wonderpluginaudio-432 .amazingaudioplayer-progress-loaded { }  #wonderpluginaudio-432 .amazingaudioplayer-progress-played { }  #wonderpluginaudio-432 .amazingaudioplayer-time { }  #wonderpluginaudio-432 .amazingaudioplayer-volume { }  #wonderpluginaudio-432 .amazingaudioplayer-volume-bar { }  #wonderpluginaudio-432 .amazingaudioplayer-volume-bar-adjust { }  #wonderpluginaudio-432 .amazingaudioplayer-volume-bar-adjust-active { }  #wonderpluginaudio-432 .amazingaudioplayer-tracklist { }  #wonderpluginaudio-432 .amazingaudioplayer-tracklist-container { }  #wonderpluginaudio-432 .amazingaudioplayer-tracks-wrapper { }  #wonderpluginaudio-432 .amazingaudioplayer-tracks { }  #wonderpluginaudio-432 .amazingaudioplayer-track-item { 	clear: both; 	list-style-type: none; }  #wonderpluginaudio-432 .amazingaudioplayer-track-item-active { }  #wonderpluginaudio-432 .amazingaudioplayer-track-item a { }  #wonderpluginaudio-432 .amazingaudioplayer-track-item-active a { }  #wonderpluginaudio-432 .amazingaudioplayer-track-item-duration { }  #wonderpluginaudio-432 .amazingaudioplayer-tracklist-arrow-prev { }  #wonderpluginaudio-432 .amazingaudioplayer-tracklist-arrow-next { }  #wonderpluginaudio-432 .amazingaudioplayer-tracklist-clear { }  #wonderpluginaudio-432 .amazingaudioplayer-item-id { 	float: left; 	margin: 0 8px 0 0; }  #wonderpluginaudio-432 .amazingaudioplayer-item-info { 	float: right; }  #wonderpluginaudio-432 .amazingaudioplayer-item-title { 	overflow: hidden; }  #wonderpluginaudio-432 .amazingaudioplayer-track-item:before, #wonderpluginaudio-432 .amazingaudioplayer-track-item:after { 	display: none; }  #wonderpluginaudio-432 ul, #wonderpluginaudio-432 li { 	list-style-type: none; }  #wonderpluginaudio-432 .amazingaudioplayer-tracklistsearch { 	box-sizing: border-box; 	padding: 4px; }  #wonderpluginaudio-432 .amazingaudioplayer-tracklistsearch-input { 	box-sizing: border-box; 	width: 100%; }"
+    );
+    wonderaudio_432_appendcss(
+        "#wonderpluginaudio-432 .wonderaudio-button {   display: inline-block;   width: 20px;   height: 20px;   line-height: 20px;   font-size: 12px;   border-radius: 50%;   color: #fff;   vertical-align: middle;   text-align: center;   margin: 0 4px 0 0;   padding: 0;   cursor: pointer; }  #wonderpluginaudio-432 .wonderaudio-download {   background-color: #555555; }  #wonderpluginaudio-432 .wonderaudio-share {   background-color: #3195d4; }  #wonderpluginaudio-432 .amazingaudioplayer-info-share {   margin: 4px 0; } .wonderaudio-button-link, .wonderaudio-button-link:focus, .wonderaudio-button-link:active {   border: none;   outline: none;   box-shadow: none; }"
+    );
+    </script>
+
+    <script type="text/javascript">
+    window.fluent_form_ff_form_instance_1_1 = {
+        "id": "1",
+        "settings": {
+            "layout": {
+                "labelPlacement": "top",
+                "helpMessagePlacement": "with_label",
+                "errorMessagePlacement": "inline",
+                "asteriskPlacement": "asterisk-right"
+            },
+            "restrictions": {
+                "denyEmptySubmission": {
+                    "enabled": false
+                }
+            }
+        },
+        "form_instance": "ff_form_instance_1_1",
+        "form_id_selector": "fluentform_1",
+        "rules": {
+            "input_text": {
+                "required": {
+                    "value": true,
+                    "message": "Tidak boleh kosong"
+                }
+            },
+            "input_radio": {
+                "required": {
+                    "value": false,
+                    "message": "This field is required"
+                }
+            }
+        }
+    };
+    </script>
+
+    <style id="fluentform_styler_css_1" type="text/css">
+    .fluentform_wrapper_1 {
+        margin: px;
+    }
+
+    .fluentform_wrapper_1 {
+        padding: px;
+    }
+
+    .fluentform_wrapper_1 .ff-el-input--content input,
+    .fluentform_wrapper_1 .ff-el-input--content textarea,
+    .fluentform_wrapper_1 .ff-el-input--content select,
+    .fluentform_wrapper_1 .choices__list--single,
+    .fluentform_wrapper_1 .choices[data-type*='select-multiple'] {
+        border-style: solid;
+        border-color: rgba(79, 75, 75, 1);
+        border-top-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+    }
+
+    .fluentform_wrapper_1 .frm-fluent-form .choices__list--dropdown {
+        border-style: solid;
+        border-color: rgba(79, 75, 75, 1);
+        border-top-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+    }
+
+    .fluentform_wrapper_1 .ff-el-group.ff_submit_btn_wrapper {
+        text-align: right;
+    }
+
+    .fluentform_wrapper_1 .ff_submit_btn_wrapper .ff-btn-submit {
+        background-color: rgba(198, 198, 198, 1);
+        color: rgba(255, 255, 255, 1);
+        padding: px;
+        margin: px;
+        box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+        border-style: solid;
+        border-color: rgba(187, 187, 187, 1);
+        border-width: 0px;
+        border-radius: px;
+    }
+    </style>
+
+    <style>
+    .move-gate {
+        top: -100vh !important;
+        transition: all 1s;
+    }
+
+    .amazingaudioplayer-playpause>div,
+    .wonderpluginaudio {
+        min-width: 100%;
+        background: none !important
+    }
+
+    .amazingaudioplayer-playpause .amazingaudioplayer-pause:before,
+    .amazingaudioplayer-playpause .amazingaudioplayer-play:before {
+        content: "";
+        background: url("../../ngantenstory.co/wp-content/uploads/2022/05/PlayPauseNgantenStory.png") no-repeat left top;
+        width: 48px;
+        height: 48px;
+        display: block;
+        margin: auto;
+    }
+
+    .amazingaudioplayer-playpause .amazingaudioplayer-pause:before {
+        background-position: -48px 0;
+    }
+    </style>
+    <script>
+    (function(j, d) {
+        j(d).ready(function() {
+            var au = d.querySelector('audio');
+            au.ontimeupdate = function() {
+                if (!au.paused)
+                    j('#welcome-gate').addClass('move-gate')
+            }
+        })
+
+        j(d).on('click', '#welcome-gate', function(e) {
+            e.preventDefault();
+            j(this).addClass('move-gate');
+            var au = d.querySelector('audio');
+            au.play();
+            j('.amazingaudioplayer-play').hide()
+            j('.amazingaudioplayer-pause').show()
+        })
+    })(jQuery, document)
+    </script>
 
     <script>
     (function(j) {
         j('.comment-form-comment label').remove();
+
+        setTimeout(function() {
+
+            j('.lang-en .comment-form-author input').val('Full Name');
+            j('.lang-id .comment-form-author input').val('Nama Lengkap');
+            console.log('1 sec')
+        }, 1000)
 
         j('.lang-en #comment').attr('placeholder', 'Write a message').val('')
         j('.lang-id #comment').attr('placeholder', 'Tulis pesan').val('')
@@ -2143,7 +2290,52 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }, {
-        "class": "et_pb_section_3",
+        "class": "et_pb_text_5",
+        "style": "zoom",
+        "repeat": "once",
+        "duration": "1000ms",
+        "delay": "400ms",
+        "intensity": "20%",
+        "starting_opacity": "0%",
+        "speed_curve": "ease-in-out"
+    }, {
+        "class": "et_pb_section_4",
+        "style": "slideLeft",
+        "repeat": "once",
+        "duration": "1000ms",
+        "delay": "600ms",
+        "intensity": "20%",
+        "starting_opacity": "0%",
+        "speed_curve": "ease-in-out"
+    }, {
+        "class": "et_pb_text_6",
+        "style": "zoom",
+        "repeat": "once",
+        "duration": "1000ms",
+        "delay": "400ms",
+        "intensity": "20%",
+        "starting_opacity": "0%",
+        "speed_curve": "ease-in-out"
+    }, {
+        "class": "et_pb_section_6",
+        "style": "slideRight",
+        "repeat": "once",
+        "duration": "1000ms",
+        "delay": "600ms",
+        "intensity": "20%",
+        "starting_opacity": "0%",
+        "speed_curve": "ease-in-out"
+    }, {
+        "class": "et_pb_text_7",
+        "style": "zoom",
+        "repeat": "once",
+        "duration": "1000ms",
+        "delay": "400ms",
+        "intensity": "20%",
+        "starting_opacity": "0%",
+        "speed_curve": "ease-in-out"
+    }, {
+        "class": "et_pb_image_0",
         "style": "slideBottom",
         "repeat": "once",
         "duration": "1000ms",
@@ -2153,7 +2345,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "speed_curve": "ease-in-out"
     }, {
         "class": "et_pb_blurb_0",
-        "style": "slideLeft",
+        "style": "zoom",
         "repeat": "once",
         "duration": "1000ms",
         "delay": "600ms",
@@ -2162,15 +2354,6 @@ header.et-l--header .et_pb_menu__logo > img {
         "speed_curve": "ease-in-out"
     }, {
         "class": "et_pb_social_media_follow_0",
-        "style": "slideLeft",
-        "repeat": "once",
-        "duration": "1000ms",
-        "delay": "600ms",
-        "intensity": "20%",
-        "starting_opacity": "0%",
-        "speed_curve": "ease-in-out"
-    }, {
-        "class": "et_pb_image_0",
         "style": "zoom",
         "repeat": "once",
         "duration": "1000ms",
@@ -2180,7 +2363,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "speed_curve": "ease-in-out"
     }, {
         "class": "et_pb_image_1",
-        "style": "zoom",
+        "style": "slideBottom",
         "repeat": "once",
         "duration": "1000ms",
         "delay": "600ms",
@@ -2189,7 +2372,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "speed_curve": "ease-in-out"
     }, {
         "class": "et_pb_blurb_1",
-        "style": "slideRight",
+        "style": "zoom",
         "repeat": "once",
         "duration": "1000ms",
         "delay": "600ms",
@@ -2198,7 +2381,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "speed_curve": "ease-in-out"
     }, {
         "class": "et_pb_social_media_follow_1",
-        "style": "slideRight",
+        "style": "zoom",
         "repeat": "once",
         "duration": "1000ms",
         "delay": "600ms",
@@ -2215,7 +2398,16 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }, {
-        "class": "et_pb_text_5",
+        "class": "et_pb_text_8",
+        "style": "slideRight",
+        "repeat": "once",
+        "duration": "1000ms",
+        "delay": "600ms",
+        "intensity": "20%",
+        "starting_opacity": "0%",
+        "speed_curve": "ease-in-out"
+    }, {
+        "class": "et_pb_button_1",
         "style": "zoom",
         "repeat": "once",
         "duration": "1000ms",
@@ -2233,8 +2425,8 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }, {
-        "class": "et_pb_text_6",
-        "style": "zoom",
+        "class": "et_pb_text_9",
+        "style": "slideRight",
         "repeat": "once",
         "duration": "1000ms",
         "delay": "600ms",
@@ -2242,7 +2434,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }, {
-        "class": "et_pb_button_1",
+        "class": "et_pb_button_2",
         "style": "zoom",
         "repeat": "once",
         "duration": "1000ms",
@@ -2269,7 +2461,34 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }, {
-        "class": "et_pb_text_7",
+        "class": "et_pb_text_10",
+        "style": "slideRight",
+        "repeat": "once",
+        "duration": "1000ms",
+        "delay": "600ms",
+        "intensity": "20%",
+        "starting_opacity": "0%",
+        "speed_curve": "ease-in-out"
+    }, {
+        "class": "et_pb_code_1",
+        "style": "zoom",
+        "repeat": "once",
+        "duration": "1000ms",
+        "delay": "600ms",
+        "intensity": "20%",
+        "starting_opacity": "0%",
+        "speed_curve": "ease-in-out"
+    }, {
+        "class": "dipi_dual_heading_3",
+        "style": "zoom",
+        "repeat": "once",
+        "duration": "1000ms",
+        "delay": "600ms",
+        "intensity": "20%",
+        "starting_opacity": "0%",
+        "speed_curve": "ease-in-out"
+    }, {
+        "class": "et_pb_text_11",
         "style": "zoom",
         "repeat": "once",
         "duration": "1000ms",
@@ -2296,16 +2515,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }, {
-        "class": "et_pb_text_13",
-        "style": "zoom",
-        "repeat": "once",
-        "duration": "1000ms",
-        "delay": "400ms",
-        "intensity": "20%",
-        "starting_opacity": "0%",
-        "speed_curve": "ease-in-out"
-    }, {
-        "class": "dipi_dual_heading_3",
+        "class": "dipi_dual_heading_4",
         "style": "zoom",
         "repeat": "once",
         "duration": "1000ms",
@@ -2314,7 +2524,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }, {
-        "class": "et_pb_text_16",
+        "class": "et_pb_text_20",
         "style": "zoom",
         "repeat": "once",
         "duration": "1000ms",
@@ -2323,7 +2533,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }, {
-        "class": "et_pb_text_17",
+        "class": "et_pb_text_21",
         "style": "zoom",
         "repeat": "once",
         "duration": "1000ms",
@@ -2332,7 +2542,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }, {
-        "class": "et_pb_text_18",
+        "class": "et_pb_text_22",
         "style": "zoom",
         "repeat": "once",
         "duration": "1000ms",
@@ -2350,15 +2560,28 @@ header.et-l--header .et_pb_menu__logo > img {
         "url": "#dana",
         "target": "_self"
     }, {
-        "class": "et_pb_text_18",
+        "class": "et_pb_text_22",
         "url": "https:\/\/pdki-indonesia.dgip.go.id\/detail\/EC00202118269?type=copyright&keyword=ngantenstory",
         "target": "_blank"
     }];
     </script>
-    <!-- Google Tag Manager (noscript) -->
+    <style>
+    form.fluent_form_1 .ff-btn-submit {
+        background-color: #909399;
+        color: #ffffff;
+    }
+    </style><!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MP6GHZD" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <link data-minify="1" rel='preload'
+        href='../wp-content/cache/min/1/wp-content/plugins/fluentform/public/css/fluent-forms-public171b.css?ver=1673754560'
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
+        onerror="this.removeAttribute('data-rocket-async')" type='text/css' media='all' />
+    <link data-minify="1" rel='preload'
+        href='../wp-content/cache/min/1/wp-content/plugins/fluentform/public/css/fluentform-public-default171b.css?ver=1673754560'
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
+        onerror="this.removeAttribute('data-rocket-async')" type='text/css' media='all' />
     <script type='text/javascript' id='copy-the-code-js-extra'>
     /* <![CDATA[ */
     var copyTheCode = {
@@ -2428,9 +2651,9 @@ header.et-l--header .et_pb_menu__logo > img {
         "ajaxurl": "https:\/\/ngantenstory.com\/wp-admin\/admin-ajax.php",
         "images_uri": "https:\/\/ngantenstory.com\/wp-content\/themes\/Divi\/images",
         "builder_images_uri": "https:\/\/ngantenstory.com\/wp-content\/themes\/Divi\/includes\/builder\/images",
-        "et_frontend_nonce": "d83d2dc1dd",
+        "et_frontend_nonce": "8bda4c395f",
         "subscription_failed": "Please, check the fields below to make sure you entered the correct information.",
-        "et_ab_log_nonce": "7974b57b52",
+        "et_ab_log_nonce": "fc0054b5d5",
         "fill_message": "Please, fill in the following fields:",
         "contact_error_message": "Please, fix the following errors:",
         "invalid": "Invalid email",
@@ -2445,7 +2668,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "widget_search_selector": ".widget_search",
         "ab_tests": [],
         "is_ab_testing_active": "",
-        "page_id": "378553",
+        "page_id": "378802",
         "unique_test_id": "",
         "ab_bounce_rate": "5",
         "is_cache_plugin_active": "yes",
@@ -2471,7 +2694,7 @@ header.et-l--header .et_pb_menu__logo > img {
     var et_core_api_spam_recaptcha = {
         "site_key": "6LcfLLsZAAAAANvaF-VNf7rqs0pv-ejqPbbNc5ww",
         "page_action": {
-            "action": "silver_satu"
+            "action": "gold_tiga"
         }
     };
     /* ]]> */
@@ -2487,6 +2710,11 @@ header.et-l--header .et_pb_menu__logo > img {
         id='loftloader-lite-front-main-js'></script>
     <script type='text/javascript' src='../wp-content/themes/Divi/core/admin/js/commonf315.js?ver=4.19.4'
         id='et-core-common-js'></script>
+    <script type='text/javascript' src='../wp-content/plugins/divi-pixel/dist/vendor/js/vivus.min88b1.js?ver=2.19.1'
+        id='dipi_vivus-js'></script>
+    <script type='text/javascript'
+        src='../wp-content/plugins/divi-pixel/dist/public/js/SVGAnimator.min88b1.js?ver=2.19.1'
+        id='dipi_svg_animator_public-js'></script>
     <script type='text/javascript'
         src='../wp-content/plugins/divi-pixel/dist/public/js/DualHeading.min88b1.js?ver=2.19.1'
         id='dipi_dual_heading_public-js'></script>
@@ -2501,13 +2729,63 @@ header.et-l--header .et_pb_menu__logo > img {
         id='dipi_jquery_countdown-js'></script>
     <script type='text/javascript' src='../wp-content/plugins/divi-pixel/dist/public/js/Countdown.min88b1.js?ver=2.19.1'
         id='dipi_countdown_public-js'></script>
+    <script type='text/javascript' id='fluent-form-submission-js-extra'>
+    /* <![CDATA[ */
+    var fluentFormVars = {
+        "ajaxUrl": "https:\/\/ngantenstory.com\/wp-admin\/admin-ajax.php",
+        "forms": [],
+        "step_text": "Step %activeStep% of %totalStep% - %stepTitle%",
+        "is_rtl": "",
+        "date_i18n": {
+            "previousMonth": "Previous Month",
+            "nextMonth": "Next Month",
+            "months": {
+                "shorthand": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                "longhand": ["January", "February", "March", "April", "May", "June", "July", "August", "September",
+                    "October", "November", "December"
+                ]
+            },
+            "weekdays": {
+                "longhand": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "shorthand": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+            },
+            "daysInMonth": [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31],
+            "rangeSeparator": " to ",
+            "weekAbbreviation": "Wk",
+            "scrollTitle": "Scroll to increment",
+            "toggleTitle": "Click to toggle",
+            "amPM": ["AM", "PM"],
+            "yearAriaLabel": "Year"
+        },
+        "pro_version": "4.3.21",
+        "fluentform_version": "4.3.22",
+        "force_init": "",
+        "stepAnimationDuration": "350",
+        "upload_completed_txt": "100% Completed",
+        "upload_start_txt": "0% Completed",
+        "uploading_txt": "Uploading",
+        "choice_js_vars": {
+            "noResultsText": "No results found",
+            "loadingText": "Loading...",
+            "noChoicesText": "No choices to choose from",
+            "itemSelectText": "Press to select",
+            "maxItemText": "Only %%maxItemCount%% options can be added"
+        },
+        "input_mask_vars": {
+            "clearIfNotMatch": false
+        }
+    };
+    /* ]]> */
+    </script>
+    <script type='text/javascript' src='../wp-content/plugins/fluentform/public/js/form-submission2343.js?ver=4.3.22'
+        id='fluent-form-submission-js'></script>
     <script type='text/javascript'
         src='../wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvidsf315.js?ver=4.19.4'
         id='fitvids-js'></script>
     <script type='text/javascript'
         src='../wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobilef315.js?ver=4.19.4'
         id='jquery-mobile-js'></script>
-    <style id="et-builder-module-design-378553-cached-inline-styles">
+    <style id="et-builder-module-design-378802-cached-inline-styles">
     @font-face {
         font-family: "Batusa";
         font-display: swap;
@@ -2522,7 +2800,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     div.et_pb_section.et_pb_section_0 {
         background-position: center top;
-        background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(../wp-content/uploads/2022/12/IWE_0453ASAA.jpg) !important
+        background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(../wp-content/uploads/2022/12/gold3-12.jpg) !important
     }
 
     .et_pb_section_0 {
@@ -2581,11 +2859,6 @@ header.et-l--header .et_pb_menu__logo > img {
         margin-left: auto !important
     }
 
-    .et_pb_code_1 {
-        filter: opacity(0%);
-        backface-visibility: hidden
-    }
-
     .et_pb_text_1 {
         font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
         font-size: 16px;
@@ -2602,11 +2875,12 @@ header.et-l--header .et_pb_menu__logo > img {
         background-color: #ffffff
     }
 
-    body #page-container .et_pb_section .et_pb_button_4:after,
     body #page-container .et_pb_section .et_pb_button_1:after,
-    body #page-container .et_pb_section .et_pb_comments_0.et_pb_comments_module .et_pb_button:after,
     body #page-container .et_pb_section .et_pb_button_2:after,
     body #page-container .et_pb_section .et_pb_button_3:after,
+    body #page-container .et_pb_section .et_pb_button_5:after,
+    body #page-container .et_pb_section .et_pb_button_4:after,
+    body #page-container .et_pb_section .et_pb_comments_0.et_pb_comments_module .et_pb_button:after,
     body #page-container .et_pb_section .et_pb_button_0:after {
         display: none
     }
@@ -2625,12 +2899,13 @@ header.et-l--header .et_pb_menu__logo > img {
         font-weight: 400 !important
     }
 
-    body #page-container .et_pb_section .et_pb_button_0:hover:before,
     body #page-container .et_pb_section .et_pb_button_4:hover:before,
     body #page-container .et_pb_section .et_pb_button_3:hover:before,
     body #page-container .et_pb_section .et_pb_comments_0.et_pb_comments_module .et_pb_button:hover:before,
-    body #page-container .et_pb_section .et_pb_button_1:hover:before,
-    body #page-container .et_pb_section .et_pb_button_2:hover:before {
+    body #page-container .et_pb_section .et_pb_button_5:hover:before,
+    body #page-container .et_pb_section .et_pb_button_0:hover:before,
+    body #page-container .et_pb_section .et_pb_button_2:hover:before,
+    body #page-container .et_pb_section .et_pb_button_1:hover:before {
         margin-left: .3em;
         right: auto;
         margin-left: -1.3em
@@ -2640,21 +2915,24 @@ header.et-l--header .et_pb_menu__logo > img {
         display: block ! important
     }
 
-    .et_pb_button_3,
-    .et_pb_button_3:after,
+    .et_pb_button_2,
+    .et_pb_button_2:after,
+    .et_pb_button_5,
+    .et_pb_button_5:after,
+    .et_pb_button_1,
+    .et_pb_button_1:after,
     .et_pb_button_4,
     .et_pb_button_4:after,
     .et_pb_button_0,
     .et_pb_button_0:after,
-    .et_pb_button_1,
-    .et_pb_button_1:after,
-    .et_pb_button_2,
-    .et_pb_button_2:after {
+    .et_pb_button_3,
+    .et_pb_button_3:after {
         transition: all 300ms ease 0ms
     }
 
     div.et_pb_section.et_pb_section_1 {
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 56%, rgba(10, 10, 10, 0.55) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER1PC.jpg) !important
+        background-position: center top;
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-9.jpg) !important
     }
 
     .et_pb_section_1 {
@@ -2663,13 +2941,11 @@ header.et-l--header .et_pb_menu__logo > img {
         flex-direction: column
     }
 
-    .et_pb_section_5.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider,
-    .et_pb_section_3.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider,
     .et_pb_section_1.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider {
-        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI1MHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTEyODAgMy40QzEwNTAuNTkgMTggMTAxOS40IDg0Ljg5IDczNC40MiA4NC44OWMtMzIwIDAtMzIwLTg0LjMtNjQwLTg0LjNDNTkuNC41OSAyOC4yIDEuNiAwIDMuNFYxNDBoMTI4MHoiIGZpbGwtb3BhY2l0eT0iLjMiLz48cGF0aCBkPSJNMCAyNC4zMWM0My40Ni01LjY5IDk0LjU2LTkuMjUgMTU4LjQyLTkuMjUgMzIwIDAgMzIwIDg5LjI0IDY0MCA4OS4yNCAyNTYuMTMgMCAzMDcuMjgtNTcuMTYgNDgxLjU4LTgwVjE0MEgweiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik0xMjgwIDUxLjc2Yy0yMDEgMTIuNDktMjQyLjQzIDUzLjQtNTEzLjU4IDUzLjQtMzIwIDAtMzIwLTU3LTY0MC01Ny00OC44NS4wMS05MC4yMSAxLjM1LTEyNi40MiAzLjZWMTQwaDEyODB6Ii8+PC9nPjwvc3ZnPg==);
-        background-size: 100% 50px;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIzMHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iIzc0NzM2YyI+PHBhdGggZD0iTTEyODAgMy40QzEwNTAuNTkgMTggMTAxOS40IDg0Ljg5IDczNC40MiA4NC44OWMtMzIwIDAtMzIwLTg0LjMtNjQwLTg0LjNDNTkuNC41OSAyOC4yIDEuNiAwIDMuNFYxNDBoMTI4MHoiIGZpbGwtb3BhY2l0eT0iLjMiLz48cGF0aCBkPSJNMCAyNC4zMWM0My40Ni01LjY5IDk0LjU2LTkuMjUgMTU4LjQyLTkuMjUgMzIwIDAgMzIwIDg5LjI0IDY0MCA4OS4yNCAyNTYuMTMgMCAzMDcuMjgtNTcuMTYgNDgxLjU4LTgwVjE0MEgweiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik0xMjgwIDUxLjc2Yy0yMDEgMTIuNDktMjQyLjQzIDUzLjQtNTEzLjU4IDUzLjQtMzIwIDAtMzIwLTU3LTY0MC01Ny00OC44NS4wMS05MC4yMSAxLjM1LTEyNi40MiAzLjZWMTQwaDEyODB6Ii8+PC9nPjwvc3ZnPg==);
+        background-size: 100% 30px;
         bottom: 0;
-        height: 50px;
+        height: 30px;
         z-index: 1;
         transform: scale(1, 1)
     }
@@ -2700,17 +2976,17 @@ header.et-l--header .et_pb_menu__logo > img {
         margin: 0 auto 0 auto
     }
 
-    .et_pb_text_3.et_pb_text,
-    .et_pb_text_2.et_pb_text {
+    .et_pb_text_2.et_pb_text,
+    .et_pb_text_3.et_pb_text {
         color: #FFFFFF !important
     }
 
     .et_pb_text_2 {
         line-height: 0.9em;
         font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 0.9em;
-        margin-bottom: 5px !important
+        margin-bottom: 10px !important
     }
 
     .et_pb_divider_0 {
@@ -2736,62 +3012,160 @@ header.et-l--header .et_pb_menu__logo > img {
         letter-spacing: 2px
     }
 
-    .et_pb_section_6.et_pb_section,
-    .et_pb_section_11.et_pb_section,
-    .et_pb_section_2.et_pb_section,
-    .et_pb_section_13.et_pb_section {
-        padding-top: 0px;
-        padding-bottom: 0px
+    .et_pb_section_2.et_pb_section {
+        padding-top: 3px;
+        padding-bottom: 21px;
+        background-color: #74736c !important
     }
 
-    .et_pb_text_4 {
-        font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
-        font-weight: 300;
-        font-size: 13px
-    }
-
-    div.et_pb_section.et_pb_section_3 {
-        background-position: center top;
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER1PC2.jpg) !important
-    }
-
-    .et_pb_section_3.et_pb_section {
-        padding-top: 90vh
-    }
-
-    .et_pb_section_5.section_has_divider.et_pb_top_divider .et_pb_top_inside_divider,
-    .et_pb_section_3.section_has_divider.et_pb_top_divider .et_pb_top_inside_divider {
-        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI1MHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTAgNTEuNzZjMzYuMjEtMi4yNSA3Ny41Ny0zLjU4IDEyNi40Mi0zLjU4IDMyMCAwIDMyMCA1NyA2NDAgNTcgMjcxLjE1IDAgMzEyLjU4LTQwLjkxIDUxMy41OC01My40VjBIMHoiIGZpbGwtb3BhY2l0eT0iLjMiLz48cGF0aCBkPSJNMCAyNC4zMWM0My40Ni01LjY5IDk0LjU2LTkuMjUgMTU4LjQyLTkuMjUgMzIwIDAgMzIwIDg5LjI0IDY0MCA4OS4yNCAyNTYuMTMgMCAzMDcuMjgtNTcuMTYgNDgxLjU4LTgwVjBIMHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMCAwdjMuNEMyOC4yIDEuNiA1OS40LjU5IDk0LjQyLjU5YzMyMCAwIDMyMCA4NC4zIDY0MCA4NC4zIDI4NSAwIDMxNi4xNy02Ni44NSA1NDUuNTgtODEuNDlWMHoiLz48L2c+PC9zdmc+);
-        background-size: 100% 50px;
-        top: 0;
-        height: 50px;
+    .et_pb_section_4.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider,
+    .et_pb_section_6.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider,
+    .et_pb_section_2.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIzMHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTEyODAgMy40QzEwNTAuNTkgMTggMTAxOS40IDg0Ljg5IDczNC40MiA4NC44OWMtMzIwIDAtMzIwLTg0LjMtNjQwLTg0LjNDNTkuNC41OSAyOC4yIDEuNiAwIDMuNFYxNDBoMTI4MHoiIGZpbGwtb3BhY2l0eT0iLjMiLz48cGF0aCBkPSJNMCAyNC4zMWM0My40Ni01LjY5IDk0LjU2LTkuMjUgMTU4LjQyLTkuMjUgMzIwIDAgMzIwIDg5LjI0IDY0MCA4OS4yNCAyNTYuMTMgMCAzMDcuMjgtNTcuMTYgNDgxLjU4LTgwVjE0MEgweiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik0xMjgwIDUxLjc2Yy0yMDEgMTIuNDktMjQyLjQzIDUzLjQtNTEzLjU4IDUzLjQtMzIwIDAtMzIwLTU3LTY0MC01Ny00OC44NS4wMS05MC4yMSAxLjM1LTEyNi40MiAzLjZWMTQwaDEyODB6Ii8+PC9nPjwvc3ZnPg==);
+        background-size: 100% 30px;
+        bottom: 0;
+        height: 30px;
         z-index: 1;
         transform: scale(1, 1)
     }
 
-    .et_pb_row_4,
-    body #page-container .et-db #et-boc .et-l .et_pb_row_4.et_pb_row,
-    body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_4.et_pb_row,
-    body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_4.et_pb_row,
-    .et_pb_row_5,
-    body #page-container .et-db #et-boc .et-l .et_pb_row_5.et_pb_row,
-    body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_5.et_pb_row,
-    body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_5.et_pb_row,
-    .et_pb_row_17,
-    body #page-container .et-db #et-boc .et-l .et_pb_row_17.et_pb_row,
-    body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_17.et_pb_row,
-    body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_17.et_pb_row {
-        width: 90%
+    .dipi_svg_animator_2.dipi_svg_animator,
+    .dipi_svg_animator_0.dipi_svg_animator,
+    .dipi_svg_animator_1.dipi_svg_animator {
+        margin-bottom: 0px
     }
 
+    .dipi_svg_animator_2,
+    .dipi_svg_animator_0,
+    .dipi_svg_animator_1 {
+        max-width: 70px
+    }
+
+    .dipi_svg_animator_2 .dipi-svg-animator-container svg,
+    .dipi_svg_animator_1 .dipi-svg-animator-container svg,
+    .dipi_svg_animator_0 .dipi-svg-animator-container svg {
+        width: 100% !important;
+        height: 100% !important
+    }
+
+    .dipi_svg_animator_0 .dipi-svg-animator-container svg * {
+        stroke: #FFFFFF !important;
+        stroke-width: 10 !important
+    }
+
+    .dipi_svg_animator_2 .dipi-svg-animator-inner-wrapper,
+    .dipi_svg_animator_1 .dipi-svg-animator-inner-wrapper,
+    .dipi_svg_animator_0 .dipi-svg-animator-inner-wrapper {
+        justify-content: center !important
+    }
+
+    .et_pb_text_4 {
+        font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
+        font-size: 13px
+    }
+
+    .et_pb_section_18.et_pb_section,
+    .et_pb_section_3.et_pb_section,
+    .et_pb_section_16.et_pb_section {
+        padding-top: 0px;
+        padding-bottom: 0px
+    }
+
+    .et_pb_text_5 {
+        line-height: 1em;
+        font-family: 'Royal Wedd', Helvetica, Arial, Lucida, sans-serif;
+        font-size: 40px;
+        line-height: 1em;
+        margin-bottom: -6px !important
+    }
+
+    .et_pb_text_5 h5,
+    .et_pb_text_7 h5,
+    .et_pb_text_6 h5 {
+        line-height: 2.4em
+    }
+
+    div.et_pb_section.et_pb_section_4 {
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-14.jpg) !important
+    }
+
+    .et_pb_section_4.et_pb_section,
+    .et_pb_slider_0 .et_pb_slide_description,
+    .et_pb_slider_fullwidth_off.et_pb_slider_0 .et_pb_slide_description,
+    .et_pb_section_6.et_pb_section {
+        padding-bottom: 90vh
+    }
+
+    .et_pb_section_6.section_has_divider.et_pb_top_divider .et_pb_top_inside_divider,
+    .et_pb_section_4.section_has_divider.et_pb_top_divider .et_pb_top_inside_divider {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIzMHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTAgNTEuNzZjMzYuMjEtMi4yNSA3Ny41Ny0zLjU4IDEyNi40Mi0zLjU4IDMyMCAwIDMyMCA1NyA2NDAgNTcgMjcxLjE1IDAgMzEyLjU4LTQwLjkxIDUxMy41OC01My40VjBIMHoiIGZpbGwtb3BhY2l0eT0iLjMiLz48cGF0aCBkPSJNMCAyNC4zMWM0My40Ni01LjY5IDk0LjU2LTkuMjUgMTU4LjQyLTkuMjUgMzIwIDAgMzIwIDg5LjI0IDY0MCA4OS4yNCAyNTYuMTMgMCAzMDcuMjgtNTcuMTYgNDgxLjU4LTgwVjBIMHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMCAwdjMuNEMyOC4yIDEuNiA1OS40LjU5IDk0LjQyLjU5YzMyMCAwIDMyMCA4NC4zIDY0MCA4NC4zIDI4NSAwIDMxNi4xNy02Ni44NSA1NDUuNTgtODEuNDlWMHoiLz48L2c+PC9zdmc+);
+        background-size: 100% 30px;
+        top: 0;
+        height: 30px;
+        z-index: 1;
+        transform: scale(1, 1)
+    }
+
+    .et_pb_section_7.et_pb_section,
+    .et_pb_section_12.et_pb_section,
+    .et_pb_section_5.et_pb_section {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: #ffffff !important
+    }
+
+    .et_pb_text_6,
+    .et_pb_text_7 {
+        line-height: 1em;
+        font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
+        font-size: 16px;
+        line-height: 1em;
+        margin-bottom: -6px !important
+    }
+
+    div.et_pb_section.et_pb_section_6 {
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-7.jpg) !important
+    }
+
+    .et_pb_section_8.et_pb_section {
+        padding-top: 21px;
+        background-color: #ffffff !important
+    }
+
+    .et_pb_section_8 {
+        display: flex
+    }
+
+    .et_pb_row_8,
+    .et_pb_row_7 {
+        border-radius: 28px 28px 28px 28px;
+        overflow: hidden;
+        box-shadow: 0px 13px 11px -6px rgba(0, 0, 0, 0.1)
+    }
+
+    .et_pb_row_7.et_pb_row {
+        margin-right: auto !important;
+        margin-bottom: 40px !important;
+        margin-left: auto !important
+    }
+
+    .et_pb_image_4,
+    .et_pb_image_1,
+    .et_pb_image_0,
+    .et_pb_comments_0 .form-submit {
+        text-align: center
+    }
+
+    .et_pb_blurb_0.et_pb_blurb .et_pb_module_header,
+    .et_pb_blurb_0.et_pb_blurb .et_pb_module_header a,
     .et_pb_blurb_1.et_pb_blurb .et_pb_module_header,
     .et_pb_blurb_1.et_pb_blurb .et_pb_module_header a,
-    .et_pb_blurb_0.et_pb_blurb .et_pb_module_header,
-    .et_pb_blurb_0.et_pb_blurb .et_pb_module_header a {
+    .et_pb_text_9 h3,
+    .et_pb_text_8 h3 {
         font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
         font-weight: 700;
-        font-size: 35px;
-        color: #56675d !important
+        font-size: 20px;
+        color: #74736c !important
     }
 
     .et_pb_blurb_0.et_pb_blurb p,
@@ -2799,16 +3173,16 @@ header.et-l--header .et_pb_menu__logo > img {
         line-height: 1.5em
     }
 
-    .et_pb_blurb_1.et_pb_blurb,
-    .et_pb_blurb_0.et_pb_blurb {
+    .et_pb_blurb_0.et_pb_blurb,
+    .et_pb_blurb_1.et_pb_blurb {
         font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
-        font-size: 17px;
         line-height: 1.5em;
-        margin-bottom: 5px !important
+        margin-bottom: 10px !important;
+        max-width: 90%
     }
 
-    .et_pb_social_media_follow .et_pb_social_media_follow_network_0 .icon:before,
-    .et_pb_social_media_follow .et_pb_social_media_follow_network_1 .icon:before {
+    .et_pb_social_media_follow .et_pb_social_media_follow_network_1 .icon:before,
+    .et_pb_social_media_follow .et_pb_social_media_follow_network_0 .icon:before {
         font-size: 12px;
         line-height: 24px;
         height: 24px;
@@ -2821,64 +3195,85 @@ header.et-l--header .et_pb_menu__logo > img {
         width: 24px
     }
 
-    .et_pb_image_0 {
-        text-align: left;
-        margin-left: 0
+    .et_pb_row_8.et_pb_row {
+        margin-bottom: 40px !important
     }
 
-    .et_pb_image_1 {
-        text-align: right;
-        margin-right: 0
+    .et_pb_section_9.et_pb_section {
+        padding-bottom: 4px;
+        background-color: #74736c !important
     }
 
-    div.et_pb_section.et_pb_section_5 {
-        background-position: center top;
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/SIVER1PC4.jpg) !important
+    .et_pb_section_9.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIzN3B4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PC9nPjwvc3ZnPg==);
+        background-size: 100% 37px;
+        bottom: 0;
+        height: 37px;
+        z-index: 1;
+        transform: scale(1, 1)
     }
 
-    .et_pb_row_6 {
-        background-color: rgba(255, 255, 255, 0.88);
-        border-radius: 10px 10px 10px 10px;
-        overflow: hidden;
-        border-width: 2px;
-        border-color: #FFFFFF
+    .et_pb_section_9.section_has_divider.et_pb_top_divider .et_pb_top_inside_divider {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIzNHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTEyODAgMy40QzEwNTAuNTkgMTggMTAxOS40IDg0Ljg5IDczNC40MiA4NC44OWMtMzIwIDAtMzIwLTg0LjMtNjQwLTg0LjNDNTkuNC41OSAyOC4yIDEuNiAwIDMuNFYxNDBoMTI4MHoiIGZpbGwtb3BhY2l0eT0iLjMiLz48cGF0aCBkPSJNMCAyNC4zMWM0My40Ni01LjY5IDk0LjU2LTkuMjUgMTU4LjQyLTkuMjUgMzIwIDAgMzIwIDg5LjI0IDY0MCA4OS4yNCAyNTYuMTMgMCAzMDcuMjgtNTcuMTYgNDgxLjU4LTgwVjE0MEgweiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik0xMjgwIDUxLjc2Yy0yMDEgMTIuNDktMjQyLjQzIDUzLjQtNTEzLjU4IDUzLjQtMzIwIDAtMzIwLTU3LTY0MC01Ny00OC44NS4wMS05MC4yMSAxLjM1LTEyNi40MiAzLjZWMTQwaDEyODB6Ii8+PC9nPjwvc3ZnPg==);
+        background-size: 100% 34px;
+        top: 0;
+        height: 34px;
+        z-index: 1;
+        transform: scale(1, -1)
     }
 
-    .et_pb_row_6.et_pb_row {
-        margin-top: 25vh !important;
-        margin-bottom: 25vh !important
+    .et_pb_row_9 {
+        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.87) 0%, rgba(255, 255, 255, 0.77) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-13.jpg);
+        border-radius: 18px 18px 18px 18px;
+        overflow: hidden
     }
 
-    .dipi_dual_heading_1 .dipi-dh-first-heading,
+    .et_pb_row_17.et_pb_row,
+    .et_pb_row_16.et_pb_row,
+    .et_pb_row_19.et_pb_row,
+    .et_pb_row_10.et_pb_row,
+    .et_pb_row_9.et_pb_row {
+        margin-bottom: 25px !important
+    }
+
+    .dipi_svg_animator_1 .dipi-svg-animator-container svg *,
+    .dipi_svg_animator_2 .dipi-svg-animator-container svg * {
+        stroke: #393D43 !important;
+        stroke-width: 5 !important
+    }
+
     .dipi_dual_heading_0 .dipi-dh-first-heading {
         font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
         font-weight: 700 !important;
-        color: #56675d !important;
+        color: #75736b !important;
         font-size: 25px !important
     }
 
     .dipi_dual_heading_0 .dipi-dh-second-heading {
         font-family: 'Royal Wedd', Helvetica, Arial, Lucida, sans-serif !important;
-        color: #A8A8A8 !important;
+        color: #8e8e8e !important;
         font-size: 59px !important
     }
 
     .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-main::before,
     .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-main::before {
-        color: #eeeeee !important;
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
+        color: rgba(188, 188, 188, 0.41) !important;
         font-size: 60px
     }
 
-    .dipi_dual_heading_0.dipi_dual_heading,
     ul.et_pb_social_media_follow_2,
-    .dipi_dual_heading_1.dipi_dual_heading {
+    .dipi_dual_heading_2.dipi_dual_heading,
+    .dipi_dual_heading_1.dipi_dual_heading,
+    .dipi_dual_heading_0.dipi_dual_heading {
         margin-bottom: 10px !important
     }
 
-    .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading,
-    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading,
     .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-first-heading,
-    .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-first-heading {
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading,
+    .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-first-heading,
+    .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-first-heading,
+    .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading {
         border-style: solid;
         line-height: 1.6em;
         margin-top: 0px !important;
@@ -2896,6 +3291,7 @@ header.et-l--header .et_pb_menu__logo > img {
     }
 
     .dipi_dual_heading_2 .dipi-dh-main,
+    .dipi_dual_heading_4 .dipi-dh-main,
     .dipi_dual_heading_3 .dipi-dh-main,
     .dipi_dual_heading_0 .dipi-dh-main,
     .dipi_dual_heading_1 .dipi-dh-main {
@@ -2905,59 +3301,80 @@ header.et-l--header .et_pb_menu__logo > img {
         flex-direction: row
     }
 
-    .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
+    .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
+    .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
     .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
     .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
-    .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
     .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
-    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container {
+    .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container {
         padding-top: 0px !important;
         padding-right: 3px !important;
         padding-bottom: 0px !important;
         padding-left: 3px !important
     }
 
-    .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
-    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container {
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
+    .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
+    .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container {
         padding-top: 0px !important;
         padding-bottom: 0px !important
     }
 
-    .et_pb_text_5,
-    .et_pb_text_6 {
+    .dipi_dual_heading_0 .dipi-dh-main::before {
+        content: "AKAD";
+        left: 50%;
+        top: 50%;
+        left: 50%;
+        top: 50%
+    }
+
+    .et_pb_text_8.et_pb_text,
+    .et_pb_text_9.et_pb_text,
+    .et_pb_text_12.et_pb_text,
+    .et_pb_text_17.et_pb_text {
+        color: #393D43 !important
+    }
+
+    .et_pb_text_8,
+    .et_pb_text_9 {
         font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
-        max-width: 90%
+        margin-top: 19px !important;
+        width: 90%
     }
 
-    .dipi_dual_heading_1 .dipi-dh-second-heading {
-        font-family: 'Royal Wedd', Helvetica, Arial, Lucida, sans-serif !important;
-        color: #a8a8a8 !important;
-        font-size: 60px !important
+    .et_pb_text_8 h1,
+    .et_pb_text_9 h1 {
+        font-family: 'Sacramento', handwriting;
+        color: #ba7951 !important
     }
 
-    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading {
-        border-style: solid;
-        line-height: 1.6em;
-        margin-top: 0px !important;
-        margin-bottom: -39px !important;
-        margin-left: -49px !important
+    .et_pb_text_11,
+    .et_pb_text_9 h4,
+    .et_pb_text_8 h4 {
+        font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif
     }
 
+    .et_pb_button_2_wrapper .et_pb_button_2,
+    .et_pb_button_2_wrapper .et_pb_button_2:hover,
     .et_pb_button_1_wrapper .et_pb_button_1,
     .et_pb_button_1_wrapper .et_pb_button_1:hover {
         padding-right: 30px !important;
         padding-left: 45px !important
     }
 
-    body #page-container .et_pb_section .et_pb_button_1 {
-        color: #FFFFFF !important;
+    body #page-container .et_pb_section .et_pb_button_1,
+    body #page-container .et_pb_section .et_pb_button_2 {
+        color: #ffffff !important;
         border-width: 0px !important;
+        border-radius: 6px;
         font-size: 14px;
         font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif !important;
-        background-color: #56675d
+        background-color: #74736C
     }
 
-    body #page-container .et_pb_section .et_pb_button_1:before {
+    body #page-container .et_pb_section .et_pb_button_1:before,
+    body #page-container .et_pb_section .et_pb_button_2:before {
         content: attr(data-icon);
         font-family: ETmodules !important;
         font-weight: 400 !important;
@@ -2971,11 +3388,68 @@ header.et-l--header .et_pb_menu__logo > img {
         font-weight: 400 !important
     }
 
+    .et_pb_button_1,
+    .et_pb_button_2 {
+        box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.22)
+    }
+
+    .et_pb_row_10 {
+        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.87) 0%, rgba(255, 255, 255, 0.77) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-4.jpg);
+        border-radius: 18px 18px 18px 18px;
+        overflow: hidden
+    }
+
+    .dipi_dual_heading_1 .dipi-dh-first-heading {
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
+        font-weight: 700 !important;
+        color: #75736B !important;
+        font-size: 25px !important
+    }
+
+    .dipi_dual_heading_1 .dipi-dh-second-heading {
+        font-family: 'Royal Wedd', Helvetica, Arial, Lucida, sans-serif !important;
+        color: #8e8e8e !important;
+        font-size: 60px !important
+    }
+
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading,
+    .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-second-heading {
+        border-style: solid;
+        line-height: 1.6em;
+        margin-top: 0px !important;
+        margin-bottom: -39px !important;
+        margin-left: -49px !important
+    }
+
+    .dipi_dual_heading_1 .dipi-dh-main::before {
+        content: "RESEPSI";
+        left: 50%;
+        top: 50%;
+        left: 50%;
+        top: 50%
+    }
+
+    div.et_pb_section.et_pb_section_10 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.47) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/L1008339-copya.jpg) !important
+    }
+
+    .et_pb_section_10.et_pb_section {
+        padding-top: 80vh
+    }
+
+    .et_pb_section_10.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIzOHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTEyODAgMy40QzEwNTAuNTkgMTggMTAxOS40IDg0Ljg5IDczNC40MiA4NC44OWMtMzIwIDAtMzIwLTg0LjMtNjQwLTg0LjNDNTkuNC41OSAyOC4yIDEuNiAwIDMuNFYxNDBoMTI4MHoiIGZpbGwtb3BhY2l0eT0iLjMiLz48cGF0aCBkPSJNMCAyNC4zMWM0My40Ni01LjY5IDk0LjU2LTkuMjUgMTU4LjQyLTkuMjUgMzIwIDAgMzIwIDg5LjI0IDY0MCA4OS4yNCAyNTYuMTMgMCAzMDcuMjgtNTcuMTYgNDgxLjU4LTgwVjE0MEgweiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik0xMjgwIDUxLjc2Yy0yMDEgMTIuNDktMjQyLjQzIDUzLjQtNTEzLjU4IDUzLjQtMzIwIDAtMzIwLTU3LTY0MC01Ny00OC44NS4wMS05MC4yMSAxLjM1LTEyNi40MiAzLjZWMTQwaDEyODB6Ii8+PC9nPjwvc3ZnPg==);
+        background-size: 100% 38px;
+        bottom: 0;
+        height: 38px;
+        z-index: 1;
+        transform: scale(1, 1)
+    }
+
     .dipi_typing_text_0 .dipi-typing {
         font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
-        font-weight: 700;
         font-size: 18px;
-        color: #393d43 !important;
+        color: #FFFFFF !important;
         text-align: center;
         justify-content: center !important;
         flex-direction: row !important;
@@ -2997,22 +3471,22 @@ header.et-l--header .et_pb_menu__logo > img {
 
     .dipi_countdown_0 .flip_clock div.time span.count,
     .dipi_countdown_0 .block_clock div.time {
-        font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
+        font-family: 'Cotta', sans-serif;
         font-size: 25px;
-        color: #666666 !important
+        color: #FFFFFF !important
     }
 
     .dipi_countdown_0 .flip_clock div.label,
     .dipi_countdown_0 .block_clock div.label {
-        font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
+        font-family: 'Cotta', sans-serif;
         font-size: 14px;
-        color: #666666 !important;
+        color: #FFFFFF !important;
         line-height: 1em
     }
 
     .dipi_countdown_0 .flip_clock div.time span.count,
     .dipi_countdown_0 .block_clock div.face {
-        background: rgba(255, 255, 255, 0.14)
+        background: rgba(255, 255, 255, 0.31)
     }
 
     .dipi_countdown_0 .block_clock .face {
@@ -3023,10 +3497,54 @@ header.et-l--header .et_pb_menu__logo > img {
         flex: 1
     }
 
-    .et_pb_section_7.et_pb_section {
-        padding-top: 0px;
-        padding-bottom: 0px;
+    .et_pb_section_11.et_pb_section {
+        padding-top: 9px;
+        padding-bottom: 4px;
         background-color: #ffffff !important
+    }
+
+    .dipi_dual_heading_2 .dipi-dh-first-heading {
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
+        font-weight: 700 !important;
+        color: #393D43 !important;
+        font-size: 25px !important
+    }
+
+    .dipi_dual_heading_2 .dipi-dh-second-heading {
+        font-family: 'Royal Wedd', Helvetica, Arial, Lucida, sans-serif !important;
+        color: #a8a8a8 !important;
+        font-size: 60px !important
+    }
+
+    .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-main::before {
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
+        color: #eeeeee !important;
+        font-size: 60px
+    }
+
+    .dipi_dual_heading_2 .dipi-dh-main::before {
+        content: "RSVP";
+        left: 50%;
+        top: 50%;
+        left: 50%;
+        top: 50%
+    }
+
+    .et_pb_text_10 {
+        font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
+        max-width: 95%
+    }
+
+    .et_pb_text_10 h1 {
+        font-family: 'Sacramento', handwriting;
+        color: #4b6c52 !important
+    }
+
+    .et_pb_text_10 h3 {
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #75736b !important
     }
 
     .et_pb_blurb_2.et_pb_blurb {
@@ -3041,33 +3559,32 @@ header.et-l--header .et_pb_menu__logo > img {
         font-weight: 400 !important
     }
 
-    .dipi_dual_heading_3 .dipi-dh-first-heading,
-    .dipi_dual_heading_2 .dipi-dh-first-heading {
+    .dipi_dual_heading_4 .dipi-dh-first-heading,
+    .dipi_dual_heading_3 .dipi-dh-first-heading {
         font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
         font-weight: 700 !important;
         font-size: 25px !important
     }
 
-    .dipi_dual_heading_2 .dipi-dh-second-heading,
+    .dipi_dual_heading_4 .dipi-dh-second-heading,
     .dipi_dual_heading_3 .dipi-dh-second-heading {
         font-family: 'Royal Wedd', Helvetica, Arial, Lucida, sans-serif !important;
         color: rgba(57, 61, 67, 0.65) !important;
         font-size: 60px !important
     }
 
-    .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-main::before,
-    .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-main::before {
+    .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-main::before {
         font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
-        color: rgba(238, 238, 238, 0.57) !important;
+        color: rgba(238, 238, 238, 0.43) !important;
         font-size: 60px
     }
 
-    .dipi_dual_heading_2.dipi_dual_heading {
+    .dipi_dual_heading_3.dipi_dual_heading {
         margin-bottom: 15px !important
     }
 
-    .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-second-heading,
-    .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-second-heading {
+    .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-second-heading,
+    .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-second-heading {
         border-style: solid;
         line-height: 1.6em;
         margin-top: 0px !important;
@@ -3076,7 +3593,7 @@ header.et-l--header .et_pb_menu__logo > img {
         margin-left: -30px !important
     }
 
-    .dipi_dual_heading_2 .dipi-dh-main::before {
+    .dipi_dual_heading_3 .dipi-dh-main::before {
         content: "Gifts";
         left: 50%;
         top: 50%;
@@ -3084,12 +3601,8 @@ header.et-l--header .et_pb_menu__logo > img {
         top: 50%
     }
 
-    .et_pb_text_7 {
-        font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif
-    }
-
-    .et_pb_row_16.et_pb_row,
-    .et_pb_row_9.et_pb_row {
+    .et_pb_row_14.et_pb_row,
+    .et_pb_row_21.et_pb_row {
         padding-top: 0px !important;
         padding-bottom: 0px !important;
         padding-top: 0px;
@@ -3100,92 +3613,99 @@ header.et-l--header .et_pb_menu__logo > img {
         border-width: 0px
     }
 
-    .et_pb_blurb_3 .et_pb_main_blurb_image .et_pb_only_image_mode_wrap,
-    .et_pb_blurb_3 .et_pb_main_blurb_image .et-pb-icon,
     .et_pb_blurb_4 .et_pb_main_blurb_image .et_pb_only_image_mode_wrap,
-    .et_pb_blurb_4 .et_pb_main_blurb_image .et-pb-icon {
+    .et_pb_blurb_4 .et_pb_main_blurb_image .et-pb-icon,
+    .et_pb_blurb_3 .et_pb_main_blurb_image .et_pb_only_image_mode_wrap,
+    .et_pb_blurb_3 .et_pb_main_blurb_image .et-pb-icon {
         border-radius: 10px 10px 10px 10px;
         overflow: hidden;
         padding-top: 20px !important;
         padding-right: 20px !important;
         padding-bottom: 20px !important;
         padding-left: 20px !important;
-        background-color: #56675d
+        background-color: #74736c
     }
 
-    .et_pb_blurb_4.et_pb_blurb .et_pb_main_blurb_image,
-    .et_pb_blurb_3.et_pb_blurb .et_pb_main_blurb_image {
+    .et_pb_blurb_3.et_pb_blurb .et_pb_main_blurb_image,
+    .et_pb_blurb_4.et_pb_blurb .et_pb_main_blurb_image {
         border-radius: 10px;
         border: 2px solid #fff;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 12px
     }
 
-    .et_pb_blurb_4 .et-pb-icon,
-    .et_pb_blurb_3 .et-pb-icon {
+    .et_pb_blurb_3 .et-pb-icon,
+    .et_pb_blurb_4 .et-pb-icon {
         font-size: 30px;
         color: #FFFFFF;
         font-family: FontAwesome !important;
         font-weight: 900 !important
     }
 
-    .et_pb_text_8.et_pb_text,
-    .et_pb_text_11.et_pb_text {
-        color: #393D43 !important
+    .et_pb_section_13.et_pb_section {
+        background-color: #FFFFFF !important
     }
 
-    .et_pb_text_8,
-    .et_pb_text_11 {
+    .et_pb_text_17,
+    .et_pb_text_12 {
         font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
         font-weight: 700;
         font-size: 20px
     }
 
-    .et_pb_text_8 h5,
-    .et_pb_text_11 h5 {
+    .et_pb_text_12 h5,
+    .et_pb_text_17 h5 {
         font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
         font-size: 14px;
         line-height: 1.7em
     }
 
-    .et_pb_row_11 {
-        background-image: linear-gradient(125deg, #ffffff 0%, #d1d1d1 100%);
-        background-color: #FFFFFF;
+    .et_pb_row_17,
+    .et_pb_row_16 {
+        background-image: linear-gradient(127deg, #ffffff 0%, #d1d1d1 100%);
         border-radius: 10px 10px 10px 10px;
         overflow: hidden;
         border-width: 0px;
         box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.08)
     }
 
-    .et_pb_row_14.et_pb_row,
-    .et_pb_row_13.et_pb_row,
-    .et_pb_row_11.et_pb_row {
-        margin-bottom: 25px !important
+    .et_pb_image_3,
+    .et_pb_image_2 {
+        margin-right: 10px !important;
+        margin-bottom: 5px !important;
+        text-align: right;
+        margin-right: 0
     }
 
-    .et_pb_text_9 {
-        font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+    .et_pb_text_15,
+    .et_pb_text_13 {
+        font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
         margin-bottom: 5px !important;
         margin-left: 10px !important
     }
 
-    .et_pb_text_9 h5 {
-        font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    .et_pb_text_15 h1,
+    .et_pb_text_13 h1 {
+        line-height: 0.7em
+    }
+
+    .et_pb_text_15 h5,
+    .et_pb_text_13 h5 {
         font-size: 14px;
-        color: #666666 !important;
-        line-height: 1.5em
+        color: #666666 !important
     }
 
-    .et_pb_text_10 {
+    .et_pb_text_14,
+    .et_pb_text_16 {
         font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
-        font-size: 12px;
+        font-size: 19px;
+        letter-spacing: 2px;
         margin-bottom: 5px !important;
-        margin-left: 10px !important;
-        max-width: 95%
+        margin-left: 10px !important
     }
 
-    body #page-container .et_pb_section .et_pb_button_2,
+    body #page-container .et_pb_section .et_pb_button_4,
     body #page-container .et_pb_section .et_pb_button_3,
-    body #page-container .et_pb_section .et_pb_button_4 {
+    body #page-container .et_pb_section .et_pb_button_5 {
         color: #FFFFFF !important;
         border-width: 0px !important;
         font-size: 11px;
@@ -3194,9 +3714,9 @@ header.et-l--header .et_pb_menu__logo > img {
         background-color: #666666
     }
 
-    body #page-container .et_pb_section .et_pb_button_4:before,
+    body #page-container .et_pb_section .et_pb_button_5:before,
     body #page-container .et_pb_section .et_pb_button_3:before,
-    body #page-container .et_pb_section .et_pb_button_2:before {
+    body #page-container .et_pb_section .et_pb_button_4:before {
         content: attr(data-icon);
         font-family: FontAwesome !important;
         font-weight: 900 !important;
@@ -3210,66 +3730,54 @@ header.et-l--header .et_pb_menu__logo > img {
         font-weight: 900 !important
     }
 
-    .et_pb_section_9.et_pb_section {
-        background-color: #FFFFFF !important
-    }
-
-    .et_pb_row_14,
-    .et_pb_row_13 {
-        background-image: linear-gradient(127deg, #ffffff 0%, #d1d1d1 100%);
+    .et_pb_row_19 {
+        background-image: linear-gradient(125deg, #ffffff 0%, #d1d1d1 100%);
+        background-color: #FFFFFF;
         border-radius: 10px 10px 10px 10px;
         overflow: hidden;
         border-width: 0px;
         box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.08)
     }
 
-    .et_pb_image_2,
-    .et_pb_image_3 {
-        margin-right: 10px !important;
-        margin-bottom: 5px !important;
-        text-align: right;
-        margin-right: 0
-    }
-
-    .et_pb_text_12,
-    .et_pb_text_14 {
-        font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    .et_pb_text_18 {
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
         margin-bottom: 5px !important;
         margin-left: 10px !important
     }
 
-    .et_pb_text_14 h1,
-    .et_pb_text_12 h1 {
-        line-height: 0.7em
-    }
-
-    .et_pb_text_14 h5,
-    .et_pb_text_12 h5 {
+    .et_pb_text_18 h5 {
+        font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
         font-size: 14px;
-        color: #666666 !important
+        color: #666666 !important;
+        line-height: 1.5em
     }
 
-    .et_pb_text_15,
-    .et_pb_text_13 {
+    .et_pb_text_19 {
         font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
-        font-size: 19px;
-        letter-spacing: 2px;
+        font-size: 12px;
         margin-bottom: 5px !important;
-        margin-left: 10px !important
+        margin-left: 10px !important;
+        max-width: 95%
     }
 
-    .et_pb_section_10.et_pb_section {
+    .et_pb_section_15.et_pb_section {
         padding-bottom: 10px
     }
 
-    .et_pb_row_15.et_pb_row {
+    .et_pb_row_20.et_pb_row {
         padding-top: 0px !important;
         padding-bottom: 10px !important;
         padding-top: 0px;
         padding-bottom: 10px
     }
 
-    .dipi_dual_heading_3 .dipi-dh-main::before {
+    .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-main::before {
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
+        color: rgba(238, 238, 238, 0.57) !important;
+        font-size: 60px
+    }
+
+    .dipi_dual_heading_4 .dipi-dh-main::before {
         content: "Gallery";
         left: 50%;
         top: 50%;
@@ -3277,7 +3785,32 @@ header.et-l--header .et_pb_menu__logo > img {
         top: 50%
     }
 
-    .et_pb_section_11.section_has_divider.et_pb_top_divider .et_pb_top_inside_divider {
+    .et_pb_code_2 {
+        position: fixed !important;
+        bottom: 0px;
+        top: auto;
+        left: 0px;
+        right: auto
+    }
+
+    body.logged-in.admin-bar .et_pb_code_2 {
+        top: auto
+    }
+
+    .et_pb_video_0 .et_pb_video_overlay_hover:hover {
+        background-color: rgba(0, 0, 0, 0.6)
+    }
+
+    .et_pb_section_16.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiM3NDczNmMiPjwvZz48L3N2Zz4=);
+        background-size: 100% 100px;
+        bottom: 0;
+        height: 100px;
+        z-index: 10;
+        transform: scale(1, 1)
+    }
+
+    .et_pb_section_16.section_has_divider.et_pb_top_divider .et_pb_top_inside_divider {
         background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIzMHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI0ZGRkZGRiI+PHBhdGggZD0iTTAgNTEuNzZjMzYuMjEtMi4yNSA3Ny41Ny0zLjU4IDEyNi40Mi0zLjU4IDMyMCAwIDMyMCA1NyA2NDAgNTcgMjcxLjE1IDAgMzEyLjU4LTQwLjkxIDUxMy41OC01My40VjBIMHoiIGZpbGwtb3BhY2l0eT0iLjMiLz48cGF0aCBkPSJNMCAyNC4zMWM0My40Ni01LjY5IDk0LjU2LTkuMjUgMTU4LjQyLTkuMjUgMzIwIDAgMzIwIDg5LjI0IDY0MCA4OS4yNCAyNTYuMTMgMCAzMDcuMjgtNTcuMTYgNDgxLjU4LTgwVjBIMHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMCAwdjMuNEMyOC4yIDEuNiA1OS40LjU5IDk0LjQyLjU5YzMyMCAwIDMyMCA4NC4zIDY0MCA4NC4zIDI4NSAwIDMxNi4xNy02Ni44NSA1NDUuNTgtODEuNDlWMHoiLz48L2c+PC9zdmc+);
         background-size: 100% 30px;
         top: 0;
@@ -3286,10 +3819,10 @@ header.et-l--header .et_pb_menu__logo > img {
         transform: scale(1, 1)
     }
 
-    .et_pb_row_16,
-    body #page-container .et-db #et-boc .et-l .et_pb_row_16.et_pb_row,
-    body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_16.et_pb_row,
-    body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_16.et_pb_row {
+    .et_pb_row_21,
+    body #page-container .et-db #et-boc .et-l .et_pb_row_21.et_pb_row,
+    body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_21.et_pb_row,
+    body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_21.et_pb_row {
         width: 100%
     }
 
@@ -3298,24 +3831,19 @@ header.et-l--header .et_pb_menu__logo > img {
         overflow-y: hidden
     }
 
-    .et_pb_slider_0 .et_pb_slide_description,
-    .et_pb_slider_fullwidth_off.et_pb_slider_0 .et_pb_slide_description {
-        padding-bottom: 90vh
-    }
-
-    .et_pb_section_12 {
+    .et_pb_section_17 {
         border-bottom-width: 9px;
         border-bottom-style: double;
         border-bottom-color: #FFFFFF
     }
 
-    .et_pb_section_12.et_pb_section,
+    .et_pb_section_17.et_pb_section,
     .et_pb_social_media_follow_network_1 a.icon,
     .et_pb_social_media_follow_network_0 a.icon {
-        background-color: #56675d !important
+        background-color: #74736c !important
     }
 
-    .et_pb_section_12.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider {
+    .et_pb_section_17.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider {
         background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI0OXB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PC9nPjwvc3ZnPg==);
         background-size: 100% 49px;
         bottom: 0;
@@ -3324,22 +3852,29 @@ header.et-l--header .et_pb_menu__logo > img {
         transform: scale(1, 1)
     }
 
-    .et_pb_row_17 {
+    .et_pb_row_22 {
         background-color: #FFFFFF;
         border-radius: 10px 10px 10px 10px;
         overflow: hidden;
         box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.34)
     }
 
-    .et_pb_text_16 {
+    .et_pb_row_22,
+    body #page-container .et-db #et-boc .et-l .et_pb_row_22.et_pb_row,
+    body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_22.et_pb_row,
+    body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_22.et_pb_row {
+        width: 90%
+    }
+
+    .et_pb_text_20 {
         font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
         font-size: 13px;
         z-index: 5;
         position: relative
     }
 
-    .et_pb_comments_0 .comment-content p,
-    .et_pb_comments_0 .comment_postinfo span {
+    .et_pb_comments_0 .comment_postinfo span,
+    .et_pb_comments_0 .comment-content p {
         color: #808080 !important
     }
 
@@ -3356,11 +3891,6 @@ header.et-l--header .et_pb_menu__logo > img {
 
     .et_pb_comments_0 {
         max-width: 90%
-    }
-
-    .et_pb_image_4,
-    .et_pb_comments_0 .form-submit {
-        text-align: center
     }
 
     body #page-container .et_pb_section .et_pb_comments_0.et_pb_comments_module .et_pb_button {
@@ -3399,7 +3929,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     .et_pb_blurb_5.et_pb_blurb .et_pb_module_header,
     .et_pb_blurb_5.et_pb_blurb .et_pb_module_header a {
-        font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
+        font-family: 'Cotta', sans-serif;
         font-size: 16px
     }
 
@@ -3409,12 +3939,12 @@ header.et-l--header .et_pb_menu__logo > img {
         font-size: 25px
     }
 
-    .et_pb_row_19.et_pb_row {
+    .et_pb_row_24.et_pb_row {
         padding-bottom: 3px !important;
         padding-bottom: 3px
     }
 
-    .et_pb_text_17 {
+    .et_pb_text_21 {
         font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
         letter-spacing: 2px;
         margin-bottom: 1px !important
@@ -3432,71 +3962,127 @@ header.et-l--header .et_pb_menu__logo > img {
         width: 28px
     }
 
-    .et_pb_text_18 {
-        font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
+    .et_pb_text_22 {
         font-size: 9px
     }
 
     .et_pb_slider .et_pb_slide_0 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER1-1.jpg)
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-2s.jpg)
     }
 
     .et_pb_slider .et_pb_slide_1 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER1-10.jpg)
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-1.jpg)
     }
 
     .et_pb_slider .et_pb_slide_2 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER1-9.jpg)
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-15.jpg)
     }
 
     .et_pb_slider .et_pb_slide_3 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER1-8.jpg)
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-14.jpg)
     }
 
     .et_pb_slider .et_pb_slide_4 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER1-4.jpg)
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-13.jpg)
     }
 
     .et_pb_slider .et_pb_slide_5 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER1-3.jpg)
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-11.jpg)
+    }
+
+    .et_pb_slider .et_pb_slide_6 {
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-10.jpg)
+    }
+
+    .et_pb_slider .et_pb_slide_7 {
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-8.jpg)
+    }
+
+    .et_pb_slider .et_pb_slide_8 {
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-7.jpg)
+    }
+
+    .et_pb_slider .et_pb_slide_9 {
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-6.jpg)
+    }
+
+    .et_pb_slider .et_pb_slide_10 {
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-5.jpg)
+    }
+
+    .et_pb_slider .et_pb_slide_11 {
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-4.jpg)
+    }
+
+    .et_pb_slider .et_pb_slide_12 {
+        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-3.jpg)
     }
 
     .et_pb_social_media_follow_network_2 a.icon {
         background-color: #d6d6d6 !important
     }
 
-    .et_pb_comments_0.et_pb_module,
-    .et_pb_text_5.et_pb_module,
-    .et_pb_text_6.et_pb_module,
-    .et_pb_row_4.et_pb_row,
     .et_pb_divider_0.et_pb_module,
+    .et_pb_text_19.et_pb_module,
+    .et_pb_text_8.et_pb_module,
+    .et_pb_text_9.et_pb_module,
+    .dipi_svg_animator_0.et_pb_module,
+    .dipi_svg_animator_1.et_pb_module,
     .et_pb_text_10.et_pb_module,
-    .et_pb_row_5.et_pb_row,
-    .et_pb_row_17.et_pb_row {
+    .et_pb_blurb_0.et_pb_blurb.et_pb_module,
+    .et_pb_blurb_1.et_pb_blurb.et_pb_module,
+    .et_pb_comments_0.et_pb_module,
+    .et_pb_row_22.et_pb_row,
+    .et_pb_video_0.et_pb_module,
+    .dipi_svg_animator_2.et_pb_module {
         margin-left: auto !important;
         margin-right: auto !important
     }
 
     @media only screen and (min-width:981px) {
 
-        .et_pb_row_11,
-        body #page-container .et-db #et-boc .et-l .et_pb_row_11.et_pb_row,
-        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_11.et_pb_row,
-        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_11.et_pb_row,
-        .et_pb_row_13,
-        body #page-container .et-db #et-boc .et-l .et_pb_row_13.et_pb_row,
-        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_13.et_pb_row,
-        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_13.et_pb_row,
-        .et_pb_row_14,
-        body #page-container .et-db #et-boc .et-l .et_pb_row_14.et_pb_row,
-        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_14.et_pb_row,
-        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_14.et_pb_row {
+        .et_pb_row_3,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_3.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_3.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_3.et_pb_row,
+        .et_pb_row_7,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_7.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_7.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_7.et_pb_row,
+        .et_pb_row_8,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_8.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_8.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_8.et_pb_row {
+            width: 50%
+        }
+
+        .et_pb_image_0,
+        .et_pb_image_1 {
+            max-width: 40%
+        }
+
+        .et_pb_row_16,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_16.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_16.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_16.et_pb_row,
+        .et_pb_row_17,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_17.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_17.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_17.et_pb_row,
+        .et_pb_row_19,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_19.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_19.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_19.et_pb_row {
             width: 25%
         }
 
         .et_pb_image_2,
         .et_pb_image_3 {
             max-width: 25%
+        }
+
+        .et_pb_video_0 {
+            width: 40%
         }
 
         .et_pb_image_4 {
@@ -3519,8 +4105,8 @@ header.et-l--header .et_pb_menu__logo > img {
             border-bottom-color: #FFFFFF
         }
 
-        body #page-container .et_pb_section .et_pb_comments_0.et_pb_comments_module .et_pb_button:before,
-        body #page-container .et_pb_section .et_pb_button_0:before {
+        body #page-container .et_pb_section .et_pb_button_0:before,
+        body #page-container .et_pb_section .et_pb_comments_0.et_pb_comments_module .et_pb_button:before {
             line-height: inherit;
             font-size: inherit !important;
             margin-left: -1.3em;
@@ -3532,20 +4118,22 @@ header.et-l--header .et_pb_menu__logo > img {
             font-weight: 400 !important
         }
 
-        body #page-container .et_pb_section .et_pb_button_0:after,
         body #page-container .et_pb_section .et_pb_button_2:after,
         body #page-container .et_pb_section .et_pb_button_3:after,
+        body #page-container .et_pb_section .et_pb_button_1:after,
         body #page-container .et_pb_section .et_pb_button_4:after,
+        body #page-container .et_pb_section .et_pb_button_5:after,
         body #page-container .et_pb_section .et_pb_comments_0.et_pb_comments_module .et_pb_button:after,
-        body #page-container .et_pb_section .et_pb_button_1:after {
+        body #page-container .et_pb_section .et_pb_button_0:after {
             display: none
         }
 
         body #page-container .et_pb_section .et_pb_button_2:hover:before,
+        body #page-container .et_pb_section .et_pb_button_5:hover:before,
+        body #page-container .et_pb_section .et_pb_button_0:hover:before,
+        body #page-container .et_pb_section .et_pb_button_1:hover:before,
         body #page-container .et_pb_section .et_pb_button_3:hover:before,
         body #page-container .et_pb_section .et_pb_button_4:hover:before,
-        body #page-container .et_pb_section .et_pb_button_1:hover:before,
-        body #page-container .et_pb_section .et_pb_button_0:hover:before,
         body #page-container .et_pb_section .et_pb_comments_0.et_pb_comments_module .et_pb_button:hover:before {
             margin-left: .3em;
             right: auto;
@@ -3556,20 +4144,36 @@ header.et-l--header .et_pb_menu__logo > img {
             margin: 0 auto 0 auto
         }
 
-        .et_pb_section_3.et_pb_section {
-            padding-top: 90vh
+        .et_pb_row_3,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_3.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_3.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_3.et_pb_row,
+        .et_pb_row_8,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_8.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_8.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_8.et_pb_row,
+        .et_pb_row_7,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_7.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_7.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_7.et_pb_row {
+            width: 80%
         }
 
-        .et_pb_blurb_0.et_pb_blurb .et_pb_module_header,
-        .et_pb_blurb_0.et_pb_blurb .et_pb_module_header a,
-        .et_pb_blurb_1.et_pb_blurb .et_pb_module_header,
-        .et_pb_blurb_1.et_pb_blurb .et_pb_module_header a {
-            font-size: 30px
+        .dipi_svg_animator_1 .dipi-svg-animator-container svg,
+        .dipi_svg_animator_0 .dipi-svg-animator-container svg,
+        .dipi_svg_animator_2 .dipi-svg-animator-container svg {
+            width: 100% !important;
+            height: 100% !important
         }
 
-        .et_pb_blurb_1.et_pb_blurb,
-        .et_pb_blurb_0.et_pb_blurb {
-            font-size: 17px
+        .et_pb_section_4.et_pb_section,
+        .et_pb_section_6.et_pb_section {
+            padding-bottom: 400px
+        }
+
+        .et_pb_image_0,
+        .et_pb_image_1 {
+            max-width: 40%
         }
 
         .et_pb_image_3 .et_pb_image_wrap img,
@@ -3580,43 +4184,42 @@ header.et-l--header .et_pb_menu__logo > img {
             width: auto
         }
 
-        .et_pb_row_6.et_pb_row {
-            margin-top: 25vh !important;
-            margin-bottom: 25vh !important
-        }
-
-        .dipi_dual_heading_2 .dipi-dh-main,
-        .dipi_dual_heading_0 .dipi-dh-main,
+        .dipi_dual_heading_3 .dipi-dh-main,
         .dipi_dual_heading_1 .dipi-dh-main,
-        .dipi_dual_heading_3 .dipi-dh-main {
+        .dipi_dual_heading_0 .dipi-dh-main,
+        .dipi_dual_heading_2 .dipi-dh-main,
+        .dipi_dual_heading_4 .dipi-dh-main {
             justify-content: center;
             text-align: center;
             align-items: center;
             flex-direction: row
         }
 
-        .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
-        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
         .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
+        .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
         .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
-        .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container {
+        .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
+        .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container {
             padding-top: 0px !important;
             padding-right: 3px !important;
             padding-bottom: 0px !important;
             padding-left: 3px !important
         }
 
-        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading,
-        .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading,
+        .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-first-heading,
+        .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-first-heading,
         .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-first-heading,
-        .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-first-heading {
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading,
+        .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading {
             margin-top: 0px !important;
             margin-right: 0px !important;
             margin-bottom: 0px !important;
             margin-left: 0px !important
         }
 
+        .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
         .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container {
             padding-top: 0px !important;
@@ -3629,13 +4232,17 @@ header.et-l--header .et_pb_menu__logo > img {
             margin-left: -26px !important
         }
 
-        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading {
-            margin-top: 0px !important;
-            margin-bottom: -39px !important;
-            margin-left: -49px !important
+        .dipi_dual_heading_0 .dipi-dh-main::before,
+        .dipi_dual_heading_4 .dipi-dh-main::before,
+        .dipi_dual_heading_1 .dipi-dh-main::before,
+        .dipi_dual_heading_2 .dipi-dh-main::before,
+        .dipi_dual_heading_3 .dipi-dh-main::before {
+            left: 50%;
+            top: 50%
         }
 
-        body #page-container .et_pb_section .et_pb_button_1:before {
+        body #page-container .et_pb_section .et_pb_button_1:before,
+        body #page-container .et_pb_section .et_pb_button_2:before {
             line-height: inherit;
             font-size: inherit !important;
             margin-left: -1.3em;
@@ -3647,11 +4254,22 @@ header.et-l--header .et_pb_menu__logo > img {
             font-weight: 400 !important
         }
 
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading,
+        .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-second-heading {
+            margin-top: 0px !important;
+            margin-bottom: -39px !important;
+            margin-left: -49px !important
+        }
+
+        .et_pb_section_10.et_pb_section {
+            padding-top: 80vh
+        }
+
         .dipi_typing_text_0 .dipi-typing {
             flex-direction: row !important
         }
 
-        .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-second-heading,
+        .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-second-heading,
         .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-second-heading {
             margin-top: 0px !important;
             margin-right: 0px !important;
@@ -3659,30 +4277,29 @@ header.et-l--header .et_pb_menu__logo > img {
             margin-left: -30px !important
         }
 
-        .dipi_dual_heading_3 .dipi-dh-main::before,
-        .dipi_dual_heading_2 .dipi-dh-main::before {
-            left: 50%;
-            top: 50%
+        .et_pb_row_16,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_16.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_16.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_16.et_pb_row,
+        .et_pb_row_19,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_19.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_19.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_19.et_pb_row,
+        .et_pb_row_17,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_17.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_17.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_17.et_pb_row {
+            width: 25%
         }
 
-        .et_pb_row_11,
-        body #page-container .et-db #et-boc .et-l .et_pb_row_11.et_pb_row,
-        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_11.et_pb_row,
-        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_11.et_pb_row,
-        .et_pb_row_13,
-        body #page-container .et-db #et-boc .et-l .et_pb_row_13.et_pb_row,
-        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_13.et_pb_row,
-        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_13.et_pb_row,
-        .et_pb_row_14,
-        body #page-container .et-db #et-boc .et-l .et_pb_row_14.et_pb_row,
-        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_14.et_pb_row,
-        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_14.et_pb_row {
-            width: 25%
+        .et_pb_image_2,
+        .et_pb_image_3 {
+            max-width: 15%
         }
 
         body #page-container .et_pb_section .et_pb_button_4:before,
         body #page-container .et_pb_section .et_pb_button_3:before,
-        body #page-container .et_pb_section .et_pb_button_2:before {
+        body #page-container .et_pb_section .et_pb_button_5:before {
             line-height: inherit;
             font-size: inherit !important;
             margin-left: -1.3em;
@@ -3694,17 +4311,12 @@ header.et-l--header .et_pb_menu__logo > img {
             font-weight: 900 !important
         }
 
-        .et_pb_image_3,
-        .et_pb_image_2 {
-            max-width: 15%
-        }
-
         .et_pb_slider_0 .et_pb_slide_description,
         .et_pb_slider_fullwidth_off.et_pb_slider_0 .et_pb_slide_description {
             padding-bottom: 90vh
         }
 
-        .et_pb_section_12 {
+        .et_pb_section_17 {
             border-bottom-width: 9px;
             border-bottom-style: double;
             border-bottom-color: #FFFFFF
@@ -3715,13 +4327,19 @@ header.et-l--header .et_pb_menu__logo > img {
         }
     }
 
+    @media only screen and (min-width:768px) and (max-width:980px) {
+        .et_pb_section_8 {
+            display: flex
+        }
+    }
+
     @media only screen and (max-width:767px) {
         div.et_pb_section.et_pb_section_0 {
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center top;
             background-blend-mode: normal;
-            background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/IWE_0453SAS.jpg) !important
+            background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-11.jpg) !important
         }
 
         .et_pb_section_0 {
@@ -3751,68 +4369,55 @@ header.et-l--header .et_pb_menu__logo > img {
             font-weight: 400 !important
         }
 
-        body #page-container .et_pb_section .et_pb_button_3,
-        body #page-container .et_pb_section .et_pb_button_4,
-        body #page-container .et_pb_section .et_pb_button_2 {
-            color: #FFFFFF !important;
-            border-width: 0px !important;
-            font-size: 11px;
-            padding-right: 0.7em;
-            padding-left: 2em;
-            background-color: #666666;
-        }
-
-        .et_pb_button_module_wrapper>a {
-            display: inline-block;
-        }
-
-        body #page-container .et_pb_section .et_pb_button_1:after,
         body #page-container .et_pb_section .et_pb_button_2:after,
         body #page-container .et_pb_section .et_pb_button_3:after,
+        body #page-container .et_pb_section .et_pb_button_1:after,
         body #page-container .et_pb_section .et_pb_button_4:after,
+        body #page-container .et_pb_section .et_pb_button_5:after,
         body #page-container .et_pb_section .et_pb_comments_0.et_pb_comments_module .et_pb_button:after,
         body #page-container .et_pb_section .et_pb_button_0:after {
             display: none
         }
 
-        body #page-container .et_pb_section .et_pb_button_1:hover:before,
-        body #page-container .et_pb_section .et_pb_button_3:hover:before,
+        body #page-container .et_pb_section .et_pb_button_2:hover:before,
+        body #page-container .et_pb_section .et_pb_button_4:hover:before,
         body #page-container .et_pb_section .et_pb_comments_0.et_pb_comments_module .et_pb_button:hover:before,
         body #page-container .et_pb_section .et_pb_button_0:hover:before,
-        body #page-container .et_pb_section .et_pb_button_2:hover:before,
-        body #page-container .et_pb_section .et_pb_button_4:hover:before {
+        body #page-container .et_pb_section .et_pb_button_1:hover:before,
+        body #page-container .et_pb_section .et_pb_button_5:hover:before,
+        body #page-container .et_pb_section .et_pb_button_3:hover:before {
             margin-left: .3em;
             right: auto;
             margin-left: -1.3em
         }
 
         div.et_pb_section.et_pb_section_1 {
-            background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 56%, rgba(10, 10, 10, 0.55) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER1-5.jpg) !important
+            background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 61%, rgba(0, 0, 0, 0.39) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-5.jpg) !important
         }
 
         .dvmd_text_on_a_path_0 #dvmdtpsvg {
             margin: 0 auto 0 auto
         }
 
-        div.et_pb_section.et_pb_section_3 {
-            background-position: center bottom 0px;
-            background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER1-7.jpg) !important
+        .dipi_svg_animator_0 .dipi-svg-animator-container svg,
+        .dipi_svg_animator_1 .dipi-svg-animator-container svg,
+        .dipi_svg_animator_2 .dipi-svg-animator-container svg {
+            width: 100% !important;
+            height: 100% !important
         }
 
-        .et_pb_section_3.et_pb_section {
-            padding-top: 300px
+        .et_pb_section_4.et_pb_section,
+        .et_pb_section_6.et_pb_section {
+            padding-bottom: 350px
         }
 
-        .et_pb_blurb_1.et_pb_blurb .et_pb_module_header,
-        .et_pb_blurb_1.et_pb_blurb .et_pb_module_header a,
-        .et_pb_blurb_0.et_pb_blurb .et_pb_module_header,
-        .et_pb_blurb_0.et_pb_blurb .et_pb_module_header a {
-            font-size: 20px
+        .et_pb_section_8 {
+            display: inline
         }
 
-        .et_pb_blurb_0.et_pb_blurb,
-        .et_pb_blurb_1.et_pb_blurb {
-            font-size: 12px
+        .et_pb_image_0,
+        .et_pb_image_1 {
+            max-width: 60%
         }
 
         .et_pb_image_3 .et_pb_image_wrap img,
@@ -3823,19 +4428,11 @@ header.et-l--header .et_pb_menu__logo > img {
             width: auto
         }
 
-        div.et_pb_section.et_pb_section_5 {
-            background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER1-3.jpg) !important
-        }
-
-        .et_pb_row_6.et_pb_row {
-            margin-top: 50px !important;
-            margin-bottom: 50px !important
-        }
-
-        .dipi_dual_heading_2 .dipi-dh-main,
-        .dipi_dual_heading_3 .dipi-dh-main,
         .dipi_dual_heading_1 .dipi-dh-main,
-        .dipi_dual_heading_0 .dipi-dh-main {
+        .dipi_dual_heading_0 .dipi-dh-main,
+        .dipi_dual_heading_2 .dipi-dh-main,
+        .dipi_dual_heading_4 .dipi-dh-main,
+        .dipi_dual_heading_3 .dipi-dh-main {
             justify-content: center;
             text-align: center;
             align-items: center;
@@ -3843,19 +4440,21 @@ header.et-l--header .et_pb_menu__logo > img {
         }
 
         .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
-        .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
         .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
-        .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
-        .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
-        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container {
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
+        .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
+        .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
+        .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
+        .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container {
             padding-top: 0px !important;
             padding-right: 3px !important;
             padding-bottom: 0px !important;
             padding-left: 3px !important
         }
 
-        .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-first-heading,
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading,
+        .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-first-heading,
+        .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-first-heading,
         .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-first-heading,
         .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading {
             margin-top: 0px !important;
@@ -3864,6 +4463,7 @@ header.et-l--header .et_pb_menu__logo > img {
             margin-left: 0px !important
         }
 
+        .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
         .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container {
             padding-top: 0px !important;
@@ -3876,13 +4476,17 @@ header.et-l--header .et_pb_menu__logo > img {
             margin-left: -26px !important
         }
 
-        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading {
-            margin-top: 0px !important;
-            margin-bottom: -39px !important;
-            margin-left: -49px !important
+        .dipi_dual_heading_0 .dipi-dh-main::before,
+        .dipi_dual_heading_4 .dipi-dh-main::before,
+        .dipi_dual_heading_1 .dipi-dh-main::before,
+        .dipi_dual_heading_2 .dipi-dh-main::before,
+        .dipi_dual_heading_3 .dipi-dh-main::before {
+            left: 50%;
+            top: 50%
         }
 
-        body #page-container .et_pb_section .et_pb_button_1:before {
+        body #page-container .et_pb_section .et_pb_button_1:before,
+        body #page-container .et_pb_section .et_pb_button_2:before {
             line-height: inherit;
             font-size: inherit !important;
             margin-left: -1.3em;
@@ -3894,11 +4498,26 @@ header.et-l--header .et_pb_menu__logo > img {
             font-weight: 400 !important
         }
 
+        .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-second-heading,
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading {
+            margin-top: 0px !important;
+            margin-bottom: -39px !important;
+            margin-left: -49px !important
+        }
+
+        div.et_pb_section.et_pb_section_10 {
+            background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.47) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-8.jpg) !important
+        }
+
+        .et_pb_section_10.et_pb_section {
+            padding-top: 250px
+        }
+
         .dipi_typing_text_0 .dipi-typing {
             flex-direction: row !important
         }
 
-        .dipi_dual_heading_2 .dipi-dual-heading .dipi-dh-second-heading,
+        .dipi_dual_heading_4 .dipi-dual-heading .dipi-dh-second-heading,
         .dipi_dual_heading_3 .dipi-dual-heading .dipi-dh-second-heading {
             margin-top: 0px !important;
             margin-right: 0px !important;
@@ -3906,30 +4525,29 @@ header.et-l--header .et_pb_menu__logo > img {
             margin-left: -30px !important
         }
 
-        .dipi_dual_heading_3 .dipi-dh-main::before,
-        .dipi_dual_heading_2 .dipi-dh-main::before {
-            left: 50%;
-            top: 50%
-        }
-
-        .et_pb_row_13,
-        body #page-container .et-db #et-boc .et-l .et_pb_row_13.et_pb_row,
-        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_13.et_pb_row,
-        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_13.et_pb_row,
-        .et_pb_row_11,
-        body #page-container .et-db #et-boc .et-l .et_pb_row_11.et_pb_row,
-        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_11.et_pb_row,
-        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_11.et_pb_row,
-        .et_pb_row_14,
-        body #page-container .et-db #et-boc .et-l .et_pb_row_14.et_pb_row,
-        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_14.et_pb_row,
-        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_14.et_pb_row {
+        .et_pb_row_17,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_17.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_17.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_17.et_pb_row,
+        .et_pb_row_16,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_16.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_16.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_16.et_pb_row,
+        .et_pb_row_19,
+        body #page-container .et-db #et-boc .et-l .et_pb_row_19.et_pb_row,
+        body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_19.et_pb_row,
+        body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_19.et_pb_row {
             width: 80%
         }
 
+        .et_pb_image_2,
+        .et_pb_image_3 {
+            max-width: 30%
+        }
+
         body #page-container .et_pb_section .et_pb_button_4:before,
-        body #page-container .et_pb_section .et_pb_button_2:before,
-        body #page-container .et_pb_section .et_pb_button_3:before {
+        body #page-container .et_pb_section .et_pb_button_3:before,
+        body #page-container .et_pb_section .et_pb_button_5:before {
             line-height: inherit;
             font-size: inherit !important;
             margin-left: -1.3em;
@@ -3941,9 +4559,8 @@ header.et-l--header .et_pb_menu__logo > img {
             font-weight: 900 !important
         }
 
-        .et_pb_image_2,
-        .et_pb_image_3 {
-            max-width: 30%
+        .et_pb_video_0 {
+            width: 100%
         }
 
         .et_pb_slider_0 .et_pb_slide_description,
@@ -3951,7 +4568,7 @@ header.et-l--header .et_pb_menu__logo > img {
             padding-bottom: 490px
         }
 
-        .et_pb_section_12 {
+        .et_pb_section_17 {
             border-bottom-width: 9px;
             border-bottom-style: double;
             border-bottom-color: #FFFFFF
@@ -3962,8 +4579,7 @@ header.et-l--header .et_pb_menu__logo > img {
         }
     }
     </style>
-    <!-- React JS -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+
     <script>
     "use strict";
 
@@ -4011,11 +4627,17 @@ header.et-l--header .et_pb_menu__logo > img {
             type='text/css' media='all' />
         <link rel='stylesheet' id='divi-style-css'
             href='../wp-content/themes/ngantenstorytheme/stylef315.css?ver=4.19.4' type='text/css' media='all' />
+        <link data-minify="1" rel='stylesheet' id='fluent-form-styles-css'
+            href='../wp-content/cache/min/1/wp-content/plugins/fluentform/public/css/fluent-forms-public171b.css?ver=1673754560'
+            type='text/css' media='all' />
+        <link data-minify="1" rel='stylesheet' id='fluentform-public-default-css'
+            href='../wp-content/cache/min/1/wp-content/plugins/fluentform/public/css/fluentform-public-default171b.css?ver=1673754560'
+            type='text/css' media='all' />
     </noscript>
 </body>
 
-<!-- Mirrored from ngantenstory.com/silver-satu/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jan 2023 15:51:50 GMT -->
+<!-- Mirrored from ngantenstory.com/gold-tiga/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Jan 2023 15:14:00 GMT -->
 
 </html>
 
-<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1673870596 -->
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1674029082 -->

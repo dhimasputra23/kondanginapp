@@ -6,7 +6,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\VerificationController;
 use App\Http\Controllers\ForgotPasswordController;
-use App\Http\Controllers\UndanganController;
+
 
 /*
 |--------------------------------------------------------------------------

@@ -18,8 +18,8 @@ class Tamu extends Model
         return $this->hasOne(Ucapan::class);
     }
 
-    public function undangan()
-    {
-        return $this->belongsTo(Undangan::class,'undangan_id','id');
-    }
+    // public function undangan()
+    // {
+    //     return $this->belongsTo(Undangan::class,'undangan_id','id');
+    // }
 }

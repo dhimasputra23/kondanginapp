@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateFotosTable extends Migration
+class CreateProfilPasangansTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,14 @@ class CreateFotosTable extends Migration
      */
     public function up()
     {
-        Schema::create('fotos', function (Blueprint $table) {
+        Schema::create('profil_pasangans', function (Blueprint $table) {
             $table->id();
-            $table->string('url');
+            $table->string('nama');
+            $table->enum('kelamin', ['Pria', 'Wanita']);
             $table->timestamps();
 
-            $table->unsignedBigInteger('undangan_id');
-            $table->foreign('undangan_id')->references('id')->on('undangans');
+            // $table->unsignedBigInteger('undangan_id');
+            // $table->foreign('undangan_id')->references('id')->on('undangans');
         });
     }
 
@@ -30,6 +31,6 @@ class CreateFotosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('fotos');
+        Schema::dropIfExists('profil_pasangans');
     }
 }

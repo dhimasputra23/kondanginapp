@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProfilPasangansTable extends Migration
+class CreateQuotesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,14 @@ class CreateProfilPasangansTable extends Migration
      */
     public function up()
     {
-        Schema::create('profil_pasangans', function (Blueprint $table) {
+        Schema::create('quotes', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
-            $table->enum('kelamin', ['Pria', 'Wanita']);
+            $table->string('sumber');
+            $table->longText('kalimat');
             $table->timestamps();
 
-            $table->unsignedBigInteger('undangan_id');
-            $table->foreign('undangan_id')->references('id')->on('undangans');
+            // $table->unsignedBigInteger('undangan_id');
+            // $table->foreign('undangan_id')->references('id')->on('undangans');
         });
     }
 
@@ -31,6 +31,6 @@ class CreateProfilPasangansTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('profil_pasangans');
+        Schema::dropIfExists('quotes');
     }
 }

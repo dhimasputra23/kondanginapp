@@ -24569,7 +24569,8 @@ var GoldTiga = function GoldTiga() {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(antd__WEBPACK_IMPORTED_MODULE_3__["default"], {
       title: "Alamat Penerima",
       open: isModalOpen,
-      afterClose: handleCancel,
+      onOk: handleOk,
+      onCancel: handleCancel,
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
         id: "hadiah",
         className: "et_pb_section et_pb_section_14 popup et_section_regular",

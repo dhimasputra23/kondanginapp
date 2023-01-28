@@ -1182,7 +1182,7 @@ L364.5,641.2" />
                 </div>
             </div>
 
-            <Modal title="Alamat Penerima" open={isModalOpen}   afterClose={handleCancel}>
+            <Modal title="Alamat Penerima" open={isModalOpen} onOk={handleOk}  onCancel={handleCancel}>
             <div id="hadiah" className="et_pb_section et_pb_section_14 popup et_section_regular">
                                         <div className="et_pb_row et_pb_row_18">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_19  et_pb_css_mix_blend_mode_passthrough et-last-child">

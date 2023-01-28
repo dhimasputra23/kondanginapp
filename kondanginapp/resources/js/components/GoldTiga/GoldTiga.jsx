@@ -1,23 +1,49 @@
 import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom';
-import { Button, Modal } from 'antd';
+import { Button, Card, Form, Input, Modal, Select } from 'antd';
+import { UserOutlined } from '@ant-design/icons';
+import TextArea from 'antd/es/input/TextArea';
 const GoldTiga = () => {
 
 
+    const [modalRekening, setModalRekening] = useState(false);
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-    const showModal = () => {
-        setIsModalOpen(true);
+
+    const showModal = (id) => {
+
+        if (id === 1) {
+
+            setIsModalOpen(true)
+        } else {
+
+            setModalRekening(true);
+        }
 
     };
 
-    const handleOk = () => {
-        setIsModalOpen(false);
+    const handleOk = (id) => {
+
+        if (id === 1) {
+            setIsModalOpen(false);
+        } else {
+            setModalRekening(false);
+        }
+
+
+
 
     };
 
-    const handleCancel = () => {
-        setIsModalOpen(false);
+    const handleCancel = (id) => {
+
+        if (id === 1) {
+            setIsModalOpen(false);
+        } else {
+            setModalRekening(false);
+        }
+
+
 
     };
 
@@ -41,6 +67,7 @@ const GoldTiga = () => {
                                                 <div className="et_pb_with_border et_pb_module et_pb_text et_pb_text_0 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
                                                     <div className="et_pb_text_inner">
                                                         <h5>Dear,</h5>
+                                                        <p>Nama Tamu</p>
                                                         <h2>You Are Invited!</h2>
                                                     </div>
                                                 </div>
@@ -190,7 +217,7 @@ const GoldTiga = () => {
                                         <div className="et_pb_row et_pb_row_7">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_image et_pb_image_0 et_animated et-waypoint">
-                                                    <span className="et_pb_image_wrap "><img decoding="async" width={400} height={400} src="../wp-content/uploads/2022/12/gold3-1.png" alt title="gold3 (1)" srcSet="https://ngantenstory.com/wp-content/uploads/2022/12/gold3-1.png 400w, https://ngantenstory.com/wp-content/uploads/2022/12/gold3-1-300x300.png 300w, https://ngantenstory.com/wp-content/uploads/2022/12/gold3-1-150x150.png 150w" sizes="(max-width: 400px) 100vw, 400px" className="wp-image-378804" /></span>
+                                                    <span className="et_pb_image_wrap "><img decoding="async" width={400} height={400} src="../wp-content/uploads/2022/12/gold3-1.png" alt title="gold3 (1)" sizes="(max-width: 400px) 100vw, 400px" className="wp-image-378804" /></span>
                                                 </div>
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_0 et_animated  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_light">
                                                     <div className="et_pb_blurb_content">
@@ -214,7 +241,7 @@ const GoldTiga = () => {
                                         <div className="et_pb_row et_pb_row_8">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_8  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_image et_pb_image_1 et_animated et-waypoint">
-                                                    <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={400} height={400} src="../wp-content/uploads/2022/12/gold3-2.png" alt title="gold3 (2)" srcSet="https://ngantenstory.com/wp-content/uploads/2022/12/gold3-2.png 400w, https://ngantenstory.com/wp-content/uploads/2022/12/gold3-2-300x300.png 300w, https://ngantenstory.com/wp-content/uploads/2022/12/gold3-2-150x150.png 150w" sizes="(max-width: 400px) 100vw, 400px" className="wp-image-378806" /></span>
+                                                    <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={400} height={400} src="../wp-content/uploads/2022/12/gold3-2.png" alt title="gold3 (2)" sizes="(max-width: 400px) 100vw, 400px" className="wp-image-378806" /></span>
                                                 </div>
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_1 et_animated  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_light">
                                                     <div className="et_pb_blurb_content">
@@ -430,7 +457,81 @@ L364.5,641.2" />
                                         </div>
                                         <div className="et_pb_bottom_inside_divider et-no-transition" />
                                     </div>
-                                    <div className="et_pb_section et_pb_section_11 et_pb_with_background et_section_regular">
+
+                                    <div className="et_pb_section et_pb_section_12 et_pb_with_background et_section_regular">
+                                        <div className="et_pb_row et_pb_row_13">
+                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                <div className="et_pb_module et_pb_blurb et_pb_blurb_2  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
+                                                    <div className="et_pb_blurb_content">
+
+
+                                                        <div className="et_pb_main_blurb_image"><span className="et_pb_image_wrap"><span className="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span>
+                                                        </div>
+                                                        <div className="et_pb_blurb_container">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id='modalku'></div>
+                                                <div className="et_pb_module dipi_dual_heading dipi_dual_heading_3 et_animated">
+                                                    <div className="et_pb_module_inner">
+                                                        <div className="dipi-dual-heading ">
+                                                            <h2 className="dipi-dh-main">
+                                                                <span className="dipi-dh-first-heading">
+                                                                    <span className="dipi-dh-animation-container">
+                                                                        <span className="dipi-dh-bg-container">
+                                                                            Amplop
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                                <span className="dipi-dh-second-heading">
+                                                                    <span className="dipi-dh-animation-container">
+                                                                        <span className="dipi-dh-bg-container">
+                                                                            Digital
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="et_pb_module et_pb_text et_pb_text_11 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
+                                                    <div className="et_pb_text_inner">
+                                                        <p>Bagi keluarga dan sahabat yang ingin mengirimkan hadiah, silakan
+                                                            mengirimkannya melalui tautan berikut:</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="et_pb_row et_pb_row_14 two-columns">
+                                            <div className="et_pb_column et_pb_column_1_2 et_pb_column_14  et_pb_css_mix_blend_mode_passthrough">
+                                                <div className="et_pb_with_border et_pb_module et_pb_blurb et_pb_blurb_3 et_animated et_clickable  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light ">
+                                                    <div className='et_pb_blurb_content'>
+                                                        <div className='et_pb_main_blurb_image' onClick={() => showModal(1)}>
+                                                            <span className="et_pb_image_wrap"><span className="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span>
+                                                        </div>
+                                                        <div className="et_pb_blurb_container">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div className="et_pb_column et_pb_column_1_2 et_pb_column_15  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                <div className="et_pb_with_border et_pb_module et_pb_blurb et_pb_blurb_4 et_animated et_clickable  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
+                                                    <div className="et_pb_blurb_content">
+                                                        <div className="et_pb_main_blurb_image" onClick={() => showModal(0)}>
+                                                            <span className="et_pb_image_wrap"><span className="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span>
+                                                        </div>
+                                                        <div className="et_pb_blurb_container">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* <div className="et_pb_section et_pb_section_11 et_pb_with_background et_section_regular">
                                         <div className="et_pb_row et_pb_row_12">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module dipi_dual_heading dipi_dual_heading_2 et_animated">
@@ -494,178 +595,8 @@ L364.5,641.2" />
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="et_pb_section et_pb_section_12 et_pb_with_background et_section_regular">
-                                        <div className="et_pb_row et_pb_row_13">
-                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                                                <div className="et_pb_module et_pb_blurb et_pb_blurb_2  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
-                                                    <div className="et_pb_blurb_content">
+                                    </div> */}
 
-
-                                                        <div className="et_pb_main_blurb_image"><span className="et_pb_image_wrap"><span className="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span>
-                                                        </div>
-                                                        <div className="et_pb_blurb_container">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div id='modalku'></div>
-                                                <div className="et_pb_module dipi_dual_heading dipi_dual_heading_3 et_animated">
-                                                    <div className="et_pb_module_inner">
-                                                        <div className="dipi-dual-heading ">
-                                                            <h2 className="dipi-dh-main">
-                                                                <span className="dipi-dh-first-heading">
-                                                                    <span className="dipi-dh-animation-container">
-                                                                        <span className="dipi-dh-bg-container">
-                                                                            Amplop
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-                                                                <span className="dipi-dh-second-heading">
-                                                                    <span className="dipi-dh-animation-container">
-                                                                        <span className="dipi-dh-bg-container">
-                                                                            Digital
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-                                                            </h2>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="et_pb_module et_pb_text et_pb_text_11 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <p>Bagi keluarga dan sahabat yang ingin mengirimkan hadiah, silakan
-                                                            mengirimkannya melalui tautan berikut:</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                  
-                                        <div className="et_pb_row et_pb_row_14 two-columns">
-                                            <div className="et_pb_column et_pb_column_1_2 et_pb_column_14  et_pb_css_mix_blend_mode_passthrough">
-                                                {/* <div className="et_pb_with_border et_pb_module et_pb_blurb et_pb_blurb_3 et_animated et_clickable  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light ">
-                                                    <div className="et_pb_blurb_content">
-                                                        <div className="et_pb_main_blurb_image"><span className="et_pb_image_wrap"><span className="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span>
-
-                                                        </div>
-                                                   
-                                                   
-                                                        <div className="et_pb_blurb_container">
-                                                        </div>
-                                                    </div>
-                                                  
-                                           
-                                                </div> */}
-                                                <div className="et_pb_with_border et_pb_module et_pb_blurb et_pb_blurb_3 et_animated et_clickable  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light ">
-                                                    <div className='et_pb_blurb_content'>
-                                                        <div className='et_pb_main_blurb_image' onClick={showModal}>
-                                                        <span className="et_pb_image_wrap"><span className="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span>
-                                                        </div>
-                                                        {/* <Button className='et_pb_main_blurb_image ' type="primary" onClick={showModal}>
-  
-                                                            modal
-                                                        </Button> */}
-
-                                                    </div>
-                                                </div>
-
-
-
-                                            </div>
-
-
-                                            <div className="et_pb_column et_pb_column_1_2 et_pb_column_15  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                                                <div className="et_pb_module et_pb_blurb et_pb_blurb_4 et_animated et_clickable  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
-                                                    <div className="et_pb_blurb_content">
-                                                        <div className="et_pb_main_blurb_image"><span className="et_pb_image_wrap"><span className="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span>
-                                                        </div>
-                                                        <div className="et_pb_blurb_container">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div id="dana" className="et_pb_section et_pb_section_13 popup et_pb_with_background et_section_regular">
-                                        <div className="et_pb_row et_pb_row_15">
-                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_16  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                                                <div className="et_pb_module et_pb_text et_pb_text_12  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <p>Nomor Rekening</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="et_pb_with_border et_pb_row et_pb_row_16">
-                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_17  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                                                <div className="et_pb_module et_pb_image et_pb_image_2 et_pb_image_sticky">
-                                                    <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={320} height={100} src="../wp-content/uploads/2022/01/Bank-BCA-1.png" alt title="Bank-BCA" srcSet="https://ngantenstory.com/wp-content/uploads/2022/01/Bank-BCA-1.png 320w, https://ngantenstory.com/wp-content/uploads/2022/01/Bank-BCA-1-300x94.png 300w" sizes="(max-width: 320px) 100vw, 320px" className="wp-image-326502" /></span>
-                                                </div>
-                                                <div className="et_pb_module et_pb_text et_pb_text_13  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <h5>Nama Mempelai</h5>
-                                                    </div>
-                                                </div>
-                                                <div className="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <p>xxxxxxxxxx</p>
-                                                    </div>
-                                                </div>
-                                                <div className="et_pb_button_module_wrapper et_pb_button_3_wrapper et_pb_button_alignment_center et_pb_module ">
-                                                    <a className="et_pb_button et_pb_button_3 copy-text et_pb_bg_layout_light" href="#" data-icon="">Copy Number</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="et_pb_with_border et_pb_row et_pb_row_17">
-                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_18  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                                                <div className="et_pb_module et_pb_image et_pb_image_3 et_pb_image_sticky">
-                                                    <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={320} height={116} src="../wp-content/uploads/2022/01/Bank-Gopay.png" alt title="Bank-Gopay" srcSet="https://ngantenstory.com/wp-content/uploads/2022/01/Bank-Gopay.png 320w, https://ngantenstory.com/wp-content/uploads/2022/01/Bank-Gopay-300x109.png 300w" sizes="(max-width: 320px) 100vw, 320px" className="wp-image-325981" /></span>
-                                                </div>
-                                                <div className="et_pb_module et_pb_text et_pb_text_15  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <h5>Nama Mempelai</h5>
-                                                    </div>
-                                                </div>
-                                                <div className="et_pb_module et_pb_text et_pb_text_16  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <p>xxxxxxxxxx</p>
-                                                    </div>
-                                                </div>
-                                                <div className="et_pb_button_module_wrapper et_pb_button_4_wrapper et_pb_button_alignment_center et_pb_module ">
-                                                    <a className="et_pb_button et_pb_button_4 copy-text et_pb_bg_layout_light" href="#" data-icon="">Copy Number</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="hadiah" className="et_pb_section et_pb_section_14 popup et_section_regular">
-                                        <div className="et_pb_row et_pb_row_18">
-                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_19  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                                                <div className="et_pb_module et_pb_text et_pb_text_17  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <p>Alamat Penerima</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="et_pb_with_border et_pb_row et_pb_row_19">
-                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_20  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                                                <div className="et_pb_module et_pb_text et_pb_text_18  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <h5>Nama Lengkap<br />085123456789</h5>
-                                                    </div>
-                                                </div>
-                                                <div className="et_pb_module et_pb_text et_pb_text_19  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <p>Jl. Magelang – Yogyakarta KM.6,5,<br />Kutu Tegal,
-                                                            Sinduadi,<br />Daerah Istimewa Yogyakarta 55284</p>
-                                                    </div>
-                                                </div>
-                                                <div className="et_pb_button_module_wrapper et_pb_button_5_wrapper et_pb_button_alignment_center et_pb_module ">
-                                                    <a className="et_pb_button et_pb_button_5 copy-text et_pb_bg_layout_light" href="#" data-icon="">Copy Address</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div className="et_pb_section et_pb_section_15 et_section_regular">
                                         <div className="et_pb_row et_pb_row_20">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_21  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -696,10 +627,10 @@ L364.5,641.2" />
                                                 <div className="et_pb_module et_pb_code et_pb_code_2">
                                                     <div className="et_pb_code_inner">
                                                         <div className="wonderpluginaudio" id="wonderpluginaudio-432" data-audioplayerid={432} data-width={48} data-height={600} data-skin="button48" data-progressinbar="true" data-showinfo="false" data-showimage="false" data-autoplay="false" data-random="false" data-autoresize="false" data-responsive="false" data-showtracklist="false" data-tracklistscroll="true" data-showprogress="false" data-showprevnext="false" data-showloop="false" data-stopotherplayers="true" data-preloadaudio="true" data-showtracklistsearch="false" data-saveposincookie="false" data-wptracklist="false" data-removeinlinecss="true" data-showtime="false" data-showvolume="false" data-showvolumebar="true" data-showliveplayedlist="false" data-showtitleinbar="false" data-showloading="false" data-enablega="false" data-titleinbarscroll="true" data-donotinit="false" data-addinitscript="false" data-imagewidth={100} data-imageheight={100} data-loop={1} data-tracklistitem={10} data-titleinbarwidth={80} data-gatrackingid data-playbackrate={1} data-playpauseimage="playpause-48-48-1.png" data-playpauseimagewidth={48} data-playpauseimageheight={48} data-cookiehours={240} data-prevnextimage="prevnext-24-24-0.png" data-prevnextimagewidth={24} data-prevnextimageheight={24} data-volumeimage="volume-24-24-0.png" data-volumeimagewidth={24} data-volumeimageheight={24} data-liveupdateinterval={10000} data-maxplayedlist={8} data-playedlisttitle="Last Tracks Played" data-loopimage="loop-24-24-0.png" data-loopimagewidth={24} data-loopimageheight={24} data-infoformat="<div class='amazingaudioplayer-info-title'>%ARTIST% %ALBUM%</div>
-<div class='amazingaudioplayer-info-description'>%INFO%</div>" data-jsfolder="https://ngantenstory.com/wp-content/plugins/wonderplugin-audio/engine/" style={{ display: 'block', position: 'relative', margin: '0 auto', width: 48, height: 'auto' }}>
+                                                            <div class='amazingaudioplayer-info-description'>%INFO%</div>" data-jsfolder="../wp-content/plugins/wonderplugin-audio/engine/" style={{ display: 'block', position: 'relative', margin: '0 auto', width: 48, height: 'auto' }}>
                                                             <ul className="amazingaudioplayer-audios" style={{ display: 'none' }}>
-                                                                <li data-artist data-title="Lee Hi - Only _ Lirik Terjemahan LeeHi" data-album data-info="&quot;Lee Hi - Only _ Lirik Terjemahan LeeHi&quot;." data-image="https://ngantenstory.com/wp-includes/images/media/audio.png" data-duration={238}>
-                                                                    <div className="amazingaudioplayer-source" data-src="https://ngantenstory.com/wp-content/uploads/2022/01/Lee-Hi-Only-_-Lirik-Terjemahan-LeeHi.mp3" data-type="audio/mpeg" />
+                                                                <li data-artist data-title="Lee Hi - Only _ Lirik Terjemahan LeeHi" data-album data-info="&quot;Lee Hi - Only _ Lirik Terjemahan LeeHi&quot;." data-image="../wp-includes/images/media/audio.png" data-duration={238}>
+                                                                    <div className="amazingaudioplayer-source" data-src="../wp-content/uploads/2022/audio/Lee-Hi-Only-_-Lirik-Terjemahan-LeeHi.mp3" data-type="audio/mpeg" />
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -827,12 +758,134 @@ L364.5,641.2" />
                                         </div>
                                         <div className="et_pb_bottom_inside_divider et-no-transition" />
                                     </div>
+                                    <div className="et_pb_section et_pb_section_11 et_pb_with_background et_section_regular">
+                                        <div className="et_pb_row et_pb_row_12">
+                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                <div className="et_pb_module dipi_dual_heading dipi_dual_heading_2 et_animated">
+                                                    <div className="et_pb_module_inner">
+                                                        <div className="dipi-dual-heading ">
+                                                            <h2 className="dipi-dh-main">
+                                                                <span className="dipi-dh-first-heading">
+                                                                    <span className="dipi-dh-animation-container">
+                                                                        <span className="dipi-dh-bg-container">
+                                                                            Ucapan
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                                <span className="dipi-dh-second-heading">
+                                                                    <span className="dipi-dh-animation-container">
+                                                                        <span className="dipi-dh-bg-container">
+                                                                            & Doa
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="et_pb_module et_pb_text et_pb_text_10 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
+                                                    <div className="et_pb_text_inner">
+                                                        <p>Kami tidak sabar menunggu hari pernikahan kami bersama
+                                                            Bapak/Ibu/Saudara/i, mohon konfirmasi kehadiran Bapak/Ibu/Saudara/i.
+                                                            Terima kasih.</p>
+                                                    </div>
+                                                </div>
+                                                <div className="et_pb_module et_pb_code et_pb_code_1 et_animated  et_pb_text_align_left">
+                                                    <div className="et_pb_code_inner">
+                                                        <div className="fluentform fluentform_wrapper_1">
+                                                            <div className="site-card-border-less-wrapper">
+                                                                <Card hoverable title="Kirim Ucapan & Doa" bordered={false} style={{ width: 300, textAlign: 'center' }}>
+
+                                                                    <Form>
+
+                                                                        <Form.Item 
+                                                                        name={['nama']}
+                                                                        style={{marginBottom: 10}}
+                                                                        rules={[{ required: true, message: 'Nama Wajib Di isi!' }]}
+                                                                        >
+
+                                                                            <Input placeholder=" Nama Anda" prefix={<UserOutlined />} />
+
+                                                                        </Form.Item>
+
+                                                                        <Form.Item 
+                                                                        name={['ucapan']}
+                                                                        style={{marginBottom: 5}}
+                                                                        rules={[{ required: true, message: 'Ucapan & Doa Wajib Di isi!' }]}
+                                                                        >
+                                                                            <TextArea
+                                                                                showCount
+                                                                                maxLength={200}
+                                                                                style={{ height: 120, marginBottom: 24 }}
+                                                                                onChange={() => { }}
+                                                                                placeholder="Ucapan & Doa"
+                                                                            />
+                                                                        </Form.Item>
+
+                                                                        <Form.Item 
+                                                                        name={['konfirmasi']}
+                                                                        style={{textAlign: 'left'}} 
+                                                                        rules={[{ required: true, message: 'Konfirmasi Wajib Di isi!' }]}
+                                                                        >
+                                                                            <Select style={{width: 200}}
+                                                                                // defaultValue="lucy"
+                                                                                placeholder="Konfirmasi Kehadiran"
+                                                                                // style={{ width:  }}
+                                                                                onChange={() => { }}
+                                                                                options={[
+                                                                                    { value: 'hadir', label: 'Hadir' },
+                                                                                    { value: 'tidak hadir', label: 'Tidak Hadir' },
+
+                                                                                ]}
+                                                                            />
+                                                                        </Form.Item>
+
+
+
+                                                                        <div style={{ textAlign: 'right' }}>
+                                                                            <Button>Kirim</Button>
+                                                                        </div>
+
+                                                                    </Form>
+
+                                                                </Card>
+                                                            </div>
+                                                            {/* <form data-form_id={1} id="fluentform_1" className="frm-fluent-form fluent_form_1 ff-el-form-top ff_form_instance_1_1 ff-form-loading" data-form_instance="ff_form_instance_1_1" method="POST"><input type="hidden" name="__fluent_form_embded_post_id" defaultValue={378802} /><input type="hidden" id="_fluentform_1_fluentformnonce" name="_fluentform_1_fluentformnonce" defaultValue="84698e41ce" /><input type="hidden" name="_wp_http_referer" defaultValue="/gold-tiga/" />
+                                                                <div className="ff-el-group">
+                                                                    <div className="ff-el-input--label ff-el-is-required asterisk-right">
+                                                                        <label htmlFor="ff_1_input_text">Nama Lengkap</label>
+                                                                    </div>
+                                                                    <div className="ff-el-input--content"><input type="text" name="input_text" defaultValue className="ff-el-form-control" data-name="input_text" id="ff_1_input_text" /></div>
+                                                                </div>
+                                                                <div className="ff-el-group  ff_list_inline">
+                                                                    <div className="ff-el-input--label asterisk-right">
+                                                                        <label>Kehadiran?</label>
+                                                                    </div>
+                                                                    <div className="ff-el-input--content">
+                                                                        <div className="ff-el-form-check ff-el-form-check-"><label className="ff-el-form-check-label" htmlFor="input_radio_f73af23d0604356e2d77289aaab425c2"><input type="radio" name="input_radio" data-name="input_radio" className="ff-el-form-check-input ff-el-form-check-radio" defaultValue="Ya, saya akan hadir." id="input_radio_f73af23d0604356e2d77289aaab425c2" />
+                                                                            <span>Ya, saya akan hadir.</span></label></div>
+                                                                        <div className="ff-el-form-check ff-el-form-check-"><label className="ff-el-form-check-label" htmlFor="input_radio_3c1e920d6ad4ca6301581be15a48d648"><input type="radio" name="input_radio" data-name="input_radio" className="ff-el-form-check-input ff-el-form-check-radio" defaultValue="Maaf tidak bisa." id="input_radio_3c1e920d6ad4ca6301581be15a48d648" />
+                                                                            <span>Maaf tidak bisa.</span></label></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="ff-el-group ff-text-center ff_submit_btn_wrapper">
+                                                                    <button type="submit" className="ff-btn ff-btn-submit ff-btn-md ff_btn_style">Kirim</button>
+                                                                </div>
+                                                            </form> */}
+                                                            <div id="fluentform_1_errors" className="ff-errors-in-stack ff_form_instance_1_1 ff-form-loading_errors ff_form_instance_1_1_errors">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div className="et_pb_with_border et_pb_section et_pb_section_17 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider">
                                         <div className="et_pb_row et_pb_row_22">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_23  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_text et_pb_text_20 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
-                                                        <p>Tinggalkan pesan/doa untuk kami <a href="https://ngantenstory.com/wp-content/uploads/2022/12/Comment-Envelope.svg"><img decoding="async" loading="lazy" src="https://ngantenstory.com/wp-content/uploads/2022/12/Comment-Envelope.svg" width={32} height={29} alt className="wp-image-377673 alignnone size-medium" /></a></p>
+                                                        <p>Tinggalkan pesan/doa untuk kami <a href="../wp-content/uploads/2022/12/Comment-Envelope.svg"><img decoding="async" loading="lazy" src="../wp-content/uploads/2022/12/Comment-Envelope.svg" width={32} height={29} alt className="wp-image-377673 alignnone size-medium" /></a></p>
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_with_border et_pb_module et_pb_comments_0 lang-id et_pb_comments_module et_pb_bg_layout_light et_pb_no_avatar et_pb_no_reply_button et_pb_no_comments_count" data-icon="">
@@ -1160,7 +1213,7 @@ L364.5,641.2" />
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_module et_pb_image et_pb_image_4 et_pb_image_sticky">
-                                                    <a href="https://ngantenstory.com/"><span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={1394} height={607} src="../wp-content/uploads/2021/12/NS-Logo2.png" alt title="NS-Logo2" srcSet="https://ngantenstory.com/wp-content/uploads/2021/12/NS-Logo2.png 1394w, https://ngantenstory.com/wp-content/uploads/2021/12/NS-Logo2-1280x557.png 1280w, https://ngantenstory.com/wp-content/uploads/2021/12/NS-Logo2-980x427.png 980w, https://ngantenstory.com/wp-content/uploads/2021/12/NS-Logo2-480x209.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1394px, 100vw" className="wp-image-324765" /></span></a>
+                                                    <a href="#"><span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={1394} height={607} src="../wp-content/uploads/2021/12/NS-Logo2.png" alt title="NS-Logo2" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1394px, 100vw" className="wp-image-324765" /></span></a>
                                                 </div>
                                                 <ul className="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_2 clearfix  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <li className="et_pb_social_media_follow_network_2 et_pb_social_icon et_pb_social_network_link  et-social-instagram">
@@ -1182,36 +1235,131 @@ L364.5,641.2" />
                 </div>
             </div>
 
-            <Modal title="Alamat Penerima" open={isModalOpen} onOk={handleOk}  onCancel={handleCancel}>
-            <div id="hadiah" className="et_pb_section et_pb_section_14 popup et_section_regular">
-                                        <div className="et_pb_row et_pb_row_18">
-                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_19  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                                                <div className="et_pb_module et_pb_text et_pb_text_17  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <p>Alamat Penerima</p>
+            <Modal title="Alamat Penerima" open={isModalOpen} onOk={() => handleOk(1)} onCancel={() => handleCancel(1)} footer={null}>
+
+                <div id="page-container">
+                    <div id="main-content">
+                        <article id="post-378802" className="post-378802 page type-page status-publish hentry">
+                            <div className="entry-content">
+                                <div className="et-l et-l--post">
+                                    <div className="et_builder_inner_content et_pb_gutters3">
+
+                                        <div id="hadiah" className="et_pb_section et_pb_section_14 popup et_section_regular">
+                                            <div className="et_pb_row et_pb_row_18">
+                                                <div className="et_pb_column et_pb_column_4_4 et_pb_column_19  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                    <div className="et_pb_module et_pb_text et_pb_text_17  et_pb_text_align_center et_pb_bg_layout_light">
+                                                        <div className="et_pb_text_inner">
+                                                            <p>Alamat Penerima</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="et_pb_with_border et_pb_row et_pb_row_19">
+                                                <div className="et_pb_column et_pb_column_4_4 et_pb_column_20  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                    <div className="et_pb_module et_pb_text et_pb_text_18  et_pb_text_align_center et_pb_bg_layout_light">
+                                                        <div className="et_pb_text_inner">
+                                                            <h5>Nama Lengkap<br />085123456789</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div className="et_pb_module et_pb_text et_pb_text_19  et_pb_text_align_center et_pb_bg_layout_light">
+                                                        <div className="et_pb_text_inner">
+                                                            <p>Jl. Magelang poop – Yogyakarta KM.6,5,<br />Kutu Tegal,
+                                                                Sinduadi,<br />Daerah Istimewa Yogyakarta 55284</p>
+                                                        </div>
+                                                    </div>
+                                                    <div className="et_pb_button_module_wrapper et_pb_button_5_wrapper et_pb_button_alignment_center et_pb_module ">
+
+                                                        <a className="et_pb_button et_pb_button_5 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Address</a>
+
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="et_pb_with_border et_pb_row et_pb_row_19">
-                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_20  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                                                <div className="et_pb_module et_pb_text et_pb_text_18  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <h5>Nama Lengkap<br />085123456789</h5>
-                                                    </div>
-                                                </div>
-                                                <div className="et_pb_module et_pb_text et_pb_text_19  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <p>Jl. Magelang – Yogyakarta KM.6,5,<br />Kutu Tegal,
-                                                            Sinduadi,<br />Daerah Istimewa Yogyakarta 55284</p>
-                                                    </div>
-                                                </div>
-                                                <div className="et_pb_button_module_wrapper et_pb_button_5_wrapper et_pb_button_alignment_center et_pb_module ">
-                                                    <a className="et_pb_button et_pb_button_5 copy-text et_pb_bg_layout_light" href="#" data-icon="">Copy Address</a>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                     </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+
+
+
+            </Modal>
+
+            {/* Rekening */}
+            <Modal title="Nomor Rekening" open={modalRekening} onOk={() => handleOk(0)} onCancel={() => handleCancel(0)} footer={null}>
+
+                <div id="page-container">
+                    <div id="main-content">
+                        <article id="post-378802" className="post-378802 page type-page status-publish hentry">
+                            <div className="entry-content">
+                                <div className="et-l et-l--post">
+                                    <div className="et_builder_inner_content et_pb_gutters3">
+
+                                        <div id="dana" className="et_pb_section et_pb_section_13 popup et_pb_with_background et_section_regular">
+                                            <div className="et_pb_row et_pb_row_15">
+                                                <div className="et_pb_column et_pb_column_4_4 et_pb_column_16  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                    <div className="et_pb_module et_pb_text et_pb_text_12  et_pb_text_align_center et_pb_bg_layout_light">
+                                                        <div className="et_pb_text_inner">
+                                                            <p>Nomor Rekening</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="et_pb_with_border et_pb_row et_pb_row_16">
+                                                <div className="et_pb_column et_pb_column_4_4 et_pb_column_17  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                    <div className="et_pb_module et_pb_image et_pb_image_2 et_pb_image_sticky">
+                                                        <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={320} height={100} src="../wp-content/uploads/2022/bank/Bank-BCA-1.png" alt title="Bank-BCA" sizes="(max-width: 320px) 100vw, 320px" className="wp-image-326502" /></span>
+                                                    </div>
+                                                    <div className="et_pb_module et_pb_text et_pb_text_13  et_pb_text_align_center et_pb_bg_layout_light">
+                                                        <div className="et_pb_text_inner">
+                                                            <h5>Nama Mempelai</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div className="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_center et_pb_bg_layout_light">
+                                                        <div className="et_pb_text_inner">
+                                                            <p>xxxxxxxxxx</p>
+                                                        </div>
+                                                    </div>
+                                                    <div className="et_pb_button_module_wrapper et_pb_button_3_wrapper et_pb_button_alignment_center et_pb_module ">
+                                                        <a className="et_pb_button et_pb_button_3 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Number</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="et_pb_with_border et_pb_row et_pb_row_17">
+                                                <div className="et_pb_column et_pb_column_4_4 et_pb_column_18  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                    <div className="et_pb_module et_pb_image et_pb_image_3 et_pb_image_sticky">
+                                                        <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={320} height={116} src="../wp-content/uploads/2022/bank/Bank-Gopay.png" alt title="Bank-Gopay" sizes="(max-width: 320px) 100vw, 320px" className="wp-image-325981" /></span>
+                                                    </div>
+                                                    <div className="et_pb_module et_pb_text et_pb_text_15  et_pb_text_align_center et_pb_bg_layout_light">
+                                                        <div className="et_pb_text_inner">
+                                                            <h5>Nama Mempelai</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div className="et_pb_module et_pb_text et_pb_text_16  et_pb_text_align_center et_pb_bg_layout_light">
+                                                        <div className="et_pb_text_inner">
+                                                            <p>xxxxxxxxxx</p>
+                                                        </div>
+                                                    </div>
+                                                    <div className="et_pb_button_module_wrapper et_pb_button_4_wrapper et_pb_button_alignment_center et_pb_module ">
+                                                        <a className="et_pb_button et_pb_button_4 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Number</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+
+
+
             </Modal>
 
 

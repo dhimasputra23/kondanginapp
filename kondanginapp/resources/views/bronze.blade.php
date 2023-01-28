@@ -1241,7 +1241,7 @@
         onerror="this.removeAttribute('data-rocket-async')" type='text/css' media='all' />
     <style id='css-divi-area-inline-css' type='text/css'>
     .et_pb_section.popup {
-        display: none
+        display: block
     }
     </style>
 

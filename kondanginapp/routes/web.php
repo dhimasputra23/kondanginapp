@@ -21,6 +21,10 @@ Route::get('/silver', function () {
     return view('silver');
 });
 
+Route::get('/coba', function () {
+    return view('coba');
+});
+
 Route::get('/silverSatu', function () {
     return view('silverSatu');
 });

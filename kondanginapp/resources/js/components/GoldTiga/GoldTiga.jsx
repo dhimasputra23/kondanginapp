@@ -1,9 +1,33 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom';
-
+import { Button, Modal } from 'antd';
 const GoldTiga = () => {
+
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const showModal = () => {
+        setIsModalOpen(true);
+
+    };
+
+    const handleOk = () => {
+        setIsModalOpen(false);
+
+    };
+
+    const handleCancel = () => {
+        setIsModalOpen(false);
+
+    };
+
+
+
+
+
+
     return (
-        <div>
+        <>
 
             <div id="page-container">
                 <div id="main-content">
@@ -67,6 +91,7 @@ const GoldTiga = () => {
                                                 <div className="et_pb_module et_pb_text et_pb_text_3 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
                                                         <p>12 Agustus 2023</p>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -475,12 +500,15 @@ L364.5,641.2" />
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_2  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
                                                     <div className="et_pb_blurb_content">
+
+
                                                         <div className="et_pb_main_blurb_image"><span className="et_pb_image_wrap"><span className="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span>
                                                         </div>
                                                         <div className="et_pb_blurb_container">
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div id='modalku'></div>
                                                 <div className="et_pb_module dipi_dual_heading dipi_dual_heading_3 et_animated">
                                                     <div className="et_pb_module_inner">
                                                         <div className="dipi-dual-heading ">
@@ -511,17 +539,40 @@ L364.5,641.2" />
                                                 </div>
                                             </div>
                                         </div>
+                                  
                                         <div className="et_pb_row et_pb_row_14 two-columns">
                                             <div className="et_pb_column et_pb_column_1_2 et_pb_column_14  et_pb_css_mix_blend_mode_passthrough">
-                                                <div className="et_pb_with_border et_pb_module et_pb_blurb et_pb_blurb_3 et_animated et_clickable  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
+                                                {/* <div className="et_pb_with_border et_pb_module et_pb_blurb et_pb_blurb_3 et_animated et_clickable  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light ">
                                                     <div className="et_pb_blurb_content">
                                                         <div className="et_pb_main_blurb_image"><span className="et_pb_image_wrap"><span className="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span>
+
                                                         </div>
+                                                   
+                                                   
                                                         <div className="et_pb_blurb_container">
                                                         </div>
                                                     </div>
+                                                  
+                                           
+                                                </div> */}
+                                                <div className="et_pb_with_border et_pb_module et_pb_blurb et_pb_blurb_3 et_animated et_clickable  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light ">
+                                                    <div className='et_pb_blurb_content'>
+                                                        <div className='et_pb_main_blurb_image' onClick={showModal}>
+                                                        <span className="et_pb_image_wrap"><span className="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon"></span></span>
+                                                        </div>
+                                                        {/* <Button className='et_pb_main_blurb_image ' type="primary" onClick={showModal}>
+  
+                                                            modal
+                                                        </Button> */}
+
+                                                    </div>
                                                 </div>
+
+
+
                                             </div>
+
+
                                             <div className="et_pb_column et_pb_column_1_2 et_pb_column_15  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_4 et_animated et_clickable  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
                                                     <div className="et_pb_blurb_content">
@@ -534,6 +585,7 @@ L364.5,641.2" />
                                             </div>
                                         </div>
                                     </div>
+
                                     <div id="dana" className="et_pb_section et_pb_section_13 popup et_pb_with_background et_section_regular">
                                         <div className="et_pb_row et_pb_row_15">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_16  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -639,6 +691,8 @@ L364.5,641.2" />
                                                         </div>
                                                     </div>
                                                 </div>
+
+
                                                 <div className="et_pb_module et_pb_code et_pb_code_2">
                                                     <div className="et_pb_code_inner">
                                                         <div className="wonderpluginaudio" id="wonderpluginaudio-432" data-audioplayerid={432} data-width={48} data-height={600} data-skin="button48" data-progressinbar="true" data-showinfo="false" data-showimage="false" data-autoplay="false" data-random="false" data-autoresize="false" data-responsive="false" data-showtracklist="false" data-tracklistscroll="true" data-showprogress="false" data-showprevnext="false" data-showloop="false" data-stopotherplayers="true" data-preloadaudio="true" data-showtracklistsearch="false" data-saveposincookie="false" data-wptracklist="false" data-removeinlinecss="true" data-showtime="false" data-showvolume="false" data-showvolumebar="true" data-showliveplayedlist="false" data-showtitleinbar="false" data-showloading="false" data-enablega="false" data-titleinbarscroll="true" data-donotinit="false" data-addinitscript="false" data-imagewidth={100} data-imageheight={100} data-loop={1} data-tracklistitem={10} data-titleinbarwidth={80} data-gatrackingid data-playbackrate={1} data-playpauseimage="playpause-48-48-1.png" data-playpauseimagewidth={48} data-playpauseimageheight={48} data-cookiehours={240} data-prevnextimage="prevnext-24-24-0.png" data-prevnextimagewidth={24} data-prevnextimageheight={24} data-volumeimage="volume-24-24-0.png" data-volumeimagewidth={24} data-volumeimageheight={24} data-liveupdateinterval={10000} data-maxplayedlist={8} data-playedlisttitle="Last Tracks Played" data-loopimage="loop-24-24-0.png" data-loopimagewidth={24} data-loopimageheight={24} data-infoformat="<div class='amazingaudioplayer-info-title'>%ARTIST% %ALBUM%</div>
@@ -1128,8 +1182,40 @@ L364.5,641.2" />
                 </div>
             </div>
 
+            <Modal title="Alamat Penerima" open={isModalOpen}   afterClose={handleCancel}>
+            <div id="hadiah" className="et_pb_section et_pb_section_14 popup et_section_regular">
+                                        <div className="et_pb_row et_pb_row_18">
+                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_19  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                <div className="et_pb_module et_pb_text et_pb_text_17  et_pb_text_align_center et_pb_bg_layout_light">
+                                                    <div className="et_pb_text_inner">
+                                                        <p>Alamat Penerima</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="et_pb_with_border et_pb_row et_pb_row_19">
+                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_20  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                <div className="et_pb_module et_pb_text et_pb_text_18  et_pb_text_align_center et_pb_bg_layout_light">
+                                                    <div className="et_pb_text_inner">
+                                                        <h5>Nama Lengkap<br />085123456789</h5>
+                                                    </div>
+                                                </div>
+                                                <div className="et_pb_module et_pb_text et_pb_text_19  et_pb_text_align_center et_pb_bg_layout_light">
+                                                    <div className="et_pb_text_inner">
+                                                        <p>Jl. Magelang – Yogyakarta KM.6,5,<br />Kutu Tegal,
+                                                            Sinduadi,<br />Daerah Istimewa Yogyakarta 55284</p>
+                                                    </div>
+                                                </div>
+                                                <div className="et_pb_button_module_wrapper et_pb_button_5_wrapper et_pb_button_alignment_center et_pb_module ">
+                                                    <a className="et_pb_button et_pb_button_5 copy-text et_pb_bg_layout_light" href="#" data-icon="">Copy Address</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            </Modal>
 
-        </div>
+
+        </>
     )
 }
 

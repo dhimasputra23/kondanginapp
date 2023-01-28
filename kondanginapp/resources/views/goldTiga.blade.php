@@ -1241,7 +1241,7 @@
         onerror="this.removeAttribute('data-rocket-async')" type='text/css' media='all' />
     <style id='css-divi-area-inline-css' type='text/css'>
     .et_pb_section.popup {
-        display: none
+        display: block
     }
     </style>
 
@@ -1646,6 +1646,7 @@ header.et-l--header .et_pb_menu__logo > img {
         })
 
         j(d).on('click', '.popup .et_pb_button_module_wrapper', function(e) {
+           
 
             var text = j(this).prev().find('p');
 
@@ -2551,19 +2552,19 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }];
-    var et_link_options_data = [{
-        "class": "et_pb_blurb_3",
-        "url": "#hadiah",
-        "target": "_self"
-    }, {
-        "class": "et_pb_blurb_4",
-        "url": "#dana",
-        "target": "_self"
-    }, {
-        "class": "et_pb_text_22",
-        "url": "https:\/\/pdki-indonesia.dgip.go.id\/detail\/EC00202118269?type=copyright&keyword=ngantenstory",
-        "target": "_blank"
-    }];
+    // var et_link_options_data = [{
+    //     "class": "et_pb_blurb_3",
+    //     "url": "#hadiah",
+    //     "target": "_self"
+    // }, {
+    //     "class": "et_pb_blurb_4",
+    //     "url": "#dana",
+    //     "target": "_self"
+    // }, {
+    //     "class": "et_pb_text_22",
+    //     "url": "https:\/\/pdki-indonesia.dgip.go.id\/detail\/EC00202118269?type=copyright&keyword=ngantenstory",
+    //     "target": "_blank"
+    // }];
     </script>
     <style>
     form.fluent_form_1 .ff-btn-submit {
@@ -2785,7 +2786,7 @@ header.et-l--header .et_pb_menu__logo > img {
     <script type='text/javascript'
         src='../wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobilef315.js?ver=4.19.4'
         id='jquery-mobile-js'></script>
-    <style id="et-builder-module-design-378802-cached-inline-styles">
+<style id="et-builder-module-design-378802-cached-inline-styles">
     @font-face {
         font-family: "Batusa";
         font-display: swap;

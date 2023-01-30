@@ -1,13 +1,34 @@
 import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom';
+import { useDispatch, useSelector } from 'react-redux'
 import { Button, Card, Form, Input, Modal, Select } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import TextArea from 'antd/es/input/TextArea';
+import { Provider } from 'react-redux';
+import store from '../../store';
+import { getUndangan } from '../../store/action';
 const GoldTiga = () => {
+
+    const state = useSelector((state) => state)
+    const dispatch = useDispatch()
 
 
     const [modalRekening, setModalRekening] = useState(false);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [form] = Form.useForm()
+    // const [mempelaiPria, setMempelaiPria] = useState([{}])
+
+
+    const displayUndangan = () => {
+        dispatch(getUndangan())
+    }
+
+    useEffect(() => {
+        displayUndangan()
+   
+
+    }, [])
+
 
 
     const showModal = (id) => {
@@ -48,14 +69,29 @@ const GoldTiga = () => {
     };
 
 
+    const data = []
 
 
+    // state.undangan.map((undangan, index) => {
+    //     return(
+    //             <div key={index}>
+    //                 <p>{undangan}</p>
+    //             </div>
+    //     )
+    // })
 
+    // if (state.undangan.data) {
+        // console.log('metu kene', state.undangan);
+       
 
+    // }
+  
+     
     return (
+        
         <>
 
-            <div id="page-container">
+                <div id="page-container">
                 <div id="main-content">
                     <article id="post-378802" className="post-378802 page type-page status-publish hentry">
                         <div className="entry-content">
@@ -82,7 +118,7 @@ const GoldTiga = () => {
                                                 <div className="et_pb_module et_pb_text et_pb_text_1 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
                                                     <div className="et_pb_text_inner">
                                                         <p><span>The Wedding Celebration of</span></p>
-                                                        <h1><span>Rena &amp; Gallant</span></h1>
+                                                      <h1>   <span>Rena &amp; Gallant</span>   </h1>
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
@@ -278,18 +314,18 @@ const GoldTiga = () => {
                                                                         <g>
                                                                             <g>
                                                                                 <path fill="none" strokeWidth={5} stroke="#393D43" className="st0" d="M448.2,353.9c47.3,44.4,73.4,103.9,73.4,173.6c0,134.4-109.6,243.3-244.7,243.3S32.1,662,32.1,527.6
-  s109.6-243.3,244.7-243.3c47.3,0,91.4,13.3,128.8,36.4" />
+          s109.6-243.3,244.7-243.3c47.3,0,91.4,13.3,128.8,36.4" />
                                                                                 <path fill="none" strokeWidth={5} stroke="#393D43" className="st0" d="M385.8,688.3c-31.1,20.9-68.6,33.1-109,33.1c-107.7,0-194.9-86.8-194.9-193.8s87.3-193.8,194.9-193.8
-  c33.6,0,59.4,5.4,87,20.3" />
+          c33.6,0,59.4,5.4,87,20.3" />
                                                                                 <path fill="none" strokeWidth={5} stroke="#393D43" className="st0" d="M408.5,384.7c42.4,35.5,63.3,83.5,63.3,142.9c0,66.9-34.1,125.9-85.9,160.7" />
                                                                                 <polygon fill="none" strokeWidth={5} stroke="#393D43" className="st0" points="277.5,282.8 320.9,208.1 234.1,208.1 			" />
                                                                             </g>
                                                                             <g>
                                                                                 <path fill="none" strokeWidth={5} stroke="#393D43" className="st0" d="M378.3,688.5c-95.6-95-95.6-249.1,0-344.1s250.5-95,346.1,0s95.6,249.1,0,344.1
-  c-80.8,80.3-204.1,92.8-298,37.2" />
+          c-80.8,80.3-204.1,92.8-298,37.2" />
                                                                                 <path fill="none" strokeWidth={5} stroke="#393D43" className="st0" d="M426.4,725.7" />
                                                                                 <path fill="none" strokeWidth={5} stroke="#393D43" className="st0" d="M419.7,659.4c-2.1-1.9-4.2-3.9-6.2-5.9c-76.1-75.7-76.1-198.4,0-274.1c76.1-75.7,199.6-75.7,275.7,0
-  c76.1,75.7,76.1,198.4,0,274.1c-61.9,61.5-154.9,73-228.5,34.6" />
+          c76.1,75.7,76.1,198.4,0,274.1c-61.9,61.5-154.9,73-228.5,34.6" />
                                                                                 <polygon fill="none" strokeWidth={5} stroke="#393D43" className="st0" points="726,343.8 809.8,321.5 748.4,260.5 			" />
                                                                             </g>
                                                                         </g>
@@ -363,32 +399,32 @@ const GoldTiga = () => {
                                                                     <g>
                                                                         <g>
                                                                             <path fill="none" strokeWidth={5} stroke="#393D43" className="st0" d="M332.1,38.6c-0.4-0.2-1-0.5-1.3-0.7c-18-11.2-39.3-14.5-59.9-9.6c-1.5,0.4-3.1,1-4.5,1.5
-    c-18.3,5.5-33.9,17-44.3,33.7c-8.2,13.3-12.2,28.2-12,43.4c0.2,5.7,0.8,11.5,2,17.1c5,20.5,17.6,38.1,35.7,49.2
-    c10,6.1,20.8,9.9,31.9,11.1c0.5,0.2,1.2,0.1,1.7,0.2c2.1,0.2,4.5,0,6.7-0.7c10.2-3,16.1-13.6,13.2-23.9
-    c-2.2-7.7-8.7-12.9-15.9-13.9c-0.3-0.1-0.5,0-0.6,0c-16.6-1.9-31-14-35.1-31.1c-1.6-6.8-1.3-13.4,0.3-19.7
-    c3.4-13.2,13.4-24.2,27.2-28.7l2.8-0.8c11.1-2.7,22.3-0.5,31.4,5.2c4.6,3,10,3.7,15.4,2.1c11-3.2,16-14.6,13.2-24.2
-    C338.6,45,336.1,41.3,332.1,38.6z" />
+            c-18.3,5.5-33.9,17-44.3,33.7c-8.2,13.3-12.2,28.2-12,43.4c0.2,5.7,0.8,11.5,2,17.1c5,20.5,17.6,38.1,35.7,49.2
+            c10,6.1,20.8,9.9,31.9,11.1c0.5,0.2,1.2,0.1,1.7,0.2c2.1,0.2,4.5,0,6.7-0.7c10.2-3,16.1-13.6,13.2-23.9
+            c-2.2-7.7-8.7-12.9-15.9-13.9c-0.3-0.1-0.5,0-0.6,0c-16.6-1.9-31-14-35.1-31.1c-1.6-6.8-1.3-13.4,0.3-19.7
+            c3.4-13.2,13.4-24.2,27.2-28.7l2.8-0.8c11.1-2.7,22.3-0.5,31.4,5.2c4.6,3,10,3.7,15.4,2.1c11-3.2,16-14.6,13.2-24.2
+            C338.6,45,336.1,41.3,332.1,38.6z" />
                                                                         </g>
                                                                         <g>
                                                                             <path fill="none" strokeWidth={5} stroke="#393D43" className="st0" d="M625.3,38.6c-0.4-0.2-1-0.5-1.3-0.7c-18-11.2-39.3-14.5-59.9-9.6c-1.5,0.4-3.1,1-4.5,1.5
-    c-18.3,5.5-33.9,17-44.3,33.7c-8.2,13.3-12.2,28.2-12,43.4c0.2,5.7,0.8,11.5,2,17.1c5,20.5,17.6,38.1,35.7,49.2
-    c10,6.1,20.8,9.9,31.9,11.1c0.5,0.2,1.2,0.1,1.7,0.2c2.1,0.2,4.5,0,6.7-0.7c10.2-3,16.1-13.6,13.2-23.9
-    c-2.2-7.7-8.7-12.9-15.9-13.9c-0.3-0.1-0.5,0-0.6,0c-16.6-1.9-31-14-35.1-31.1c-1.6-6.8-1.3-13.4,0.3-19.7
-    c3.4-13.2,13.4-24.2,27.2-28.7l2.8-0.8c11.1-2.7,22.3-0.5,31.4,5.2c4.6,3,10,3.7,15.4,2.1c11-3.2,16-14.6,13.2-24.2
-    C631.8,45,629.3,41.3,625.3,38.6z" />
+            c-18.3,5.5-33.9,17-44.3,33.7c-8.2,13.3-12.2,28.2-12,43.4c0.2,5.7,0.8,11.5,2,17.1c5,20.5,17.6,38.1,35.7,49.2
+            c10,6.1,20.8,9.9,31.9,11.1c0.5,0.2,1.2,0.1,1.7,0.2c2.1,0.2,4.5,0,6.7-0.7c10.2-3,16.1-13.6,13.2-23.9
+            c-2.2-7.7-8.7-12.9-15.9-13.9c-0.3-0.1-0.5,0-0.6,0c-16.6-1.9-31-14-35.1-31.1c-1.6-6.8-1.3-13.4,0.3-19.7
+            c3.4-13.2,13.4-24.2,27.2-28.7l2.8-0.8c11.1-2.7,22.3-0.5,31.4,5.2c4.6,3,10,3.7,15.4,2.1c11-3.2,16-14.6,13.2-24.2
+            C631.8,45,629.3,41.3,625.3,38.6z" />
                                                                         </g>
                                                                         <path fill="none" strokeWidth={5} stroke="#393D43" className="st0" d="M579.3,111h76.8c9.6,0,17.4,7.8,17.4,17.4v576.1c0,9.6-7.8,17.4-17.4,17.4H77.3c-9.6,0-17.4-7.8-17.4-17.4
-V128.4c0-9.6,7.8-17.4,17.4-17.4h106.6" />
+        V128.4c0-9.6,7.8-17.4,17.4-17.4h106.6" />
                                                                         <line className="st0" x1="288.6" y1={111} x2="475.5" y2={111} />
                                                                         <path fill="none" strokeWidth={5} stroke="#393D43" className="st0" d="M657.7,111.1L657.7,111.1l0.3,0c9.7-0.9,18,6.2,18.9,15.9l48.9,574c0.8,9.7-6.3,18-15.9,18.9l-538.3,45.9
-l-38.3,3.2c-9.7,0.8-18.1-6.3-18.9-15.9l-2.7-31.2" />
+        l-38.3,3.2c-9.7,0.8-18.1-6.3-18.9-15.9l-2.7-31.2" />
                                                                         <path fill="none" strokeWidth={5} stroke="#393D43" className="st0" d="M171.7,765.8l6.5,35.6c1.7,9.6,10.8,15.8,20.3,14.1l569.2-104.7c9.4-1.7,15.8-10.8,14-20.3L677.6,123.9
-c-1.7-9.4-10.8-15.7-20.3-14l-5.8,1.1l0-0.1" />
+        c-1.7-9.4-10.8-15.7-20.3-14l-5.8,1.1l0-0.1" />
                                                                         <line className="st0" x1="59.9" y1={238} x2="489.3" y2={238} />
                                                                         <line className="st0" x1={586} y1={238} x2="673.5" y2={238} />
                                                                         <path fill="none" strokeWidth={5} stroke="#393D43" className="st0" d="M364.5,641.2l148.9-140.9l-1.8,0c17.7-18.9,28.7-44.1,28.7-72c0-58.3-47.3-105.6-105.6-105.6
-c-26,0-49.5,9.7-67.9,25.3c-18.4-15.6-41.9-25.3-67.9-25.3c-58.3,0-105.6,47.3-105.6,105.6c0,24.2,8.5,46.3,22.2,64.1l0,0
-L364.5,641.2" />
+        c-26,0-49.5,9.7-67.9,25.3c-18.4-15.6-41.9-25.3-67.9-25.3c-58.3,0-105.6,47.3-105.6,105.6c0,24.2,8.5,46.3,22.2,64.1l0,0
+        L364.5,641.2" />
                                                                     </g>
                                                                 </svg>
                                                             </div>
@@ -532,70 +568,70 @@ L364.5,641.2" />
                                     </div>
 
                                     {/* <div className="et_pb_section et_pb_section_11 et_pb_with_background et_section_regular">
-                                        <div className="et_pb_row et_pb_row_12">
-                                            <div className="et_pb_column et_pb_column_4_4 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                                                <div className="et_pb_module dipi_dual_heading dipi_dual_heading_2 et_animated">
-                                                    <div className="et_pb_module_inner">
-                                                        <div className="dipi-dual-heading ">
-                                                            <h2 className="dipi-dh-main">
-                                                                <span className="dipi-dh-first-heading">
-                                                                    <span className="dipi-dh-animation-container">
-                                                                        <span className="dipi-dh-bg-container">
-                                                                            Konfirmasi
+                                                <div className="et_pb_row et_pb_row_12">
+                                                    <div className="et_pb_column et_pb_column_4_4 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                        <div className="et_pb_module dipi_dual_heading dipi_dual_heading_2 et_animated">
+                                                            <div className="et_pb_module_inner">
+                                                                <div className="dipi-dual-heading ">
+                                                                    <h2 className="dipi-dh-main">
+                                                                        <span className="dipi-dh-first-heading">
+                                                                            <span className="dipi-dh-animation-container">
+                                                                                <span className="dipi-dh-bg-container">
+                                                                                    Konfirmasi
+                                                                                </span>
+                                                                            </span>
                                                                         </span>
-                                                                    </span>
-                                                                </span>
-                                                                <span className="dipi-dh-second-heading">
-                                                                    <span className="dipi-dh-animation-container">
-                                                                        <span className="dipi-dh-bg-container">
-                                                                            Kehadiran
+                                                                        <span className="dipi-dh-second-heading">
+                                                                            <span className="dipi-dh-animation-container">
+                                                                                <span className="dipi-dh-bg-container">
+                                                                                    Kehadiran
+                                                                                </span>
+                                                                            </span>
                                                                         </span>
-                                                                    </span>
-                                                                </span>
-                                                            </h2>
+                                                                    </h2>
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div className="et_pb_module et_pb_text et_pb_text_10 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
-                                                    <div className="et_pb_text_inner">
-                                                        <p>Kami tidak sabar menunggu hari pernikahan kami bersama
-                                                            Bapak/Ibu/Saudara/i, mohon konfirmasi kehadiran Bapak/Ibu/Saudara/i.
-                                                            Terima kasih.</p>
-                                                    </div>
-                                                </div>
-                                                <div className="et_pb_module et_pb_code et_pb_code_1 et_animated  et_pb_text_align_left">
-                                                    <div className="et_pb_code_inner">
-                                                        <div className="fluentform fluentform_wrapper_1">
-                                                            <form data-form_id={1} id="fluentform_1" className="frm-fluent-form fluent_form_1 ff-el-form-top ff_form_instance_1_1 ff-form-loading" data-form_instance="ff_form_instance_1_1" method="POST"><input type="hidden" name="__fluent_form_embded_post_id" defaultValue={378802} /><input type="hidden" id="_fluentform_1_fluentformnonce" name="_fluentform_1_fluentformnonce" defaultValue="84698e41ce" /><input type="hidden" name="_wp_http_referer" defaultValue="/gold-tiga/" />
-                                                                <div className="ff-el-group">
-                                                                    <div className="ff-el-input--label ff-el-is-required asterisk-right">
-                                                                        <label htmlFor="ff_1_input_text">Nama Lengkap</label>
+                                                        <div className="et_pb_module et_pb_text et_pb_text_10 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
+                                                            <div className="et_pb_text_inner">
+                                                                <p>Kami tidak sabar menunggu hari pernikahan kami bersama
+                                                                    Bapak/Ibu/Saudara/i, mohon konfirmasi kehadiran Bapak/Ibu/Saudara/i.
+                                                                    Terima kasih.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div className="et_pb_module et_pb_code et_pb_code_1 et_animated  et_pb_text_align_left">
+                                                            <div className="et_pb_code_inner">
+                                                                <div className="fluentform fluentform_wrapper_1">
+                                                                    <form data-form_id={1} id="fluentform_1" className="frm-fluent-form fluent_form_1 ff-el-form-top ff_form_instance_1_1 ff-form-loading" data-form_instance="ff_form_instance_1_1" method="POST"><input type="hidden" name="__fluent_form_embded_post_id" defaultValue={378802} /><input type="hidden" id="_fluentform_1_fluentformnonce" name="_fluentform_1_fluentformnonce" defaultValue="84698e41ce" /><input type="hidden" name="_wp_http_referer" defaultValue="/gold-tiga/" />
+                                                                        <div className="ff-el-group">
+                                                                            <div className="ff-el-input--label ff-el-is-required asterisk-right">
+                                                                                <label htmlFor="ff_1_input_text">Nama Lengkap</label>
+                                                                            </div>
+                                                                            <div className="ff-el-input--content"><input type="text" name="input_text" defaultValue className="ff-el-form-control" data-name="input_text" id="ff_1_input_text" /></div>
+                                                                        </div>
+                                                                        <div className="ff-el-group  ff_list_inline">
+                                                                            <div className="ff-el-input--label asterisk-right">
+                                                                                <label>Kehadiran?</label>
+                                                                            </div>
+                                                                            <div className="ff-el-input--content">
+                                                                                <div className="ff-el-form-check ff-el-form-check-"><label className="ff-el-form-check-label" htmlFor="input_radio_f73af23d0604356e2d77289aaab425c2"><input type="radio" name="input_radio" data-name="input_radio" className="ff-el-form-check-input ff-el-form-check-radio" defaultValue="Ya, saya akan hadir." id="input_radio_f73af23d0604356e2d77289aaab425c2" />
+                                                                                    <span>Ya, saya akan hadir.</span></label></div>
+                                                                                <div className="ff-el-form-check ff-el-form-check-"><label className="ff-el-form-check-label" htmlFor="input_radio_3c1e920d6ad4ca6301581be15a48d648"><input type="radio" name="input_radio" data-name="input_radio" className="ff-el-form-check-input ff-el-form-check-radio" defaultValue="Maaf tidak bisa." id="input_radio_3c1e920d6ad4ca6301581be15a48d648" />
+                                                                                    <span>Maaf tidak bisa.</span></label></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div className="ff-el-group ff-text-center ff_submit_btn_wrapper">
+                                                                            <button type="submit" className="ff-btn ff-btn-submit ff-btn-md ff_btn_style">Kirim</button>
+                                                                        </div>
+                                                                    </form>
+                                                                    <div id="fluentform_1_errors" className="ff-errors-in-stack ff_form_instance_1_1 ff-form-loading_errors ff_form_instance_1_1_errors">
                                                                     </div>
-                                                                    <div className="ff-el-input--content"><input type="text" name="input_text" defaultValue className="ff-el-form-control" data-name="input_text" id="ff_1_input_text" /></div>
                                                                 </div>
-                                                                <div className="ff-el-group  ff_list_inline">
-                                                                    <div className="ff-el-input--label asterisk-right">
-                                                                        <label>Kehadiran?</label>
-                                                                    </div>
-                                                                    <div className="ff-el-input--content">
-                                                                        <div className="ff-el-form-check ff-el-form-check-"><label className="ff-el-form-check-label" htmlFor="input_radio_f73af23d0604356e2d77289aaab425c2"><input type="radio" name="input_radio" data-name="input_radio" className="ff-el-form-check-input ff-el-form-check-radio" defaultValue="Ya, saya akan hadir." id="input_radio_f73af23d0604356e2d77289aaab425c2" />
-                                                                            <span>Ya, saya akan hadir.</span></label></div>
-                                                                        <div className="ff-el-form-check ff-el-form-check-"><label className="ff-el-form-check-label" htmlFor="input_radio_3c1e920d6ad4ca6301581be15a48d648"><input type="radio" name="input_radio" data-name="input_radio" className="ff-el-form-check-input ff-el-form-check-radio" defaultValue="Maaf tidak bisa." id="input_radio_3c1e920d6ad4ca6301581be15a48d648" />
-                                                                            <span>Maaf tidak bisa.</span></label></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="ff-el-group ff-text-center ff_submit_btn_wrapper">
-                                                                    <button type="submit" className="ff-btn ff-btn-submit ff-btn-md ff_btn_style">Kirim</button>
-                                                                </div>
-                                                            </form>
-                                                            <div id="fluentform_1_errors" className="ff-errors-in-stack ff_form_instance_1_1 ff-form-loading_errors ff_form_instance_1_1_errors">
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div> */}
+                                            </div> */}
 
                                     <div className="et_pb_section et_pb_section_15 et_section_regular">
                                         <div className="et_pb_row et_pb_row_20">
@@ -627,7 +663,7 @@ L364.5,641.2" />
                                                 <div className="et_pb_module et_pb_code et_pb_code_2">
                                                     <div className="et_pb_code_inner">
                                                         <div className="wonderpluginaudio" id="wonderpluginaudio-432" data-audioplayerid={432} data-width={48} data-height={600} data-skin="button48" data-progressinbar="true" data-showinfo="false" data-showimage="false" data-autoplay="false" data-random="false" data-autoresize="false" data-responsive="false" data-showtracklist="false" data-tracklistscroll="true" data-showprogress="false" data-showprevnext="false" data-showloop="false" data-stopotherplayers="true" data-preloadaudio="true" data-showtracklistsearch="false" data-saveposincookie="false" data-wptracklist="false" data-removeinlinecss="true" data-showtime="false" data-showvolume="false" data-showvolumebar="true" data-showliveplayedlist="false" data-showtitleinbar="false" data-showloading="false" data-enablega="false" data-titleinbarscroll="true" data-donotinit="false" data-addinitscript="false" data-imagewidth={100} data-imageheight={100} data-loop={1} data-tracklistitem={10} data-titleinbarwidth={80} data-gatrackingid data-playbackrate={1} data-playpauseimage="playpause-48-48-1.png" data-playpauseimagewidth={48} data-playpauseimageheight={48} data-cookiehours={240} data-prevnextimage="prevnext-24-24-0.png" data-prevnextimagewidth={24} data-prevnextimageheight={24} data-volumeimage="volume-24-24-0.png" data-volumeimagewidth={24} data-volumeimageheight={24} data-liveupdateinterval={10000} data-maxplayedlist={8} data-playedlisttitle="Last Tracks Played" data-loopimage="loop-24-24-0.png" data-loopimagewidth={24} data-loopimageheight={24} data-infoformat="<div class='amazingaudioplayer-info-title'>%ARTIST% %ALBUM%</div>
-                                                            <div class='amazingaudioplayer-info-description'>%INFO%</div>" data-jsfolder="../wp-content/plugins/wonderplugin-audio/engine/" style={{ display: 'block', position: 'relative', margin: '0 auto', width: 48, height: 'auto' }}>
+                                                                    <div class='amazingaudioplayer-info-description'>%INFO%</div>" data-jsfolder="../wp-content/plugins/wonderplugin-audio/engine/" style={{ display: 'block', position: 'relative', margin: '0 auto', width: 48, height: 'auto' }}>
                                                             <ul className="amazingaudioplayer-audios" style={{ display: 'none' }}>
                                                                 <li data-artist data-title="Lee Hi - Only _ Lirik Terjemahan LeeHi" data-album data-info="&quot;Lee Hi - Only _ Lirik Terjemahan LeeHi&quot;." data-image="../wp-includes/images/media/audio.png" data-duration={238}>
                                                                     <div className="amazingaudioplayer-source" data-src="../wp-content/uploads/2022/audio/Lee-Hi-Only-_-Lirik-Terjemahan-LeeHi.mp3" data-type="audio/mpeg" />
@@ -794,24 +830,24 @@ L364.5,641.2" />
                                                     <div className="et_pb_code_inner">
                                                         <div className="fluentform fluentform_wrapper_1">
                                                             <div className="site-card-border-less-wrapper">
-                                                                <Card hoverable title="Kirim Ucapan & Doa" bordered={false} style={{ width: 300, textAlign: 'center' }}>
+                                                                <Card hoverable title="Kirim Ucapan & Doa" bordered={false} style={{ textAlign: 'center' }}>
 
                                                                     <Form>
 
-                                                                        <Form.Item 
-                                                                        name={['nama']}
-                                                                        style={{marginBottom: 10}}
-                                                                        rules={[{ required: true, message: 'Nama Wajib Di isi!' }]}
+                                                                        <Form.Item
+                                                                            name={['nama']}
+                                                                            style={{ marginBottom: 10 }}
+                                                                            rules={[{ required: true, message: 'Nama Wajib Di isi!' }]}
                                                                         >
 
                                                                             <Input placeholder=" Nama Anda" prefix={<UserOutlined />} />
 
                                                                         </Form.Item>
 
-                                                                        <Form.Item 
-                                                                        name={['ucapan']}
-                                                                        style={{marginBottom: 5}}
-                                                                        rules={[{ required: true, message: 'Ucapan & Doa Wajib Di isi!' }]}
+                                                                        <Form.Item
+                                                                            name={['ucapan']}
+                                                                            style={{ marginBottom: 5 }}
+                                                                            rules={[{ required: true, message: 'Ucapan & Doa Wajib Di isi!' }]}
                                                                         >
                                                                             <TextArea
                                                                                 showCount
@@ -822,12 +858,12 @@ L364.5,641.2" />
                                                                             />
                                                                         </Form.Item>
 
-                                                                        <Form.Item 
-                                                                        name={['konfirmasi']}
-                                                                        style={{textAlign: 'left'}} 
-                                                                        rules={[{ required: true, message: 'Konfirmasi Wajib Di isi!' }]}
+                                                                        <Form.Item
+                                                                            name={['konfirmasi']}
+                                                                            style={{ textAlign: 'left' }}
+                                                                            rules={[{ required: true, message: 'Konfirmasi Wajib Di isi!' }]}
                                                                         >
-                                                                            <Select style={{width: 200}}
+                                                                            <Select style={{ width: 200 }}
                                                                                 // defaultValue="lucy"
                                                                                 placeholder="Konfirmasi Kehadiran"
                                                                                 // style={{ width:  }}
@@ -851,27 +887,27 @@ L364.5,641.2" />
                                                                 </Card>
                                                             </div>
                                                             {/* <form data-form_id={1} id="fluentform_1" className="frm-fluent-form fluent_form_1 ff-el-form-top ff_form_instance_1_1 ff-form-loading" data-form_instance="ff_form_instance_1_1" method="POST"><input type="hidden" name="__fluent_form_embded_post_id" defaultValue={378802} /><input type="hidden" id="_fluentform_1_fluentformnonce" name="_fluentform_1_fluentformnonce" defaultValue="84698e41ce" /><input type="hidden" name="_wp_http_referer" defaultValue="/gold-tiga/" />
-                                                                <div className="ff-el-group">
-                                                                    <div className="ff-el-input--label ff-el-is-required asterisk-right">
-                                                                        <label htmlFor="ff_1_input_text">Nama Lengkap</label>
-                                                                    </div>
-                                                                    <div className="ff-el-input--content"><input type="text" name="input_text" defaultValue className="ff-el-form-control" data-name="input_text" id="ff_1_input_text" /></div>
-                                                                </div>
-                                                                <div className="ff-el-group  ff_list_inline">
-                                                                    <div className="ff-el-input--label asterisk-right">
-                                                                        <label>Kehadiran?</label>
-                                                                    </div>
-                                                                    <div className="ff-el-input--content">
-                                                                        <div className="ff-el-form-check ff-el-form-check-"><label className="ff-el-form-check-label" htmlFor="input_radio_f73af23d0604356e2d77289aaab425c2"><input type="radio" name="input_radio" data-name="input_radio" className="ff-el-form-check-input ff-el-form-check-radio" defaultValue="Ya, saya akan hadir." id="input_radio_f73af23d0604356e2d77289aaab425c2" />
-                                                                            <span>Ya, saya akan hadir.</span></label></div>
-                                                                        <div className="ff-el-form-check ff-el-form-check-"><label className="ff-el-form-check-label" htmlFor="input_radio_3c1e920d6ad4ca6301581be15a48d648"><input type="radio" name="input_radio" data-name="input_radio" className="ff-el-form-check-input ff-el-form-check-radio" defaultValue="Maaf tidak bisa." id="input_radio_3c1e920d6ad4ca6301581be15a48d648" />
-                                                                            <span>Maaf tidak bisa.</span></label></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="ff-el-group ff-text-center ff_submit_btn_wrapper">
-                                                                    <button type="submit" className="ff-btn ff-btn-submit ff-btn-md ff_btn_style">Kirim</button>
-                                                                </div>
-                                                            </form> */}
+                                                                        <div className="ff-el-group">
+                                                                            <div className="ff-el-input--label ff-el-is-required asterisk-right">
+                                                                                <label htmlFor="ff_1_input_text">Nama Lengkap</label>
+                                                                            </div>
+                                                                            <div className="ff-el-input--content"><input type="text" name="input_text" defaultValue className="ff-el-form-control" data-name="input_text" id="ff_1_input_text" /></div>
+                                                                        </div>
+                                                                        <div className="ff-el-group  ff_list_inline">
+                                                                            <div className="ff-el-input--label asterisk-right">
+                                                                                <label>Kehadiran?</label>
+                                                                            </div>
+                                                                            <div className="ff-el-input--content">
+                                                                                <div className="ff-el-form-check ff-el-form-check-"><label className="ff-el-form-check-label" htmlFor="input_radio_f73af23d0604356e2d77289aaab425c2"><input type="radio" name="input_radio" data-name="input_radio" className="ff-el-form-check-input ff-el-form-check-radio" defaultValue="Ya, saya akan hadir." id="input_radio_f73af23d0604356e2d77289aaab425c2" />
+                                                                                    <span>Ya, saya akan hadir.</span></label></div>
+                                                                                <div className="ff-el-form-check ff-el-form-check-"><label className="ff-el-form-check-label" htmlFor="input_radio_3c1e920d6ad4ca6301581be15a48d648"><input type="radio" name="input_radio" data-name="input_radio" className="ff-el-form-check-input ff-el-form-check-radio" defaultValue="Maaf tidak bisa." id="input_radio_3c1e920d6ad4ca6301581be15a48d648" />
+                                                                                    <span>Maaf tidak bisa.</span></label></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div className="ff-el-group ff-text-center ff_submit_btn_wrapper">
+                                                                            <button type="submit" className="ff-btn ff-btn-submit ff-btn-md ff_btn_style">Kirim</button>
+                                                                        </div>
+                                                                    </form> */}
                                                             <div id="fluentform_1_errors" className="ff-errors-in-stack ff_form_instance_1_1 ff-form-loading_errors ff_form_instance_1_1_errors">
                                                             </div>
                                                         </div>
@@ -1234,6 +1270,10 @@ L364.5,641.2" />
                     </article>
                 </div>
             </div>
+      
+            
+
+
 
             <Modal title="Alamat Penerima" open={isModalOpen} onOk={() => handleOk(1)} onCancel={() => handleCancel(1)} footer={null}>
 
@@ -1364,11 +1404,18 @@ L364.5,641.2" />
 
 
         </>
+        
     )
+
 }
 
 export default GoldTiga
 
 if (document.getElementById('goldtiga')) {
-    ReactDOM.render(<GoldTiga />, document.getElementById('goldtiga'));
+    ReactDOM.render(
+        <Provider store={store}>
+            <GoldTiga />
+        </Provider>
+
+        , document.getElementById('goldtiga'));
 }

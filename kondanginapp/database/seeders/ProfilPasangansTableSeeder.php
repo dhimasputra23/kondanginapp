@@ -16,6 +16,9 @@ class ProfilPasangansTableSeeder extends Seeder
     {
         DB::table('profil_pasangans')->insert([
             'nama' => 'Nanda',
+            'nama_panggilan' => 'Nanda',
+            'nama_bapak' => 'Bapaknya Nanda',
+            'nama_ibu' => 'Ibunya Nanda',
             'kelamin' => 'Pria',
             'created_at' => now(),
             'updated_at' => now(),
@@ -24,6 +27,9 @@ class ProfilPasangansTableSeeder extends Seeder
 
         DB::table('profil_pasangans')->insert([
             'nama' => 'Aisyah',
+            'nama_panggilan' => 'Aisyah',
+            'nama_bapak' => 'Bapaknya Aisyah',
+            'nama_ibu' => 'Ibunya Aisyah',
             'kelamin' => 'Wanita',
             'created_at' => now(),
             'updated_at' => now(),

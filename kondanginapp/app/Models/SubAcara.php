@@ -13,6 +13,7 @@ class SubAcara extends Model
         'start_time',
         'end_time',
         'tempat',
+        'alamat',
         'lattitude',
         'longitude',
         'main_event',

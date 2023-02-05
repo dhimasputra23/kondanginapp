@@ -11,7 +11,10 @@ class ProfilPasangan extends Model
 
     protected $fillable = [
         'nama',
-        'kelamin'
+        'kelamin',
+        'nama_panggilan',
+        'nama_bapak',
+        'nama_ibu'
     ];
     protected $hidden = ["created_at", "updated_at","undangan_id"];
 

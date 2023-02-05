@@ -19,6 +19,7 @@ class CreateSubAcarasTable extends Migration
             $table->datetime('start_time');
             $table->datetime('end_time');
             $table->string('tempat');
+            $table->string('alamat');
             $table->double('lattitude');
             $table->double('longitude');
             $table->boolean('main_event');

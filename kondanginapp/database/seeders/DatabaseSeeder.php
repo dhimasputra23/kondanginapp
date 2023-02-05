@@ -50,10 +50,16 @@ class DatabaseSeeder extends Seeder
         Tenant::all()->runForEach(function () {
             ProfilPasangan::create([
                 'nama' => 'Nanda',
+                'nama_panggilan' => 'Nanda',
+                'nama_bapak' => 'Bapaknya Nanda',
+                'nama_ibu' => 'Ibunya Nanda',
                 'kelamin' => 'Pria',
             ]);
             ProfilPasangan::create([
                 'nama' => 'Aisyah',
+                'nama_panggilan' => 'Aisyah',
+                'nama_bapak' => 'Bapaknya Aisyah',
+                'nama_ibu' => 'Ibunya Aisyah',
                 'kelamin' => 'Wanita',
             ]);
             AlamatGift::create([
@@ -81,6 +87,7 @@ class DatabaseSeeder extends Seeder
                 'start_time' => Carbon::create(2023, 8, 15, 8, 0, 0),
                 'end_time' => Carbon::create(2023, 8, 15, 10, 0, 0),
                 'tempat' => 'Masjid Al-Hikmah - Graha CIMB Niaga',
+                'alamat' => 'Jl. Wahid Hasyim No.3, Pd. Jaya, Kec. Pd. Aren, Kota Tangerang, Banten 15224, Indonesia',
                 'lattitude' => -6.2733044,
                 'longitude' => 106.7152007,
                 'main_event' => true,
@@ -90,6 +97,7 @@ class DatabaseSeeder extends Seeder
                 'start_time' => Carbon::create(2023, 8, 15, 10, 0, 0),
                 'end_time' => Carbon::create(2023, 8, 15, 16, 0, 0),
                 'tempat' => 'Lobby - Griya CIMB Niaga',
+                'alamat' => 'Jl. Wahid Hasyim No.3, Pd. Jaya, Kec. Pd. Aren, Kota Tangerang, Banten 15224, Indonesia',
                 'lattitude' => -6.2732298,
                 'longitude' => 106.723991,
                 'main_event' => false,

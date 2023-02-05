@@ -16,6 +16,9 @@ class CreateProfilPasangansTable extends Migration
         Schema::create('profil_pasangans', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
+            $table->string('nama_panggilan');
+            $table->string('nama_bapak');
+            $table->string('nama_ibu');
             $table->enum('kelamin', ['Pria', 'Wanita']);
             $table->timestamps();
 

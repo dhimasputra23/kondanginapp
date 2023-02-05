@@ -18,6 +18,11 @@ class CreateAlamatGiftsTable extends Migration
             $table->string('nama');
             $table->string('no_hp');
             $table->string('alamat');
+            $table->string('desa');
+            $table->string('kecamatan');
+            $table->string('kota');
+            $table->string('provinsi');
+            $table->string('kode_pos');
             $table->timestamps();
             
             // $table->unsignedBigInteger('undangan_id');

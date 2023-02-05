@@ -66,11 +66,21 @@ class DatabaseSeeder extends Seeder
                 'nama' => 'Nanda',
                 'no_hp' => '085992893045',
                 'alamat' => 'Kost Nur Hidayah',
+                'desa' => ' Pondok Jaya',
+                'kecamatan' => 'Pondok Aren',
+                'kota' => 'Tangerang Selatan',
+                'provinsi' => 'Banten',
+                'kode_pos' => '15224'
             ]);
             AlamatGift::create([
                 'nama' => 'Aisyah',
                 'no_hp' => '083683647812',
                 'alamat' => 'Kost nya Aisyah',
+                'desa' => ' Pondok Jaya',
+                'kecamatan' => 'Pondok Aren',
+                'kota' => 'Tangerang Selatan',
+                'provinsi' => 'Banten',
+                'kode_pos' => '15224'
             ]);
             RekeningGift::create([
                 'nama' => 'Nanda',

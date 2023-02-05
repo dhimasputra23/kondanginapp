@@ -12,7 +12,12 @@ class AlamatGift extends Model
     protected $fillable = [
         'nama',
         'no_hp',
-        'alamat'
+        'alamat',
+        'desa',
+        'kecamatan',
+        'kota',
+        'provinsi',
+        'kode_pos'
     ];
     protected $hidden = ["created_at", "updated_at","undangan_id"];
 

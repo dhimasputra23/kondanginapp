@@ -25,6 +25,7 @@
     },
     "dependencies": {
         "antd": "^5.1.6",
+        "moment": "^2.29.4",
         "react-redux": "^8.0.5",
         "react-router-dom": "^6.8.0",
         "redux": "^4.2.1",

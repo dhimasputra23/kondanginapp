@@ -6,13 +6,14 @@ import { UserOutlined } from '@ant-design/icons';
 import TextArea from 'antd/es/input/TextArea';
 import { Provider } from 'react-redux';
 import store from '../../store';
+import moment from 'moment'
 import { getUndangan } from '../../store/action';
 const GoldTiga = () => {
 
     const state = useSelector((state) => state)
     const dispatch = useDispatch()
 
-
+    moment.locale('id')
     const [modalRekening, setModalRekening] = useState(false);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [form] = Form.useForm()
@@ -25,7 +26,7 @@ const GoldTiga = () => {
 
     useEffect(() => {
         displayUndangan()
-   
+
 
     }, [])
 
@@ -81,17 +82,20 @@ const GoldTiga = () => {
     // })
 
     // if (state.undangan.data) {
-        // console.log('metu kene', state.undangan);
-       
+    //     console.log('metu kene', state.undangan);
+
 
     // }
-  
-     
+    const a = state.undangan.data
+
+
+
+
     return (
-        
+
         <>
 
-                <div id="page-container">
+            <div id="page-container">
                 <div id="main-content">
                     <article id="post-378802" className="post-378802 page type-page status-publish hentry">
                         <div className="entry-content">
@@ -103,6 +107,7 @@ const GoldTiga = () => {
                                                 <div className="et_pb_with_border et_pb_module et_pb_text et_pb_text_0 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
                                                     <div className="et_pb_text_inner">
                                                         <h5>Dear,</h5>
+
                                                         <p>Nama Tamu</p>
                                                         <h2>You Are Invited!</h2>
                                                     </div>
@@ -118,7 +123,7 @@ const GoldTiga = () => {
                                                 <div className="et_pb_module et_pb_text et_pb_text_1 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
                                                     <div className="et_pb_text_inner">
                                                         <p><span>The Wedding Celebration of</span></p>
-                                                      <h1>   <span>Rena &amp; Gallant</span>   </h1>
+                                                        {a ? <h1>   <span>{state.pria} &amp; {state.wanita}</span>   </h1> : []}
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
@@ -145,7 +150,8 @@ const GoldTiga = () => {
                                                 </div>
                                                 <div className="et_pb_module et_pb_text et_pb_text_2 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
-                                                        <p><span>Rena &amp; Gallant</span></p>
+                                                        {a ? <p><span>{state.undangan.data.profilPasangans[0].nama} &amp; {state.undangan.data.profilPasangans[1].nama}</span></p> : []}
+
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_module et_pb_divider et_pb_divider_0 et_pb_divider_position_center et_pb_space">
@@ -153,7 +159,7 @@ const GoldTiga = () => {
                                                 </div>
                                                 <div className="et_pb_module et_pb_text et_pb_text_3 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
-                                                        <p>12 Agustus 2023</p>
+                                                        {a ? <p>{moment(state.undangan.data.subAcaras[1].start_time).format('LL')}</p> : []}
 
                                                     </div>
                                                 </div>
@@ -194,12 +200,10 @@ const GoldTiga = () => {
                                                 </div>
                                                 <div className="et_pb_module et_pb_text et_pb_text_4 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
                                                     <div className="et_pb_text_inner">
-                                                        <p>“Dan di antara tanda-tanda kekuasaan Allah ialah diciptakan-Nya
-                                                            untukmu pasangan hidup dari jenismu sendiri supaya kamu merasa
-                                                            tentram di samping-Nya dan dijadikan-Nya rasa kasih sayang di antara
-                                                            kamu. Sesungguhnya yang demikian itu menjadi bukti kekuasaan Allah
-                                                            bagi kaum yang berfikir.“</p>
-                                                        <p><strong>(QS. Ar- Rum 21)</strong></p>
+                                                        {a ? <p>“{state.undangan.data.quote[0].kalimat}“</p> : []}
+
+                                                        {a ? <p><strong>({state.undangan.data.quote[0].sumber})</strong></p> : []}
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -258,7 +262,7 @@ const GoldTiga = () => {
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_0 et_animated  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_light">
                                                     <div className="et_pb_blurb_content">
                                                         <div className="et_pb_blurb_container">
-                                                            <h4 className="et_pb_module_header"><span>Renantha Ayu Syafira</span>
+                                                            <h4 className="et_pb_module_header">{a ? <span>{state.undangan.data.profilPasangans[1].nama}</span> : []}
                                                             </h4>
                                                             <div className="et_pb_blurb_description">
                                                                 <p>Putri dari<br />Bapak Bambang <span>Efendi</span><br />&amp;
@@ -282,7 +286,7 @@ const GoldTiga = () => {
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_1 et_animated  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_light">
                                                     <div className="et_pb_blurb_content">
                                                         <div className="et_pb_blurb_container">
-                                                            <h4 className="et_pb_module_header"><span>Gallant Dwi Pamungkas</span>
+                                                            <h4 className="et_pb_module_header"><span>{a ? state.undangan.data.profilPasangans[0].nama : []}</span>
                                                             </h4>
                                                             <div className="et_pb_blurb_description">
                                                                 <p>Putra dari<br />Bapak <span>Ade Admar</span><br />&amp; Ibu
@@ -375,9 +379,11 @@ const GoldTiga = () => {
                                                 </div>
                                                 <div className="et_pb_module et_pb_text et_pb_text_8 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
-                                                        <h4>Sabtu, 12 Agustus 2023</h4>
-                                                        <p>10:00 s/d 11:00</p>
-                                                        <h3><span>Charitas Convention Hall</span></h3>
+                                                        {a ? <h4>{moment(state.undangan.data.subAcaras[0].start_time).format('dddd')}, {moment(state.undangan.data.subAcaras[0].start_time).format('LL')}</h4> : []}
+
+                                                        {a ? <p>{moment(state.undangan.data.subAcaras[0].start_time).format('LT')} s/d {moment(state.undangan.data.subAcaras[0].end_time
+                                                        ).format('LT')}</p> : []}
+                                                        <h3>{a ? <span>{state.akad}</span> : []}</h3>
                                                         <p><span>Jalan Sukamaju, Sukajaya, Kec. Sukarami, Kota Palembang</span>
                                                         </p>
                                                     </div>
@@ -455,9 +461,10 @@ const GoldTiga = () => {
                                                 </div>
                                                 <div className="et_pb_module et_pb_text et_pb_text_9 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
-                                                        <h4>Sabtu, 12 Agustus 2023</h4>
-                                                        <p>10:00 s/d 11:00</p>
-                                                        <h3><span>Charitas Convention Hall</span></h3>
+                                                    {a ? <h4>{moment(state.undangan.data.subAcaras[1].start_time).format('dddd')}, {moment(state.undangan.data.subAcaras[1].start_time).format('LL')}</h4> : []}
+                                                    {a ? <p>{moment(state.undangan.data.subAcaras[1].start_time).format('LT')} s/d {moment(state.undangan.data.subAcaras[1].end_time
+                                                        ).format('LT')}</p> : []}
+                                                        <h3>{a ? <span>{state.undangan.data.subAcaras[1].tempat}</span> : []}</h3>
                                                         <p><span>Jalan Sukamaju, Sukajaya, Kec. Sukarami, Kota Palembang</span>
                                                         </p>
                                                     </div>
@@ -567,72 +574,7 @@ const GoldTiga = () => {
                                         </div>
                                     </div>
 
-                                    {/* <div className="et_pb_section et_pb_section_11 et_pb_with_background et_section_regular">
-                                                <div className="et_pb_row et_pb_row_12">
-                                                    <div className="et_pb_column et_pb_column_4_4 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                                                        <div className="et_pb_module dipi_dual_heading dipi_dual_heading_2 et_animated">
-                                                            <div className="et_pb_module_inner">
-                                                                <div className="dipi-dual-heading ">
-                                                                    <h2 className="dipi-dh-main">
-                                                                        <span className="dipi-dh-first-heading">
-                                                                            <span className="dipi-dh-animation-container">
-                                                                                <span className="dipi-dh-bg-container">
-                                                                                    Konfirmasi
-                                                                                </span>
-                                                                            </span>
-                                                                        </span>
-                                                                        <span className="dipi-dh-second-heading">
-                                                                            <span className="dipi-dh-animation-container">
-                                                                                <span className="dipi-dh-bg-container">
-                                                                                    Kehadiran
-                                                                                </span>
-                                                                            </span>
-                                                                        </span>
-                                                                    </h2>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="et_pb_module et_pb_text et_pb_text_10 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
-                                                            <div className="et_pb_text_inner">
-                                                                <p>Kami tidak sabar menunggu hari pernikahan kami bersama
-                                                                    Bapak/Ibu/Saudara/i, mohon konfirmasi kehadiran Bapak/Ibu/Saudara/i.
-                                                                    Terima kasih.</p>
-                                                            </div>
-                                                        </div>
-                                                        <div className="et_pb_module et_pb_code et_pb_code_1 et_animated  et_pb_text_align_left">
-                                                            <div className="et_pb_code_inner">
-                                                                <div className="fluentform fluentform_wrapper_1">
-                                                                    <form data-form_id={1} id="fluentform_1" className="frm-fluent-form fluent_form_1 ff-el-form-top ff_form_instance_1_1 ff-form-loading" data-form_instance="ff_form_instance_1_1" method="POST"><input type="hidden" name="__fluent_form_embded_post_id" defaultValue={378802} /><input type="hidden" id="_fluentform_1_fluentformnonce" name="_fluentform_1_fluentformnonce" defaultValue="84698e41ce" /><input type="hidden" name="_wp_http_referer" defaultValue="/gold-tiga/" />
-                                                                        <div className="ff-el-group">
-                                                                            <div className="ff-el-input--label ff-el-is-required asterisk-right">
-                                                                                <label htmlFor="ff_1_input_text">Nama Lengkap</label>
-                                                                            </div>
-                                                                            <div className="ff-el-input--content"><input type="text" name="input_text" defaultValue className="ff-el-form-control" data-name="input_text" id="ff_1_input_text" /></div>
-                                                                        </div>
-                                                                        <div className="ff-el-group  ff_list_inline">
-                                                                            <div className="ff-el-input--label asterisk-right">
-                                                                                <label>Kehadiran?</label>
-                                                                            </div>
-                                                                            <div className="ff-el-input--content">
-                                                                                <div className="ff-el-form-check ff-el-form-check-"><label className="ff-el-form-check-label" htmlFor="input_radio_f73af23d0604356e2d77289aaab425c2"><input type="radio" name="input_radio" data-name="input_radio" className="ff-el-form-check-input ff-el-form-check-radio" defaultValue="Ya, saya akan hadir." id="input_radio_f73af23d0604356e2d77289aaab425c2" />
-                                                                                    <span>Ya, saya akan hadir.</span></label></div>
-                                                                                <div className="ff-el-form-check ff-el-form-check-"><label className="ff-el-form-check-label" htmlFor="input_radio_3c1e920d6ad4ca6301581be15a48d648"><input type="radio" name="input_radio" data-name="input_radio" className="ff-el-form-check-input ff-el-form-check-radio" defaultValue="Maaf tidak bisa." id="input_radio_3c1e920d6ad4ca6301581be15a48d648" />
-                                                                                    <span>Maaf tidak bisa.</span></label></div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="ff-el-group ff-text-center ff_submit_btn_wrapper">
-                                                                            <button type="submit" className="ff-btn ff-btn-submit ff-btn-md ff_btn_style">Kirim</button>
-                                                                        </div>
-                                                                    </form>
-                                                                    <div id="fluentform_1_errors" className="ff-errors-in-stack ff_form_instance_1_1 ff-form-loading_errors ff_form_instance_1_1_errors">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div> */}
-
+                                   
                                     <div className="et_pb_section et_pb_section_15 et_section_regular">
                                         <div className="et_pb_row et_pb_row_20">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_21  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -1270,8 +1212,8 @@ const GoldTiga = () => {
                     </article>
                 </div>
             </div>
-      
-            
+
+
 
 
 
@@ -1298,13 +1240,15 @@ const GoldTiga = () => {
                                                 <div className="et_pb_column et_pb_column_4_4 et_pb_column_20  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                     <div className="et_pb_module et_pb_text et_pb_text_18  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                            <h5>Nama Lengkap<br />085123456789</h5>
+                                                        {a ? <h5>{state.undangan.data.alamatGifts[0].nama}<br />{state.undangan.data.alamatGifts[0].no_hp}</h5> : [] }
+                                                            
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_19  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                            <p>Jl. Magelang poop – Yogyakarta KM.6,5,<br />Kutu Tegal,
-                                                                Sinduadi,<br />Daerah Istimewa Yogyakarta 55284</p>
+                                                        {a ?  <p>{state.undangan.data.alamatGifts[0].alamat},<br />Kutu Tegal,
+                                                                Sinduadi,<br />Daerah Istimewa Yogyakarta 55284</p> : [] }
+                                                           
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_button_module_wrapper et_pb_button_5_wrapper et_pb_button_alignment_center et_pb_module ">
@@ -1355,7 +1299,10 @@ const GoldTiga = () => {
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_13  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                            <h5>Nama Mempelai</h5>
+                                                        {a ? <h3><strong>{state.undangan.data.rekeningGifts[0].bank.toUpperCase()}</strong></h3> : [] }
+                                                            
+                                                        {a ? <h5>{state.undangan.data.rekeningGifts[0].nama}</h5> : [] }
+                                                            
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_center et_pb_bg_layout_light">
@@ -1404,7 +1351,7 @@ const GoldTiga = () => {
 
 
         </>
-        
+
     )
 
 }

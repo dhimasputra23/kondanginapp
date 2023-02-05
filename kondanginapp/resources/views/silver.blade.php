@@ -1591,7 +1591,7 @@ header.et-l--header .et_pb_menu__logo > img {
     jQuery('.page-id-417011 #commentform #et_pb_submit').text('Send your wish');
     </script>
 
-
+    <!-- perlu dimbahain -->
     <script>
     jQuery(function($) {
 
@@ -1626,28 +1626,26 @@ header.et-l--header .et_pb_menu__logo > img {
         jQuery('body').addClass('open-cover')
     })
     </script>
-
+    <!-- perlu dimbahain -->
     <script>
+    (function(j, d) {
+        j(d).ready(function() {
+            var au = d.querySelector('audio');
+            au.ontimeupdate = function() {
+                if (!au.paused)
+                    j('#welcome-gate').addClass('move-gate')
+            }
+        })
 
-(function(j, d){
-	j(d).ready(function(){
-		var au = d.querySelector('audio');
-		au.ontimeupdate  = function(){
-		  if ( !au.paused )
-			j('#welcome-gate').addClass('move-gate')
-		}
-	})
-	
-	j(d).on('click', '#welcome-gate', function(e) {
-		e.preventDefault();
-		j(this).addClass('move-gate');
-		var au = d.querySelector('audio');
-			au.play();
-			j('.amazingaudioplayer-play').hide()
-			j('.amazingaudioplayer-pause').show()
-	})
-})(jQuery, document)
-
+        j(d).on('click', '#welcome-gate', function(e) {
+            e.preventDefault();
+            j(this).addClass('move-gate');
+            var au = d.querySelector('audio');
+            au.play();
+            j('.amazingaudioplayer-play').hide()
+            j('.amazingaudioplayer-pause').show()
+        })
+    })(jQuery, document)
     </script>
 
 
@@ -2053,6 +2051,19 @@ header.et-l--header .et_pb_menu__logo > img {
 
 <body data-rsssl=1
     class="page-template page-template-page-template-blank page-template-page-template-blank-php page page-id-378553 dipi-custom-archive-page dipi-archive- dipi-fix-search-icon dipi-anim-preload et_pb_button_helper_class et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db loftloader-lite-enabled">
+
+    <div id="loftloader-wrapper" class="pl-imgloading" data-show-close-time="15000" data-max-load-time="0">
+        <div class="loader-section section-fade"></div>
+        <div class="loader-inner">
+            <div id="loader">
+                <div class="imgloading-container"><span
+                        style="background-image: url(https://ngantenstory.com/wp-content/uploads/2022/04/Please-wait-loader.svg);"></span>
+                </div><img width="150" height="150" data-no-lazy="1" class="skip-lazy" alt="loader image"
+                    src="https://ngantenstory.com/wp-content/uploads/2022/04/Please-wait-loader.svg">
+            </div>
+        </div>
+        <div class="loader-close-button" style="display: none;"><span class="screen-reader-text">Close</span></div>
+    </div>
 
     <div id="silver"></div>
 
@@ -2500,13 +2511,13 @@ header.et-l--header .et_pb_menu__logo > img {
     @font-face {
         font-family: "Batusa";
         font-display: swap;
-        src: url("https://ngantenstory.com/wp-content/uploads/et-fonts/Batusa.woff") format("woff"), url("https://ngantenstory.com/wp-content/uploads/et-fonts/Batusa.ttf") format("truetype")
+        src: url("wp-content/uploads/et-fonts/Batusa.woff") format("woff"), url("wp-content/uploads/et-fonts/Batusa.otf") format("opentype")
     }
 
     @font-face {
         font-family: "Royal Wedd";
         font-display: swap;
-        src: url("https://ngantenstory.com/wp-content/uploads/et-fonts/Royal-Wedding-Regular.otf") format("opentype")
+        src: url("wp-content/uploads/et-fonts/RoyalWeddingRegular.otf") format("opentype")
     }
 
     div.et_pb_section.et_pb_section_0 {
@@ -3740,6 +3751,21 @@ header.et-l--header .et_pb_menu__logo > img {
             font-weight: 400 !important
         }
 
+        body #page-container .et_pb_section .et_pb_button_3,
+        body #page-container .et_pb_section .et_pb_button_4,
+        body #page-container .et_pb_section .et_pb_button_2 {
+            color: #FFFFFF !important;
+            border-width: 0px !important;
+            font-size: 11px;
+            padding-right: 0.7em;
+            padding-left: 2em;
+            background-color: #666666;
+        }
+
+        .et_pb_button_module_wrapper>a {
+            display: inline-block;
+        }
+
         body #page-container .et_pb_section .et_pb_button_1:after,
         body #page-container .et_pb_section .et_pb_button_2:after,
         body #page-container .et_pb_section .et_pb_button_3:after,
@@ -3936,8 +3962,8 @@ header.et-l--header .et_pb_menu__logo > img {
         }
     }
     </style>
-        <!-- React JS -->
-        <script src="{{ asset('js/app.js') }}" defer></script>
+    <!-- React JS -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
     <script>
     "use strict";
 

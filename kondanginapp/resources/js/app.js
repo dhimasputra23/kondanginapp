@@ -4,7 +4,8 @@
  * building robust, powerful web applications using React + Laravel.
  */
 
-require('./bootstrap');
+import './bootstrap';
+
 
 /**
  * Next, we will create a fresh React component instance and attach it to
@@ -12,9 +13,13 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Example');
-require('./components/Aboutme/Aboutme')
-require('./components/Home')
-require('./components/Silver/Silver')
-require('./components/MyApp')
+import './components/Example';
+import './components/Home';
+import './components/Silver/Silver';
+import './components/SilverSatu/SilverSatu';
+import './components/SilverDua/SilverDua';
+import './components/SilverTiga/SilverTiga';
+import './components/GoldTiga/GoldTiga';
+import './components/Bronze/Bronze';
+import './components/MyApp';
 

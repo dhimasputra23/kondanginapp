@@ -20,6 +20,30 @@ Route::get('/', function () {
 Route::get('/silver', function () {
     return view('silver');
 });
+
+Route::get('/coba', function () {
+    return view('coba');
+});
+
+Route::get('/silverSatu', function () {
+    return view('silverSatu');
+});
+
+Route::get('/silverDua', function () {
+    return view('silverDua');
+});
+
+Route::get('/silverTiga', function () {
+    return view('silverTiga');
+});
+
+Route::get('/goldTiga', function () {
+    return view('goldTiga');
+});
+
+Route::get('/bronze', function () {
+    return view('bronze');
+});
 // Route::view('/{path?}', 'homepage');
 
 Route::get('assets/{path}', function ($path) {

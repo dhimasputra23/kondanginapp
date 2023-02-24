@@ -14,7 +14,8 @@ class ProfilPasangan extends Model
         'kelamin',
         'nama_panggilan',
         'nama_bapak',
-        'nama_ibu'
+        'nama_ibu',
+        'url_foto'
     ];
     protected $hidden = ["created_at", "updated_at","undangan_id"];
 

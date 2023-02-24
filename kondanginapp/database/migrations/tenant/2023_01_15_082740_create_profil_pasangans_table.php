@@ -19,6 +19,7 @@ class CreateProfilPasangansTable extends Migration
             $table->string('nama_panggilan');
             $table->string('nama_bapak');
             $table->string('nama_ibu');
+            $table->string('url_foto');
             $table->enum('kelamin', ['Pria', 'Wanita']);
             $table->timestamps();
 

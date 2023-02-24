@@ -6,6 +6,7 @@ use App\Models\ProfilPasangan;
 use App\Models\SubAcara;
 use App\Models\Musik;
 use App\Models\Foto;
+use App\Models\FotoBackground;
 use App\Models\Quote;
 use App\Models\Video;
 use App\Models\AlamatGift;
@@ -76,6 +77,7 @@ class TenantController extends Controller
         $subAcaras = SubAcara::all();
         $musik = Musik::all();
         $fotos = Foto::all();
+        $fotoBackgrounds = FotoBackground::all();
         $quote = Quote::all();
         $videos = Video::all();
         $alamatGifts = AlamatGift::all();
@@ -88,6 +90,7 @@ class TenantController extends Controller
             'subAcaras' => $subAcaras,
             'musik' => $musik,
             'fotos' => $fotos,
+            'fotoBackgrounds' => $fotoBackgrounds,
             'quote' => $quote,
             'videos' => $videos,
             'alamatGifts' => $alamatGifts,

@@ -91,6 +91,8 @@ const GoldTiga = () => {
 
 
 
+
+
     return (
 
         <>
@@ -101,7 +103,7 @@ const GoldTiga = () => {
                         <div className="entry-content">
                             <div className="et-l et-l--post">
                                 <div className="et_builder_inner_content et_pb_gutters3">
-                                    <div id="welcome-gate" className="et_pb_section et_pb_section_0 et_animated et_pb_with_background et_section_regular">
+                                    <div id="welcome-gate" className="et_pb_section et_pb_section_0 et_animated et_pb_with_background et_section_regular" style={{ backgroundImage: `linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%),url("${a && a.fotoBackgrounds.some(el => (el.flag == "Background-1")) ? a.fotoBackgrounds.find(el => {return el.flag == "Background-1"}).url : ''}")` }}>
                                         <div className="et_pb_row et_pb_row_0">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_with_border et_pb_module et_pb_text et_pb_text_0 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
@@ -132,7 +134,7 @@ const GoldTiga = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="et_pb_section et_pb_section_1 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider">
+                                    <div className="et_pb_section et_pb_section_1 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider" style={{ backgroundImage: `linear-gradient(180deg, rgba(255, 255, 255, 0) 61%, rgba(0, 0, 0, 0.39) 100%),url("${a && a.fotoBackgrounds.some(el => (el.flag == "Background-2")) ? a.fotoBackgrounds.find(el => {return el.flag == "Background-2"}).url : ''}")` }}>
                                         <div className="et_pb_row et_pb_row_2">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module dvmd_text_on_a_path dvmd_text_on_a_path_0 dvmd_tp_version_1_1_3">
@@ -257,7 +259,7 @@ const GoldTiga = () => {
                                         <div className="et_pb_row et_pb_row_7">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_image et_pb_image_0 et_animated et-waypoint">
-                                                    <span className="et_pb_image_wrap "><img decoding="async" width={400} height={400} src="../wp-content/uploads/2022/12/gold3-1.png" alt title="gold3 (1)" sizes="(max-width: 400px) 100vw, 400px" className="wp-image-378804" /></span>
+                                                    <span className="et_pb_image_wrap "><img decoding="async" width={400} height={400} src={`${a?a.profilPasangans[1].url_foto:''}`} alt title="gold3 (1)" sizes="(max-width: 400px) 100vw, 400px" className="wp-image-378804" /></span>
                                                 </div>
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_0 et_animated  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_light">
                                                     <div className="et_pb_blurb_content">
@@ -265,8 +267,10 @@ const GoldTiga = () => {
                                                             <h4 className="et_pb_module_header">{a ? <span>{state.undangan.data.profilPasangans[1].nama}</span> : []}
                                                             </h4>
                                                             <div className="et_pb_blurb_description">
-                                                                <p>Putri dari<br />Bapak Bambang <span>Efendi</span><br />&amp;
-                                                                    Ibu <span>Ellis Mulyani</span></p>
+                                                                <p>Putri dari<br />
+                                                                    Bapak {a ? <span>{state.undangan.data.profilPasangans[1].nama_bapak}</span> : []}
+                                                                    <br />&amp;
+                                                                    Ibu  {a ? <span>{state.undangan.data.profilPasangans[1].nama_ibu}</span> : []}</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -281,7 +285,7 @@ const GoldTiga = () => {
                                         <div className="et_pb_row et_pb_row_8">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_8  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_image et_pb_image_1 et_animated et-waypoint">
-                                                    <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={400} height={400} src="../wp-content/uploads/2022/12/gold3-2.png" alt title="gold3 (2)" sizes="(max-width: 400px) 100vw, 400px" className="wp-image-378806" /></span>
+                                                    <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={400} height={400} src={`${a?a.profilPasangans[0].url_foto:''}`} alt title="gold3 (2)" sizes="(max-width: 400px) 100vw, 400px" className="wp-image-378806" /></span>
                                                 </div>
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_1 et_animated  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_light">
                                                     <div className="et_pb_blurb_content">
@@ -289,8 +293,8 @@ const GoldTiga = () => {
                                                             <h4 className="et_pb_module_header"><span>{a ? state.undangan.data.profilPasangans[0].nama : []}</span>
                                                             </h4>
                                                             <div className="et_pb_blurb_description">
-                                                                <p>Putra dari<br />Bapak <span>Ade Admar</span><br />&amp; Ibu
-                                                                    Ratna</p>
+                                                                <p>Putra dari<br />Bapak {a ? <span>{state.undangan.data.profilPasangans[0].nama_bapak}</span> : []} <br />&amp; Ibu
+                                                                    {a ? state.undangan.data.profilPasangans[0].nama_ibu : []}</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -384,7 +388,7 @@ const GoldTiga = () => {
                                                         {a ? <p>{moment(state.undangan.data.subAcaras[0].start_time).format('LT')} s/d {moment(state.undangan.data.subAcaras[0].end_time
                                                         ).format('LT')}</p> : []}
                                                         <h3>{a ? <span>{state.akad}</span> : []}</h3>
-                                                        <p><span>Jalan Sukamaju, Sukajaya, Kec. Sukarami, Kota Palembang</span>
+                                                        <p> {a ? <span>{state.undangan.data.subAcaras[0].alamat}</span> : []}
                                                         </p>
                                                     </div>
                                                 </div>
@@ -461,11 +465,11 @@ const GoldTiga = () => {
                                                 </div>
                                                 <div className="et_pb_module et_pb_text et_pb_text_9 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
-                                                    {a ? <h4>{moment(state.undangan.data.subAcaras[1].start_time).format('dddd')}, {moment(state.undangan.data.subAcaras[1].start_time).format('LL')}</h4> : []}
-                                                    {a ? <p>{moment(state.undangan.data.subAcaras[1].start_time).format('LT')} s/d {moment(state.undangan.data.subAcaras[1].end_time
+                                                        {a ? <h4>{moment(state.undangan.data.subAcaras[1].start_time).format('dddd')}, {moment(state.undangan.data.subAcaras[1].start_time).format('LL')}</h4> : []}
+                                                        {a ? <p>{moment(state.undangan.data.subAcaras[1].start_time).format('LT')} s/d {moment(state.undangan.data.subAcaras[1].end_time
                                                         ).format('LT')}</p> : []}
                                                         <h3>{a ? <span>{state.undangan.data.subAcaras[1].tempat}</span> : []}</h3>
-                                                        <p><span>Jalan Sukamaju, Sukajaya, Kec. Sukarami, Kota Palembang</span>
+                                                        <p> {a ? <span>{state.undangan.data.subAcaras[1].alamat}</span> : []}
                                                         </p>
                                                     </div>
                                                 </div>
@@ -574,7 +578,7 @@ const GoldTiga = () => {
                                         </div>
                                     </div>
 
-                                   
+
                                     <div className="et_pb_section et_pb_section_15 et_section_regular">
                                         <div className="et_pb_row et_pb_row_20">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_21  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -620,122 +624,152 @@ const GoldTiga = () => {
                                             </div>
                                         </div>
                                     </div>
+
+
                                     <div className="et_pb_section et_pb_section_16 et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider">
                                         <div className="et_pb_top_inside_divider et-no-transition" />
                                         <div className="et_pb_row et_pb_row_21">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_22  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_slider et_pb_slider_0 et_pb_slider_fullwidth_off et_pb_slider_no_arrows et_pb_slider_no_pagination et_slider_auto et_slider_speed_3500 et_slider_auto_ignore_hover">
                                                     <div className="et_pb_slides">
-                                                        <div className="et_pb_slide et_pb_slide_0 et_pb_bg_layout_dark et_pb_media_alignment_center et-pb-active-slide" data-slide-id="et_pb_slide_0">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
+
+
+
+
+
+                                                        {a && a.fotos && a.fotos.length>0 ?
+
+                                                            state.undangan.data.fotos.map((foto, index) => (
+
+                                                                <div className={`et_pb_slide et_pb_slide_${index} et_pb_bg_layout_dark et_pb_media_alignment_center et-pb-active-slide`} data-slide-id={`et_pb_slide_${index}`} style={{ backgroundImage: `url("${foto.url}")` }}>
+                                                                    <div className="et_pb_container clearfix">
+                                                                        <div className="et_pb_slider_container_inner">
+                                                                            <div className="et_pb_slide_description">
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
+                                                                </div>
+
+                                                            ))
+                                                            :
+                                                            null
+
+                                                        }
+
+
+                                                        {/* {a? 
+                                                        <div className={`et_pb_slide et_pb_slide_${0} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${0}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 1  ? state.undangan.data.fotos[0].url : ''}")` }} >
+                                                        <div className="et_pb_container clearfix">
+                                                            <div className="et_pb_slider_container_inner">
+                                                                <div className="et_pb_slide_description">
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="et_pb_slide et_pb_slide_1 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_1">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
-                                                                    </div>
+                                                    </div>
+                                                        : 
+                                                        null
+                                                        }
+                                                        
+                                                        {a?
+                                                        <div className={`et_pb_slide et_pb_slide_${1} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${1}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 2  ? state.undangan.data.fotos[1].url : ''}")` }} >
+                                                        <div className="et_pb_container clearfix">
+                                                            <div className="et_pb_slider_container_inner">
+                                                                <div className="et_pb_slide_description">
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="et_pb_slide et_pb_slide_2 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_2">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
-                                                                    </div>
+                                                    </div>
+                                                        :
+                                                        null
+                                                        }
+                                                        {a?
+                                                        <div className={`et_pb_slide et_pb_slide_${2} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${2}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 3  ? state.undangan.data.fotos[2].url : ''}")` }} >
+                                                        <div className="et_pb_container clearfix">
+                                                            <div className="et_pb_slider_container_inner">
+                                                                <div className="et_pb_slide_description">
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="et_pb_slide et_pb_slide_3 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_3">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
+                                                    </div>
+                                                        :
+                                                        null
+                                                        } */}
+                                                        
+                                                            {/* <div className={`et_pb_slide et_pb_slide_${0} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${0}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 1  ? state.undangan.data.fotos[0].url : ''}")` }} >
+                                                                <div className="et_pb_container clearfix">
+                                                                    <div className="et_pb_slider_container_inner">
+                                                                        <div className="et_pb_slide_description">
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div className="et_pb_slide et_pb_slide_4 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_4">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
+                                                            <div className={`et_pb_slide et_pb_slide_${1} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${1}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 2  ? state.undangan.data.fotos[1].url : ''}")` }} >
+                                                                <div className="et_pb_container clearfix">
+                                                                    <div className="et_pb_slider_container_inner">
+                                                                        <div className="et_pb_slide_description">
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div className="et_pb_slide et_pb_slide_5 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_5">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
+                                                            <div className={`et_pb_slide et_pb_slide_${2} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${2}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 3  ? state.undangan.data.fotos[2].url : ''}")` }} >
+                                                                <div className="et_pb_container clearfix">
+                                                                    <div className="et_pb_slider_container_inner">
+                                                                        <div className="et_pb_slide_description">
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div className="et_pb_slide et_pb_slide_6 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_6">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
+                                                            <div className={`et_pb_slide et_pb_slide_${3} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${3}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 4  ? state.undangan.data.fotos[3].url : ''}")` }} >
+                                                                <div className="et_pb_container clearfix">
+                                                                    <div className="et_pb_slider_container_inner">
+                                                                        <div className="et_pb_slide_description">
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div className="et_pb_slide et_pb_slide_7 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_7">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
+                                                            <div className={`et_pb_slide et_pb_slide_${4} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${4}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 5  ? state.undangan.data.fotos[4].url : ''}")` }} >
+                                                                <div className="et_pb_container clearfix">
+                                                                    <div className="et_pb_slider_container_inner">
+                                                                        <div className="et_pb_slide_description">
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div className="et_pb_slide et_pb_slide_8 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_8">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
+                                                            <div className={`et_pb_slide et_pb_slide_${5} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${5}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 6  ? state.undangan.data.fotos[5].url : ''}")` }} >
+                                                                <div className="et_pb_container clearfix">
+                                                                    <div className="et_pb_slider_container_inner">
+                                                                        <div className="et_pb_slide_description">
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div className="et_pb_slide et_pb_slide_9 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_9">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
+                                                            <div className={`et_pb_slide et_pb_slide_${6} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${6}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 7  ? state.undangan.data.fotos[6].url : ''}")` }} >
+                                                                <div className="et_pb_container clearfix">
+                                                                    <div className="et_pb_slider_container_inner">
+                                                                        <div className="et_pb_slide_description">
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div className="et_pb_slide et_pb_slide_10 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_10">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
+                                                            <div className={`et_pb_slide et_pb_slide_${7} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${7}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 8  ? state.undangan.data.fotos[7].url : ''}")` }} >
+                                                                <div className="et_pb_container clearfix">
+                                                                    <div className="et_pb_slider_container_inner">
+                                                                        <div className="et_pb_slide_description">
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="et_pb_slide et_pb_slide_11 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_11">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="et_pb_slide et_pb_slide_12 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_12">
-                                                            <div className="et_pb_container clearfix">
-                                                                <div className="et_pb_slider_container_inner">
-                                                                    <div className="et_pb_slide_description">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                            </div> */}
+
+
+
+
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="et_pb_bottom_inside_divider et-no-transition" />
                                     </div>
+
                                     <div className="et_pb_section et_pb_section_11 et_pb_with_background et_section_regular">
                                         <div className="et_pb_row et_pb_row_12">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -1240,15 +1274,15 @@ const GoldTiga = () => {
                                                 <div className="et_pb_column et_pb_column_4_4 et_pb_column_20  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                     <div className="et_pb_module et_pb_text et_pb_text_18  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                        {a ? <h5>{state.undangan.data.alamatGifts[0].nama}<br />{state.undangan.data.alamatGifts[0].no_hp}</h5> : [] }
-                                                            
+                                                            {a ? <h5>{state.undangan.data.alamatGifts[0].nama}<br />{state.undangan.data.alamatGifts[0].no_hp}</h5> : []}
+
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_19  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                        {a ?  <p>{state.undangan.data.alamatGifts[0].alamat},<br />Kutu Tegal,
-                                                                Sinduadi,<br />Daerah Istimewa Yogyakarta 55284</p> : [] }
-                                                           
+                                                            {a ? <p>{state.undangan.data.alamatGifts[0].alamat},<br />Kutu Tegal,
+                                                                Sinduadi,<br />Daerah Istimewa Yogyakarta 55284</p> : []}
+
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_button_module_wrapper et_pb_button_5_wrapper et_pb_button_alignment_center et_pb_module ">
@@ -1299,10 +1333,10 @@ const GoldTiga = () => {
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_13  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                        {a ? <h3><strong>{state.undangan.data.rekeningGifts[0].bank.toUpperCase()}</strong></h3> : [] }
-                                                            
-                                                        {a ? <h5>{state.undangan.data.rekeningGifts[0].nama}</h5> : [] }
-                                                            
+                                                            {a ? <h3><strong>{state.undangan.data.rekeningGifts[0].bank.toUpperCase()}</strong></h3> : []}
+
+                                                            {a ? <h5>{state.undangan.data.rekeningGifts[0].nama}</h5> : []}
+
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_center et_pb_bg_layout_light">

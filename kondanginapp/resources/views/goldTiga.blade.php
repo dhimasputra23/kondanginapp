@@ -2801,7 +2801,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     div.et_pb_section.et_pb_section_0 {
         background-position: center top;
-        background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(../wp-content/uploads/2022/12/gold3-12.jpg) !important
+        /* background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(../wp-content/uploads/2022/12/gold3-12.jpg) !important */
     }
 
     .et_pb_section_0 {
@@ -2933,7 +2933,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     div.et_pb_section.et_pb_section_1 {
         background-position: center top;
-        background-image: url(../wp-content/uploads/2022/12/gold3-9.jpg) !important
+        /* background-image: url(../wp-content/uploads/2022/12/gold3-9.jpg) !important */
     }
 
     .et_pb_section_1 {
@@ -3968,55 +3968,55 @@ header.et-l--header .et_pb_menu__logo > img {
     }
 
     .et_pb_slider .et_pb_slide_0 {
-        background-image: url(../wp-content/uploads/2022/12/gold3-2s.jpg)
+        /* background-image: url(../wp-content/uploads/2022/12/gold3-2s.jpg) */
     }
 
     .et_pb_slider .et_pb_slide_1 {
-        background-image: url(../wp-content/uploads/2022/12/gold3-1.jpg)
+        /* background-image: url(../wp-content/uploads/2022/12/gold3-1.jpg) */
     }
 
     .et_pb_slider .et_pb_slide_2 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-15.jpg)
+        /* background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-15.jpg) */
     }
 
     .et_pb_slider .et_pb_slide_3 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-14.jpg)
+        /* background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-14.jpg) */
     }
 
     .et_pb_slider .et_pb_slide_4 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-13.jpg)
+        /* background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-13.jpg) */
     }
 
     .et_pb_slider .et_pb_slide_5 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-11.jpg)
+        /* background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-11.jpg) */
     }
 
     .et_pb_slider .et_pb_slide_6 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-10.jpg)
+        /* background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-10.jpg) */
     }
 
     .et_pb_slider .et_pb_slide_7 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-8.jpg)
+        /* background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-8.jpg) */
     }
 
     .et_pb_slider .et_pb_slide_8 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-7.jpg)
+        /* background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-7.jpg) */
     }
 
     .et_pb_slider .et_pb_slide_9 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-6.jpg)
+        /* background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-6.jpg) */
     }
 
     .et_pb_slider .et_pb_slide_10 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-5.jpg)
+        /* background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-5.jpg) */
     }
 
     .et_pb_slider .et_pb_slide_11 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-4.jpg)
+        /* background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-4.jpg) */
     }
 
     .et_pb_slider .et_pb_slide_12 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-3.jpg)
+        /* background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-3.jpg) */
     }
 
     .et_pb_social_media_follow_network_2 a.icon {
@@ -4093,7 +4093,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     @media only screen and (max-width:980px) {
         div.et_pb_section.et_pb_section_0 {
-            background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%) !important
+            /* background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%) !important */
         }
 
         .et_pb_section_0.et_pb_section {
@@ -4340,7 +4340,7 @@ header.et-l--header .et_pb_menu__logo > img {
             background-repeat: no-repeat;
             background-position: center top;
             background-blend-mode: normal;
-            background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-11.jpg) !important
+            /* background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-11.jpg) !important */
         }
 
         .et_pb_section_0 {
@@ -4393,7 +4393,7 @@ header.et-l--header .et_pb_menu__logo > img {
         }
 
         div.et_pb_section.et_pb_section_1 {
-            background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 61%, rgba(0, 0, 0, 0.39) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-5.jpg) !important
+            /* backgr-ound-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 61%, rgba(0, 0, 0, 0.39) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-5.jpg) !important */
         }
 
         .dvmd_text_on_a_path_0 #dvmdtpsvg {

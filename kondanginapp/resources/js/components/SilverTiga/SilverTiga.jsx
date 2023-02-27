@@ -1,7 +1,92 @@
-import React from 'react'
+import { Form } from 'antd';
+import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom';
+import { Provider, useDispatch, useSelector } from 'react-redux';
+import { getUndangan } from '../../store/action';
+import moment from 'moment'
+import store from '../../store';
 
 const SilverTiga = () => {
+
+   const state = useSelector((state) => state)
+
+   const dispatch = useDispatch()
+   moment.locale('id')
+
+   const [RekeningModal, setRekeningModal] = useState(false)
+   const [HadiahModal, setHadiahModal] = useState(false)
+   const [form] = Form.useForm()
+
+
+   const getUndanganShow = () => {
+      dispatch(getUndangan())  
+   }
+
+   useEffect(() => {
+     getUndanganShow()
+   }, [])
+
+
+
+
+    const showModal = (id) => {
+
+        if (id === 1) {
+
+            setIsModalOpen(true)
+        } else {
+
+            setModalRekening(true);
+        }
+
+    };
+
+    const handleOk = (id) => {
+
+        if (id === 1) {
+            setIsModalOpen(false);
+        } else {
+            setModalRekening(false);
+        }
+
+
+
+
+    };
+
+    const handleCancel = (id) => {
+
+        if (id === 1) {
+            setIsModalOpen(false);
+        } else {
+            setModalRekening(false);
+        }
+
+
+
+    };
+
+
+    
+
+
+    // state.undangan.map((undangan, index) => {
+    //     return(
+    //             <div key={index}>
+    //                 <p>{undangan}</p>
+    //             </div>
+    //     )
+    // })
+
+    // if (state.undangan.data) {
+    //     console.log('metu kene', state.undangan);
+
+
+    // }
+    const a = state.undangan.data
+
+
+
     return (
         <div>
 
@@ -17,6 +102,7 @@ const SilverTiga = () => {
                                                 <div className="et_pb_with_border et_pb_module et_pb_text et_pb_text_0 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
                                                     <div className="et_pb_text_inner">
                                                         <h5>Dear,</h5>
+                                                        <p>Nama Tamu</p>
                                                         <h2>You Are Invited!</h2>
                                                     </div>
                                                 </div>
@@ -43,7 +129,7 @@ const SilverTiga = () => {
                                                 <div className="et_pb_module et_pb_text et_pb_text_1 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
                                                     <div className="et_pb_text_inner">
                                                         <p><span>The Wedding Celebration of</span></p>
-                                                        <h1><span>Jessica &amp; Andrian </span></h1>
+                                                    { a ?  <h1><span>{state.undangan.data.profilPasangans[0].nama} &amp; {state.undangan.data.profilPasangans[1].nama}</span></h1> : [] }
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
@@ -70,7 +156,7 @@ const SilverTiga = () => {
                                                 </div>
                                                 <div className="et_pb_module et_pb_text et_pb_text_2 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
-                                                        <p><span>Jessica &amp; Andrian </span></p>
+                                                       { a ?  <p><span>{state.undangan.data.profilPasangans[0].nama} &amp; {state.undangan.data.profilPasangans[1].nama} </span></p> : [] }
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_module et_pb_divider et_pb_divider_0 et_pb_divider_position_center et_pb_space">
@@ -78,7 +164,7 @@ const SilverTiga = () => {
                                                 </div>
                                                 <div className="et_pb_module et_pb_text et_pb_text_3 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
-                                                        <p>03 Juni 2023</p>
+                                                        { a ?  <p>{moment(state.undangan.data.subAcaras[1].start_time).format('LL')}</p> : []}
                                                     </div>
                                                 </div>
                                             </div>
@@ -90,12 +176,10 @@ const SilverTiga = () => {
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_text et_pb_text_4 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
                                                     <div className="et_pb_text_inner">
-                                                        <p>“Dan di antara tanda-tanda kekuasaan Allah ialah diciptakan-Nya
-                                                            untukmu pasangan hidup dari jenismu sendiri supaya kamu merasa
-                                                            tentram di samping-Nya dan dijadikan-Nya rasa kasih sayang di antara
-                                                            kamu. Sesungguhnya yang demikian itu menjadi bukti kekuasaan Allah
-                                                            bagi kaum yang berfikir.“</p>
-                                                        <p><strong>(QS. Ar- Rum 21)</strong></p>
+                                                        <p>{a ? <p>“{state.undangan.data.quote[0].kalimat}“</p>  : [] }</p>
+                                                        
+                                                        <p>( {a ? state.undangan.data.quote[0].sumber : [] } )</p>
+                                                    
                                                     </div>
                                                 </div>
                                             </div>
@@ -132,11 +216,11 @@ const SilverTiga = () => {
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_0 et_animated  et_pb_text_align_right  et_pb_blurb_position_top et_pb_bg_layout_light">
                                                     <div className="et_pb_blurb_content">
                                                         <div className="et_pb_blurb_container">
-                                                            <h4 className="et_pb_module_header"><span>Jessicca Astrie Gunawan</span>
+                                                            <h4 className="et_pb_module_header">{a ? <span>{state.undangan.data.profilPasangans[1].nama}</span> : []}
                                                             </h4>
                                                             <div className="et_pb_blurb_description">
-                                                                <p><strong>Putri dari</strong><br />Bpk.
-                                                                    <span>Heru&nbsp;</span><br />&amp; Ibu Astri <span>Oktavia</span>
+                                                                <p><strong>Putri dari</strong><br />Bapak &nbsp;
+                                                                   { a ?  <span>{state.undangan.data.profilPasangans[1].nama_bapak}&nbsp;</span> : [] }  <br />&amp; Ibu { a ?  <span>{state.undangan.data.profilPasangans[1].nama_ibu}</span> : []}
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -164,11 +248,11 @@ const SilverTiga = () => {
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_1 et_animated  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
                                                     <div className="et_pb_blurb_content">
                                                         <div className="et_pb_blurb_container">
-                                                            <h4 className="et_pb_module_header"><span>Andrian Budi Wijaya</span>
+                                                            <h4 className="et_pb_module_header"><span>{a ? state.undangan.data.profilPasangans[0].nama : []}</span>
                                                             </h4>
                                                             <div className="et_pb_blurb_description">
-                                                                <p><strong>Putra dari</strong><br />Bpk. Subekti<br />&amp; Ibu
-                                                                    <span>Oktaviana</span>
+                                                                <p><strong>Putra dari</strong><br />Bapak { a ?  <span>{state.undangan.data.profilPasangans[0].nama_bapak}</span> : [] } <br />&amp; Ibu &nbsp;
+                                                                    <span>{a ? state.undangan.data.profilPasangans[0].nama_ibu : []}</span>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -210,10 +294,14 @@ const SilverTiga = () => {
                                                 </div>
                                                 <div className="et_pb_module et_pb_text et_pb_text_5 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
-                                                        <p><strong>Sabtu, 03 Juni 2023<br /></strong>17:00 s/d 22:00
-                                                            WIB<br /><strong>Singgasana Hotel Surabaya</strong><br />Jl. Golf 1
-                                                            Surabaya, Gn. Sari,<br />Kec. Dukuh Paris, Pota Surabaya, Jawa Timur
-                                                        </p>
+                                                        <p> <strong> {a ? moment(state.undangan.data.subAcaras[0].start_time).format('dddd') : [] }, {a ? moment(state.undangan.data.subAcaras[0].start_time).format('LL') : [] } </strong> <br />   </p>
+                                                            
+                                                            
+                                                        {a ? <p>{moment(state.undangan.data.subAcaras[0].start_time).format('LT')} s/d {moment(state.undangan.data.subAcaras[0].end_time
+                                                        ).format('LT')} &nbsp; WIB</p> : []} { a ? <strong>{state.undangan.data.subAcaras[0].tempat}</strong> : [] }<br />
+                                                           <p> { a ? state.undangan.data.subAcaras[0].alamat : []} </p>
+                   
+                                                     
                                                     </div>
                                                 </div>
                                             </div>
@@ -242,7 +330,7 @@ const SilverTiga = () => {
                                                 </div>
                                                 <div className="et_pb_module et_pb_text et_pb_text_6 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
-                                                        <p><strong>Sabtu, 03 Juni 2023<br /></strong>17:00 s/d 22:00
+                                                        <p><strong>{a ? moment(state.undangan.data.subAcaras[1].start_time).format('dddd') : [] }, {a ? moment(state.undangan.data.subAcaras[1].start_time).format('LL') : [] } <br /></strong>17:00 s/d 22:00
                                                             WIB<br /><strong>Singgasana Hotel Surabaya</strong><br />Jl. Golf 1
                                                             Surabaya, Gn. Sari,<br />Kec. Dukuh Paris, Pota Surabaya, Jawa Timur
                                                         </p>
@@ -823,5 +911,10 @@ export default SilverTiga
 
 
 if (document.getElementById('silvertiga')) {
-    ReactDOM.render(<SilverTiga />, document.getElementById('silvertiga'));
+    ReactDOM.render(
+    <Provider store={store}>
+    <SilverTiga />
+    </Provider>
+    
+    , document.getElementById('silvertiga'));
 }

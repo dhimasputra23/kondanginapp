@@ -14,7 +14,7 @@ import { getUndangan } from '../../store/action';
 
 const GoldTiga = () => {
     
-    console.log("ini location search : ",window.location)
+
     const state = useSelector((state) => state)
     const dispatch = useDispatch()
 
@@ -22,8 +22,6 @@ const GoldTiga = () => {
     const [modalRekening, setModalRekening] = useState(false);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [form] = Form.useForm()
-    // const [mempelaiPria, setMempelaiPria] = useState([{}])
-
 
     const displayUndangan = () => {
         dispatch(getUndangan())
@@ -34,8 +32,6 @@ const GoldTiga = () => {
 
 
     }, [])
-
-
 
     const showModal = (id) => {
 
@@ -57,9 +53,6 @@ const GoldTiga = () => {
             setModalRekening(false);
         }
 
-
-
-
     };
 
     const handleCancel = (id) => {
@@ -69,28 +62,8 @@ const GoldTiga = () => {
         } else {
             setModalRekening(false);
         }
-
-
-
     };
 
-
-    const data = []
-
-
-    // state.undangan.map((undangan, index) => {
-    //     return(
-    //             <div key={index}>
-    //                 <p>{undangan}</p>
-    //             </div>
-    //     )
-    // })
-
-    // if (state.undangan.data) {
-    //     console.log('metu kene', state.undangan);
-
-
-    // }
     const a = state.undangan.data
 
     const [audioStatus, changeAudioStatus] = useState(true);
@@ -106,13 +79,10 @@ const GoldTiga = () => {
         changeAudioStatus(false);
     };
 
-   
-
     const onFinish = async (values) => {
         values['tamu_id'] = a? a.tamu.id : null;
-        console.log('Success:', values);
         try {
-        let res = await fetch("http://rachmadaini.localhost:8000/api/submit_ucapan", {
+        let res = await fetch(`${window.location.origin}/api/submit_ucapan`, {
             method: "POST",
             headers: {
                 Accept: "application/json",
@@ -124,7 +94,7 @@ const GoldTiga = () => {
         if (res.status === 200) {
             displayUndangan()
         } else {
-            console.log("eror gak 200");;
+            
         }
         } catch (err) {
         console.log(err);
@@ -134,8 +104,6 @@ const GoldTiga = () => {
     const onFinishFailed = (errorInfo) => {
         console.log('Failed:', errorInfo);
     };
-
-
 
     return (
 
@@ -307,7 +275,7 @@ const GoldTiga = () => {
                                         <div className="et_pb_row et_pb_row_7">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_image et_pb_image_0 et_animated et-waypoint">
-                                                    <span className="et_pb_image_wrap "><img decoding="async" width={400} height={400} src={`${a?a.profilPasangans[1].url_foto:''}`} alt title="gold3 (1)" sizes="(max-width: 400px) 100vw, 400px" className="wp-image-378804" /></span>
+                                                    <span className="et_pb_image_wrap "><img decoding="async" width={400} height={400} src={`${a?a.profilPasangans[1].url_foto:''}`}  title="gold3 (1)" sizes="(max-width: 400px) 100vw, 400px" className="wp-image-378804" /></span>
                                                 </div>
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_0 et_animated  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_light">
                                                     <div className="et_pb_blurb_content">
@@ -325,7 +293,7 @@ const GoldTiga = () => {
                                                 </div>
                                                 <ul className="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_0 et_animated clearfix  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <li className="et_pb_social_media_follow_network_0 et_pb_social_icon et_pb_social_network_link  et-social-instagram">
-                                                        <a href="https://www.instagram.com/ngantenstory/" className="icon et_pb_with_border" title="Follow on Instagram" target="_blank"><span className="et_pb_social_media_follow_network_name" aria-hidden="true">Follow</span></a>
+                                                        <a href="https://www.instagram.com/kondangin.idn/" className="icon et_pb_with_border" title="Follow on Instagram" target="_blank"><span className="et_pb_social_media_follow_network_name" aria-hidden="true">Follow</span></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -333,7 +301,7 @@ const GoldTiga = () => {
                                         <div className="et_pb_row et_pb_row_8">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_8  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_image et_pb_image_1 et_animated et-waypoint">
-                                                    <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={400} height={400} src={`${a?a.profilPasangans[0].url_foto:''}`} alt title="gold3 (2)" sizes="(max-width: 400px) 100vw, 400px" className="wp-image-378806" /></span>
+                                                    <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={400} height={400} src={`${a?a.profilPasangans[0].url_foto:''}`}  title="gold3 (2)" sizes="(max-width: 400px) 100vw, 400px" className="wp-image-378806" /></span>
                                                 </div>
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_1 et_animated  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_light">
                                                     <div className="et_pb_blurb_content">
@@ -349,7 +317,7 @@ const GoldTiga = () => {
                                                 </div>
                                                 <ul className="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_1 et_animated clearfix  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <li className="et_pb_social_media_follow_network_1 et_pb_social_icon et_pb_social_network_link  et-social-instagram">
-                                                        <a href="https://www.instagram.com/ngantenstory/" className="icon et_pb_with_border" title="Follow on Instagram" target="_blank"><span className="et_pb_social_media_follow_network_name" aria-hidden="true">Follow</span></a>
+                                                        <a href="https://www.instagram.com/kondangin.idn/" className="icon et_pb_with_border" title="Follow on Instagram" target="_blank"><span className="et_pb_social_media_follow_network_name" aria-hidden="true">Follow</span></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -725,7 +693,7 @@ const GoldTiga = () => {
 
                                                             state.undangan.data.fotos.map((foto, index) => (
 
-                                                                <div className={`et_pb_slide et_pb_slide_${index} et_pb_bg_layout_dark et_pb_media_alignment_center et-pb-active-slide`} data-slide-id={`et_pb_slide_${index}`} style={{ backgroundImage: `url("${foto.url}")` }}>
+                                                                <div key={index} className={`et_pb_slide et_pb_slide_${index} et_pb_bg_layout_dark et_pb_media_alignment_center et-pb-active-slide`} data-slide-id={`et_pb_slide_${index}`} style={{ backgroundImage: `url("${foto.url}")` }}>
                                                                     <div className="et_pb_container clearfix">
                                                                         <div className="et_pb_slider_container_inner">
                                                                             <div className="et_pb_slide_description">
@@ -991,7 +959,7 @@ const GoldTiga = () => {
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_23  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_text et_pb_text_20 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
-                                                        <p>Tinggalkan pesan/doa untuk kami <a href="../wp-content/uploads/2022/12/Comment-Envelope.svg"><img decoding="async" loading="lazy" src="../wp-content/uploads/2022/12/Comment-Envelope.svg" width={32} height={29} alt className="wp-image-377673 alignnone size-medium" /></a></p>
+                                                        <p>Tinggalkan pesan/doa untuk kami <a href="../wp-content/uploads/2022/12/Comment-Envelope.svg"><img decoding="async" loading="lazy" src="../wp-content/uploads/2022/12/Comment-Envelope.svg" width={32} height={29}  className="wp-image-377673 alignnone size-medium" /></a></p>
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_with_border et_pb_module et_pb_comments_0 lang-id et_pb_comments_module et_pb_bg_layout_light et_pb_no_avatar et_pb_no_reply_button et_pb_no_comments_count" data-icon="">
@@ -999,7 +967,7 @@ const GoldTiga = () => {
                                                         <h1 id="comments" className="page_title">16 Comments</h1>
                                                         <ol className="commentlist clearfix">
                                                         {a ? a.ucapan.map((elementUcapan, index) => (  
-                                                            <li className="comment even thread-even depth-1 et-pb-non-builder-comment" id={`li-comment-${index}`}>
+                                                            <li className="comment even thread-even depth-1 et-pb-non-builder-comment" id={`li-comment-${index}`} key={index}>
                                                             <article id={`comment-${index}`} className="comment-body clearfix">
                                                                 <div className="comment_avatar">
                                                                 </div>
@@ -1054,11 +1022,11 @@ const GoldTiga = () => {
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_module et_pb_image et_pb_image_4 et_pb_image_sticky">
-                                                    <a href="#"><span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={1394} height={607} src="../wp-content/uploads/2021/12/NS-Logo2.png" alt title="NS-Logo2" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1394px, 100vw" className="wp-image-324765" /></span></a>
+                                                    <a href="#"><span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={1394} height={607} src="../wp-content/uploads/2020/03/kondangin.png"  title="NS-Logo2" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1394px, 100vw" className="wp-image-324765" /></span></a>
                                                 </div>
                                                 <ul className="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_2 clearfix  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <li className="et_pb_social_media_follow_network_2 et_pb_social_icon et_pb_social_network_link  et-social-instagram">
-                                                        <a href="https://www.instagram.com/ngantenstory/" className="icon et_pb_with_border" title="Follow on Instagram" target="_blank"><span className="et_pb_social_media_follow_network_name" aria-hidden="true">Follow</span></a>
+                                                        <a href="https://www.instagram.com/kondangin.idn/" className="icon et_pb_with_border" title="Follow on Instagram" target="_blank"><span className="et_pb_social_media_follow_network_name" aria-hidden="true">Follow</span></a>
                                                     </li>
                                                 </ul>
                                                 <div className="et_pb_module et_pb_text et_pb_text_22 et_animated et_clickable  et_pb_text_align_center et_pb_bg_layout_light">
@@ -1157,7 +1125,7 @@ const GoldTiga = () => {
                                             <div className="et_pb_with_border et_pb_row et_pb_row_16">
                                                 <div className="et_pb_column et_pb_column_4_4 et_pb_column_17  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                     <div className="et_pb_module et_pb_image et_pb_image_2 et_pb_image_sticky">
-                                                        <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={320} height={100} src="../wp-content/uploads/2022/bank/Bank-BCA-1.png" alt title="Bank-BCA" sizes="(max-width: 320px) 100vw, 320px" className="wp-image-326502" /></span>
+                                                        <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={320} height={100} src="../wp-content/uploads/2022/bank/Bank-BCA-1.png"  title="Bank-BCA" sizes="(max-width: 320px) 100vw, 320px" className="wp-image-326502" /></span>
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_13  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
@@ -1181,7 +1149,7 @@ const GoldTiga = () => {
                                             <div className="et_pb_with_border et_pb_row et_pb_row_17">
                                                 <div className="et_pb_column et_pb_column_4_4 et_pb_column_18  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                     <div className="et_pb_module et_pb_image et_pb_image_3 et_pb_image_sticky">
-                                                        <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={320} height={116} src="../wp-content/uploads/2022/bank/Bank-Gopay.png" alt title="Bank-Gopay" sizes="(max-width: 320px) 100vw, 320px" className="wp-image-325981" /></span>
+                                                        <span className="et_pb_image_wrap "><img decoding="async" loading="lazy" width={320} height={116} src="../wp-content/uploads/2022/bank/Bank-Gopay.png"  title="Bank-Gopay" sizes="(max-width: 320px) 100vw, 320px" className="wp-image-325981" /></span>
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_15  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">

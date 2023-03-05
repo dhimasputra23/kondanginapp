@@ -18,6 +18,38 @@ class Paket_TemaTableSeeder extends Seeder
             'paket_id' => 1,
             'tema_id' => 1,
         ]);
+        DB::table('paket_tema')->insert([
+            'paket_id' => 1,
+            'tema_id' => 2,
+        ]);
+        DB::table('paket_tema')->insert([
+            'paket_id' => 1,
+            'tema_id' => 3,
+        ]);
+        DB::table('paket_tema')->insert([
+            'paket_id' => 1,
+            'tema_id' => 4,
+        ]);
+        DB::table('paket_tema')->insert([
+            'paket_id' => 1,
+            'tema_id' => 5,
+        ]);
+        DB::table('paket_tema')->insert([
+            'paket_id' => 1,
+            'tema_id' => 6,
+        ]);
+        DB::table('paket_tema')->insert([
+            'paket_id' => 1,
+            'tema_id' => 7,
+        ]);
+        DB::table('paket_tema')->insert([
+            'paket_id' => 1,
+            'tema_id' => 8,
+        ]);
+        DB::table('paket_tema')->insert([
+            'paket_id' => 1,
+            'tema_id' => 9,
+        ]);
         //
     }
 }

@@ -130,7 +130,7 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
     <!-- This site is optimized with the Yoast SEO plugin v19.14 - https://yoast.com/wordpress/plugins/seo/ -->
-    <title>Silver Dua - NgantenStory</title>
+    <title>Silver Satu - Kondangin</title>
     <link rel="preload" as="style"
         href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800%7COpen%20Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CPlayfair%20Display%3Aregular%2C500%2C600%2C700%2C800%2C900%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap" />
     <link rel="stylesheet"
@@ -2052,7 +2052,7 @@ header.et-l--header .et_pb_menu__logo > img {
         <div class="loader-close-button" style="display: none;"><span class="screen-reader-text">Close</span></div>
     </div>
 
-    <div id="silversatu"></div>
+    <div id="silverSatu"></div>
 
    
 

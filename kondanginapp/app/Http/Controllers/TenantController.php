@@ -69,7 +69,8 @@ class TenantController extends Controller
         $videos = Video::all();
         $alamatGifts = AlamatGift::all();
         $rekeningGifts = RekeningGift::all();
-        $ucapans = Ucapan::all();
+        $ucapans = Ucapan::orderBy('created_at', 'DESC')->get();
+        
         $tamu = Tamu::where('nama', '=', $nama_tamu)->first(); 
         
 

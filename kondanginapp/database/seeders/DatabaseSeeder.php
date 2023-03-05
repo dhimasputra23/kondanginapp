@@ -40,7 +40,7 @@ class DatabaseSeeder extends Seeder
 
         $tenant1 = Tenant::create([
             'id' => 'nandaaisyah',
-            'tema_id' => 1,
+            'tema_id' => 4,
             'paket_id' => 1,
             'user_id' => 3
 
@@ -48,7 +48,7 @@ class DatabaseSeeder extends Seeder
 
         $tenant2 = Tenant::create([
             'id' => 'rachmadaini',
-            'tema_id' => 2,
+            'tema_id' => 9,
             'paket_id' => 1,
             'user_id' => 2
 

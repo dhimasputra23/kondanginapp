@@ -16,7 +16,7 @@ class PaketTableSeeder extends Seeder
     {
         DB::table('pakets')->insert([
             'nama' => 'paket promo opening',
-            'harga' => 120000,
+            'harga' => 199000,
             'created_at' => now(),
             'updated_at' => now(),
         ]);

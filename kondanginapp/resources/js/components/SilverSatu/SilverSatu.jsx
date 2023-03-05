@@ -1,7 +1,104 @@
-import React from 'react'
+import React, { useEffect, useState, useSearchParams , useRef} from 'react'
 import ReactDOM from 'react-dom';
+import { useDispatch, useSelector } from 'react-redux'
+import { Button, Card, Form, Input, Modal, Select } from 'antd';
+import { UserOutlined } from '@ant-design/icons';
+import TextArea from 'antd/es/input/TextArea';
+import { Provider } from 'react-redux';
+import store from '../../store';
+import moment from 'moment'
+import { getUndangan } from '../../store/action';
 
 const SilverSatu = () => {
+    const state = useSelector((state) => state)
+    const dispatch = useDispatch()
+
+    moment.locale('id')
+    const [modalRekening, setModalRekening] = useState(false);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [form] = Form.useForm()
+
+    const displayUndangan = () => {
+        dispatch(getUndangan())
+    }
+
+    useEffect(() => {
+        displayUndangan()
+
+
+    }, [])
+
+    const showModal = (id) => {
+
+        if (id === 1) {
+
+            setIsModalOpen(true)
+        } else {
+
+            setModalRekening(true);
+        }
+
+    };
+
+    const handleOk = (id) => {
+
+        if (id === 1) {
+            setIsModalOpen(false);
+        } else {
+            setModalRekening(false);
+        }
+
+    };
+
+    const handleCancel = (id) => {
+
+        if (id === 1) {
+            setIsModalOpen(false);
+        } else {
+            setModalRekening(false);
+        }
+    };
+
+    const a = state.undangan.data
+
+    const [audioStatus, changeAudioStatus] = useState(true);
+    const myRef = useRef();
+
+    const startAudio = () => {
+        myRef.current.play();
+        changeAudioStatus(true);
+    };
+
+    const pauseAudio = () => {
+        myRef.current.pause();
+        changeAudioStatus(false);
+    };
+
+    const onFinish = async (values) => {
+        values['tamu_id'] = a? a.tamu.id : null;
+        try {
+        let res = await fetch(`${window.location.origin}/api/submit_ucapan`, {
+            method: "POST",
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+              },
+            body: JSON.stringify(values),
+        });
+        let resJson = await res.json();
+        if (res.status === 200) {
+            displayUndangan()
+        } else {
+            
+        }
+        } catch (err) {
+        console.log(err);
+        }
+        form.resetFields();
+    };
+    const onFinishFailed = (errorInfo) => {
+        console.log('Failed:', errorInfo);
+    };
     return (
         <>
 

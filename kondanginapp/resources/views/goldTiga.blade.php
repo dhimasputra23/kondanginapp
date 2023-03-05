@@ -130,7 +130,7 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
     <!-- This site is optimized with the Yoast SEO plugin v19.14 - https://yoast.com/wordpress/plugins/seo/ -->
-    <title>Gold Tiga - NgantenStory</title>
+    <title>Gold Tiga - Kondangin</title>
     <link rel="preload" as="style"
         href="https://fonts.googleapis.com/css?family=Open%20Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800%7COpen%20Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CPlayfair%20Display%3Aregular%2C500%2C600%2C700%2C800%2C900%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CSacramento%3Aregular%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap" />
     <link rel="stylesheet"
@@ -2060,7 +2060,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     <!-- #page-container -->
     <!-- React JS -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="http://localhost:8000/js/app.js" defer></script>
 
     <script>
     function wonderaudio_432_appendcss(csscode) {
@@ -2790,13 +2790,13 @@ header.et-l--header .et_pb_menu__logo > img {
     @font-face {
         font-family: "Batusa";
         font-display: swap;
-        src: url("wp-content/uploads/et-fonts/Batusa.woff") format("woff"), url("wp-content/uploads/et-fonts/Batusa.otf") format("opentype")
+        src: url("/wp-content/uploads/et-fonts/Batusa.woff") format("woff"), url("/wp-content/uploads/et-fonts/Batusa.otf") format("opentype")
     }
 
     @font-face {
         font-family: "Royal Wedd";
         font-display: swap;
-        src: url("wp-content/uploads/et-fonts/RoyalWeddingRegular.otf") format("opentype")
+        src: url("/wp-content/uploads/et-fonts/RoyalWeddingRegular.otf") format("opentype")
     }
 
     div.et_pb_section.et_pb_section_0 {
@@ -3087,7 +3087,7 @@ header.et-l--header .et_pb_menu__logo > img {
     }
 
     div.et_pb_section.et_pb_section_4 {
-        background-image: url(../wp-content/uploads/2022/12/gold3-14.jpg) !important
+        /* background-image: url(../wp-content/uploads/2022/12/gold3-14.jpg) !important */
     }
 
     .et_pb_section_4.et_pb_section,
@@ -3125,7 +3125,7 @@ header.et-l--header .et_pb_menu__logo > img {
     }
 
     div.et_pb_section.et_pb_section_6 {
-        background-image: url(../wp-content/uploads/2022/12/gold3-7.jpg) !important
+        /* background-image: url(../wp-content/uploads/2022/12/gold3-7.jpg) !important */
     }
 
     .et_pb_section_8.et_pb_section {
@@ -3224,9 +3224,9 @@ header.et-l--header .et_pb_menu__logo > img {
     }
 
     .et_pb_row_9 {
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.87) 0%, rgba(255, 255, 255, 0.77) 100%), url(../wp-content/uploads/2022/12/gold3-13.jpg);
+        /* background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.87) 0%, rgba(255, 255, 255, 0.77) 100%), url(../wp-content/uploads/2022/12/gold3-13.jpg);
         border-radius: 18px 18px 18px 18px;
-        overflow: hidden
+        overflow: hidden */
     }
 
     .et_pb_row_17.et_pb_row,
@@ -3395,9 +3395,9 @@ header.et-l--header .et_pb_menu__logo > img {
     }
 
     .et_pb_row_10 {
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.87) 0%, rgba(255, 255, 255, 0.77) 100%), url(../wp-content/uploads/2022/12/gold3-4.jpg);
+        /* background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.87) 0%, rgba(255, 255, 255, 0.77) 100%), url(../wp-content/uploads/2022/12/gold3-4.jpg);
         border-radius: 18px 18px 18px 18px;
-        overflow: hidden
+        overflow: hidden */
     }
 
     .dipi_dual_heading_1 .dipi-dh-first-heading {
@@ -3430,9 +3430,9 @@ header.et-l--header .et_pb_menu__logo > img {
         top: 50%
     }
 
-    div.et_pb_section.et_pb_section_10 {
+    /* div.et_pb_section.et_pb_section_10 {
         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.47) 100%), url(../wp-content/uploads/2022/12/L1008339-copya.jpg) !important
-    }
+    } */
 
     .et_pb_section_10.et_pb_section {
         padding-top: 80vh
@@ -4506,9 +4506,9 @@ header.et-l--header .et_pb_menu__logo > img {
             margin-left: -49px !important
         }
 
-        div.et_pb_section.et_pb_section_10 {
+        /* div.et_pb_section.et_pb_section_10 {
             background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.47) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/gold3-8.jpg) !important
-        }
+        } */
 
         .et_pb_section_10.et_pb_section {
             padding-top: 250px

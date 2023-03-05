@@ -1,5 +1,5 @@
 
-const BASE_URL = `http://nandaaisyah.localhost:8000/to/dhimas`
+const BASE_URL = `${window.location.origin}/api${decodeURIComponent(window.location.pathname)}`
 
 export const getUndangan = () => {
     

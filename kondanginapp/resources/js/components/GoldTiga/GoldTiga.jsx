@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useSearchParams , useRef} from 'react'
 import ReactDOM from 'react-dom';
 import { useDispatch, useSelector } from 'react-redux'
 import { Button, Card, Form, Input, Modal, Select } from 'antd';
@@ -8,8 +8,13 @@ import { Provider } from 'react-redux';
 import store from '../../store';
 import moment from 'moment'
 import { getUndangan } from '../../store/action';
-const GoldTiga = () => {
 
+
+
+
+const GoldTiga = () => {
+    
+    console.log("ini location search : ",window.location)
     const state = useSelector((state) => state)
     const dispatch = useDispatch()
 
@@ -88,8 +93,47 @@ const GoldTiga = () => {
     // }
     const a = state.undangan.data
 
+    const [audioStatus, changeAudioStatus] = useState(true);
+    const myRef = useRef();
 
+    const startAudio = () => {
+        myRef.current.play();
+        changeAudioStatus(true);
+    };
 
+    const pauseAudio = () => {
+        myRef.current.pause();
+        changeAudioStatus(false);
+    };
+
+   
+
+    const onFinish = async (values) => {
+        values['tamu_id'] = a? a.tamu.id : null;
+        console.log('Success:', values);
+        try {
+        let res = await fetch("http://rachmadaini.localhost:8000/api/submit_ucapan", {
+            method: "POST",
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+              },
+            body: JSON.stringify(values),
+        });
+        let resJson = await res.json();
+        if (res.status === 200) {
+            displayUndangan()
+        } else {
+            console.log("eror gak 200");;
+        }
+        } catch (err) {
+        console.log(err);
+        }
+        form.resetFields();
+    };
+    const onFinishFailed = (errorInfo) => {
+        console.log('Failed:', errorInfo);
+    };
 
 
 
@@ -110,7 +154,7 @@ const GoldTiga = () => {
                                                     <div className="et_pb_text_inner">
                                                         <h5>Dear,</h5>
 
-                                                        <p>Nama Tamu</p>
+                                                        <p>{a? state.tamu.nama : ''}</p>
                                                         <h2>You Are Invited!</h2>
                                                     </div>
                                                 </div>
@@ -223,10 +267,13 @@ const GoldTiga = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="et_pb_section et_pb_section_4 et_animated et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider">
+                                    {/* belum pake gambar api */}
+                                    <div className="et_pb_section et_pb_section_4 et_animated et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider" style={{ backgroundImage: `url("${a && a.fotoBackgrounds.some(el => (el.flag == "Background-3")) ? a.fotoBackgrounds.find(el => {return el.flag == "Background-3"}).url : ''}")` }}>
                                         <div className="et_pb_top_inside_divider et-no-transition" />
                                         <div className="et_pb_bottom_inside_divider et-no-transition" />
                                     </div>
+
+                                    
                                     <div className="et_pb_section et_pb_section_5 et_pb_with_background et_section_regular">
                                         <div className="et_pb_row et_pb_row_5">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -239,7 +286,8 @@ const GoldTiga = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="et_pb_section et_pb_section_6 et_animated et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider">
+                                    {/* belum pake gambar api */}
+                                    <div className="et_pb_section et_pb_section_6 et_animated et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider" style={{ backgroundImage: `url("${a && a.fotoBackgrounds.some(el => (el.flag == "Background-4")) ? a.fotoBackgrounds.find(el => {return el.flag == "Background-4"}).url : ''}")` }}>
                                         <div className="et_pb_top_inside_divider et-no-transition" />
                                         <div className="et_pb_bottom_inside_divider et-no-transition" />
                                     </div>
@@ -307,9 +355,11 @@ const GoldTiga = () => {
                                             </div>
                                         </div>
                                     </div>
+
+                                    {/* belum pake gambar api */}
                                     <div className="et_pb_section et_pb_section_9 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider">
                                         <div className="et_pb_top_inside_divider et-no-transition" />
-                                        <div className="et_pb_row et_pb_row_9">
+                                        <div className="et_pb_row et_pb_row_9" style={{ overflow: 'hidden', borderRadius: `18px 18px 18px 18px`, backgroundImage: `linear-gradient(180deg, rgba(255, 255, 255, 0.87) 0%, rgba(255, 255, 255, 0.77) 100%),url("${a && a.fotoBackgrounds.some(el => (el.flag == "Background-5")) ? a.fotoBackgrounds.find(el => {return el.flag == "Background-5"}).url : ''}")` }}>
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_9  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module dipi_svg_animator dipi_svg_animator_1">
                                                     <div className="et_pb_module_inner">
@@ -397,7 +447,8 @@ const GoldTiga = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="et_pb_row et_pb_row_10">
+                                        {/* belum pake gambar api */}
+                                        <div className="et_pb_row et_pb_row_10" style={{ overflow: 'hidden', borderRadius: `18px 18px 18px 18px`, backgroundImage: `linear-gradient(180deg, rgba(255, 255, 255, 0.87) 0%, rgba(255, 255, 255, 0.77) 100%),url("${a && a.fotoBackgrounds.some(el => (el.flag == "Background-6")) ? a.fotoBackgrounds.find(el => {return el.flag == "Background-6"}).url : ''}")` }}>
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_10  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module dipi_svg_animator dipi_svg_animator_2">
                                                     <div className="et_pb_module_inner">
@@ -480,7 +531,8 @@ const GoldTiga = () => {
                                         </div>
                                         <div className="et_pb_bottom_inside_divider et-no-transition" />
                                     </div>
-                                    <div className="et_pb_section et_pb_section_10 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider">
+                                    {/* belum pake gambar api */}
+                                    <div className="et_pb_section et_pb_section_10 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider" style={{ backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.47) 100%),url("${a && a.fotoBackgrounds.some(el => (el.flag == "Background-7")) ? a.fotoBackgrounds.find(el => {return el.flag == "Background-7"}).url : ''}")` }}>
                                         <div className="et_pb_row et_pb_row_11">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_11  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module dipi_typing_text dipi_typing_text_0">
@@ -505,6 +557,7 @@ const GoldTiga = () => {
                                         <div className="et_pb_bottom_inside_divider et-no-transition" />
                                     </div>
 
+                                    
                                     <div className="et_pb_section et_pb_section_12 et_pb_with_background et_section_regular">
                                         <div className="et_pb_row et_pb_row_13">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -605,21 +658,52 @@ const GoldTiga = () => {
                                                     </div>
                                                 </div>
 
-
+                                                {/* belum pake musik api */}
                                                 <div className="et_pb_module et_pb_code et_pb_code_2">
                                                     <div className="et_pb_code_inner">
                                                         <div className="wonderpluginaudio" id="wonderpluginaudio-432" data-audioplayerid={432} data-width={48} data-height={600} data-skin="button48" data-progressinbar="true" data-showinfo="false" data-showimage="false" data-autoplay="false" data-random="false" data-autoresize="false" data-responsive="false" data-showtracklist="false" data-tracklistscroll="true" data-showprogress="false" data-showprevnext="false" data-showloop="false" data-stopotherplayers="true" data-preloadaudio="true" data-showtracklistsearch="false" data-saveposincookie="false" data-wptracklist="false" data-removeinlinecss="true" data-showtime="false" data-showvolume="false" data-showvolumebar="true" data-showliveplayedlist="false" data-showtitleinbar="false" data-showloading="false" data-enablega="false" data-titleinbarscroll="true" data-donotinit="false" data-addinitscript="false" data-imagewidth={100} data-imageheight={100} data-loop={1} data-tracklistitem={10} data-titleinbarwidth={80} data-gatrackingid data-playbackrate={1} data-playpauseimage="playpause-48-48-1.png" data-playpauseimagewidth={48} data-playpauseimageheight={48} data-cookiehours={240} data-prevnextimage="prevnext-24-24-0.png" data-prevnextimagewidth={24} data-prevnextimageheight={24} data-volumeimage="volume-24-24-0.png" data-volumeimagewidth={24} data-volumeimageheight={24} data-liveupdateinterval={10000} data-maxplayedlist={8} data-playedlisttitle="Last Tracks Played" data-loopimage="loop-24-24-0.png" data-loopimagewidth={24} data-loopimageheight={24} data-infoformat="<div class='amazingaudioplayer-info-title'>%ARTIST% %ALBUM%</div>
                                                                     <div class='amazingaudioplayer-info-description'>%INFO%</div>" data-jsfolder="../wp-content/plugins/wonderplugin-audio/engine/" style={{ display: 'block', position: 'relative', margin: '0 auto', width: 48, height: 'auto' }}>
-                                                            <ul className="amazingaudioplayer-audios" style={{ display: 'none' }}>
-                                                                <li data-artist data-title="Lee Hi - Only _ Lirik Terjemahan LeeHi" data-album data-info="&quot;Lee Hi - Only _ Lirik Terjemahan LeeHi&quot;." data-image="../wp-includes/images/media/audio.png" data-duration={238}>
-                                                                    <div className="amazingaudioplayer-source" data-src="../wp-content/uploads/2022/audio/Lee-Hi-Only-_-Lirik-Terjemahan-LeeHi.mp3" data-type="audio/mpeg" />
+                                                            {/* <ul className="amazingaudioplayer-audios" style={{ display: 'none' }}>
+                                                                
+                                                                <li data-artist data-title={a ? a.musik[0].nama : ''} data-album data-info={a ? a.musik[0].nama : ''} data-image="../wp-includes/images/media/audio.png" data-duration={238}>
+                                                                    
+                                                                    <div className="amazingaudioplayer-source" data-src={a? a.musik[0].url:''} data-type="audio/mpeg" />
+
+                                                                    <div className="amazingaudioplayer-source" data-src="https://ia802802.us.archive.org/15/items/cd_mad-to-love_ms.-meka-nism-and-her-rusty-tears/disc1/01.%20Ms.%20Meka%20Nism%20And%20Her%20Rusty%20Tears%20-%20In%20The%20Time_sample.mp3" data-type="audio/mpeg" />
+
+                                                                    
                                                                 </li>
-                                                            </ul>
+                                                                
+                                                            </ul> */}
+                                                            <div className="amazingaudioplayer-player-wrapper">
+                                                                <div className="amazingaudioplayer-bar">
+                                                                    <div className="amazingaudioplayer-playpause" style={{ display: 'block' }}>
+                                                                        {audioStatus ? (
+                                                                            // <Button onClick={pauseAudio}>pause</Button>
+                                                                            <div onClick={pauseAudio} className="amazingaudioplayer-pause" style={{ display: 'block', width:'48px', height:'48px', cursor: 'pointer', backgroundImage:'url(&quot;../wp-content/plugins/wonderplugin-audio/engine/playpause-48-48-1.png&quot;)', backgroundRepeat: 'no-repeat', backgroundPosition: 'right top' }}></div>
+                                                                        ) : (
+                                                                            <div onClick={startAudio} className="amazingaudioplayer-play" style={{ display: 'block', width:'48px', height:'48px', cursor: 'pointer', backgroundImage:'url(&quot;../wp-content/plugins/wonderplugin-audio/engine/playpause-48-48-1.png&quot;)', backgroundRepeat: 'no-repeat', backgroundPosition: 'left top' }}></div>
+                                                                            // <Button onClick={startAudio}>start</Button>
+                                                                        )}
+                                                                        </div>
+                                                                        <div className="amazingaudioplayer-bar-buttons-clear">
+                                                                        </div>
+                                                                    </div>
+                                                                <div className="amazingaudioplayer-bar-clear">
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            {/* <audio id="amazingaudioobject-432" preload="auto" style={{display: 'none'}}><source src="https://ia802802.us.archive.org/15/items/cd_mad-to-love_ms.-meka-nism-and-her-rusty-tears/disc1/01.%20Ms.%20Meka%20Nism%20And%20Her%20Rusty%20Tears%20-%20In%20The%20Time_sample.mp3" type="audio/mpeg"/></audio> */}
+                                                            {/* <audio ref={myRef} preload="auto" style={{display: 'none'}} src="https://ia802802.us.archive.org/15/items/cd_mad-to-love_ms.-meka-nism-and-her-rusty-tears/disc1/01.%20Ms.%20Meka%20Nism%20And%20Her%20Rusty%20Tears%20-%20In%20The%20Time_sample.mp3"></audio> */}
+                                                            <audio ref={myRef} preload="auto" loop={true} style={{display: 'none'}} src={a? a.musik[0].url : ''}></audio>
+                                                            
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
+                                                {/* belum pake video api */}
                                                 <div className="et_pb_module et_pb_video et_pb_video_0">
-                                                    <div className="et_pb_video_box"><iframe loading="lazy" title="The Prewedding Video of Finda & Dean" width={1080} height={608} src="https://www.youtube.com/embed/s2IaQisOsWg?feature=oembed" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen /></div>
+                                                    <div className="et_pb_video_box"><iframe loading="lazy" title="The Prewedding Video of Finda & Dean" width={1080} height={480} src={a? a.videos[0].url : ''} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen /></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -808,10 +892,17 @@ const GoldTiga = () => {
                                                             <div className="site-card-border-less-wrapper">
                                                                 <Card hoverable title="Kirim Ucapan & Doa" bordered={false} style={{ textAlign: 'center' }}>
 
-                                                                    <Form>
+                                                                    <Form
+                                                                    form={form}
+                                                                    initialValues={{
+                                                                        nama: a? state.tamu.nama : '',
+                                                                      }}
+                                                                    onFinish={onFinish}
+                                                                    onFinishFailed={onFinishFailed}
+                                                                    >
 
                                                                         <Form.Item
-                                                                            name={['nama']}
+                                                                            name={'nama'}
                                                                             style={{ marginBottom: 10 }}
                                                                             rules={[{ required: true, message: 'Nama Wajib Di isi!' }]}
                                                                         >
@@ -821,7 +912,7 @@ const GoldTiga = () => {
                                                                         </Form.Item>
 
                                                                         <Form.Item
-                                                                            name={['ucapan']}
+                                                                            name={'kalimat'}
                                                                             style={{ marginBottom: 5 }}
                                                                             rules={[{ required: true, message: 'Ucapan & Doa Wajib Di isi!' }]}
                                                                         >
@@ -835,7 +926,7 @@ const GoldTiga = () => {
                                                                         </Form.Item>
 
                                                                         <Form.Item
-                                                                            name={['konfirmasi']}
+                                                                            name={'konfirmasi'}
                                                                             style={{ textAlign: 'left' }}
                                                                             rules={[{ required: true, message: 'Konfirmasi Wajib Di isi!' }]}
                                                                         >
@@ -845,18 +936,20 @@ const GoldTiga = () => {
                                                                                 // style={{ width:  }}
                                                                                 onChange={() => { }}
                                                                                 options={[
-                                                                                    { value: 'hadir', label: 'Hadir' },
-                                                                                    { value: 'tidak hadir', label: 'Tidak Hadir' },
+                                                                                    { value: 'Hadir', label: 'Hadir' },
+                                                                                    { value: 'Tidak Hadir', label: 'Tidak Hadir' },
 
                                                                                 ]}
                                                                             />
                                                                         </Form.Item>
 
 
-
-                                                                        <div style={{ textAlign: 'right' }}>
-                                                                            <Button>Kirim</Button>
-                                                                        </div>
+                                                                        <Form.Item>
+                                                                            <div style={{ textAlign: 'right' }}>
+                                                                                <Button htmlType="submit">Kirim</Button>
+                                                                            </div>
+                                                                        </Form.Item>    
+                                                                        
 
                                                                     </Form>
 
@@ -892,6 +985,7 @@ const GoldTiga = () => {
                                             </div>
                                         </div>
                                     </div>
+                                    {/* belum pake ucapan api */}
                                     <div className="et_pb_with_border et_pb_section et_pb_section_17 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider">
                                         <div className="et_pb_row et_pb_row_22">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_23  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -904,293 +998,26 @@ const GoldTiga = () => {
                                                     <section id="comment-wrap">
                                                         <h1 id="comments" className="page_title">16 Comments</h1>
                                                         <ol className="commentlist clearfix">
-                                                            <li className="comment even thread-even depth-1 et-pb-non-builder-comment" id="li-comment-197929">
-                                                                <article id="comment-197929" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
+                                                        {a ? a.ucapan.map((elementUcapan, index) => (  
+                                                            <li className="comment even thread-even depth-1 et-pb-non-builder-comment" id={`li-comment-${index}`}>
+                                                            <article id={`comment-${index}`} className="comment-body clearfix">
+                                                                <div className="comment_avatar">
+                                                                </div>
+                                                                <div className="comment_postinfo">
+                                                                    <span className="fn">{elementUcapan.nama}</span> <span className="comment_date">
+                                                                        on January 2, 2023 at 12:40 am </span>
+                                                                </div>
+                                                                <div className="comment_area">
+                                                                    <div className="comment-content clearfix">
+                                                                        <p>{elementUcapan.kalimat}</p>
                                                                     </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Abichandra</span> <span className="comment_date">
-                                                                            on January 2, 2023 at 12:40 am </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>Selamat menempuh hidup baru dengan kasihmu.
-                                                                                💌💌😘 Semoga cinta kalian terus bertumbuh dan
-                                                                                semakin menguat setiap harinya. ❤️❤️❤️🥰</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment odd alt thread-odd thread-alt depth-1 et-pb-non-builder-comment" id="li-comment-197913">
-                                                                <article id="comment-197913" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Bamantara</span> <span className="comment_date">
-                                                                            on January 2, 2023 at 12:37 am </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>Selamat menjalani hari-hari pasca pernikahan.
-                                                                                Bahagia selalu wahai saudaraku. Semoga Allah
-                                                                                Swt. selalu menuntunmu beserta istri dan
-                                                                                anak-anak meraih Cinta-Nya.🥰🥰</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment even thread-even depth-1 et-pb-non-builder-comment" id="li-comment-197897">
-                                                                <article id="comment-197897" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Banurasmi 🥰</span> <span className="comment_date">
-                                                                            on January 2, 2023 at 12:35 am </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>Turut berbahagia dengan pernikahan kalian. ❤️❤️
-                                                                                Semoga pernikahan sebagai tanda awal perjalanan
-                                                                                cinta kalian yang sesungguhnya diridhai-Nya.🥰🥰
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment odd alt thread-odd thread-alt depth-1 et-pb-non-builder-comment" id="li-comment-197881">
-                                                                <article id="comment-197881" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Cakrawala</span> <span className="comment_date">
-                                                                            on January 2, 2023 at 12:33 am </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>🥰 Selamat menjalani pernikahan yang bahagia,
-                                                                                sahabatku. Selamat mengemban amanah baru sebagai
-                                                                                (suami/istri). Lakukan semua karena ridha
-                                                                                pada-Nya.🥰</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment even thread-even depth-1 et-pb-non-builder-comment" id="li-comment-197865">
-                                                                <article id="comment-197865" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Danurdara</span> <span className="comment_date">
-                                                                            on January 2, 2023 at 12:30 am </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>❤️ Selamat menikah, sahabatku tersayang. Semoga
-                                                                                kalian menjadi pasangan sejati sampai maut
-                                                                                memisahkan, lekas dikaruniai keturunan yang
-                                                                                saleh dan salehah. Aamiin. ❤️</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment odd alt thread-odd thread-alt depth-1 et-pb-non-builder-comment" id="li-comment-197849">
-                                                                <article id="comment-197849" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Gantari</span> <span className="comment_date">
-                                                                            on January 2, 2023 at 12:25 am </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>Selamat menikah, sahabatku tersayang. Semoga
-                                                                                kalian menjadi pasangan sejati sampai maut
-                                                                                memisahkan, lekas dikaruniai keturunan yang
-                                                                                saleh dan salehah. Aamiin. 😘😘</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment even thread-even depth-1 et-pb-non-builder-comment" id="li-comment-197833">
-                                                                <article id="comment-197833" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Herdian</span> <span className="comment_date">
-                                                                            on January 2, 2023 at 12:23 am </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>Doa terbaik untuk kamu dan pasangan, semoga
-                                                                                samawa ’till jannah dan membangun keluarga
-                                                                                sesuai syariat Al-Qur’an dan hadis.</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment odd alt thread-odd thread-alt depth-1 et-pb-non-builder-comment" id="li-comment-197821">
-                                                                <article id="comment-197821" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Indriaya</span> <span className="comment_date">
-                                                                            on January 2, 2023 at 12:20 am </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>❤️ Cinta merupakan anugerah terbaik yang
-                                                                                diberikan Tuhan.🥰 Cinta juga merupakan
-                                                                                penghargaan besar bagi mereka yang menerima.
-                                                                                Selamat menikah, jagalah anugerah tersebut
-                                                                                dengan baik. ❤️</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment even thread-even depth-1 et-pb-non-builder-comment" id="li-comment-197801">
-                                                                <article id="comment-197801" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Jumantara</span> <span className="comment_date">
-                                                                            on January 2, 2023 at 12:13 am </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>🥰🥰 Temanku ini sudah punya gandengan, aku masih
-                                                                                betah dalam kejombloan. Selamat menikah, teman.
-                                                                                Aku pasti segera menyusulmu! 😘😘</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment odd alt thread-odd thread-alt depth-1 et-pb-non-builder-comment" id="li-comment-197792">
-                                                                <article id="comment-197792" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Karunia</span> <span className="comment_date">
-                                                                            on January 2, 2023 at 12:09 am </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>Kunci membangun hubungan pernikahan yang kuat dan
-                                                                                harmonis adalah saling teguh memegang komitmen
-                                                                                bersama. Selamat menikah, semoga menjadi
-                                                                                pasangan yang abadi. 🥰🥰🥰</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment even thread-even depth-1 et-pb-non-builder-comment" id="li-comment-197774">
-                                                                <article id="comment-197774" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Lelana</span> <span className="comment_date">
-                                                                            on January 2, 2023 at 12:03 am </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>❤️ Happy wedding! ❤️<br />
-                                                                                Sudah enggak ada lagi galau meratapi status
-                                                                                jomblo, ya? Berbahagialah selalu, dan semoga
-                                                                                segera diberkahi dengan momongan.❤️❤️❤️</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment odd alt thread-odd thread-alt depth-1 et-pb-non-builder-comment" id="li-comment-197758">
-                                                                <article id="comment-197758" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Manika</span> <span className="comment_date">
-                                                                            on January 2, 2023 at 12:01 am </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>🥰 Saling mendukung, saling melengkapi, dan
-                                                                                saling menghargai adalah tiga hal yang
-                                                                                menguatkan sebuah ikatan cinta. Jadilah pasangan
-                                                                                yang berbahagia. Selamat menempuh bahtera rumah
-                                                                                tangga. 🥰</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment even thread-even depth-1 et-pb-non-builder-comment" id="li-comment-197742">
-                                                                <article id="comment-197742" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Nareswara</span> <span className="comment_date">
-                                                                            on January 1, 2023 at 11:59 pm </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>💌 Selamat menikah Kak. Jadilah imam yang baik
-                                                                                bagi istri dan anakmu nanti. Jadilah panutan
-                                                                                yang baik dan suami yang dikagumi. 💌</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment odd alt thread-odd thread-alt depth-1 et-pb-non-builder-comment" id="li-comment-197726">
-                                                                <article id="comment-197726" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Ningrum ❤️</span> <span className="comment_date">
-                                                                            on January 1, 2023 at 11:57 pm </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>❤️ Tetanggaku yang sudah jadi teman bermain dari
-                                                                                kecil, selamat menikah! Semoga bahagia dan
-                                                                                dilancarkan rezekinya selalu. Jangan lupakan
-                                                                                teman kecilmu ini, ya! ❤️</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment even thread-even depth-1 et-pb-non-builder-comment" id="li-comment-197706">
-                                                                <article id="comment-197706" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">Pramudya 🥰</span> <span className="comment_date">
-                                                                            on January 1, 2023 at 11:55 pm </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>❤️❤️ Hari perayaan pernikahanmu hanya akan
-                                                                                berlangsung sesaat, tapi semoga cintamu dan
-                                                                                cintanya akan tetap tumbuh. Semoga jadi pasangan
-                                                                                yang sempurna, Selamat menempuh hidup baru
-                                                                                sahabatku. 🥰😘</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
-                                                            <li className="comment odd alt thread-odd thread-alt depth-1 et-pb-non-builder-comment" id="li-comment-197694">
-                                                                <article id="comment-197694" className="comment-body clearfix">
-                                                                    <div className="comment_avatar">
-                                                                    </div>
-                                                                    <div className="comment_postinfo">
-                                                                        <span className="fn">❤️ Raditya ❤️</span> <span className="comment_date">
-                                                                            on January 1, 2023 at 11:53 pm </span>
-                                                                    </div>
-                                                                    <div className="comment_area">
-                                                                        <div className="comment-content clearfix">
-                                                                            <p>Selamat menikah, selamat menjalani kehidupan
-                                                                                pernikahan.<br />
-                                                                                Semoga Tuhan selalu menjaga kalian dan anak-anak
-                                                                                kelak. 😘😘</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                            </li>{/* #comment-## */}
+                                                                </div>
+                                                            </article>
+                                                        </li>
+                                                        ))
+                                                        :
+                                                        null
+                                                        }  
                                                         </ol>
                                                     </section>
                                                 </div>
@@ -1200,6 +1027,8 @@ const GoldTiga = () => {
                                                 </div>
                                             </div>
                                         </div>
+
+                                        {/* belum pake nama pasangan api */}
                                         <div className="et_pb_row et_pb_row_23">
                                             <div className="et_pb_column et_pb_column_4_4 et_pb_column_24  et_pb_css_mix_blend_mode_passthrough et-last-child">
                                                 <div className="et_pb_module et_pb_blurb et_pb_blurb_5  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_dark">
@@ -1207,7 +1036,7 @@ const GoldTiga = () => {
                                                         <div className="et_pb_blurb_container">
                                                             <h4 className="et_pb_module_header"><span>Terima kasih</span></h4>
                                                             <div className="et_pb_blurb_description">
-                                                                <p><span>Rena &amp; Gallant</span></p>
+                                                                <p>{a ? <span>{a.profilPasangans[0].nama} &amp; {a.profilPasangans[1].nama}</span> : ''}</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1234,7 +1063,7 @@ const GoldTiga = () => {
                                                 </ul>
                                                 <div className="et_pb_module et_pb_text et_pb_text_22 et_animated et_clickable  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <div className="et_pb_text_inner">
-                                                        <p>© all rights reserved by NgantenStory.</p>
+                                                        <p>© all rights reserved by Kondangin.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1280,8 +1109,7 @@ const GoldTiga = () => {
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_19  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                            {a ? <p>{state.undangan.data.alamatGifts[0].alamat},<br />Kutu Tegal,
-                                                                Sinduadi,<br />Daerah Istimewa Yogyakarta 55284</p> : []}
+                                                            {a ? <p>{state.undangan.data.alamatGifts[0].alamat},<br /></p> : []}
 
                                                         </div>
                                                     </div>
@@ -1333,15 +1161,16 @@ const GoldTiga = () => {
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_13  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                            {a ? <h3><strong>{state.undangan.data.rekeningGifts[0].bank.toUpperCase()}</strong></h3> : []}
+                                                            
 
                                                             {a ? <h5>{state.undangan.data.rekeningGifts[0].nama}</h5> : []}
 
                                                         </div>
                                                     </div>
+                                                    {/* belum pake rekening api */}
                                                     <div className="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                            <p>xxxxxxxxxx</p>
+                                                            <p>{a ? <h5>{state.undangan.data.rekeningGifts[0].no_rekening}</h5> : ''}</p>
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_button_module_wrapper et_pb_button_3_wrapper et_pb_button_alignment_center et_pb_module ">
@@ -1356,12 +1185,12 @@ const GoldTiga = () => {
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_15  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                            <h5>Nama Mempelai</h5>
+                                                        {a ? <h5>{state.undangan.data.rekeningGifts[1].nama}</h5> : []}
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_16  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                            <p>xxxxxxxxxx</p>
+                                                        <p>{a ? <h5>{state.undangan.data.rekeningGifts[1].no_rekening}</h5> : ''}</p>
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_button_module_wrapper et_pb_button_4_wrapper et_pb_button_alignment_center et_pb_module ">

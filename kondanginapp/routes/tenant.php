@@ -24,9 +24,15 @@ Route::middleware([
     'web',
     InitializeTenancyByDomain::class,
     PreventAccessFromCentralDomains::class,
-])->group(function () {
-    Route::get('/', function () {
-        return 'This is your multi-tenant application. The id of the current tenant is ' . tenant('id');
+])->group(function ($router) {
+    Route::get('to/{nama_tamu}', function ($nama_tamu) {
+        if (tenant('tema_id')==2) {
+            return view('goldTiga');
+        }else if(tenant('tema_id')==1){
+            return view('silverTiga');
+        }
+        // return 'This is your multi-tenant application. The id of the current tenant is ' . tenant('id').'with tema id : '.tenant('tema_id');
+        // return view('goldTiga');
     });
 });
 
@@ -40,9 +46,13 @@ Route::middleware([
     InitializeTenancyByDomain::class,
     PreventAccessFromCentralDomains::class,
 ])->group(function ($router) {
-    Route::get('to/{nama_tamu}', function ($nama_tamu) {
+    Route::get('api/to/{nama_tamu}', function ($nama_tamu) {
         $controller = new TenantController();
         return $controller->show(tenant(), $nama_tamu);
+    });
+    Route::post('api/submit_ucapan', function (Request $request) {
+        $controller = new TenantController();
+        return $controller->submitUcapan(tenant(), $request);
     });
 });
 

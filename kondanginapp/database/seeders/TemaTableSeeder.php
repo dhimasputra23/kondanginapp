@@ -15,7 +15,12 @@ class TemaTableSeeder extends Seeder
     public function run()
     {
         DB::table('temas')->insert([
-            'nama' => 'tema promo opening',
+            'nama' => 'silverTiga',
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+        DB::table('temas')->insert([
+            'nama' => 'goldTiga',
             'created_at' => now(),
             'updated_at' => now(),
         ]);

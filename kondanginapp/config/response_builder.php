@@ -37,6 +37,7 @@ return [
         \App\ApiCode::INVALID_EMAIL_VERIFICATION_URL => 'api.invalid_email_verification_link',
         \App\ApiCode::EMAIL_ALREADY_VERIFIED => 'api.email_already_verified',
         \App\ApiCode::INVALID_RESET_PASSWORD_TOKEN => 'api.invalid_reset_password_token',
+		\App\ApiCode::TAMU_NOT_FOUND => 'api.tamu_not_found',
 	],
 
 

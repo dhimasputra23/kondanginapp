@@ -117,7 +117,7 @@ const Home = () => {
                         <div className="container">
                             <div className="row">
                                 <div className="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay={150}>
-                                    <img src="assets/img/counts-img.svg" alt className="img-fluid" />
+                                    <img src="assets/img/about/about.png" alt className="img-fluid" />
                                 </div>
                                 <div className="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay={300}>
                                     <div className="content d-flex flex-column justify-content-center">
@@ -365,7 +365,7 @@ const Home = () => {
 
 
 
-                            <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay={5}>
+                            <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay={100}>
                                 <div className="swiper-wrapper">
                                     <div className="swiper-slide">
                                         <div className="testimonial-wrap">
@@ -465,117 +465,117 @@ const Home = () => {
                             <div className="row portfolio-container" data-aos="fade-up" data-aos-delay={400}>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/p1.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/bronze/a.jpg" className="img-fluid" alt />
                                         <div className="portfolio-info">
                                             <h4>Bronze Satu</h4>
                                             <p>Preview</p>
                                             <div className="portfolio-links">
-                                                <a href="assets/img/portfolio/p1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus" /></a>
-                                                <a href="https://ngantenstory.com/bronze-satu/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="assets/img/bronze/a.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus" /></a>
+                                                <a href="https://hi.ngantenstory.com/bronze-1/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/p2.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/bronze/Bronze2.jpg" className="img-fluid" alt />
                                         <div className="portfolio-info">
                                             <h4>Bronze Dua</h4>
                                             <p>Preview</p>
                                             <div className="portfolio-links">
-                                                <a href="assets/img/portfolio/p2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus" /></a>
-                                                <a href="https://ngantenstory.com/bronze-dua/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="assets/img/bronze/Bronze2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus" /></a>
+                                                <a href="https://hi.ngantenstory.com/bronze-2/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/p3.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/bronze/Bronze3.jpg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>Bronze empat</h4>
+                                            <h4>Bronze Tiga</h4>
                                             <p>Preview</p>
                                             <div className="portfolio-links">
-                                                <a href="assets/img/portfolio/p3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus" /></a>
-                                                <a href="https://ngantenstory.com/bronze-empat/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="assets/img/bronze/Bronze3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus" /></a>
+                                                <a href="https://hi.ngantenstory.com/bronze-4/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/p4.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/silver/silver1.jpg" className="img-fluid" alt />
                                         <div className="portfolio-info">
                                             <h4>Silver Satu</h4>
                                             <p>Preview</p>
                                             <div className="portfolio-links">
-                                                <a href="assets/img/portfolio/p4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus" /></a>
-                                                <a href="https://ngantenstory.com/silver-satu/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="assets/img/silver/silver1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus" /></a>
+                                                <a href="https://hi.ngantenstory.com/silver-1/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/p5.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/silver/silver2.jpg" className="img-fluid" alt />
                                         <div className="portfolio-info">
                                             <h4>Silver Dua</h4>
                                             <p>Preview</p>
                                             <div className="portfolio-links">
-                                                <a href="assets/img/portfolio/p5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 2"><i className="bx bx-plus" /></a>
-                                                <a href="https://ngantenstory.com/silver-dua/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="assets/img/silver/silver2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 2"><i className="bx bx-plus" /></a>
+                                                <a href="https://hi.ngantenstory.com/silver-2/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/p6.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/silver/silver3.jpg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>Silver Empat</h4>
+                                            <h4>Silver Tiga</h4>
                                             <p>Preview</p>
                                             <div className="portfolio-links">
-                                                <a href="assets/img/portfolio/p6.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 3"><i className="bx bx-plus" /></a>
-                                                <a href="https://ngantenstory.com/silver-empat/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="assets/img/silver/silver3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 3"><i className="bx bx-plus" /></a>
+                                                <a href="hhttps://hi.ngantenstory.com/silver-3/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/p7.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/gold/gold1.jpg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>Diamond Satu</h4>
+                                            <h4>Gold Satu</h4>
                                             <p>Preview</p>
                                             <div className="portfolio-links">
-                                                <a href="assets/img/portfolio/p7.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 1"><i className="bx bx-plus" /></a>
-                                                <a href="https://ngantenstory.com/diamond-satu/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="assets/img/gold/gold1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 1"><i className="bx bx-plus" /></a>
+                                                <a href="https://hi.ngantenstory.com/gold-2/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/p8.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/gold/gold2.jpg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>Diamond Dua</h4>
+                                            <h4>Gold Dua</h4>
                                             <p>Preview</p>
                                             <div className="portfolio-links">
-                                                <a href="assets/img/portfolio/p8.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 3"><i className="bx bx-plus" /></a>
-                                                <a href="https://ngantenstory.com/diamond-dua/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="assets/img/gold/gold2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 3"><i className="bx bx-plus" /></a>
+                                                <a href="https://hi.ngantenstory.com/gold-4/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/p9.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/gold/gold3.jpg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>Diamond Empat</h4>
+                                            <h4>Gold Tiga</h4>
                                             <p>Preview</p>
                                             <div className="portfolio-links">
-                                                <a href="assets/img/portfolio/p9.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus" /></a>
-                                                <a href="https://ngantenstory.com/diamond-empat/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="assets/img/gold/gold3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus" /></a>
+                                                <a href="https://hi.ngantenstory.com/gold-3/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
                                             </div>
                                         </div>
                                     </div>

@@ -12,6 +12,7 @@ use App\Models\Video;
 use App\Models\AlamatGift;
 use App\Models\RekeningGift;
 use App\Models\Ucapan;
+use App\Models\Tamu;
 
 use Illuminate\Http\Request;
 
@@ -57,21 +58,7 @@ class TenantController extends Controller
      */
     public function show($tenant, $nama_tamu)
     {
-        // $undangan = Undangan::where('kode_undangan',$kode_undangan)
-        // ->withWhereHas("tamus", function($query) use($nama_tamu) {
-        //         $query->where("nama", "like", $nama_tamu);
-        //     })
-        // ->with('profilpasangans')
-        // ->with('subacaras')
-        // ->with('musik')
-        // ->with('fotos')
-        // ->with('quote')
-        // ->with('videos')
-        // ->with('alamatgifts')
-        // ->with('rekeninggifts')
-        // ->with('ucapans')
-        
-        // ->first();
+       
 
         $profilPasangans = ProfilPasangan::all();
         $subAcaras = SubAcara::all();
@@ -83,6 +70,7 @@ class TenantController extends Controller
         $alamatGifts = AlamatGift::all();
         $rekeningGifts = RekeningGift::all();
         $ucapans = Ucapan::all();
+        $tamu = Tamu::where('nama', '=', $nama_tamu)->first(); 
         
 
         $response = ([
@@ -95,11 +83,37 @@ class TenantController extends Controller
             'videos' => $videos,
             'alamatGifts' => $alamatGifts,
             'rekeningGifts' => $rekeningGifts,
-            'ucapan' => $ucapans
+            'ucapan' => $ucapans,
+            'tamu' => $tamu
             
         ]);
 
+        if ($tamu == null) {
+            return $this->respondWithError(256, 404);
+        }
+
         return $this->respond($response,"Success");
+        //
+    }
+
+    public function submitUcapan($tenant, Request $request)
+    {
+        $request->validate([
+            'nama' => 'required',
+            'tamu_id' => 'required',
+            'kalimat' => 'required',
+            'konfirmasi' => 'required'
+        ]);
+
+        $tamu = Tamu::find($request->tamu_id);
+        $ucapan = new Ucapan;
+        $ucapan->nama = $request->nama;
+        $ucapan->kalimat = $request->kalimat;
+        $ucapan->konfirmasi = $request->konfirmasi;
+        $tamu->ucapan()->save($ucapan);
+
+        return $this->respondWithMessage("Ucapan Successfully Submitted", 200);
+
         //
     }
 

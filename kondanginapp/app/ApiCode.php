@@ -8,6 +8,7 @@
         public const INVALID_EMAIL_VERIFICATION_URL = 253;
         public const EMAIL_ALREADY_VERIFIED = 254;
         public const INVALID_RESET_PASSWORD_TOKEN = 255;
+        public const TAMU_NOT_FOUND = 256;
     }
 
 ?>

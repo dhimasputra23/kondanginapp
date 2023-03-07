@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<!-- Mirrored from ngantenstory.com/silver-dua/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Jan 2023 15:21:39 GMT -->
-<!-- Added by HTTrack -->
+
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="pingback" href="https://ngantenstory.com/xmlrpc.php" />
+
 
     <script type="text/javascript">
     document.documentElement.className = 'js';
@@ -48,7 +47,7 @@
         "closeButtonClass": "da-close",
         "withLoaderClass": "with-loader",
         "debug": false,
-        "ajaxUrl": "https:\/\/ngantenstory.com\/wp-admin\/admin-ajax.php",
+
         "sys": []
     };
     var divimode_loader = function() {
@@ -524,115 +523,21 @@
     <link rel="canonical" href="index.html" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Silver Dua - NgantenStory" />
-    <meta property="og:url" content="https://ngantenstory.com/silver-dua/" />
-    <meta property="og:site_name" content="NgantenStory" />
-    <meta property="article:publisher" content="https://www.facebook.com/ngantenstory/" />
+    <meta property="og:title" content="Silver Satu - Kondangin" />
+    <meta property="og:site_name" content="Kondangin" />
+
     <meta property="article:modified_time" content="2023-01-15T03:34:48+00:00" />
-    <meta property="og:image" content="https://ngantenstory.com/wp-content/uploads/2022/12/Comment-Envelope.svg" />
+
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:label1" content="Est. reading time" />
     <meta name="twitter:data1" content="28 minutes" />
-    <script type="application/ld+json" class="yoast-schema-graph">
-    {
-        "@context": "https://schema.org",
-        "@graph": [{
-            "@type": "WebPage",
-            "@id": "https://ngantenstory.com/silver-dua/",
-            "url": "https://ngantenstory.com/silver-dua/",
-            "name": "Silver Dua - NgantenStory",
-            "isPartOf": {
-                "@id": "https://ngantenstory.com/#website"
-            },
-            "primaryImageOfPage": {
-                "@id": "https://ngantenstory.com/silver-dua/#primaryimage"
-            },
-            "image": {
-                "@id": "https://ngantenstory.com/silver-dua/#primaryimage"
-            },
-            "thumbnailUrl": "https://ngantenstory.com/wp-content/uploads/2022/12/Comment-Envelope.svg",
-            "datePublished": "2022-12-26T06:26:24+00:00",
-            "dateModified": "2023-01-15T03:34:48+00:00",
-            "breadcrumb": {
-                "@id": "https://ngantenstory.com/silver-dua/#breadcrumb"
-            },
-            "inLanguage": "en-US",
-            "potentialAction": [{
-                "@type": "ReadAction",
-                "target": ["https://ngantenstory.com/silver-dua/"]
-            }]
-        }, {
-            "@type": "ImageObject",
-            "inLanguage": "en-US",
-            "@id": "https://ngantenstory.com/silver-dua/#primaryimage",
-            "url": "https://ngantenstory.com/wp-content/uploads/2022/12/Comment-Envelope.svg",
-            "contentUrl": "https://ngantenstory.com/wp-content/uploads/2022/12/Comment-Envelope.svg"
-        }, {
-            "@type": "BreadcrumbList",
-            "@id": "https://ngantenstory.com/silver-dua/#breadcrumb",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://ngantenstory.com/"
-            }, {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Silver Dua"
-            }]
-        }, {
-            "@type": "WebSite",
-            "@id": "https://ngantenstory.com/#website",
-            "url": "https://ngantenstory.com/",
-            "name": "NgantenStory",
-            "description": "Undangan Pernikahan Online",
-            "publisher": {
-                "@id": "https://ngantenstory.com/#organization"
-            },
-            "potentialAction": [{
-                "@type": "SearchAction",
-                "target": {
-                    "@type": "EntryPoint",
-                    "urlTemplate": "https://ngantenstory.com/?s={search_term_string}"
-                },
-                "query-input": "required name=search_term_string"
-            }],
-            "inLanguage": "en-US"
-        }, {
-            "@type": "Organization",
-            "@id": "https://ngantenstory.com/#organization",
-            "name": "NgantenStory",
-            "url": "https://ngantenstory.com/",
-            "logo": {
-                "@type": "ImageObject",
-                "inLanguage": "en-US",
-                "@id": "https://ngantenstory.com/#/schema/logo/image/",
-                "url": "https://ngantenstory.com/wp-content/uploads/2022/04/NS-Logo-Footer.png",
-                "contentUrl": "https://ngantenstory.com/wp-content/uploads/2022/04/NS-Logo-Footer.png",
-                "width": 500,
-                "height": 218,
-                "caption": "NgantenStory"
-            },
-            "image": {
-                "@id": "https://ngantenstory.com/#/schema/logo/image/"
-            },
-            "sameAs": ["https://www.instagram.com/ngantenstory/", "https://www.facebook.com/ngantenstory/"]
-        }]
-    }
-    </script>
-    <!-- / Yoast SEO plugin. -->
+
 
 
     <link rel='dns-prefetch' href='http://www.googletagmanager.com/' />
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
     <link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
-    <link rel="alternate" type="application/rss+xml" title="NgantenStory &raquo; Feed"
-        href="https://ngantenstory.com/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="NgantenStory &raquo; Comments Feed"
-        href="https://ngantenstory.com/comments/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="NgantenStory &raquo; Silver Dua Comments Feed"
-        href="feed/index.html" />
-    <meta content="NgantenStoryTheme v.1.0.0" name="generator" />
+
     <style type="text/css">
     img.wp-smiley,
     img.emoji {
@@ -1241,7 +1146,7 @@
         onerror="this.removeAttribute('data-rocket-async')" type='text/css' media='all' />
     <style id='css-divi-area-inline-css' type='text/css'>
     .et_pb_section.popup {
-        display: none
+        display: block
     }
     </style>
 
@@ -1259,7 +1164,7 @@
         href='../wp-content/cache/min/1/wp-content/themes/Divi/style-static.min0fbd.css?ver=1673754527'
         data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
         onerror="this.removeAttribute('data-rocket-async')" type='text/css' media='all' />
-    <link rel='preload' href='../wp-content/themes/ngantenstorytheme/stylef315.css?ver=4.19.4' data-rocket-async="style"
+    <link rel='preload' href='../wp-content/themes/kondangintheme/stylef315.css?ver=4.19.4' data-rocket-async="style"
         as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"
         type='text/css' media='all' />
     <script type='text/javascript' src='../wp-includes/js/jquery/jquery.mina7a0.js?ver=3.6.1' id='jquery-core-js'>
@@ -1274,7 +1179,7 @@
     <script type='text/javascript' id='wonderplugin-audio-script-js-extra'>
     /* <![CDATA[ */
     var wonderplugin_audio_ajaxobject = {
-        "ajaxurl": "https:\/\/ngantenstory.com\/wp-admin\/admin-ajax.php",
+
         "nonce": "ded2344f77"
     };
     /* ]]> */
@@ -1285,37 +1190,11 @@
     <script type='text/javascript' src='../wp-content/plugins/popups-for-divi/scripts/ie-compat.min8d18.js?ver=3.0.5'
         id='dap-ie-js'></script>
     <script type='text/javascript'
-        src='../wp-content/themes/ngantenstorytheme/ds-script6344.js?ver=81582bdb254a94e4464424087c6479a8'
+        src='../wp-content/themes/kondangintheme/ds-script6344.js?ver=81582bdb254a94e4464424087c6479a8'
         id='ds-theme-script-js'></script>
 
-    <!-- Google Analytics snippet added by Site Kit -->
-    <script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-151252723-1'
-        id='google_gtagjs-js' async></script>
-    <script type='text/javascript' id='google_gtagjs-js-after'>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('set', 'linker', {
-        "domains": ["ngantenstory.com"]
-    });
-    gtag("js", new Date());
-    gtag("set", "developer_id.dZTNiMT", true);
-    gtag("config", "UA-151252723-1", {
-        "anonymize_ip": true
-    });
-    gtag("config", "G-ND7N04N6YF");
-    </script>
-
-    <!-- End Google Analytics snippet added by Site Kit -->
-    <link rel="https://api.w.org/" href="https://ngantenstory.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://ngantenstory.com/wp-json/wp/v2/pages/378570" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ngantenstory.com/xmlrpc.php?rsd" />
-    <link rel="alternate" type="application/json+oembed"
-        href="https://ngantenstory.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fngantenstory.com%2Fsilver-dua%2F" />
-    <link rel="alternate" type="text/xml+oembed"
-        href="https://ngantenstory.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fngantenstory.com%2Fsilver-dua%2F&amp;format=xml" />
+   
+    
     <style>
     /*#main-header .logo_container img,
 header.et-l--header .et_pb_menu__logo > img {
@@ -1688,8 +1567,7 @@ header.et-l--header .et_pb_menu__logo > img {
     <link rel="icon" href="../wp-content/uploads/2020/03/cropped-FAVICON-NEW-2-32x32.png" sizes="32x32" />
     <link rel="icon" href="../wp-content/uploads/2020/03/cropped-FAVICON-NEW-2-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="../wp-content/uploads/2020/03/cropped-FAVICON-NEW-2-180x180.png" />
-    <meta name="msapplication-TileImage"
-        content="https://ngantenstory.com/wp-content/uploads/2020/03/cropped-FAVICON-NEW-2-270x270.png" />
+
     <style id="loftloader-lite-custom-bg-color">
     #loftloader-wrapper .loader-section {
         background: #ffffff;
@@ -1707,7 +1585,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     #loftloader-wrapper.pl-imgloading #loader span {
         background-size: cover;
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/04/Please-wait-loader.svg);
+        background-image: url(../wp-content/uploads/2022/04/Please-wait-loader.svg);
     }
     </style>
     <style id="et-divi-customizer-global-cached-inline-styles">
@@ -2030,7 +1908,7 @@ header.et-l--header .et_pb_menu__logo > img {
         }
     }(typeof global !== "undefined" ? global : this))
     </script>
-    <meta property="og:image" content="https://ngantenstory.com/wp-includes/images/media/default.png" />
+
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="600" />
 
@@ -2044,9 +1922,9 @@ header.et-l--header .et_pb_menu__logo > img {
         <div class="loader-inner">
             <div id="loader">
                 <div class="imgloading-container"><span
-                        style="background-image: url(https://ngantenstory.com/wp-content/uploads/2022/04/Please-wait-loader.svg);"></span>
+                        style="background-image: url(../wp-content/uploads/2022/04/Please-wait-loader.svg);"></span>
                 </div><img width="150" height="150" data-no-lazy="1" class="skip-lazy" alt="loader image"
-                    src="https://ngantenstory.com/wp-content/uploads/2022/04/Please-wait-loader.svg">
+                    src="../wp-content/uploads/2022/04/Please-wait-loader.svg">
             </div>
         </div>
         <div class="loader-close-button" style="display: none;"><span class="screen-reader-text">Close</span></div>
@@ -2059,7 +1937,7 @@ header.et-l--header .et_pb_menu__logo > img {
     <!-- #page-container -->
 
     <!-- React JS -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="http://localhost:8000/js/app.js" defer></script>
 
     <script>
     function wonderaudio_364_appendcss(csscode) {
@@ -2097,7 +1975,7 @@ header.et-l--header .et_pb_menu__logo > img {
     .amazingaudioplayer-playpause .amazingaudioplayer-pause:before,
     .amazingaudioplayer-playpause .amazingaudioplayer-play:before {
         content: "";
-        background: url("../../ngantenstory.co/wp-content/uploads/2022/05/PlayPauseNgantenStory.png") no-repeat left top;
+        background: url("../wp-content/uploads/2022/05/PlayPauseKondangin.png") no-repeat left top;
         width: 48px;
         height: 48px;
         display: block;
@@ -2424,19 +2302,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }];
-    var et_link_options_data = [{
-        "class": "et_pb_blurb_3",
-        "url": "#hadiah",
-        "target": "_self"
-    }, {
-        "class": "et_pb_blurb_4",
-        "url": "#dana",
-        "target": "_self"
-    }, {
-        "class": "et_pb_text_18",
-        "url": "https:\/\/pdki-indonesia.dgip.go.id\/detail\/EC00202118269?type=copyright&keyword=ngantenstory",
-        "target": "_blank"
-    }];
+
     </script>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MP6GHZD" height="0" width="0"
@@ -2474,7 +2340,7 @@ header.et-l--header .et_pb_menu__logo > img {
             "copy": "Copy",
             "copied": "Copied!"
         },
-        "image-url": "https:\/\/ngantenstory.com\/wp-content\/plugins\/copy-the-code\/\/assets\/images\/copy-1.svg",
+
         "redirect_url": ""
     };
     /* ]]> */
@@ -2508,9 +2374,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "builderCssLayoutPrefix": "#et-boc .et-l"
     };
     var et_pb_custom = {
-        "ajaxurl": "https:\/\/ngantenstory.com\/wp-admin\/admin-ajax.php",
-        "images_uri": "https:\/\/ngantenstory.com\/wp-content\/themes\/Divi\/images",
-        "builder_images_uri": "https:\/\/ngantenstory.com\/wp-content\/themes\/Divi\/includes\/builder\/images",
+
         "et_frontend_nonce": "8bda4c395f",
         "subscription_failed": "Please, check the fields below to make sure you entered the correct information.",
         "et_ab_log_nonce": "fc0054b5d5",
@@ -2533,7 +2397,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "ab_bounce_rate": "5",
         "is_cache_plugin_active": "yes",
         "is_shortcode_tracking": "",
-        "tinymce_uri": "https:\/\/ngantenstory.com\/wp-content\/themes\/Divi\/includes\/builder\/frontend-builder\/assets\/vendors",
+        
         "accent_color": "#3d1e00",
         "waypoints_options": []
     };
@@ -2546,9 +2410,6 @@ header.et-l--header .et_pb_menu__logo > img {
         id='smoothscroll-js'></script>
     <script type='text/javascript' src='../wp-content/themes/Divi/core/admin/js/es6-promise.auto.minf315.js?ver=4.19.4'
         id='es6-promise-js'></script>
-    <script type='text/javascript'
-        src='../../www.google.com/recaptcha/api7d54.js?render=6LcfLLsZAAAAANvaF-VNf7rqs0pv-ejqPbbNc5ww&amp;ver=4.19.4'
-        id='et-recaptcha-v3-js'></script>
     <script type='text/javascript' id='et-core-api-spam-recaptcha-js-extra'>
     /* <![CDATA[ */
     var et_core_api_spam_recaptcha = {
@@ -2594,18 +2455,18 @@ header.et-l--header .et_pb_menu__logo > img {
     @font-face {
         font-family: "Batusa";
         font-display: swap;
-        src: url("wp-content/uploads/et-fonts/Batusa.woff") format("woff"), url("wp-content/uploads/et-fonts/Batusa.otf") format("opentype")
+        src: url("/wp-content/uploads/et-fonts/Batusa.woff") format("woff"), url("/wp-content/uploads/et-fonts/Batusa.otf") format("opentype")
     }
 
     @font-face {
         font-family: "Royal Wedd";
         font-display: swap;
-        src: url("wp-content/uploads/et-fonts/RoyalWeddingRegular.otf") format("opentype")
+        src: url("/wp-content/uploads/et-fonts/RoyalWeddingRegular.otf") format("opentype")
     }
 
     div.et_pb_section.et_pb_section_0 {
         background-position: center top;
-        background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(../wp-content/uploads/2022/12/RIK01846pc.jpg) !important
+        
     }
 
     .et_pb_section_0 {
@@ -2665,9 +2526,16 @@ header.et-l--header .et_pb_menu__logo > img {
     }
 
     .et_pb_code_1 {
-        filter: opacity(0%);
-        backface-visibility: hidden
+        position: fixed !important;
+        bottom: 0px;
+        top: auto;
+        left: 0px;
+        right: auto
     }
+
+
+
+    
 
     .et_pb_text_1 {
         font-family: 'Batusa', Helvetica, Arial, Lucida, sans-serif;
@@ -2738,7 +2606,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     div.et_pb_section.et_pb_section_1 {
         background-position: center top;
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 48%, rgba(10, 10, 10, 0.24) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER2PC-2.jpg) !important
+        
     }
 
     .et_pb_section_1 {
@@ -2934,7 +2802,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     div.et_pb_section.et_pb_section_4 {
         background-position: center top;
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.33) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/SILVER2PC-1.jpg) !important
+        
     }
 
     .et_pb_section_4.et_pb_section {
@@ -3009,7 +2877,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     .et_pb_row_7 {
         background-position: center top;
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.88) 1%, rgba(255, 255, 255, 0.88) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/PC2.jpg);
+       
         border-radius: 10px 10px 10px 10px;
         overflow: hidden
     }
@@ -3448,6 +3316,12 @@ header.et-l--header .et_pb_menu__logo > img {
         padding-bottom: 90vh
     }
 
+    .et_pb_section_17.et_pb_section {
+        padding-top: 9px;
+        padding-bottom: 4px;
+        background-color: #ffffff !important
+    }
+
     .et_pb_section_11 {
         border-bottom-width: 9px;
         border-bottom-style: double;
@@ -3581,25 +3455,7 @@ header.et-l--header .et_pb_menu__logo > img {
         font-size: 9px
     }
 
-    .et_pb_slider .et_pb_slide_0 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/silver2-10.jpg)
-    }
-
-    .et_pb_slider .et_pb_slide_1 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/silver2-8.jpg)
-    }
-
-    .et_pb_slider .et_pb_slide_2 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/silver2-5.jpg)
-    }
-
-    .et_pb_slider .et_pb_slide_3 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/silver2-4.jpg)
-    }
-
-    .et_pb_slider .et_pb_slide_4 {
-        background-image: url(https://ngantenstory.com/wp-content/uploads/2022/12/silver2-3.jpg)
-    }
+    
 
     .et_pb_social_media_follow_network_2 a.icon {
         background-color: #d6d6d6 !important
@@ -3657,7 +3513,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     @media only screen and (max-width:980px) {
         div.et_pb_section.et_pb_section_0 {
-            background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%) !important
+            
         }
 
         .et_pb_section_0.et_pb_section {
@@ -3875,7 +3731,7 @@ header.et-l--header .et_pb_menu__logo > img {
             background-repeat: no-repeat;
             background-position: center top;
             background-blend-mode: normal;
-            background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/RIK01846.jpgpc_.jpg) !important
+            
         }
 
         .et_pb_section_0 {
@@ -3926,7 +3782,7 @@ header.et-l--header .et_pb_menu__logo > img {
         }
 
         div.et_pb_section.et_pb_section_1 {
-            background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 48%, rgba(10, 10, 10, 0.24) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/silver2-2.jpg) !important
+            
         }
 
         .dvmd_text_on_a_path_0 #dvmdtpsvg {
@@ -3955,7 +3811,7 @@ header.et-l--header .et_pb_menu__logo > img {
         }
 
         div.et_pb_section.et_pb_section_4 {
-            background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.33) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/silver2-9.jpg) !important
+            
         }
 
         .et_pb_section_4.et_pb_section {
@@ -3968,7 +3824,7 @@ header.et-l--header .et_pb_menu__logo > img {
         }
 
         .et_pb_row_7 {
-            background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.88) 1%, rgba(255, 255, 255, 0.88) 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/silver2-7.jpg)
+            
         }
 
         .et_pb_row_7.et_pb_row {
@@ -4151,11 +4007,10 @@ header.et-l--header .et_pb_menu__logo > img {
             href='../wp-content/cache/min/1/wp-content/themes/Divi/style-static.min0fbd.css?ver=1673754527'
             type='text/css' media='all' />
         <link rel='stylesheet' id='divi-style-css'
-            href='../wp-content/themes/ngantenstorytheme/stylef315.css?ver=4.19.4' type='text/css' media='all' />
+            href='../wp-content/themes/kondangintheme/stylef315.css?ver=4.19.4' type='text/css' media='all' />
     </noscript>
 </body>
 
-<!-- Mirrored from ngantenstory.com/silver-dua/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Jan 2023 15:21:42 GMT -->
 
 </html>
 

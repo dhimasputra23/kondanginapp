@@ -20,6 +20,6 @@ import './components/SilverSatu/SilverSatu';
 import './components/SilverDua/SilverDua';
 import './components/SilverTiga/SilverTiga';
 import './components/GoldTiga/GoldTiga';
-import './components/Bronze/Bronze';
+import './components/Bronze/BronzeDua';
 import './components/MyApp';
 

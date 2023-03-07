@@ -40,7 +40,7 @@ class DatabaseSeeder extends Seeder
 
         $tenant1 = Tenant::create([
             'id' => 'nandaaisyah',
-            'tema_id' => 4,
+            'tema_id' => 6,
             'paket_id' => 1,
             'user_id' => 3
 
@@ -64,7 +64,7 @@ class DatabaseSeeder extends Seeder
                 'nama_bapak' => 'Bapaknya Nanda',
                 'nama_ibu' => 'Ibunya Nanda',
                 'kelamin' => 'Pria',
-                'url_foto' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-2.png'
+                'url_foto' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/silver2-1.png'
             ]);
             ProfilPasangan::create([
                 'nama' => 'Aisyah',
@@ -72,7 +72,7 @@ class DatabaseSeeder extends Seeder
                 'nama_bapak' => 'Bapaknya Aisyah',
                 'nama_ibu' => 'Ibunya Aisyah',
                 'kelamin' => 'Wanita',
-                'url_foto' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-1.png'
+                'url_foto' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/silver2-2.png'
             ]);
             AlamatGift::create([
                 'nama' => 'Nanda',
@@ -145,48 +145,44 @@ class DatabaseSeeder extends Seeder
             'kalimat' => "Dan di antara tanda-tanda kekuasaan Allah ialah diciptakan-Nya untukmu pasangan hidup dari jenismu sendiri supaya kamu merasa tentram di samping-Nya dan dijadikan-Nya rasa kasih sayang di antara kamu. Sesungguhnya yang demikian itu menjadi bukti kekuasaan Allah bagi kaum yang berfikir.",
             ]);
             Foto::create([
-                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-10.jpg',
+                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/silver2-10.jpg',
             ]);
             Foto::create([
-                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-13.jpg',
+                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/silver2-8.jpg',
             ]);
             Foto::create([
-                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-14.jpg',
+                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/silver2-5.jpg',
             ]);
             Foto::create([
-                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-15.jpg',
+                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/silver2-4.jpg',
+            ]);
+            Foto::create([
+                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/silver2-3.jpg',
             ]);
             Video::create([
                 'url' => 'https://www.youtube.com/embed/H2StEYDVlc8?feature=oembed',
             ]);
             FotoBackground::create([
-                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-11.jpg',
+                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/RIK01846.jpgpc_.jpg',
                 'flag' => 'Background-1'
             ]);
             FotoBackground::create([
-                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-5.jpg',
+                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/silver2-2.jpg',
                 'flag' => 'Background-2'
             ]);
             FotoBackground::create([
-                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-14.jpg',
+                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/silver2-6.jpg',
                 'flag' => 'Background-3'
             ]);
             FotoBackground::create([
-                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-7.jpg',
+                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/silver2-9.jpg',
                 'flag' => 'Background-4'
             ]);
             FotoBackground::create([
-                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-13.jpg',
+                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/silver2-7.jpg',
                 'flag' => 'Background-5'
             ]);
-            FotoBackground::create([
-                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-4.jpg',
-                'flag' => 'Background-6'
-            ]);
-            FotoBackground::create([
-                'url' => 'https://hi.ngantenstory.com/wp-content/uploads/2023/02/gold3-8.jpg',
-                'flag' => 'Background-7'
-            ]);
+
 
             
             

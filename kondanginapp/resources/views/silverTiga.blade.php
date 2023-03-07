@@ -1241,7 +1241,7 @@
         onerror="this.removeAttribute('data-rocket-async')" type='text/css' media='all' />
     <style id='css-divi-area-inline-css' type='text/css'>
     .et_pb_section.popup {
-        display: none
+        display: block
     }
     </style>
 
@@ -2057,7 +2057,7 @@ header.et-l--header .et_pb_menu__logo > img {
     <!-- #page-container -->
 
     <!-- React JS -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="./js/app.js" defer></script>
 
     <script>
     function wonderaudio_382_appendcss(csscode) {
@@ -2096,7 +2096,7 @@ header.et-l--header .et_pb_menu__logo > img {
     .amazingaudioplayer-playpause .amazingaudioplayer-pause:before,
     .amazingaudioplayer-playpause .amazingaudioplayer-play:before {
         content: "";
-        background: url("../../ngantenstory.co/wp-content/uploads/2022/05/PlayPauseNgantenStory.png") no-repeat left top;
+        background: url("../wp-content/uploads/2022/05/PlayPauseKondangin.png") no-repeat left top;
         width: 48px;
         height: 48px;
         display: block;
@@ -2449,19 +2449,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }];
-    var et_link_options_data = [{
-        "class": "et_pb_blurb_3",
-        "url": "#hadiah",
-        "target": "_self"
-    }, {
-        "class": "et_pb_blurb_4",
-        "url": "#dana",
-        "target": "_self"
-    }, {
-        "class": "et_pb_text_18",
-        "url": "https:\/\/pdki-indonesia.dgip.go.id\/detail\/EC00202118269?type=copyright&keyword=ngantenstory",
-        "target": "_blank"
-    }];
+    
     </script>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MP6GHZD" height="0" width="0"
@@ -2616,18 +2604,18 @@ header.et-l--header .et_pb_menu__logo > img {
     @font-face {
         font-family: "Batusa";
         font-display: swap;
-        src: url("wp-content/uploads/et-fonts/Batusa.woff") format("woff"), url("wp-content/uploads/et-fonts/Batusa.otf") format("opentype")
+        src: url("/wp-content/uploads/et-fonts/Batusa.woff") format("woff"), url("/wp-content/uploads/et-fonts/Batusa.otf") format("opentype")
     }
 
     @font-face {
         font-family: "Royal Wedd";
         font-display: swap;
-        src: url("wp-content/uploads/et-fonts/RoyalWeddingRegular.otf") format("opentype")
+        src: url("/wp-content/uploads/et-fonts/RoyalWeddingRegular.otf") format("opentype")
     }
 
     div.et_pb_section.et_pb_section_0 {
         background-position: center top;
-        background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(../wp-content/uploads/2022/12/IMG_4933.jpgpc_.jpg) !important
+        
     }
 
     .et_pb_section_0 {
@@ -2688,8 +2676,11 @@ header.et-l--header .et_pb_menu__logo > img {
     }
 
     .et_pb_code_1 {
-        filter: opacity(0%);
-        backface-visibility: hidden
+        position: fixed !important;
+        bottom: 0px;
+        top: auto;
+        left: 0px;
+        right: auto
     }
 
     .et_pb_text_1 {
@@ -2761,7 +2752,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     div.et_pb_section.et_pb_section_1 {
         background-position: center top;
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 56%, #a7acb2 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/silver3-8.jpg) !important
+        
     }
 
     .et_pb_section_1 {
@@ -2771,7 +2762,7 @@ header.et-l--header .et_pb_menu__logo > img {
     }
 
     .et_pb_section_1.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider {
-        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI1MHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2E3YWNiMiI+PC9nPjwvc3ZnPg==);
+        
         background-size: 100% 50px;
         bottom: 0;
         height: 50px;
@@ -2853,7 +2844,7 @@ header.et-l--header .et_pb_menu__logo > img {
     }
 
     div.et_pb_section.et_pb_section_3 {
-        background-image: linear-gradient(180deg, #a7acb2 0%, rgba(255, 255, 255, 0) 48%), url(https://ngantenstory.com/wp-content/uploads/2022/12/IMG_5026pc.jpg) !important
+        
     }
 
     .et_pb_section_3.et_pb_section {
@@ -2997,7 +2988,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     div.et_pb_section.et_pb_section_5 {
         background-position: center top;
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.81) 0%, #ffffff 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/IMG_5338pc.jpg) !important
+        
     }
 
     .et_pb_section_5.section_has_divider.et_pb_bottom_divider .et_pb_bottom_inside_divider {
@@ -3624,7 +3615,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     @media only screen and (max-width:980px) {
         div.et_pb_section.et_pb_section_0 {
-            background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%) !important
+
         }
 
         .et_pb_section_0.et_pb_section {
@@ -3840,7 +3831,7 @@ header.et-l--header .et_pb_menu__logo > img {
             background-repeat: no-repeat;
             background-position: center top;
             background-blend-mode: normal;
-            background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/silver3-6.jpg) !important
+            
         }
 
         .et_pb_section_0 {
@@ -3892,7 +3883,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
         div.et_pb_section.et_pb_section_1 {
             background-position: center;
-            background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 56%, #a7acb2 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/silver3-7.jpg) !important
+            
         }
 
         .dvmd_text_on_a_path_0 #dvmdtpsvg {
@@ -3900,7 +3891,7 @@ header.et-l--header .et_pb_menu__logo > img {
         }
 
         div.et_pb_section.et_pb_section_3 {
-            background-image: linear-gradient(180deg, #a7acb2 0%, rgba(255, 255, 255, 0) 48%), url(https://ngantenstory.com/wp-content/uploads/2022/12/IMG_5026.jpg) !important
+            
         }
 
         .et_pb_section_3.et_pb_section {
@@ -3940,7 +3931,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
         div.et_pb_section.et_pb_section_5 {
             background-position: center;
-            background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.81) 0%, #ffffff 100%), url(https://ngantenstory.com/wp-content/uploads/2022/12/silver3-11.jpg) !important
+            
         }
 
         .et_pb_row_7.et_pb_row {

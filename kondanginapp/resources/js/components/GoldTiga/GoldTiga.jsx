@@ -8,9 +8,68 @@ import { Provider } from 'react-redux';
 import store from '../../store';
 import moment from 'moment'
 import { getUndangan } from '../../store/action';
+import Countdown from 'react-countdown';
 
+// Random component
+const Completionist = () => 
+{
+    return(
+        <div className="clock block_clock" data-config="{}">
+            <div className="face_wrapper">
+                <div className="face face_days">
+                    <div className="time days">00</div>
+                    <div className="label">Days</div>
+                </div>
+                <div className="face face_hours">
+                    <div className="time hours">00</div>
+                    <div className="label">Hours</div>
+                </div>
+                <div className="face face_minutes">
+                    <div className="time minutes">00</div>
+                    <div className="label">Mins</div>
+                </div>
+                <div className="face face_seconds">
+                    <div className="time seconds">00</div>
+                    <div className="label">Secs</div>
+                </div>
+            </div>
+        
+        </div>
+    );
+};
 
-
+// Renderer callback with condition
+const renderer = ({ days, hours, minutes, seconds, completed }) => {
+  if (completed) {
+    // Render a completed state
+    return <Completionist />;
+  } else {
+    // Render a countdown
+    return (
+        <div className="clock block_clock" data-config="{}">
+            <div className="face_wrapper">
+                <div className="face face_days">
+                    <div className="time days"><span>{days}</span></div>
+                    <div className="label">Days</div>
+                </div>
+                <div className="face face_hours">
+                    <div className="time hours"><span>{hours}</span></div>
+                    <div className="label">Hours</div>
+                </div>
+                <div className="face face_minutes">
+                    <div className="time minutes"><span>{minutes}</span></div>
+                    <div className="label">Mins</div>
+                </div>
+                <div className="face face_seconds">
+                    <div className="time seconds"><span>{seconds}</span></div>
+                    <div className="label">Secs</div>
+                </div>
+            </div>
+        
+        </div>
+    );
+  }
+};
 
 const GoldTiga = () => {
     
@@ -291,11 +350,11 @@ const GoldTiga = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <ul className="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_0 et_animated clearfix  et_pb_text_align_center et_pb_bg_layout_light">
+                                                {/* <ul className="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_0 et_animated clearfix  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <li className="et_pb_social_media_follow_network_0 et_pb_social_icon et_pb_social_network_link  et-social-instagram">
                                                         <a href="https://www.instagram.com/kondangin.idn/" className="icon et_pb_with_border" title="Follow on Instagram" target="_blank"><span className="et_pb_social_media_follow_network_name" aria-hidden="true">Follow</span></a>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                         </div>
                                         <div className="et_pb_row et_pb_row_8">
@@ -315,11 +374,11 @@ const GoldTiga = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <ul className="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_1 et_animated clearfix  et_pb_text_align_center et_pb_bg_layout_light">
+                                                {/* <ul className="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_1 et_animated clearfix  et_pb_text_align_center et_pb_bg_layout_light">
                                                     <li className="et_pb_social_media_follow_network_1 et_pb_social_icon et_pb_social_network_link  et-social-instagram">
                                                         <a href="https://www.instagram.com/kondangin.idn/" className="icon et_pb_with_border" title="Follow on Instagram" target="_blank"><span className="et_pb_social_media_follow_network_name" aria-hidden="true">Follow</span></a>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                         </div>
                                     </div>
@@ -411,7 +470,7 @@ const GoldTiga = () => {
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_button_module_wrapper et_pb_button_1_wrapper et_pb_button_alignment_center et_pb_module ">
-                                                    <a className="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" href="https://goo.gl/maps/iqHMxcKh1LtdWAsq8" target="_blank" data-icon="">Lihat Lokasi</a>
+                                                    <a className="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" href={a? `https://www.google.com/maps/place/${a.subAcaras[0].lattitude},${a.subAcaras[0].longitude}` : '#'} target="_blank" data-icon="">Lihat Lokasi</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -493,7 +552,7 @@ const GoldTiga = () => {
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_button_module_wrapper et_pb_button_2_wrapper et_pb_button_alignment_center et_pb_module ">
-                                                    <a className="et_pb_button et_pb_button_2 et_animated et_pb_bg_layout_light" href="https://goo.gl/maps/iqHMxcKh1LtdWAsq8" target="_blank" data-icon="">Lihat Lokasi</a>
+                                                    <a className="et_pb_button et_pb_button_2 et_animated et_pb_bg_layout_light" href={a? `https://www.google.com/maps/place/${a.subAcaras[1].lattitude},${a.subAcaras[1].longitude}` : '#'} target="_blank" data-icon="">Lihat Lokasi</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -516,8 +575,11 @@ const GoldTiga = () => {
                                                 </div>
                                                 <div className="et_pb_module dipi_countdown dipi_countdown_0 et_animated">
                                                     <div className="et_pb_module_inner">
-                                                        <div className="clock block_clock" data-config="{&quot;style&quot;:&quot;block_clock&quot;,&quot;finish_countdown&quot;:&quot;continue&quot;,&quot;label_weeks&quot;:&quot;Week,Weeks&quot;,&quot;label_days&quot;:&quot;Day,Days&quot;,&quot;label_hours&quot;:&quot;Hour,Hours&quot;,&quot;label_minutes&quot;:&quot;Min,Mins&quot;,&quot;label_seconds&quot;:&quot;Sec,Secs&quot;,&quot;date&quot;:&quot;2023-05-01 00:00&quot;,&quot;show_weeks&quot;:false,&quot;show_days&quot;:true,&quot;show_hours&quot;:true,&quot;show_minutes&quot;:true,&quot;show_seconds&quot;:true,&quot;clock_label_position&quot;:&quot;below&quot;}">
-                                                        </div>
+                                                        <Countdown
+                                                            date={a? new Date(state.undangan.data.subAcaras[0].start_time) :'2023-03-07 08:00'}
+                                                            renderer={renderer}
+                                                        />
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -631,18 +693,6 @@ const GoldTiga = () => {
                                                     <div className="et_pb_code_inner">
                                                         <div className="wonderpluginaudio" id="wonderpluginaudio-432" data-audioplayerid={432} data-width={48} data-height={600} data-skin="button48" data-progressinbar="true" data-showinfo="false" data-showimage="false" data-autoplay="false" data-random="false" data-autoresize="false" data-responsive="false" data-showtracklist="false" data-tracklistscroll="true" data-showprogress="false" data-showprevnext="false" data-showloop="false" data-stopotherplayers="true" data-preloadaudio="true" data-showtracklistsearch="false" data-saveposincookie="false" data-wptracklist="false" data-removeinlinecss="true" data-showtime="false" data-showvolume="false" data-showvolumebar="true" data-showliveplayedlist="false" data-showtitleinbar="false" data-showloading="false" data-enablega="false" data-titleinbarscroll="true" data-donotinit="false" data-addinitscript="false" data-imagewidth={100} data-imageheight={100} data-loop={1} data-tracklistitem={10} data-titleinbarwidth={80} data-gatrackingid data-playbackrate={1} data-playpauseimage="playpause-48-48-1.png" data-playpauseimagewidth={48} data-playpauseimageheight={48} data-cookiehours={240} data-prevnextimage="prevnext-24-24-0.png" data-prevnextimagewidth={24} data-prevnextimageheight={24} data-volumeimage="volume-24-24-0.png" data-volumeimagewidth={24} data-volumeimageheight={24} data-liveupdateinterval={10000} data-maxplayedlist={8} data-playedlisttitle="Last Tracks Played" data-loopimage="loop-24-24-0.png" data-loopimagewidth={24} data-loopimageheight={24} data-infoformat="<div class='amazingaudioplayer-info-title'>%ARTIST% %ALBUM%</div>
                                                                     <div class='amazingaudioplayer-info-description'>%INFO%</div>" data-jsfolder="../wp-content/plugins/wonderplugin-audio/engine/" style={{ display: 'block', position: 'relative', margin: '0 auto', width: 48, height: 'auto' }}>
-                                                            {/* <ul className="amazingaudioplayer-audios" style={{ display: 'none' }}>
-                                                                
-                                                                <li data-artist data-title={a ? a.musik[0].nama : ''} data-album data-info={a ? a.musik[0].nama : ''} data-image="../wp-includes/images/media/audio.png" data-duration={238}>
-                                                                    
-                                                                    <div className="amazingaudioplayer-source" data-src={a? a.musik[0].url:''} data-type="audio/mpeg" />
-
-                                                                    <div className="amazingaudioplayer-source" data-src="https://ia802802.us.archive.org/15/items/cd_mad-to-love_ms.-meka-nism-and-her-rusty-tears/disc1/01.%20Ms.%20Meka%20Nism%20And%20Her%20Rusty%20Tears%20-%20In%20The%20Time_sample.mp3" data-type="audio/mpeg" />
-
-                                                                    
-                                                                </li>
-                                                                
-                                                            </ul> */}
                                                             <div className="amazingaudioplayer-player-wrapper">
                                                                 <div className="amazingaudioplayer-bar">
                                                                     <div className="amazingaudioplayer-playpause" style={{ display: 'block' }}>
@@ -660,9 +710,6 @@ const GoldTiga = () => {
                                                                 <div className="amazingaudioplayer-bar-clear">
                                                                 </div>
                                                             </div>
-                                                            
-                                                            {/* <audio id="amazingaudioobject-432" preload="auto" style={{display: 'none'}}><source src="https://ia802802.us.archive.org/15/items/cd_mad-to-love_ms.-meka-nism-and-her-rusty-tears/disc1/01.%20Ms.%20Meka%20Nism%20And%20Her%20Rusty%20Tears%20-%20In%20The%20Time_sample.mp3" type="audio/mpeg"/></audio> */}
-                                                            {/* <audio ref={myRef} preload="auto" style={{display: 'none'}} src="https://ia802802.us.archive.org/15/items/cd_mad-to-love_ms.-meka-nism-and-her-rusty-tears/disc1/01.%20Ms.%20Meka%20Nism%20And%20Her%20Rusty%20Tears%20-%20In%20The%20Time_sample.mp3"></audio> */}
                                                             <audio ref={myRef} preload="auto" loop={true} style={{display: 'none'}} src={a? a.musik[0].url : ''}></audio>
                                                             
                                                             
@@ -707,45 +754,6 @@ const GoldTiga = () => {
                                                             null
 
                                                         }
-
-
-                                                        {/* {a? 
-                                                        <div className={`et_pb_slide et_pb_slide_${0} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${0}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 1  ? state.undangan.data.fotos[0].url : ''}")` }} >
-                                                        <div className="et_pb_container clearfix">
-                                                            <div className="et_pb_slider_container_inner">
-                                                                <div className="et_pb_slide_description">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                        : 
-                                                        null
-                                                        }
-                                                        
-                                                        {a?
-                                                        <div className={`et_pb_slide et_pb_slide_${1} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${1}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 2  ? state.undangan.data.fotos[1].url : ''}")` }} >
-                                                        <div className="et_pb_container clearfix">
-                                                            <div className="et_pb_slider_container_inner">
-                                                                <div className="et_pb_slide_description">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                        :
-                                                        null
-                                                        }
-                                                        {a?
-                                                        <div className={`et_pb_slide et_pb_slide_${2} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${2}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 3  ? state.undangan.data.fotos[2].url : ''}")` }} >
-                                                        <div className="et_pb_container clearfix">
-                                                            <div className="et_pb_slider_container_inner">
-                                                                <div className="et_pb_slide_description">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                        :
-                                                        null
-                                                        } */}
                                                         
                                                             <div className={`et_pb_slide et_pb_slide_${0} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${0}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 1  ? state.undangan.data.fotos[0].url : ''}")` }} >
                                                                 <div className="et_pb_container clearfix">
@@ -1138,7 +1146,7 @@ const GoldTiga = () => {
                                                     {/* belum pake rekening api */}
                                                     <div className="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                            <p>{a ? <h5>{state.undangan.data.rekeningGifts[0].no_rekening}</h5> : ''}</p>
+                                                            {a ? <h5>{state.undangan.data.rekeningGifts[0].no_rekening}</h5> : ''}
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_button_module_wrapper et_pb_button_3_wrapper et_pb_button_alignment_center et_pb_module ">
@@ -1158,7 +1166,7 @@ const GoldTiga = () => {
                                                     </div>
                                                     <div className="et_pb_module et_pb_text et_pb_text_16  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                        <p>{a ? <h5>{state.undangan.data.rekeningGifts[1].no_rekening}</h5> : ''}</p>
+                                                        {a ? <h5>{state.undangan.data.rekeningGifts[1].no_rekening}</h5> : ''}
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_button_module_wrapper et_pb_button_4_wrapper et_pb_button_alignment_center et_pb_module ">

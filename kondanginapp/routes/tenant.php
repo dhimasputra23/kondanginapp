@@ -29,19 +29,22 @@ Route::middleware([
         if (tenant('tema_id')==1) {
             return view('bronze');
         }
-        // else if(tenant('tema_id')==2){
-        //     return view('bronzeDua');
-        // }else if(tenant('tema_id')==3){
+        else if(tenant('tema_id')==2){
+            return view('bronzeDua');
+        }
+        // else if(tenant('tema_id')==3){
         //     return view('bronzeTiga');
         // }
         else if(tenant('tema_id')==4){
             return view('silverSatu');
         }
-        // else if(tenant('tema_id')==5){
-        //     return view('silverDua');
-        // }else if(tenant('tema_id')==6){
-        //     return view('silverTiga');
-        // }else if(tenant('tema_id')==7){
+        else if(tenant('tema_id')==5){
+            return view('silverDua');
+        }
+        else if(tenant('tema_id')==6){
+            return view('silverTiga');
+        }
+        // else if(tenant('tema_id')==7){
         //     return view('goldSatu');
         // }else if(tenant('tema_id')==8){
         //     return view('goldDua');

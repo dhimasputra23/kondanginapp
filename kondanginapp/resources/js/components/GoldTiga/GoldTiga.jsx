@@ -757,7 +757,7 @@ const GoldTiga = () => {
                                                         
                                                             <div className={`et_pb_slide et_pb_slide_${0} et_pb_bg_layout_dark et_pb_media_alignment_center`} data-slide-id={`et_pb_slide_${0}`} style={{ backgroundImage: `url("${a && a.fotos.length >= 1  ? state.undangan.data.fotos[0].url : ''}")` }} >
                                                                 <div className="et_pb_container clearfix">
-                                                                    <div className="et_pb_slider_container_inner">
+                                                            <div className="et_pb_slider_container_inner">
                                                                         <div className="et_pb_slide_description">
                                                                         </div>
                                                                     </div>

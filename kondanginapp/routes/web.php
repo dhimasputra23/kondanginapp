@@ -21,6 +21,22 @@ Route::get('/silver', function () {
     return view('silver');
 });
 
+Route::get('/bronzeSatu', function () {
+    return view('bronzeSatu');
+});
+
+Route::get('/bronzeTiga', function () {
+    return view('bronzeTiga');
+});
+
+Route::get('/goldSatu', function () {
+    return view('goldSatu');
+});
+
+Route::get('/goldDua', function () {
+    return view('goldDua');
+});
+
 Route::get('/coba', function () {
     return view('coba');
 });

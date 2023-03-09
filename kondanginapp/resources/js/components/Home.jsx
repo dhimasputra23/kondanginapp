@@ -1,5 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+
+
+// import required modules
+import { Pagination } from "swiper";
 
 const Home = () => {
     return (
@@ -18,7 +28,7 @@ const Home = () => {
                                 <li><a className="nav-link scrollto active" href="#home">Beranda</a></li>
                                 <li><a className="nav-link scrollto" href="#tentang">Tentang Kami</a></li>
                                 <li><a className="nav-link scrollto" href="#fitur">Fitur</a></li>
-                                <li><a className="nav-link scrollto " href="#testi">Testimonial </a></li>
+                                <li><a className="nav-link scrollto " href="#testimonials">Testimonial </a></li>
                                 {/* <li><a class="nav-link scrollto" href="blog.html">Blog</a></li> */}
                                 <li><a className="nav-link scrollto " href="#paket">Pilihan Paket</a></li>
                                 <li><a className="nav-link scrollto" href="#harga">Harga</a></li>
@@ -355,19 +365,116 @@ const Home = () => {
                         </div>
                     </section>{/* End Features Section */}
                     {/* ======= Testimonials Section ======= */}
-                    <section id="testi" className="testimonials section-bg">
+
+                    <section id="testimonials" className="testimonials section-bg">
                         <div className="container">
                             <div className="section-title" data-aos="fade-up">
                                 <h2>Testimonials</h2>
                                 <p>Apa kata mereka tentang pelayanan KONDANGIN.ID ?</p>
                             </div>
-
-
-
-
-                            <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay={100}>
+                            <div className="testimonials-slider swiper" data-aos="fade-up" >
                                 <div className="swiper-wrapper">
-                                    <div className="swiper-slide">
+
+                                    <Swiper
+                                        pagination={{
+                                            dynamicBullets: true,
+                                            el:'.swiper-pagination',
+                                            type:'bullets'
+                                        }}
+                                        modules={[Pagination]}
+                                        className="mySwiper"
+                                        autoplay={{
+                                            delay:100,
+                                        
+                                        }}
+                                  
+                                    >
+                                        <SwiperSlide
+                                         
+                                        >
+                                            
+                                            <div className="testimonial-wrap">
+                                                <div className="testimonial-item">
+                                                    <img src="assets/img/testimonials/silver.jpg" className="testimonial-img" alt />
+                                                    <h3>Desta & Silvi</h3>
+                                                    <h4>Manager Operasional Daihatsu</h4>
+                                                    <p>
+                                                        <i className="bx bxs-quote-alt-left quote-icon-left" />
+                                                        Pelayanan ramah, cepat, dan berani saya bilang ini yg terbaik.
+                                                        Sempet bingung waktu milih mau pakai jasa siapa untuk undangan online, dan akhirnya kecantol banget sama desain dan contoh" undangan online dari KONDANGIN.ID ini.
+                                                        Uda siap"in semuanya dari 3 hari sebelum pesen, dan saat apply pun sepertinya itu malam jam 23.00 WITA, ga nyangka dong karena sempat bingung, chat admin, dan jam malam pun masih ngebales whatsapp saya. Apply plus transfer tengah malem, eeh besok paginya kelar dong....ga nyangka, ditinggal tidur doang uda kelar hahaha
+                                                        Dengan segala revisi yang aku bilang pelan", dan ternyata KLOP laah undangannya, suka banget laah pokoknya! TERBAIKKKK
+                                                        <i className="bx bxs-quote-alt-right quote-icon-right" />
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </SwiperSlide>
+                                        <SwiperSlide>      <div className="testimonial-wrap">
+                                            <div className="testimonial-item">
+                                                <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt />
+                                                <h3>Sara Wilsson</h3>
+                                                <h4>Designer</h4>
+                                                <p>
+                                                    <i className="bx bxs-quote-alt-left quote-icon-left" />
+                                                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                                    <i className="bx bxs-quote-alt-right quote-icon-right" />
+                                                </p>
+                                            </div>
+                                        </div>
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                            <div className="testimonial-wrap">
+                                                <div className="testimonial-item">
+                                                    <img src="assets/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt />
+                                                    <h3>Jena Karlis</h3>
+                                                    <h4>Store Owner</h4>
+                                                    <p>
+                                                        <i className="bx bxs-quote-alt-left quote-icon-left" />
+                                                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                                        <i className="bx bxs-quote-alt-right quote-icon-right" />
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                            <div className="testimonial-wrap">
+                                                <div className="testimonial-item">
+                                                    <img src="assets/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt />
+                                                    <h3>Matt Brandon</h3>
+                                                    <h4>Freelancer</h4>
+                                                    <p>
+                                                        <i className="bx bxs-quote-alt-left quote-icon-left" />
+                                                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                                                        <i className="bx bxs-quote-alt-right quote-icon-right" />
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                            <div className="testimonial-wrap">
+                                                <div className="testimonial-item">
+                                                    <img src="assets/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt />
+                                                    <h3>John Larson</h3>
+                                                    <h4>Entrepreneur</h4>
+                                                    <p>
+                                                        <i className="bx bxs-quote-alt-left quote-icon-left" />
+                                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                                                        <i className="bx bxs-quote-alt-right quote-icon-right" />
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </SwiperSlide>
+                                        {/* <SwiperSlide>Slide 6</SwiperSlide>
+                                        <SwiperSlide>Slide 7</SwiperSlide>
+                                        <SwiperSlide>Slide 8</SwiperSlide>
+                                        <SwiperSlide>Slide 9</SwiperSlide> */}
+                                    </Swiper>
+
+
+                                    {/* <div className="swiper-slide">
                                         <div className="testimonial-wrap">
                                             <div className="testimonial-item">
                                                 <img src="assets/img/testimonials/silver.jpg" className="testimonial-img" alt />
@@ -383,7 +490,8 @@ const Home = () => {
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>{/* End testimonial item */}
+                                    </div>
+                               
                                     <div className="swiper-slide">
                                         <div className="testimonial-wrap">
                                             <div className="testimonial-item">
@@ -397,7 +505,7 @@ const Home = () => {
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>{/* End testimonial item */}
+                                    </div>
                                     <div className="swiper-slide">
                                         <div className="testimonial-wrap">
                                             <div className="testimonial-item">
@@ -411,7 +519,7 @@ const Home = () => {
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>{/* End testimonial item */}
+                                    </div>
                                     <div className="swiper-slide">
                                         <div className="testimonial-wrap">
                                             <div className="testimonial-item">
@@ -425,7 +533,7 @@ const Home = () => {
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>{/* End testimonial item */}
+                                    </div>
                                     <div className="swiper-slide">
                                         <div className="testimonial-wrap">
                                             <div className="testimonial-item">
@@ -439,12 +547,23 @@ const Home = () => {
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>{/* End testimonial item */}
+                                    </div> */}
                                 </div>
                                 <div className="swiper-pagination" />
                             </div>
                         </div>
-                    </section>{/* End Testimonials Section */}
+                    </section>
+
+
+
+
+
+
+
+                    {/* End Testimonials Section */}
+
+
+
                     {/* ======= Portfolio Section ======= */}
                     <section id="paket" className="portfolio">
                         <div className="container">
@@ -458,7 +577,7 @@ const Home = () => {
                                         <li data-filter="*" className="filter-active">Semua Paket</li>
                                         <li data-filter=".filter-app">Paket Bronze</li>
                                         <li data-filter=".filter-card">Paket Silver</li>
-                                        <li data-filter=".filter-web">Paket Diamond</li>
+                                        <li data-filter=".filter-web">Paket Gold</li>
                                     </ul>
                                 </div>
                             </div>
@@ -471,7 +590,7 @@ const Home = () => {
                                             <p>Preview</p>
                                             <div className="portfolio-links">
                                                 <a href="assets/img/bronze/a.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus" /></a>
-                                                <a href="https://hi.ngantenstory.com/bronze-1/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="https://hi.ngantenstory.com/bronze-1/?to=Calon+Nganten" title="More Details"><button type="button" className="btn btn-primary" >View Template</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -484,7 +603,7 @@ const Home = () => {
                                             <p>Preview</p>
                                             <div className="portfolio-links">
                                                 <a href="assets/img/bronze/Bronze2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus" /></a>
-                                                <a href="https://hi.ngantenstory.com/bronze-2/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="https://hi.ngantenstory.com/bronze-2/?to=Calon+Nganten" title="More Details"><button type="button" className="btn btn-primary" >View Template</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -497,7 +616,7 @@ const Home = () => {
                                             <p>Preview</p>
                                             <div className="portfolio-links">
                                                 <a href="assets/img/bronze/Bronze3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus" /></a>
-                                                <a href="https://hi.ngantenstory.com/bronze-4/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="https://hi.ngantenstory.com/bronze-4/?to=Calon+Nganten" title="More Details"><button type="button" className="btn btn-primary" >View Template</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -510,7 +629,7 @@ const Home = () => {
                                             <p>Preview</p>
                                             <div className="portfolio-links">
                                                 <a href="assets/img/silver/silver1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus" /></a>
-                                                <a href="https://hi.ngantenstory.com/silver-1/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="https://hi.ngantenstory.com/silver-1/?to=Calon+Nganten" title="More Details"><button type="button" className="btn btn-primary" >View Template</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -523,7 +642,7 @@ const Home = () => {
                                             <p>Preview</p>
                                             <div className="portfolio-links">
                                                 <a href="assets/img/silver/silver2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 2"><i className="bx bx-plus" /></a>
-                                                <a href="https://hi.ngantenstory.com/silver-2/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="https://hi.ngantenstory.com/silver-2/?to=Calon+Nganten" title="More Details"><button type="button" className="btn btn-primary" >View Template</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -536,7 +655,7 @@ const Home = () => {
                                             <p>Preview</p>
                                             <div className="portfolio-links">
                                                 <a href="assets/img/silver/silver3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 3"><i className="bx bx-plus" /></a>
-                                                <a href="hhttps://hi.ngantenstory.com/silver-3/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="hhttps://hi.ngantenstory.com/silver-3/?to=Calon+Nganten" title="More Details"><button type="button" className="btn btn-primary" >View Template</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -549,7 +668,7 @@ const Home = () => {
                                             <p>Preview</p>
                                             <div className="portfolio-links">
                                                 <a href="assets/img/gold/gold1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 1"><i className="bx bx-plus" /></a>
-                                                <a href="https://hi.ngantenstory.com/gold-2/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="https://hi.ngantenstory.com/gold-2/?to=Calon+Nganten" title="More Details"><button type="button" className="btn btn-primary" >View Template</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -562,7 +681,7 @@ const Home = () => {
                                             <p>Preview</p>
                                             <div className="portfolio-links">
                                                 <a href="assets/img/gold/gold2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 3"><i className="bx bx-plus" /></a>
-                                                <a href="https://hi.ngantenstory.com/gold-4/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="https://hi.ngantenstory.com/gold-4/?to=Calon+Nganten" title="More Details"><button type="button" className="btn btn-primary" >View Template</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -575,7 +694,7 @@ const Home = () => {
                                             <p>Preview</p>
                                             <div className="portfolio-links">
                                                 <a href="assets/img/gold/gold3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus" /></a>
-                                                <a href="https://hi.ngantenstory.com/gold-3/?to=Calon+Nganten" title="More Details"><i className="bx bx-link" /></a>
+                                                <a href="https://hi.ngantenstory.com/gold-3/?to=Calon+Nganten" title="More Details"><button type="button" className="btn btn-primary" >View Template</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -681,7 +800,7 @@ const Home = () => {
                             <div className="row">
                                 <div className="col-lg-4 col-md-6">
                                     <div className="box recommended" data-aos="zoom-in-right" data-aos-delay={200}>
-                                        <h3>Paket Promo Prelaunch</h3>
+                                        <h3>Paket Bronze</h3>
                                         <h4><sup>Rp.</sup><b style={{ textDecorationLine: 'line-through' }}>199.000</b> </h4>
                                         <h4><sup>Rp.</sup>130.000</h4>
                                         <ul>
@@ -704,7 +823,7 @@ const Home = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-6 mt-4 mt-md-0">
                                     <div className="box" data-aos="zoom-in" data-aos-delay={100}>
-                                        <h3>Premium</h3>
+                                        <h3>Paket Silver</h3>
                                         <h4><sup>Rp.</sup>220.000</h4>
                                         <ul>
                                             <li>Quotes</li>
@@ -729,7 +848,7 @@ const Home = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
                                     <div className="box" data-aos="zoom-in-left" data-aos-delay={200}>
-                                        <h3>Platinum</h3>
+                                        <h3>Paket Gold</h3>
                                         <h4><sup>Rp.</sup>280.000</h4>
                                         <ul>
                                             <li>Quotes</li>

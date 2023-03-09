@@ -15,6 +15,60 @@
   <link href="{{ asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   
+  <!-- <style>
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.testimonials .testimonial-wrap {
+  padding-left: 50px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.testimonials .testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 10px;
+  border: 6px solid #fff;
+  position: absolute;
+  left: -45px;
+}
+.testimonials .testimonial-item .testimonial-img {
+    position: static;
+    left: auto;
+  }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  </style> -->
 
 
   <!-- Google Fonts -->
@@ -28,6 +82,12 @@
   <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css')}} " rel="stylesheet">
   <link href="{{ asset('assets/vendor/remixicon/remixicon.css')}} " rel="stylesheet">
   <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css')}} " rel="stylesheet">
+  <!-- <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/> -->
+
+
 
   <!-- Template Main CSS File -->
   <link href="{{ asset('assets/css/style.css')}} " rel="stylesheet">
@@ -50,8 +110,10 @@
   <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
   <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
 
+  
   <!-- Template Main JS File -->
   <script src="{{ asset('assets/js/main.js') }}"></script>
   <script src="https://kit.fontawesome.com/f104e494d8.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
     </body>
 </html>

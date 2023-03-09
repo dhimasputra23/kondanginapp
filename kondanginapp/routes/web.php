@@ -57,8 +57,8 @@ Route::get('/goldTiga', function () {
     return view('goldTiga');
 });
 
-Route::get('/bronze', function () {
-    return view('bronze');
+Route::get('/bronzeDua', function () {
+    return view('bronzeDua');
 });
 // Route::view('/{path?}', 'homepage');
 

@@ -11,6 +11,7 @@ const initialState = {
     resepsi: null,
     pria : null,
     wanita : null,
+    tamu: null,
 
 
 }
@@ -21,8 +22,9 @@ const reducer = (state = initialState, action ) => {
             let undanganData = action.payload ? action.payload : []
             let mempelaiPria = '';
             let mempelaiWanita = '';
-            let akad = ''
-            let resepsi =''
+            let akad = '';
+            let resepsi ='';
+            let tamu ='';
             if (action.payload) {
                 ///pasangan
                 if (action.payload.data.profilPasangans[0].kelamin =="Pria") {
@@ -43,6 +45,10 @@ const reducer = (state = initialState, action ) => {
                     resepsi = action.payload.data.subAcaras[0].tempat
                 }
 
+                if(action.payload.data.tamu != null){
+                    tamu = action.payload.data.tamu
+                }
+                
 
             }
             
@@ -52,6 +58,7 @@ const reducer = (state = initialState, action ) => {
                 pria : mempelaiPria,
                 wanita : mempelaiWanita,
                 akad: akad,
+                tamu: tamu,
                 loadingUndangan: action.loadingUndangan,
                 errorMessage: action.errorMessage
             }

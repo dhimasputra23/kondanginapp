@@ -27,7 +27,7 @@ Route::middleware([
 ])->group(function ($router) {
     Route::get('to/{nama_tamu}', function ($nama_tamu) {
         if (tenant('tema_id')==1) {
-            return view('bronze');
+            return view('bronzeSatu');
         }
         else if(tenant('tema_id')==2){
             return view('bronzeDua');

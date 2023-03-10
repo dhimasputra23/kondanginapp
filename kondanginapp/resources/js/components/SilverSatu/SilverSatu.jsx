@@ -14,7 +14,7 @@ import Countdown from 'react-countdown';
 const Completionist = () => 
 {
     return(
-        <div className="clock block_clock" data-config=''>
+        <div className="clock block_clock" data-config='{}'>
             <div className="face_wrapper">
                 <div className="face face_days">
                     <div className="time days">00</div>
@@ -46,7 +46,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
   } else {
     // Render a countdown
     return (
-        <div className="clock block_clock" data-config='{}'>
+        <div className="clock block_clock" data-config="{&quot;style&quot;:&quot;block_clock&quot;,&quot;finish_countdown&quot;:&quot;continue&quot;,&quot;label_weeks&quot;:&quot;Week,Weeks&quot;,&quot;label_days&quot;:&quot;Day,Days&quot;,&quot;label_hours&quot;:&quot;Hour,Hours&quot;,&quot;label_minutes&quot;:&quot;Min,Mins&quot;,&quot;label_seconds&quot;:&quot;Sec,Secs&quot;,&quot;date&quot;:&quot;2023-05-01 00:00&quot;,&quot;show_weeks&quot;:false,&quot;show_days&quot;:true,&quot;show_hours&quot;:true,&quot;show_minutes&quot;:true,&quot;show_seconds&quot;:true,&quot;clock_label_position&quot;:&quot;below&quot;}">
             <div className="face_wrapper">
                 <div className="face face_days">
                     <div className="time days"><span>{days}</span></div>

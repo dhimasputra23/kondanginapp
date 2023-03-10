@@ -10,6 +10,10 @@ import moment from 'moment'
 import { getUndangan } from '../../store/action';
 import Countdown from 'react-countdown';
 
+
+
+
+
 // Random component
 const Completionist = () => 
 {
@@ -199,7 +203,9 @@ const GoldTiga = () => {
                                                         {a ? <h1>   <span>{state.pria} &amp; {state.wanita}</span>   </h1> : []}
                                                     </div>
                                                 </div>
+                                                
                                                 <div className="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
+                                                
                                                     <a className="et_pb_button et_pb_button_0 et_pb_bg_layout_light" href="#" data-icon="">Open Invitation</a>
                                                 </div>
                                             </div>
@@ -575,8 +581,10 @@ const GoldTiga = () => {
                                                 </div>
                                                 <div className="et_pb_module dipi_countdown dipi_countdown_0 et_animated">
                                                     <div className="et_pb_module_inner">
+                                                    {/* <div class="clock block_clock" data-config={`{"style":"block_clock","finish_countdown":"continue","label_weeks":"Week,Weeks","label_days":"Day,Days","label_hours":"Hour,Hours","label_minutes":"Min,Mins","label_seconds":"Sec,Secs","date":"${a? state.undangan.data.subAcaras[0].start_time :'2023-03-07 08:00'}","show_weeks":false,"show_days":true,"show_hours":true,"show_minutes":true,"show_seconds":true,"clock_label_position":"below"}`}></div> */}
+				
                                                         <Countdown
-                                                            date={a? new Date(state.undangan.data.subAcaras[0].start_time) :'2023-03-07 08:00'}
+                                                            date={a? new Date(state.undangan.data.subAcaras[0].start_time) : new Date('2023-03-07 08:00')}
                                                             renderer={renderer}
                                                         />
                                                         

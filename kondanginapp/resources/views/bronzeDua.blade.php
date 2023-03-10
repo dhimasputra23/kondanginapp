@@ -2158,6 +2158,15 @@
         "intensity": "20%",
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
+    },{
+        "class": "dipi_dual_heading_1",
+        "style": "zoom",
+        "repeat": "once",
+        "duration": "1000ms",
+        "delay": "600ms",
+        "intensity": "20%",
+        "starting_opacity": "0%",
+        "speed_curve": "ease-in-out"
     }, {
         "class": "et_pb_text_6",
         "style": "zoom",
@@ -2782,8 +2791,18 @@
         font-weight: 700 !important;
         font-size: 20px !important
     }
+    .dipi_dual_heading_1 .dipi-dh-first-heading {
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
+        font-weight: 700 !important;
+        font-size: 20px !important
+    }
 
     .dipi_dual_heading_0 .dipi-dh-second-heading {
+        font-family: 'Royal Wedd', Helvetica, Arial, Lucida, sans-serif !important;
+        color: rgba(57, 61, 67, 0.65) !important;
+        font-size: 60px !important
+    }
+    .dipi_dual_heading_1 .dipi-dh-second-heading {
         font-family: 'Royal Wedd', Helvetica, Arial, Lucida, sans-serif !important;
         color: rgba(57, 61, 67, 0.65) !important;
         font-size: 60px !important
@@ -2794,12 +2813,27 @@
         color: rgba(238, 238, 238, 0.43) !important;
         font-size: 60px
     }
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-main::before {
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
+        color: rgba(238, 238, 238, 0.43) !important;
+        font-size: 60px
+    }
 
     .dipi_dual_heading_0.dipi_dual_heading {
         margin-bottom: 15px !important
     }
-
+    .dipi_dual_heading_1 .dipi_dual_heading {
+        margin-bottom: 15px !important
+    }
     .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading {
+        border-style: solid;
+        line-height: 1.6em;
+        margin-top: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important
+    }
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading {
         border-style: solid;
         line-height: 1.6em;
         margin-top: 0px !important;
@@ -2816,8 +2850,23 @@
         margin-bottom: -40px !important;
         margin-left: -30px !important
     }
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading {
+        border-style: solid;
+        line-height: 1.6em;
+        margin-top: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: -40px !important;
+        margin-left: -30px !important
+    }
 
     .dipi_dual_heading_0 .dipi-dh-main {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: row
+    }
+
+    .dipi_dual_heading_1 .dipi-dh-main {
         justify-content: center;
         text-align: center;
         align-items: center;
@@ -2831,9 +2880,23 @@
         padding-bottom: 0px !important;
         padding-left: 3px !important
     }
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container {
+        padding-top: 0px !important;
+        padding-right: 3px !important;
+        padding-bottom: 0px !important;
+        padding-left: 3px !important
+    }
 
     .dipi_dual_heading_0 .dipi-dh-main::before {
         content: "Gifts";
+        left: 50%;
+        top: 50%;
+        left: 50%;
+        top: 50%
+    }
+    .dipi_dual_heading_1 .dipi-dh-main::before {
+        content: "Wishes";
         left: 50%;
         top: 50%;
         left: 50%;
@@ -3313,9 +3376,22 @@
             align-items: center;
             flex-direction: row
         }
+        .dipi_dual_heading_1 .dipi-dh-main {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-direction: row
+        }
 
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container {
+            padding-top: 0px !important;
+            padding-right: 3px !important;
+            padding-bottom: 0px !important;
+            padding-left: 3px !important
+        }
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container {
             padding-top: 0px !important;
             padding-right: 3px !important;
             padding-bottom: 0px !important;
@@ -3328,6 +3404,12 @@
             margin-bottom: 0px !important;
             margin-left: 0px !important
         }
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading {
+            margin-top: 0px !important;
+            margin-right: 0px !important;
+            margin-bottom: 0px !important;
+            margin-left: 0px !important
+        }
 
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-second-heading {
             margin-top: 0px !important;
@@ -3335,8 +3417,18 @@
             margin-bottom: -40px !important;
             margin-left: -30px !important
         }
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading {
+            margin-top: 0px !important;
+            margin-right: 0px !important;
+            margin-bottom: -40px !important;
+            margin-left: -30px !important
+        }
 
         .dipi_dual_heading_0 .dipi-dh-main::before {
+            left: 50%;
+            top: 50%
+        }
+        .dipi_dual_heading_1 .dipi-dh-main::before {
             left: 50%;
             top: 50%
         }
@@ -3485,9 +3577,22 @@
             align-items: center;
             flex-direction: row
         }
+        .dipi_dual_heading_1 .dipi-dh-main {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-direction: row
+        }
 
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container {
+            padding-top: 0px !important;
+            padding-right: 3px !important;
+            padding-bottom: 0px !important;
+            padding-left: 3px !important
+        }
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container,
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container {
             padding-top: 0px !important;
             padding-right: 3px !important;
             padding-bottom: 0px !important;
@@ -3500,6 +3605,12 @@
             margin-bottom: 0px !important;
             margin-left: 0px !important
         }
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading {
+            margin-top: 0px !important;
+            margin-right: 0px !important;
+            margin-bottom: 0px !important;
+            margin-left: 0px !important
+        }
 
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-second-heading {
             margin-top: 0px !important;
@@ -3507,8 +3618,18 @@
             margin-bottom: -40px !important;
             margin-left: -30px !important
         }
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading {
+            margin-top: 0px !important;
+            margin-right: 0px !important;
+            margin-bottom: -40px !important;
+            margin-left: -30px !important
+        }
 
         .dipi_dual_heading_0 .dipi-dh-main::before {
+            left: 50%;
+            top: 50%
+        }
+        .dipi_dual_heading_1 .dipi-dh-main::before {
             left: 50%;
             top: 50%
         }

@@ -209,7 +209,7 @@ const BronzeDua = () => {
                   <div className="et_pb_module et_pb_text et_pb_text_1 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
                     <div className="et_pb_text_inner">
                       <p><span>The Wedding Celebration of</span></p>
-                      <h1><span>Nesya &amp; Gandhi</span></h1>
+                      {a ? <h1>   <span>{state.pria} &amp; {state.wanita}</span>   </h1> : []}
                     </div>
                   </div>
                   <div className="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
@@ -521,7 +521,7 @@ const BronzeDua = () => {
             <div className="et_pb_section et_pb_section_6 et_pb_with_background et_section_regular">
               <div className="et_pb_row et_pb_row_7">
                 <div className="et_pb_column et_pb_column_4_4 et_pb_column_10  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                  <div className="et_pb_module dipi_dual_heading dipi_dual_heading_0 et_animated">
+                  <div className="et_pb_module dipi_dual_heading dipi_dual_heading_1 et_animated">
                     <div className="et_pb_module_inner">
                       <div className="dipi-dual-heading ">
                         <h2 className="dipi-dh-main">

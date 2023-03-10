@@ -2577,7 +2577,7 @@
         type='text/css' media='all' />
     <style id='css-divi-area-inline-css' type='text/css'>
     .et_pb_section.popup {
-        display: none
+        display: block
     }
     </style>
     <style id='divi-style-parent-inline-inline-css' type='text/css'>
@@ -4389,8 +4389,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     @font-face {
         font-family: ETmodules;
         font-display: block;
-        src: url(http://hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot);
-        src: url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?#iefix) format("embedded-opentype"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff) format("woff"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf) format("truetype"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg#ETmodules) format("svg");
+        src: url(../wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot);
+        src: url(../wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?#iefix) format("embedded-opentype"), url(../wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff) format("woff"), url(../wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf) format("truetype"), url(../wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg#ETmodules) format("svg");
         font-weight: 400;
         font-style: normal
     }
@@ -4400,8 +4400,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         font-style: normal;
         font-weight: 400;
         font-display: block;
-        src: url(http://hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot);
-        src: url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2) format("woff2"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff) format("woff"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf) format("truetype"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg#fontawesome) format("svg")
+        src: url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot);
+        src: url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2) format("woff2"), url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff) format("woff"), url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf) format("truetype"), url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg#fontawesome) format("svg")
     }
 
     @font-face {
@@ -4409,8 +4409,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         font-style: normal;
         font-weight: 900;
         font-display: block;
-        src: url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot);
-        src: url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2) format("woff2"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff) format("woff"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf) format("truetype"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg#fontawesome) format("svg")
+        src: url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot);
+        src: url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2) format("woff2"), url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff) format("woff"), url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf) format("truetype"), url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg#fontawesome) format("svg")
     }
 
     @font-face {
@@ -4418,8 +4418,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         font-style: normal;
         font-weight: 400;
         font-display: block;
-        src: url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot);
-        src: url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2) format("woff2"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff) format("woff"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf) format("truetype"), url(//hi.ngantenstory.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg#fontawesome) format("svg")
+        src: url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot);
+        src: url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2) format("woff2"), url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff) format("woff"), url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf) format("truetype"), url(../wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg#fontawesome) format("svg")
     }
 
     @media (min-width:981px) {
@@ -7877,7 +7877,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
 
     <!-- React JS -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="../js/app.js" defer></script>
 
 
 
@@ -8109,6 +8109,15 @@ header.et-l--header .et_pb_menu__logo > img {
         "intensity": "20%",
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
+    },{
+        "class": "dipi_dual_heading_1",
+        "style": "zoom",
+        "repeat": "once",
+        "duration": "1000ms",
+        "delay": "600ms",
+        "intensity": "20%",
+        "starting_opacity": "0%",
+        "speed_curve": "ease-in-out"
     }, {
         "class": "et_pb_text_6",
         "style": "zoom",
@@ -8164,19 +8173,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "starting_opacity": "0%",
         "speed_curve": "ease-in-out"
     }];
-    var et_link_options_data = [{
-        "class": "et_pb_blurb_5",
-        "url": "#hadiah",
-        "target": "_self"
-    }, {
-        "class": "et_pb_blurb_6",
-        "url": "#dana",
-        "target": "_self"
-    }, {
-        "class": "et_pb_text_17",
-        "url": "https:\/\/pdki-indonesia.dgip.go.id\/detail\/EC00202118269?type=copyright&keyword=ngantenstory",
-        "target": "_blank"
-    }];
+    
     </script>
     <link rel='stylesheet' id='wp-block-library-css'
         href='https://hi.ngantenstory.com/wp-includes/css/dist/block-library/style.min.css?ver=81582bdb254a94e4464424087c6479a8'
@@ -8280,31 +8277,31 @@ header.et-l--header .et_pb_menu__logo > img {
     @font-face {
         font-family: "Batusa Font";
         font-display: swap;
-        src: url("https://hi.ngantenstory.com/wp-content/uploads/et-fonts/Batusa.ttf") format("truetype"), url("https://hi.ngantenstory.com/wp-content/uploads/et-fonts/Batusa.otf") format("opentype")
+        src: url("/wp-content/uploads/et-fonts/Batusa.otf") format("truetype"), url("/wp-content/uploads/et-fonts/Batusa.otf") format("opentype")
     }
 
     @font-face {
         font-family: "Royal Wedding";
         font-display: swap;
-        src: url("https://hi.ngantenstory.com/wp-content/uploads/et-fonts/Royal-Wedding-Regular.ttf") format("truetype"), url("https://hi.ngantenstory.com/wp-content/uploads/et-fonts/Royal-Wedding-Regular.otf") format("opentype")
+        src: url("/wp-content/uploads/et-fonts/Royal-Wedding-Regular.ttf") format("truetype"), url("/wp-content/uploads/et-fonts/Royal-Wedding-Regular.otf") format("opentype")
     }
     </style>
     <style id="et-builder-module-design-deferred-20204022-cached-inline-styles">
     @font-face {
         font-family: "Batusa Font";
         font-display: swap;
-        src: url("https://hi.ngantenstory.com/wp-content/uploads/et-fonts/Batusa.ttf") format("truetype"), url("https://hi.ngantenstory.com/wp-content/uploads/et-fonts/Batusa.otf") format("opentype")
+        src: url("/wp-content/uploads/et-fonts/Batusa.otf") format("truetype"), url("/wp-content/uploads/et-fonts/Batusa.otf") format("opentype")
     }
 
     @font-face {
         font-family: "Royal Wedding";
         font-display: swap;
-        src: url("https://hi.ngantenstory.com/wp-content/uploads/et-fonts/Royal-Wedding-Regular.ttf") format("truetype"), url("https://hi.ngantenstory.com/wp-content/uploads/et-fonts/Royal-Wedding-Regular.otf") format("opentype")
+        src: url("/wp-content/uploads/et-fonts/Royal-Wedding-Regular.ttf") format("truetype"), url("/wp-content/uploads/et-fonts/Royal-Wedding-Regular.otf") format("opentype")
     }
 
     div.et_pb_section.et_pb_section_0 {
         background-position: center top;
-        background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(https://hi.ngantenstory.com/wp-content/uploads/2023/02/coverasa.jpg) !important
+        
     }
 
     .et_pb_section_0 {
@@ -8364,8 +8361,11 @@ header.et-l--header .et_pb_menu__logo > img {
     }
 
     .et_pb_code_1 {
-        filter: opacity(0%);
-        backface-visibility: hidden
+        position: fixed !important;
+        bottom: 0px;
+        top: auto;
+        left: 0px;
+        right: auto
     }
 
     .et_pb_text_1 {
@@ -8437,7 +8437,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     div.et_pb_section.et_pb_section_1 {
         background-position: center top;
-        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 58%, rgba(0, 0, 0, 0.45) 100%), url(https://hi.ngantenstory.com/wp-content/uploads/2023/02/headerpc.jpg) !important
+        
     }
 
     .et_pb_section_1 {
@@ -8693,8 +8693,19 @@ header.et-l--header .et_pb_menu__logo > img {
         color: #FFFFFF !important;
         font-size: 20px !important
     }
+    .dipi_dual_heading_1 .dipi-dh-first-heading {
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
+        font-weight: 700 !important;
+        color: #FFFFFF !important;
+        font-size: 20px !important
+    }
 
     .dipi_dual_heading_0 .dipi-dh-second-heading {
+        font-family: 'Royal Wedding', Helvetica, Arial, Lucida, sans-serif !important;
+        color: #d6d6d6 !important;
+        font-size: 60px !important
+    }
+    .dipi_dual_heading_1 .dipi-dh-second-heading {
         font-family: 'Royal Wedding', Helvetica, Arial, Lucida, sans-serif !important;
         color: #d6d6d6 !important;
         font-size: 60px !important
@@ -8705,12 +8716,28 @@ header.et-l--header .et_pb_menu__logo > img {
         color: rgba(238, 238, 238, 0.19) !important;
         font-size: 60px
     }
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-main::before {
+        font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
+        color: rgba(238, 238, 238, 0.19) !important;
+        font-size: 60px
+    }
 
     .dipi_dual_heading_0.dipi_dual_heading {
         margin-bottom: 15px !important
     }
+    .dipi_dual_heading_1.dipi_dual_heading {
+        margin-bottom: 15px !important
+    }
 
     .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading {
+        border-style: solid;
+        line-height: 1.6em;
+        margin-top: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important
+    }
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading {
         border-style: solid;
         line-height: 1.6em;
         margin-top: 0px !important;
@@ -8727,8 +8754,22 @@ header.et-l--header .et_pb_menu__logo > img {
         margin-bottom: -40px !important;
         margin-left: -30px !important
     }
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading {
+        border-style: solid;
+        line-height: 1.6em;
+        margin-top: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: -40px !important;
+        margin-left: -30px !important
+    }
 
     .dipi_dual_heading_0 .dipi-dh-main {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: row
+    }
+    .dipi_dual_heading_1 .dipi-dh-main {
         justify-content: center;
         text-align: center;
         align-items: center;
@@ -8742,6 +8783,13 @@ header.et-l--header .et_pb_menu__logo > img {
         padding-bottom: 0px !important;
         padding-left: 3px !important
     }
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
+    .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container {
+        padding-top: 0px !important;
+        padding-right: 3px !important;
+        padding-bottom: 0px !important;
+        padding-left: 3px !important
+    }
 
     .dipi_dual_heading_0 .dipi-dh-main::before {
         content: "Gifts";
@@ -8750,6 +8798,15 @@ header.et-l--header .et_pb_menu__logo > img {
         left: 50%;
         top: 50%
     }
+    .dipi_dual_heading_1 .dipi-dh-main::before {
+        content: "Wishes";
+        left: 50%;
+        top: 50%;
+        left: 50%;
+        top: 50%
+    }
+
+    
 
     .et_pb_text_6 {
         font-family: 'Batusa Font', Helvetica, Arial, Lucida, sans-serif
@@ -9093,25 +9150,7 @@ header.et-l--header .et_pb_menu__logo > img {
         overflow: hidden
     }
 
-    .et_pb_slider .et_pb_slide_0 {
-        background-image: url(https://hi.ngantenstory.com/wp-content/uploads/2023/02/header.jpg)
-    }
-
-    .et_pb_slider .et_pb_slide_1 {
-        background-image: url(https://hi.ngantenstory.com/wp-content/uploads/2023/02/DSCF7172.jpg)
-    }
-
-    .et_pb_slider .et_pb_slide_2 {
-        background-image: url(https://hi.ngantenstory.com/wp-content/uploads/2023/02/DSCF7000.jpg)
-    }
-
-    .et_pb_slider .et_pb_slide_3 {
-        background-image: url(https://hi.ngantenstory.com/wp-content/uploads/2023/02/DSCF6524.jpg)
-    }
-
-    .et_pb_slider .et_pb_slide_4 {
-        background-image: url(https://hi.ngantenstory.com/wp-content/uploads/2023/02/DSCF5851.jpg)
-    }
+    
 
     .et_pb_social_media_follow_network_0 a.icon {
         background-color: #d6d6d6 !important
@@ -9163,7 +9202,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     @media only screen and (max-width:980px) {
         div.et_pb_section.et_pb_section_0 {
-            background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%) !important
+           
         }
 
         .et_pb_section_0.et_pb_section {
@@ -9176,8 +9215,8 @@ header.et-l--header .et_pb_menu__logo > img {
             border-bottom-color: #FFFFFF
         }
 
-        body #page-container .et_pb_section .et_pb_button_0:before,
-        body #page-container .et_pb_section .et_pb_comments_0.et_pb_comments_module .et_pb_button:before {
+        body #page-container .et_pb_section .et_pb_comments_0.et_pb_comments_module .et_pb_button:before,
+        body #page-container .et_pb_section .et_pb_button_0:before {
             line-height: inherit;
             font-size: inherit !important;
             margin-left: -1.3em;
@@ -9242,9 +9281,22 @@ header.et-l--header .et_pb_menu__logo > img {
             align-items: center;
             flex-direction: row
         }
+        .dipi_dual_heading_1 .dipi-dh-main {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-direction: row
+        }
 
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container {
+            padding-top: 0px !important;
+            padding-right: 3px !important;
+            padding-bottom: 0px !important;
+            padding-left: 3px !important
+        }
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container {
             padding-top: 0px !important;
             padding-right: 3px !important;
             padding-bottom: 0px !important;
@@ -9257,6 +9309,12 @@ header.et-l--header .et_pb_menu__logo > img {
             margin-bottom: 0px !important;
             margin-left: 0px !important
         }
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading {
+            margin-top: 0px !important;
+            margin-right: 0px !important;
+            margin-bottom: 0px !important;
+            margin-left: 0px !important
+        }
 
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-second-heading {
             margin-top: 0px !important;
@@ -9264,8 +9322,18 @@ header.et-l--header .et_pb_menu__logo > img {
             margin-bottom: -40px !important;
             margin-left: -30px !important
         }
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading {
+            margin-top: 0px !important;
+            margin-right: 0px !important;
+            margin-bottom: -40px !important;
+            margin-left: -30px !important
+        }
 
         .dipi_dual_heading_0 .dipi-dh-main::before {
+            left: 50%;
+            top: 50%
+        }
+        .dipi_dual_heading_1 .dipi-dh-main::before {
             left: 50%;
             top: 50%
         }
@@ -9326,7 +9394,7 @@ header.et-l--header .et_pb_menu__logo > img {
             background-repeat: no-repeat;
             background-position: center top;
             background-blend-mode: normal;
-            background-image: linear-gradient(180deg, rgba(0, 4, 10, 0.36) 68%, #000c0f 100%), url(https://hi.ngantenstory.com/wp-content/uploads/2023/02/cover1.jpg) !important
+            
         }
 
         .et_pb_section_0 {
@@ -9377,7 +9445,7 @@ header.et-l--header .et_pb_menu__logo > img {
         }
 
         div.et_pb_section.et_pb_section_1 {
-            background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 58%, rgba(0, 0, 0, 0.45) 100%), url(https://hi.ngantenstory.com/wp-content/uploads/2023/02/header.jpg) !important
+            
         }
 
         .dvmd_text_on_a_path_0 #dvmdtpsvg {
@@ -9413,9 +9481,22 @@ header.et-l--header .et_pb_menu__logo > img {
             align-items: center;
             flex-direction: row
         }
+        .dipi_dual_heading_1 .dipi-dh-main {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-direction: row
+        }
 
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container {
+            padding-top: 0px !important;
+            padding-right: 3px !important;
+            padding-bottom: 0px !important;
+            padding-left: 3px !important
+        }
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading .dipi-dh-bg-container,
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading .dipi-dh-bg-container {
             padding-top: 0px !important;
             padding-right: 3px !important;
             padding-bottom: 0px !important;
@@ -9428,6 +9509,12 @@ header.et-l--header .et_pb_menu__logo > img {
             margin-bottom: 0px !important;
             margin-left: 0px !important
         }
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-first-heading {
+            margin-top: 0px !important;
+            margin-right: 0px !important;
+            margin-bottom: 0px !important;
+            margin-left: 0px !important
+        }
 
         .dipi_dual_heading_0 .dipi-dual-heading .dipi-dh-second-heading {
             margin-top: 0px !important;
@@ -9435,8 +9522,18 @@ header.et-l--header .et_pb_menu__logo > img {
             margin-bottom: -40px !important;
             margin-left: -30px !important
         }
+        .dipi_dual_heading_1 .dipi-dual-heading .dipi-dh-second-heading {
+            margin-top: 0px !important;
+            margin-right: 0px !important;
+            margin-bottom: -40px !important;
+            margin-left: -30px !important
+        }
 
         .dipi_dual_heading_0 .dipi-dh-main::before {
+            left: 50%;
+            top: 50%
+        }
+        .dipi_dual_heading_1 .dipi-dh-main::before {
             left: 50%;
             top: 50%
         }
@@ -9491,11 +9588,7 @@ header.et-l--header .et_pb_menu__logo > img {
         }
     }
     </style>
-    <script>
-    jQuery(document).ready(function($) {
-        $('#welcome-gate .et_pb_text_inner h2').before('<p> Calon Nganten </p>');
-    });
-    </script>
+
 
 </body>
 

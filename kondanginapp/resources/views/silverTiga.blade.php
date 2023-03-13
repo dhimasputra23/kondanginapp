@@ -1637,44 +1637,7 @@ header.et-l--header .et_pb_menu__logo > img {
     </script>
 
 
-    <!-- cpbt -->
-    <script>
-    (function(j, d) {
 
-        j(d).ready(function() {
-            j('.copy-text').removeAttr('href');
-        })
-
-        j(d).on('click', '.popup .et_pb_button_module_wrapper', function(e) {
-
-            var text = j(this).prev().find('p');
-
-            if (!j('body').hasClass('.et-bfb-distraction-free-mode')) {
-                var link = typeof(j(this).find('a').attr('href')) === 'undefined';
-                if (link) {
-                    e.preventDefault();
-                    copyToClipboard(text);
-                }
-
-            } else {
-                console.log('Wditor mode')
-            }
-
-        })
-
-
-        function copyToClipboard(element) {
-            var $temp = j("<input>"),
-                text = j(element).text();
-            j("body").append($temp);
-            $temp.val(text).select();
-            d.execCommand("copy");
-            $temp.remove();
-            alert(`Text "${ text }" copied to clipboard`);
-        }
-
-    })(jQuery, document)
-    </script>
 
     <!-- up down ws -->
 

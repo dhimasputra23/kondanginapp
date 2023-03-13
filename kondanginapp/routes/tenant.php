@@ -32,9 +32,9 @@ Route::middleware([
         else if(tenant('tema_id')==2){
             return view('bronzeDua');
         }
-        // else if(tenant('tema_id')==3){
-        //     return view('bronzeTiga');
-        // }
+        else if(tenant('tema_id')==3){
+            return view('bronzeTiga');
+        }
         else if(tenant('tema_id')==4){
             return view('silverSatu');
         }

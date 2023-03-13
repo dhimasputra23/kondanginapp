@@ -168,6 +168,19 @@ const GoldTiga = () => {
         console.log('Failed:', errorInfo);
     };
 
+    const [copySuccess, setCopySuccess] = useState('');
+    const danaRef = useRef(null);
+
+    const copyToClipboard = (e, text) => {
+        
+        navigator.clipboard.writeText(text);
+        // This is just personal preference.
+        // I prefer to not show the whole text area selected.
+        e.target.focus();
+        window.alert(`Text "${ text }" copied to clipboard`);
+        setCopySuccess('Copied!');
+      };
+
     return (
 
         <>
@@ -584,7 +597,7 @@ const GoldTiga = () => {
                                                     {/* <div class="clock block_clock" data-config={`{"style":"block_clock","finish_countdown":"continue","label_weeks":"Week,Weeks","label_days":"Day,Days","label_hours":"Hour,Hours","label_minutes":"Min,Mins","label_seconds":"Sec,Secs","date":"${a? state.undangan.data.subAcaras[0].start_time :'2023-03-07 08:00'}","show_weeks":false,"show_days":true,"show_hours":true,"show_minutes":true,"show_seconds":true,"clock_label_position":"below"}`}></div> */}
 				
                                                         <Countdown
-                                                            date={a? new Date(state.undangan.data.subAcaras[0].start_time) : new Date('2023-03-07 08:00')}
+                                                            date={a? new Date(state.undangan.data.subAcaras[0].start_time) : new Date(new Date().setMonth(new Date().getMonth() + 3))}
                                                             renderer={renderer}
                                                         />
                                                         
@@ -1099,7 +1112,7 @@ const GoldTiga = () => {
                                                     </div>
                                                     <div className="et_pb_button_module_wrapper et_pb_button_5_wrapper et_pb_button_alignment_center et_pb_module ">
 
-                                                        <a className="et_pb_button et_pb_button_5 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Address</a>
+                                                        <a className="et_pb_button et_pb_button_5 copy-text et_pb_bg_layout_light" onClick={e => copyToClipboard(e, state.undangan.data.alamatGifts[0].alamat)} data-icon="">Copy Address</a>
 
                                                     </div>
                                                 </div>
@@ -1154,11 +1167,11 @@ const GoldTiga = () => {
                                                     {/* belum pake rekening api */}
                                                     <div className="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_center et_pb_bg_layout_light">
                                                         <div className="et_pb_text_inner">
-                                                            {a ? <h5>{state.undangan.data.rekeningGifts[0].no_rekening}</h5> : ''}
+                                                            {a ? <h5 ref={danaRef}>{state.undangan.data.rekeningGifts[0].no_rekening}</h5> : ''}
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_button_module_wrapper et_pb_button_3_wrapper et_pb_button_alignment_center et_pb_module ">
-                                                        <a className="et_pb_button et_pb_button_3 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Number</a>
+                                                        <a className="et_pb_button et_pb_button_3 copy-text et_pb_bg_layout_light"  onClick={e => copyToClipboard(e, state.undangan.data.rekeningGifts[0].no_rekening)} data-icon="">Copy Number</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1178,7 +1191,7 @@ const GoldTiga = () => {
                                                         </div>
                                                     </div>
                                                     <div className="et_pb_button_module_wrapper et_pb_button_4_wrapper et_pb_button_alignment_center et_pb_module ">
-                                                        <a className="et_pb_button et_pb_button_4 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Number</a>
+                                                        <a className="et_pb_button et_pb_button_4 copy-text et_pb_bg_layout_light" onClick={e => copyToClipboard(e, state.undangan.data.rekeningGifts[1].no_rekening)} data-icon="">Copy Number</a>
                                                     </div>
                                                 </div>
                                             </div>

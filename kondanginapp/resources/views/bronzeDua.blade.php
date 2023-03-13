@@ -1509,45 +1509,7 @@
     </script>
 
 
-    <!-- cpbt -->
-    <script>
-    (function(j, d) {
-
-        j(d).ready(function() {
-            j('.copy-text').removeAttr('href');
-        })
-
-        j(d).on('click', '.popup .et_pb_button_module_wrapper', function(e) {
-
-            var text = j(this).prev().find('p');
-
-            if (!j('body').hasClass('.et-bfb-distraction-free-mode')) {
-                var link = typeof(j(this).find('a').attr('href')) === 'undefined';
-                if (link) {
-                    e.preventDefault();
-                    copyToClipboard(text);
-                }
-
-            } else {
-                console.log('Wditor mode')
-            }
-
-        })
-
-
-        function copyToClipboard(element) {
-            var $temp = j("<input>"),
-                text = j(element).text();
-            j("body").append($temp);
-            $temp.val(text).select();
-            d.execCommand("copy");
-            $temp.remove();
-            alert(`Text "${ text }" copied to clipboard`);
-        }
-
-    })(jQuery, document)
-    </script>
-
+   
     <!-- up down ws -->
 
     <script>
@@ -2330,9 +2292,7 @@
         id='smoothscroll-js'></script>
     <script type='text/javascript' src='../wp-content/themes/Divi/core/admin/js/es6-promise.auto.minf315.js?ver=4.19.4'
         id='es6-promise-js'></script>
-    <script type='text/javascript'
-        src='../../www.google.com/recaptcha/api7d54.js?render=6LcfLLsZAAAAANvaF-VNf7rqs0pv-ejqPbbNc5ww&amp;ver=4.19.4'
-        id='et-recaptcha-v3-js'></script>
+    
     <script type='text/javascript' id='et-core-api-spam-recaptcha-js-extra'>
     /* <![CDATA[ */
     var et_core_api_spam_recaptcha = {

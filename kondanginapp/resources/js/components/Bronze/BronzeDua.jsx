@@ -179,6 +179,18 @@ const BronzeDua = () => {
     const onFinishFailed = (errorInfo) => {
         console.log('Failed:', errorInfo);
     };
+    const [copySuccess, setCopySuccess] = useState('');
+    const danaRef = useRef(null);
+
+    const copyToClipboard = (e, text) => {
+        
+        navigator.clipboard.writeText(text);
+        // This is just personal preference.
+        // I prefer to not show the whole text area selected.
+        e.target.focus();
+        window.alert(`Text "${ text }" copied to clipboard`);
+        setCopySuccess('Copied!');
+      };
   return (
     <div>
 <div id="page-container">
@@ -255,7 +267,7 @@ const BronzeDua = () => {
               <div className="et_pb_row et_pb_row_3">
                 <div className="et_pb_column et_pb_column_4_4 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
                   <div className="et_pb_module et_pb_image et_pb_image_0 et_animated et-waypoint">
-                    <span className="et_pb_image_wrap "><img decoding="async" width={250} height={250} src="../wp-content/uploads/2020/02/Bird.png" alt title="Bird" srcSet="../wp-content/uploads/2020/02/Bird.png 250w, ../wp-content/uploads/2020/02/Bird-150x150.png 150w" sizes="(max-width: 250px) 100vw, 250px" className="wp-image-780" /></span>
+                    <span className="et_pb_image_wrap "><img decoding="async" width={250} height={250} src="../wp-content/uploads/2020/02/Bird.png"  title="Bird" srcSet="../wp-content/uploads/2020/02/Bird.png 250w, ../wp-content/uploads/2020/02/Bird-150x150.png 150w" sizes="(max-width: 250px) 100vw, 250px" className="wp-image-780" /></span>
                   </div>
                   <div className="et_pb_module et_pb_text et_pb_text_4 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                     <div className="et_pb_text_inner">
@@ -349,7 +361,7 @@ const BronzeDua = () => {
             <div className="et_pb_section et_pb_section_5 et_pb_with_background et_section_regular">
               <div className="et_pb_row et_pb_row_6">
                 <div className="et_pb_column et_pb_column_4_4 et_pb_column_9  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                  <div className="et_pb_module et_pb_countdown_timer et_pb_countdown_timer_0 et_animated et_pb_no_bg et_pb_bg_layout_light" data-end-timestamp={a? new Date(state.undangan.data.subAcaras[0].start_time).getTime()/1000 :'2023-03-07 08:00'}>
+                  <div className="et_pb_module et_pb_countdown_timer et_pb_countdown_timer_0 et_animated et_pb_no_bg et_pb_bg_layout_light" data-end-timestamp={a? new Date(state.undangan.data.subAcaras[0].start_time).getTime()/1000 :new Date(new Date().setMonth(new Date().getMonth() + 3)).toLocaleString()}>
                     <div className="et_pb_countdown_timer_container clearfix">
                       <h4 className="title">Hari yang ditunggu</h4>
                       <div className="days section values" data-short="Day" data-full="Day(s)">
@@ -658,7 +670,7 @@ const BronzeDua = () => {
                   </div>
                   <div className="et_pb_module et_pb_text et_pb_text_15 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
                     <div className="et_pb_text_inner">
-                      <p>Tinggalkan pesan/doa untuk kami <a href="../wp-content/uploads/2022/12/Comment-Envelope.svg"><img decoding="async" loading="lazy" src="../wp-content/uploads/2022/12/Comment-Envelope.svg" width={32} height={29} alt className="wp-image-377673 alignnone size-medium" /></a></p>
+                      <p>Tinggalkan pesan/doa untuk kami <a href="../wp-content/uploads/2022/12/Comment-Envelope.svg"><img decoding="async" loading="lazy" src="../wp-content/uploads/2022/12/Comment-Envelope.svg" width={32} height={29}  className="wp-image-377673 alignnone size-medium" /></a></p>
                     </div>
                   </div>
                   <div className="et_pb_with_border et_pb_module et_pb_comments_0 lang-id et_pb_comments_module et_pb_bg_layout_light et_pb_no_avatar et_pb_no_reply_button et_pb_no_comments_count" data-icon="">
@@ -773,7 +785,7 @@ const BronzeDua = () => {
                             </div>
                           </div>
                           <div className="et_pb_button_module_wrapper et_pb_button_4_wrapper et_pb_button_alignment_center et_pb_module ">
-                            <a className="et_pb_button et_pb_button_4 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Address</a>
+                            <a className="et_pb_button et_pb_button_4 copy-text et_pb_bg_layout_light" onClick={e => copyToClipboard(e, state.undangan.data.alamatGifts[0].alamat)} data-icon="">Copy Address</a>
                           </div>
                         </div>
                       </div>
@@ -827,7 +839,7 @@ const BronzeDua = () => {
                               </div>
                             </div>
                             <div className="et_pb_button_module_wrapper et_pb_button_2_wrapper et_pb_button_alignment_center et_pb_module ">
-                              <a className="et_pb_button et_pb_button_2 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Number</a>
+                              <a className="et_pb_button et_pb_button_2 copy-text et_pb_bg_layout_light" onClick={e => copyToClipboard(e, state.undangan.data.rekeningGifts[0].no_rekening)} data-icon="">Copy Number</a>
                             </div>
                           </div>
                         </div>
@@ -847,7 +859,7 @@ const BronzeDua = () => {
                               </div>
                             </div>
                             <div className="et_pb_button_module_wrapper et_pb_button_3_wrapper et_pb_button_alignment_center et_pb_module ">
-                              <a className="et_pb_button et_pb_button_3 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Number</a>
+                              <a className="et_pb_button et_pb_button_3 copy-text et_pb_bg_layout_light" onClick={e => copyToClipboard(e, state.undangan.data.rekeningGifts[1].no_rekening)} data-icon="">Copy Number</a>
                             </div>
                           </div>
                         </div>

@@ -8,89 +8,7 @@ import { Provider } from 'react-redux';
 import store from '../../store';
 import moment from 'moment'
 import { getUndangan } from '../../store/action';
-import Countdown from 'react-countdown';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelopeOpen } from '@fortawesome/free-regular-svg-icons';
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
-// Random component
-const Completionist = () => 
-{
-    return(
-      <div className="et_pb_module et_pb_countdown_timer et_pb_countdown_timer_0 et_animated et_pb_no_bg et_pb_bg_layout_light" >
-      <div className="et_pb_countdown_timer_container clearfix">
-        <h4 className="title">Hari yang ditunggu</h4>
-        <div className="days section values" data-short="Day" data-full="Day(s)">
-          <p className="value" />
-          <p className="label">Day(s)</p>
-        </div>
-        <div className="sep section">
-          <p>:</p>
-        </div>
-        <div className="hours section values" data-short="Hrs" data-full="Hour(s)">
-          <p className="value" />
-          <p className="label">Hour(s)</p>
-        </div>
-        <div className="sep section">
-          <p>:</p>
-        </div>
-        <div className="minutes section values" data-short="Min" data-full="Minute(s)">
-          <p className="value" />
-          <p className="label">Minute(s)</p>
-        </div>
-        <div className="sep section">
-          <p>:</p>
-        </div>
-        <div className="seconds section values" data-short="Sec" data-full="Second(s)">
-          <p className="value" />
-          <p className="label">Second(s)</p>
-        </div>
-      </div>
-    </div>
-    );
-};
-
-// Renderer callback with condition
-const renderer = ({ days, hours, minutes, seconds, completed }) => {
-  if (completed) {
-    // Render a completed state
-    return <Completionist />;
-  } else {
-    // Render a countdown
-    return (
-      <div className="et_pb_module et_pb_countdown_timer et_pb_countdown_timer_0 et_animated et_pb_no_bg et_pb_bg_layout_light" >
-      <div className="et_pb_countdown_timer_container clearfix">
-        <h4 className="title">Hari yang ditunggu</h4>
-        <div className="days section values" data-short="Day" data-full="Day(s)">
-          <p className="value">{days}</p>
-          <p className="label">Day(s)</p>
-        </div>
-        <div className="sep section">
-          <p>:</p>
-        </div>
-        <div className="hours section values" data-short="Hrs" data-full="Hour(s)">
-          <p className="value">{hours}</p>
-          <p className="label">Hour(s)</p>
-        </div>
-        <div className="sep section">
-          <p>:</p>
-        </div>
-        <div className="minutes section values" data-short="Min" data-full="Minute(s)">
-          <p className="value">{minutes}</p>
-          <p className="label">Minute(s)</p>
-        </div>
-        <div className="sep section">
-          <p>:</p>
-        </div>
-        <div className="seconds section values" data-short="Sec" data-full="Second(s)">
-          <p className="value">{seconds}</p>
-          <p className="label">Second(s)</p>
-        </div>
-      </div>
-    </div>
-    );
-  }
-};
 
 const BronzeSatu = () => {
 
@@ -183,7 +101,18 @@ const BronzeSatu = () => {
     const onFinishFailed = (errorInfo) => {
         console.log('Failed:', errorInfo);
     };
+    const [copySuccess, setCopySuccess] = useState('');
+    const danaRef = useRef(null);
 
+    const copyToClipboard = (e, text) => {
+        
+        navigator.clipboard.writeText(text);
+        // This is just personal preference.
+        // I prefer to not show the whole text area selected.
+        e.target.focus();
+        window.alert(`Text "${ text }" copied to clipboard`);
+        setCopySuccess('Copied!');
+      };
   return (
    <>
 
@@ -340,7 +269,7 @@ const BronzeSatu = () => {
             <div className="et_pb_section et_pb_section_4 et_pb_with_background et_section_regular">
               <div className="et_pb_with_border et_pb_row et_pb_row_5">
                 <div className="et_pb_column et_pb_column_4_4 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                  <div className="et_pb_module et_pb_countdown_timer et_pb_countdown_timer_0 et_animated et_pb_no_bg et_pb_bg_layout_dark" data-end-timestamp={a? new Date(state.undangan.data.subAcaras[0].start_time).getTime()/1000 :'2023-03-07 08:00'}>
+                  <div className="et_pb_module et_pb_countdown_timer et_pb_countdown_timer_0 et_animated et_pb_no_bg et_pb_bg_layout_dark" data-end-timestamp={a? new Date(state.undangan.data.subAcaras[0].start_time).getTime()/1000 :new Date(new Date().setMonth(new Date().getMonth() + 3)).toLocaleString()}>
                     <div className="et_pb_countdown_timer_container clearfix">
                       <h4 className="title">Hari yang ditunggu</h4>
                       <div className="days section values" data-short="Day" data-full="Day(s)">
@@ -716,10 +645,7 @@ const BronzeSatu = () => {
                       <a href="https://www.instagram.com/kondangin.idn/" className="icon et_pb_with_border" title="Follow on Instagram" target="_blank"><span className="et_pb_social_media_follow_network_name" aria-hidden="true">Follow</span></a>
                     </li>
                   </ul>
-                  <div className="et_pb_module et_pb_code et_pb_code_3  et_pb_text_align_center">
-                    <div className="et_pb_code_inner">Backsound by : <div style={{fontStyle: 'italic'}} id="currentsong" />
-                    </div>
-                  </div>
+  
                   <div className="et_pb_module et_pb_text et_pb_text_17 et_animated et_clickable  et_pb_text_align_center et_pb_bg_layout_light">
                     <div className="et_pb_text_inner">
                       <p>© all rights reserved by Kondangin.</p>
@@ -765,7 +691,7 @@ const BronzeSatu = () => {
                     </div>
                   </div>
                   <div className="et_pb_button_module_wrapper et_pb_button_2_wrapper et_pb_button_alignment_center et_pb_module ">
-                    <a className="et_pb_button et_pb_button_2 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Address</a>
+                    <a className="et_pb_button et_pb_button_2 copy-text et_pb_bg_layout_light" onClick={e => copyToClipboard(e, state.undangan.data.alamatGifts[0].alamat)} data-icon="">Copy Address</a>
                   </div>
                 </div>
               </div>
@@ -819,7 +745,7 @@ const BronzeSatu = () => {
                     </div>
                   </div>
                   <div className="et_pb_button_module_wrapper et_pb_button_3_wrapper et_pb_button_alignment_center et_pb_module ">
-                    <a className="et_pb_button et_pb_button_3 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Number</a>
+                    <a className="et_pb_button et_pb_button_3 copy-text et_pb_bg_layout_light" onClick={e => copyToClipboard(e, state.undangan.data.rekeningGifts[0].no_rekening)} data-icon="">Copy Number</a>
                   </div>
                 </div>
               </div>
@@ -839,7 +765,7 @@ const BronzeSatu = () => {
                     </div>
                   </div>
                   <div className="et_pb_button_module_wrapper et_pb_button_4_wrapper et_pb_button_alignment_center et_pb_module ">
-                    <a className="et_pb_button et_pb_button_4 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Number</a>
+                    <a className="et_pb_button et_pb_button_4 copy-text et_pb_bg_layout_light" onClick={e => copyToClipboard(e, state.undangan.data.rekeningGifts[1].no_rekening)} data-icon="">Copy Number</a>
                   </div>
                 </div>
               </div>

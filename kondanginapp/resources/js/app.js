@@ -21,5 +21,7 @@ import './components/SilverDua/SilverDua';
 import './components/SilverTiga/SilverTiga';
 import './components/GoldTiga/GoldTiga';
 import './components/Bronze/BronzeDua';
+import './components/BronzeSatu/BronzeSatu';
+import './components/BronzeTiga/BronzeTiga';
 import './components/MyApp';
 

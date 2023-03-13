@@ -161,6 +161,18 @@ const SilverDua = () => {
     const onFinishFailed = (errorInfo) => {
         console.log('Failed:', errorInfo);
     };
+    const [copySuccess, setCopySuccess] = useState('');
+    const danaRef = useRef(null);
+
+    const copyToClipboard = (e, text) => {
+        
+        navigator.clipboard.writeText(text);
+        // This is just personal preference.
+        // I prefer to not show the whole text area selected.
+        e.target.focus();
+        window.alert(`Text "${ text }" copied to clipboard`);
+        setCopySuccess('Copied!');
+      };
     return (
         <div>
 
@@ -396,7 +408,7 @@ const SilverDua = () => {
                                                 <div className="et_pb_module dipi_countdown dipi_countdown_0 et_animated">
                                                     <div className="et_pb_module_inner">
                                                         <Countdown
-                                                            date={a? new Date(state.undangan.data.subAcaras[0].start_time) :'2023-03-07 08:00'}
+                                                            date={a? new Date(state.undangan.data.subAcaras[0].start_time) :new Date(new Date().setMonth(new Date().getMonth() + 3))}
                                                             renderer={renderer}
                                                         />
                                                     </div>
@@ -838,7 +850,7 @@ const SilverDua = () => {
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_button_module_wrapper et_pb_button_4_wrapper et_pb_button_alignment_center et_pb_module ">
-                                                    <a className="et_pb_button et_pb_button_4 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Address</a>
+                                                    <a className="et_pb_button et_pb_button_4 copy-text et_pb_bg_layout_light" onClick={e => copyToClipboard(e, state.undangan.data.alamatGifts[0].alamat)} data-icon="">Copy Address</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -892,7 +904,7 @@ const SilverDua = () => {
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_button_module_wrapper et_pb_button_2_wrapper et_pb_button_alignment_center et_pb_module ">
-                                                    <a className="et_pb_button et_pb_button_2 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Number</a>
+                                                    <a className="et_pb_button et_pb_button_2 copy-text et_pb_bg_layout_light" onClick={e => copyToClipboard(e, state.undangan.data.rekeningGifts[0].no_rekening)} data-icon="">Copy Number</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -912,7 +924,7 @@ const SilverDua = () => {
                                                     </div>
                                                 </div>
                                                 <div className="et_pb_button_module_wrapper et_pb_button_3_wrapper et_pb_button_alignment_center et_pb_module ">
-                                                    <a className="et_pb_button et_pb_button_3 copy-text et_pb_bg_layout_light" onClick={() => { }} data-icon="">Copy Number</a>
+                                                    <a className="et_pb_button et_pb_button_3 copy-text et_pb_bg_layout_light" onClick={e => copyToClipboard(e, state.undangan.data.rekeningGifts[1].no_rekening)} data-icon="">Copy Number</a>
                                                 </div>
                                             </div>
                                         </div>

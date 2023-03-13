@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<!-- Mirrored from hi.ngantenstory.com/bronze-1/?to=Calon+Nganten by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2023 12:40:28 GMT -->
-<!-- Added by HTTrack -->
+
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="pingback" href="https://hi.ngantenstory.com/xmlrpc.php" />
+
 
     <script type="text/javascript">
     document.documentElement.className = 'js';
@@ -50,7 +49,7 @@
         "closeButtonClass": "da-close",
         "withLoaderClass": "with-loader",
         "debug": false,
-        "ajaxUrl": "https:\/\/hi.ngantenstory.com\/wp-admin\/admin-ajax.php",
+
         "sys": []
     };
     var divimode_loader = function() {
@@ -1913,12 +1912,7 @@
         jqueryParams = [...jqueryParams, r]
     };
     </script>
-    <link rel="alternate" type="application/rss+xml" title="NgantenStory &raquo; Feed"
-        href="https://hi.ngantenstory.com/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="NgantenStory &raquo; Comments Feed"
-        href="https://hi.ngantenstory.com/comments/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="NgantenStory &raquo; Bronze 1 Comments Feed"
-        href="https://hi.ngantenstory.com/bronze-1/feed/" />
+
     <script type="text/javascript">
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -1926,7 +1920,7 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "https:\/\/hi.ngantenstory.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=81582bdb254a94e4464424087c6479a8"
+            
         }
     };
     /*! This file is auto-generated */
@@ -1975,7 +1969,7 @@
                 .wpemoji)))
     }(window, document, window._wpemojiSettings);
     </script>
-    <meta content="NgantenStoryTheme v.1.0.0" name="generator" />
+
     <style type="text/css">
     img.wp-smiley,
     img.emoji {
@@ -2561,20 +2555,20 @@
     }
     </style>
     <link rel='stylesheet' id='dipi-popup-maker-popup-effect-css'
-        href='https://hi.ngantenstory.com/wp-content/plugins/divi-pixel/dist/public/css/popup_effect.min.css?ver=1.0.0'
+        href='../wp-content/plugins/divi-pixel/dist/public/css/popup_effect.min.css?ver=1.0.0'
         type='text/css' media='all' />
-    <link rel='stylesheet' id='dipi_font-css'
-        href='https://hi.ngantenstory.com/wp-content/plugins/divi-pixel/dist/admin/css/dipi-font.min.css?ver=1.0.0'
+        <link data-minify="1" rel='stylesheet' id='dipi_font-css'
+        href='../wp-content/cache/min/1/wp-content/plugins/divi-pixel/dist/admin/css/dipi-font.min0fbd.css?ver=1673754527'
         type='text/css' media='all' />
-    <link rel='stylesheet' id='dipi_general-css'
-        href='https://hi.ngantenstory.com/wp-content/plugins/divi-pixel/dist/public/css/general.min.css?ver=2.19.1'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='wonderplugin-audio-icons-css'
-        href='https://hi.ngantenstory.com/wp-content/plugins/wonderplugin-audio/engine/icons/css/mhaudiofont.css?ver=11.5.1PRO'
+        <link rel='stylesheet' id='dipi_general-css'
+        href='../wp-content/plugins/divi-pixel/dist/public/css/general.min88b1.css?ver=2.19.1' type='text/css'
+        media='all' />
+        <link data-minify="1" rel='stylesheet' id='wonderplugin-audio-icons-css'
+        href='../wp-content/cache/min/1/wp-content/plugins/wonderplugin-audio/engine/icons/css/mhaudiofont0fbd.css?ver=1673754527'
         type='text/css' media='' />
-    <link rel='stylesheet' id='css-divi-area-css'
-        href='https://hi.ngantenstory.com/wp-content/plugins/popups-for-divi/styles/front.min.css?ver=3.0.5'
-        type='text/css' media='all' />
+        <link rel='stylesheet' id='css-divi-area-css'
+        href='../wp-content/plugins/popups-for-divi/styles/front.min8d18.css?ver=3.0.5' type='text/css'
+        media='all' />
     <style id='css-divi-area-inline-css' type='text/css'>
     .et_pb_section.popup {
         display: block
@@ -3869,7 +3863,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         position: absolute;
         top: 50%;
         left: 50%;
-        background: url(https://hi.ngantenstory.com/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif) no-repeat;
+        background: url(../wp-content/themes/Divi/includes/builder/styles/images/preloader.gif) no-repeat;
         border-radius: 32px;
         width: 32px;
         height: 32px;
@@ -7176,25 +7170,22 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     }
     </style>
     <link rel='preload' id='divi-dynamic-css'
-        href='https://hi.ngantenstory.com/wp-content/et-cache/20204022/et-divi-dynamic-20204022.css?ver=1676695148'
+        href='../wp-content/et-cache/20204022/et-divi-dynamic-20204022.css?ver=1676695148'
         as='style' media='all' onload="this.onload=null;this.rel='stylesheet'" />
-    <link rel='stylesheet' id='divi-modules-text-on-a-path-styles-css'
-        href='https://hi.ngantenstory.com/wp-content/plugins/divi-modules-text-on-a-path/styles/style.min.css?ver=1.1.3'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='divi-pixel-styles-css'
-        href='https://hi.ngantenstory.com/wp-content/plugins/divi-pixel/styles/style.min.css?ver=1.0.0' type='text/css'
+        <link rel='stylesheet' id='divi-modules-text-on-a-path-styles-css'
+        href='../wp-content/plugins/divi-modules-text-on-a-path/styles/style.minc358.css?ver=1.1.3' type='text/css'
         media='all' />
-    <link rel='stylesheet' id='loftloader-lite-animation-css'
-        href='https://hi.ngantenstory.com/wp-content/plugins/loftloader/assets/css/loftloader.min.css?ver=2022112601'
-        type='text/css' media='all' />
-    <link rel='stylesheet' id='divi-style-css'
-        href='https://hi.ngantenstory.com/wp-content/themes/ngantenstorytheme/style.css?ver=4.19.5' type='text/css'
+        <link rel='stylesheet' id='divi-pixel-styles-css'
+        href='../wp-content/plugins/divi-pixel/styles/style.min8a54.css?ver=1.0.0' type='text/css' media='all' />
+        <link rel='stylesheet' id='loftloader-lite-animation-css'
+        href='../wp-content/plugins/loftloader/assets/css/loftloader.mina709.css?ver=2022112601' type='text/css'
         media='all' />
-    <script type='text/javascript' src='https://hi.ngantenstory.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1'
-        id='jquery-core-js'></script>
-    <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'>
-    </script>
+        <link rel='stylesheet' id='divi-style-css'
+        href='../wp-content/themes/kondangintheme/stylef315.css?ver=4.19.4' type='text/css' media='all' />
+        <script type='text/javascript' src='../wp-includes/js/jquery/jquery.mina7a0.js?ver=3.6.1' id='jquery-core-js'>
+        </script>
+        <script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2'
+            id='jquery-migrate-js'></script>
     <script type='text/javascript' id='jquery-js-after'>
     jqueryParams.length && $.each(jqueryParams, function(e, r) {
         if ("function" == typeof r) {
@@ -7205,43 +7196,29 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         }
     });
     </script>
+    <script type='text/javascript' src='../wp-content/plugins/divi-pixel/dist/public/js/public.min88b1.js?ver=2.19.1'
+    id='dipi_public_js-js'></script>
     <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/plugins/divi-pixel/dist/public/js/public.min.js?ver=2.19.1'
-        id='dipi_public_js-js'></script>
-    <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/plugins/wonderplugin-audio/engine/wonderpluginaudioskins.js?ver=11.5.1PRO'
+        src='../wp-content/plugins/wonderplugin-audio/engine/wonderpluginaudioskins88b6.js?ver=11.5.1PRO'
         id='wonderplugin-audio-skins-script-js'></script>
     <script type='text/javascript' id='wonderplugin-audio-script-js-extra'>
     /* <![CDATA[ */
     var wonderplugin_audio_ajaxobject = {
-        "ajaxurl": "https:\/\/hi.ngantenstory.com\/wp-admin\/admin-ajax.php",
+        
         "nonce": "1df228bc5d"
     };
     /* ]]> */
     </script>
     <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/plugins/wonderplugin-audio/engine/wonderpluginaudio.js?ver=11.5.1PRO'
-        id='wonderplugin-audio-script-js'></script>
-    <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/plugins/popups-for-divi/scripts/ie-compat.min.js?ver=3.0.5'
+    src='../wp-content/plugins/wonderplugin-audio/engine/wonderpluginaudio88b6.js?ver=11.5.1PRO'
+    id='wonderplugin-audio-script-js'></script>
+    <script type='text/javascript' src='../wp-content/plugins/popups-for-divi/scripts/ie-compat.min8d18.js?ver=3.0.5'
         id='dap-ie-js'></script>
-    <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/themes/ngantenstorytheme/ds-script.js?ver=81582bdb254a94e4464424087c6479a8'
+        <script type='text/javascript'
+        src='../wp-content/themes/kondangintheme/ds-script6344.js?ver=81582bdb254a94e4464424087c6479a8'
         id='ds-theme-script-js'></script>
-    <link rel="https://api.w.org/" href="https://hi.ngantenstory.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://hi.ngantenstory.com/wp-json/wp/v2/pages/20204022" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hi.ngantenstory.com/xmlrpc.php?rsd" />
-    <link rel="canonical" href="https://hi.ngantenstory.com/bronze-1/" />
-    <link rel="alternate" type="application/json+oembed"
-        href="https://hi.ngantenstory.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhi.ngantenstory.com%2Fbronze-1%2F" />
-    <link rel="alternate" type="text/xml+oembed"
-        href="https://hi.ngantenstory.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhi.ngantenstory.com%2Fbronze-1%2F&amp;format=xml" />
-    <style>
-    /*#main-header .logo_container img,
-header.et-l--header .et_pb_menu__logo > img {
-    display: none;
-}*/
-    </style>
+    
+
     <script type="text/javascript" id="dipi-logo-js">
     jQuery(document).ready(function($) {
 
@@ -7599,16 +7576,10 @@ header.et-l--header .et_pb_menu__logo > img {
         });
     }); //disable tooltip
     </script>
-    <link rel="icon"
-        href="https://hi.ngantenstory.com/wp-content/uploads/2023/02/cropped-cropped-FAVICON-NEW-2-32x32.png"
-        sizes="32x32" />
-    <link rel="icon"
-        href="https://hi.ngantenstory.com/wp-content/uploads/2023/02/cropped-cropped-FAVICON-NEW-2-192x192.png"
-        sizes="192x192" />
-    <link rel="apple-touch-icon"
-        href="https://hi.ngantenstory.com/wp-content/uploads/2023/02/cropped-cropped-FAVICON-NEW-2-180x180.png" />
-    <meta name="msapplication-TileImage"
-        content="https://hi.ngantenstory.com/wp-content/uploads/2023/02/cropped-cropped-FAVICON-NEW-2-270x270.png" />
+    <link rel="icon" href="../wp-content/uploads/2020/03/cropped-FAVICON-NEW-2-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../wp-content/uploads/2020/03/cropped-FAVICON-NEW-2-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../wp-content/uploads/2020/03/cropped-FAVICON-NEW-2-180x180.png" />
+
     <style id="loftloader-lite-custom-bg-color">
     #loftloader-wrapper .loader-section {
         background: #ffffff;
@@ -7626,7 +7597,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
     #loftloader-wrapper.pl-imgloading #loader span {
         background-size: cover;
-        background-image: url(https://hi.ngantenstory.com/wp-content/uploads/2023/02/Please-wait-loader.svg);
+        background-image: url(../wp-content/uploads/2023/02/Please-wait-loader.svg);
     }
     </style>
     <style id="et-divi-customizer-global-cached-inline-styles">
@@ -7839,7 +7810,7 @@ header.et-l--header .et_pb_menu__logo > img {
     .amazingaudioplayer-playpause .amazingaudioplayer-pause:before,
     .amazingaudioplayer-playpause .amazingaudioplayer-play:before {
         content: "";
-        background: url("https://hi.ngantenstory.com/wp-content/uploads/2023/02/PlayPauseNgantenStory.png") no-repeat left top;
+        background: url("../wp-content/uploads/2022/05/PlayPauseKondangin.png") no-repeat left top;
         width: 48px;
         height: 48px;
         display: block;
@@ -7850,9 +7821,7 @@ header.et-l--header .et_pb_menu__logo > img {
         background-position: -48px 0;
     }
     </style>
-    <meta property="og:image" content="https://hi.ngantenstory.com/wp-content/uploads/2023/02/b1.jpg" />
-    <meta property="og:image:width" content="600" />
-    <meta property="og:image:height" content="600" />
+
 
 
 </head>
@@ -7864,9 +7833,9 @@ header.et-l--header .et_pb_menu__logo > img {
         <div class="loader-inner">
             <div id="loader">
                 <div class="imgloading-container"><span
-                        style="background-image: url(https://hi.ngantenstory.com/wp-content/uploads/2023/02/Please-wait-loader.svg);"></span>
+                        style="background-image: url(../wp-content/uploads/2022/04/Please-wait-loader.svg);"></span>
                 </div><img width="100" height="100" data-no-lazy="1" class="skip-lazy" alt="loader image"
-                    src="https://hi.ngantenstory.com/wp-content/uploads/2023/02/Please-wait-loader.svg">
+                    src="../wp-content/uploads/2022/04/Please-wait-loader.svg">
             </div>
         </div>
         <div class="loader-close-button" style="display: none;"><span class="screen-reader-text">Close</span></div>
@@ -7923,9 +7892,7 @@ header.et-l--header .et_pb_menu__logo > img {
     </script>
 
     <div id="dipi-popup-maker-container"></div>
-    <script type="text/javascript">
-    var ajaxurl = "https://hi.ngantenstory.com/wp-admin/admin-ajax.php";
-    </script>
+
     <script>
     (function(j) {
         j('.comment-form-comment label').remove();
@@ -7939,7 +7906,7 @@ header.et-l--header .et_pb_menu__logo > img {
                 '+', ' '));
             j('.lang-id .comment-form-author input').val(name.length < 1 ? 'Nama Lengkap' : name.replaceAll(
                 '+', ' '));
-            console.log(name)
+
         }, 1000)
 
         j('.lang-en #comment').attr('placeholder', 'Write a message').val('')
@@ -7951,13 +7918,7 @@ header.et-l--header .et_pb_menu__logo > img {
         j('.comment-form-comment').insertAfter('.comment-form-author');
 
 
-        j(document).ready(function() {
-            j("audio").on("timeupdate", function(event, data) {
-                console.log(data);
-                var title = j(this).attr('title');
-                j("#currentsong").html(title);
-            });
-        });
+
 
 
     })(jQuery)
@@ -8175,20 +8136,60 @@ header.et-l--header .et_pb_menu__logo > img {
     }];
     
     </script>
+    <script type='text/javascript' id='copy-the-code-js-extra'>
+        /* <![CDATA[ */
+        var copyTheCode = {
+            "trim_lines": "",
+            "remove_spaces": "1",
+            "copy_content_as": "",
+            "previewMarkup": "<h2>Hello World<\/h2>",
+            "buttonMarkup": "<button class=\"copy-the-code-button\" title=\"\"><\/button>",
+            "buttonSvg": "<svg viewBox=\"-21 0 512 512\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"m186.667969 416c-49.984375 0-90.667969-40.683594-90.667969-90.667969v-218.664062h-37.332031c-32.363281 0-58.667969 26.300781-58.667969 58.664062v288c0 32.363281 26.304688 58.667969 58.667969 58.667969h266.664062c32.363281 0 58.667969-26.304688 58.667969-58.667969v-37.332031zm0 0\"><\/path><path d=\"m469.332031 58.667969c0-32.40625-26.261719-58.667969-58.664062-58.667969h-224c-32.40625 0-58.667969 26.261719-58.667969 58.667969v266.664062c0 32.40625 26.261719 58.667969 58.667969 58.667969h224c32.402343 0 58.664062-26.261719 58.664062-58.667969zm0 0\"><\/path><\/svg>",
+            "selectors": [{
+                "selector": "cpy",
+                "style": "cover",
+                "button_text": "Click To Copy",
+                "button_title": "Copy to Clipboard",
+                "button_copy_text": "Copied!",
+                "button_position": "inside",
+                "copy_format": ""
+            }],
+            "selector": "pre",
+            "settings": {
+                "selector": "pre",
+                "button-text": "Copy",
+                "button-title": "Copy to Clipboard",
+                "button-copy-text": "Copied!",
+                "button-position": "inside",
+                "copy-format": "default"
+            },
+            "string": {
+                "title": "Copy to Clipboard",
+                "copy": "Copy",
+                "copied": "Copied!"
+            },
+            
+            "redirect_url": ""
+        };
+        /* ]]> */
+        </script>
+        <script type='text/javascript' src='../wp-content/plugins/copy-the-code/assets/js/copy-the-code61da.js?ver=2.6.2'
+            id='copy-the-code-js'></script>
     <link rel='stylesheet' id='wp-block-library-css'
-        href='https://hi.ngantenstory.com/wp-includes/css/dist/block-library/style.min.css?ver=81582bdb254a94e4464424087c6479a8'
+        href='../wp-includes/css/dist/block-library/style.min6344.css?ver=81582bdb254a94e4464424087c6479a8'
         type='text/css' media='none' onload="media='all'" />
     <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/plugins/divi-pixel/dist/vendor/js/modernizr.custom.js?ver=1.0.0'
+        src='../wp-content/plugins/divi-pixel/dist/vendor/js/modernizr.custom.js?ver=1.0.0'
         id='dipi-popup-maker-modernizr-js'></script>
     <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/plugins/divi-pixel/dist/public/js/popup_effect.min.js?ver=1.0.0'
+        src='../wp-content/plugins/divi-pixel/dist/public/js/popup_effect.min.js?ver=1.0.0'
         id='dipi-popup-maker-popup-effect-js'></script>
     <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/plugins/popups-for-divi/scripts/front.min.js?ver=3.0.5'
+        src='../wp-content/plugins/popups-for-divi/scripts/front.min8d18.js?ver=3.0.5'
         id='js-divi-area-js'></script>
     <script type='text/javascript' id='divi-custom-script-js-extra'>
     /* <![CDATA[ */
+    
     var DIVI = {
         "item_count": "%d Item",
         "items_count": "%d Items"
@@ -8212,9 +8213,7 @@ header.et-l--header .et_pb_menu__logo > img {
         "builderCssLayoutPrefix": "#et-boc .et-l"
     };
     var et_pb_custom = {
-        "ajaxurl": "https:\/\/hi.ngantenstory.com\/wp-admin\/admin-ajax.php",
-        "images_uri": "https:\/\/hi.ngantenstory.com\/wp-content\/themes\/Divi\/images",
-        "builder_images_uri": "https:\/\/hi.ngantenstory.com\/wp-content\/themes\/Divi\/includes\/builder\/images",
+
         "et_frontend_nonce": "a845168562",
         "subscription_failed": "Please, check the fields below to make sure you entered the correct information.",
         "et_ab_log_nonce": "c49b9d44d6",
@@ -8237,41 +8236,37 @@ header.et-l--header .et_pb_menu__logo > img {
         "ab_bounce_rate": "5",
         "is_cache_plugin_active": "yes",
         "is_shortcode_tracking": "",
-        "tinymce_uri": "https:\/\/hi.ngantenstory.com\/wp-content\/themes\/Divi\/includes\/builder\/frontend-builder\/assets\/vendors",
+        
         "accent_color": "#222222",
         "waypoints_options": []
     };
     var et_pb_box_shadow_elements = [];
     /* ]]> */
     </script>
-    <script type='text/javascript' src='https://hi.ngantenstory.com/wp-content/themes/Divi/js/scripts.min.js?ver=4.19.5'
-        id='divi-custom-script-js'></script>
-    <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/themes/Divi/js/smoothscroll.js?ver=4.19.5' id='smoothscroll-js'>
-    </script>
-    <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.19.5'
+    <script type='text/javascript' src='../wp-content/themes/Divi/js/scripts.minf315.js?ver=4.19.4'
+    id='divi-custom-script-js'></script>
+    <script type='text/javascript' src='../wp-content/themes/Divi/js/smoothscrollf315.js?ver=4.19.4'
+        id='smoothscroll-js'></script>
+        <script type='text/javascript'
+        src='../wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvidsf315.js?ver=4.19.4'
         id='fitvids-js'></script>
-    <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js?ver=4.19.5'
+        <script type='text/javascript'
+        src='../wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobilef315.js?ver=4.19.4'
         id='jquery-mobile-js'></script>
-    <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/plugins/divi-modules-text-on-a-path/scripts/frontend-bundle.min.js?ver=1.1.3'
+        <script type='text/javascript'
+        src='../wp-content/plugins/divi-modules-text-on-a-path/scripts/frontend-bundle.minc358.js?ver=1.1.3'
         id='divi-modules-text-on-a-path-frontend-bundle-js'></script>
-    <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/plugins/divi-pixel/scripts/frontend-bundle.min.js?ver=1.0.0'
+        <script type='text/javascript' src='../wp-content/plugins/divi-pixel/scripts/frontend-bundle.min8a54.js?ver=1.0.0'
         id='divi-pixel-frontend-bundle-js'></script>
-    <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/plugins/loftloader/assets/js/loftloader.min.js?ver=2022112601'
+        <script type='text/javascript' src='../wp-content/plugins/loftloader/assets/js/loftloader.mina709.js?ver=2022112601'
         id='loftloader-lite-front-main-js'></script>
-    <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/themes/Divi/core/admin/js/common.js?ver=4.19.5'
+        <script type='text/javascript' src='../wp-content/themes/Divi/core/admin/js/commonf315.js?ver=4.19.4'
         id='et-core-common-js'></script>
-    <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/plugins/divi-pixel/dist/public/js/DualHeading.min.js?ver=2.19.1'
+        <script type='text/javascript'
+        src='../wp-content/plugins/divi-pixel/dist/public/js/DualHeading.min88b1.js?ver=2.19.1'
         id='dipi_dual_heading_public-js'></script>
     <script type='text/javascript'
-        src='https://hi.ngantenstory.com/wp-content/plugins/divi-pixel/dist/vendor/js/jquery.exitintent.min.js?ver=1.0.0'
+        src='../wp-content/plugins/divi-pixel/dist/vendor/js/jquery.exitintent.min.js?ver=1.0.0'
         id='exit-intent-js'></script>
     <style id="et-builder-module-design-20204022-cached-inline-styles">
     @font-face {
@@ -9592,9 +9587,5 @@ header.et-l--header .et_pb_menu__logo > img {
 
 </body>
 
-<!-- Mirrored from hi.ngantenstory.com/bronze-1/?to=Calon+Nganten by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Mar 2023 12:40:28 GMT -->
 
 </html>
-
-<!-- Dynamic page generated in 1.029 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2023-03-01 18:59:34 -->
